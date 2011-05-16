@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: command-definitions.aux
+A level-1 auxiliary file: CH1-Introduction.aux
+A level-1 auxiliary file: CH2-LitRev.aux
+A level-1 auxiliary file: CH3-Methodology.aux
+A level-1 auxiliary file: CH4-ConceptualModel.aux
+A level-1 auxiliary file: CH5-Development.aux
+A level-1 auxiliary file: CH6-Evaluation.aux
+A level-1 auxiliary file: CH7-Discussion.aux
+A level-1 auxiliary file: CH8-Conclusion.aux
+A level-1 auxiliary file: AP1.aux
+The style file: bevbib4.bst
+I found no \citation commands---while reading file thesis.aux
+Database file #1: references.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 0 entries,
+            3084 wiz_defined-function locations,
+            626 strings with 4939 characters,
+and the built_in function-call counts, 29 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 8
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 7
+num.names$ -- 0
+pop$ -- 0
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1
+stack$ -- 0
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 0
+width$ -- 0
+write$ -- 6
+(There was 1 error message)

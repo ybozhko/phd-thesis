@@ -1,0 +1,118 @@
+% Stephen Marsland, July 2009
+% Based on the University of Manchester class by Graham Gough
+
+\documentclass[11pt,PhD,twoside,openright]{muthesis}
+
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage[round]{natbib}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage[small, font=sf, labelfont={sf,bf}]{caption}
+
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{2}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.1in}
+
+% Other things to set:
+\subject{Computer Science}
+\campus{Palmerston North} 
+
+\begin{document}
+
+\include{command-definitions}
+%% Uncomment the following lines to leave out list of figures and tables until final printing
+%\figurespagefalse
+%\tablespagefalse
+%% Uncomment to make it singlespaced to save paper for draft printing
+%\singlespace
+
+%% Latex will put the current year on the title page by default. 
+%%If you wish to change it, modify and uncomment this line
+%\year=2010
+
+\title{Lifelong Learning Supported\\ 
+  By ePortfolio Process}
+\author{Yuliya Bozhko}
+
+\beforeabstract
+
+\prefacesection{Abstract}
+\input{B1-Abstract} 
+
+%\newpage
+%\thispagestyle{empty} 
+%\mbox{}
+
+\newpage
+\cleardoublepage
+ 
+\prefacesection{Acknowledgements}
+I would like to thank...
+
+\newpage
+\cleardoublepage
+
+\prefacesection{Publications and Presentations}
+\input{B2-Publications} 
+
+\newpage
+\cleardoublepage
+
+\prefacesection{List of Abbreviations}
+\input{B3-Abbreviations} 
+
+\newpage
+\cleardoublepage
+ 
+\tableofcontents
+\newpage
+\iftablespage
+	\addvspace{10pt}
+    \listoftables 
+    \newpage
+\fi
+\iffigurespage
+	\addvspace{10pt}
+    \listoffigures
+    \newpage
+\fi
+
+\afterpreface
+
+\pagestyle{fancy}
+
+\fancyhead{}
+%\fancyhead[LE,RO]{\slshape \rightmark}
+\fancyhead[LO,RE]{\slshape \leftmark}
+
+\fancyfoot{} 
+\fancyfoot[LE,RO]{\thepage} 
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% ==============These include the actual text=======================
+\include{CH1-Introduction}
+\include{CH2-Methodology} 
+\include{CH3-LitRev}
+\include{CH4-ConceptualModel} 
+\include{CH5-Development} 
+\include{CH6-Evaluation} 
+\include{CH7-Discussion} 
+\include{CH8-Conclusion} 
+
+% ========================Appendices================================
+\appendix
+\include{AP1}
+
+% ========================Bibliography==============================
+
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliography{references}             
+\bibliographystyle{bevbib4}%{plainnat}  
+
+\end{document}
