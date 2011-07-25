@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.5.2)  5 MAY 2011 17:34
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.5.2)  25 JUL 2011 10:06
 entering extended mode
  Source specials enabled.
  %&-line parsing enabled.
@@ -273,59 +273,102 @@ Package: caption3 2009/10/09 v3.1k caption3 kernel (AR)
 )
 \c@ContinuedFloat=\count109
 Package caption Info: hyperref package is loaded.
+)
+(/usr/share/texmf-texlive/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2009/02/07 v0.4g Insert pages of external PDF documents (AM)
+
+(/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf-texlive/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count110
+\calc@Bcount=\count111
+\calc@Adimen=\dimen123
+\calc@Bdimen=\dimen124
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count112
+\calc@Cskip=\skip59
+)
+(/usr/share/texmf-texlive/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2006/07/14 v1.1d eso-pic (RN)
+
+(/usr/share/texmf-texlive/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texmf-texlive/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2009/02/07 v0.4g Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box28
+\AM@toc@title=\toks23
+\c@AM@survey=\count113
+\AM@templatesizebox=\box29
 ) (./thesis.aux
 (./command-definitions.aux) (./CH1-Introduction.aux) (./CH2-Methodology.aux)
-(./CH3-LitRev.aux) (./CH4-ConceptualModel.aux) (./CH5-Development.aux)
-(./CH6-Evaluation.aux) (./CH7-Discussion.aux) (./CH8-Conclusion.aux) (./AP1.aux
-))
+(./CH3-LitRev.aux) (./CH4-SystemStudy.aux) (./CH5-ConceptualModel.aux)
+(./CH6-Development.aux) (./CH7-Evaluation.aux) (./CH8-Discussion.aux)
+(./CH9-Conclusion.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
- (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count110
-\scratchdimen=\dimen123
-\scratchbox=\box28
-\nofMPsegments=\count111
-\nofMParguments=\count112
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count113
-\MPscratchDim=\dimen124
-\MPnumerator=\count114
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count114
+\scratchdimen=\dimen125
+\scratchbox=\box30
+\nofMPsegments=\count115
+\nofMParguments=\count116
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count117
+\MPscratchDim=\dimen126
+\MPnumerator=\count118
+\everyMPtoPDFconversion=\toks25
 )
-Package hyperref Info: Link coloring OFF on input line 25.
+Package hyperref Info: Link coloring OFF on input line 26.
  (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
 (/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count115
+\c@section@level=\count119
 )
-LaTeX Info: Redefining \ref on input line 25.
-LaTeX Info: Redefining \pageref on input line 25.
+LaTeX Info: Redefining \ref on input line 26.
+LaTeX Info: Redefining \pageref on input line 26.
  (./thesis.out)
 (./thesis.out)
 \@outlinefile=\write3
 \openout3 = `thesis.out'.
 
-\AtBeginShipoutBox=\box29
+\AtBeginShipoutBox=\box31
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+ ABD: EveryShipout initializing macros
+(/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
 \openout2 = `command-definitions.aux'.
 
  (./command-definitions.tex) [1
@@ -334,16 +377,20 @@ Package caption Info: End \AtBeginDocument code.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
-] (./B1-Abstract.tex) [3
+] (./B1-Abstract.tex
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+) [3
 
-] [4
+]
+[4
 
 ] [5
 
 ] [6
 
-]
-(./B2-Publications.tex
+] (./B2-Publications.tex
 Missing character: There is no Ô in font cmr10!
 Missing character: There is no ª in font cmr10!
 Missing character: There is no ø in font cmr10!
@@ -371,25 +418,36 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-) [11
+)
+Underfull \vbox (badness 2409) has occurred while \output is active []
 
-])
+ [11
+
+]
+[12]
+Underfull \vbox (badness 2435) has occurred while \output is active []
+
+ [13]
+Underfull \vbox (badness 2435) has occurred while \output is active []
+
+ [14])
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
- [12] (./thesis.lot)
+
+[15] [16
+
+] (./thesis.lot)
 \tf@lot=\write5
 \openout5 = `thesis.lot'.
 
-[13
-
-] [14
+ [17] [18
 
 ] (./thesis.lof)
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
 
- [15]
+ [19]
 \openout2 = `CH1-Introduction.aux'.
 
  (./CH1-Introduction.tex
@@ -413,97 +471,240 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Chapter 2.
-) [3]
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+Overfull \vbox (14.49133pt too high) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]
 \openout2 = `CH3-LitRev.aux'.
 
- (./CH3-LitRev.tex [4
-
-
-
-]
+ (./CH3-LitRev.tex
 Chapter 3.
-) [5]
-\openout2 = `CH4-ConceptualModel.aux'.
-
- (./CH4-ConceptualModel.tex [6
+[5
 
 
 
 ]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ± in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ∂ in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ∂ in font cmr10!
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 104.
+
+ (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 104.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]
+\openout2 = `CH4-SystemStudy.aux'.
+
+ (./CH4-SystemStudy.tex
 Chapter 4.
-) [7]
-\openout2 = `CH5-Development.aux'.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- (./CH5-Development.tex [8
+ [9
 
 
 
 ]
-Chapter 5.
-) [9]
-\openout2 = `CH6-Evaluation.aux'.
 
- (./CH6-Evaluation.tex [10
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10]
+\openout2 = `CH5-ConceptualModel.aux'.
+
+ (./CH5-ConceptualModel.tex
+Chapter 5.
+) [11
+
+
+
+]
+\openout2 = `CH6-Development.aux'.
+
+ (./CH6-Development.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12
 
 
 
 ]
 Chapter 6.
-) [11]
-\openout2 = `CH7-Discussion.aux'.
+) [13]
+\openout2 = `CH7-Evaluation.aux'.
 
- (./CH7-Discussion.tex [12
+ (./CH7-Evaluation.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14
 
 
 
 ]
 Chapter 7.
-) [13]
-\openout2 = `CH8-Conclusion.aux'.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- (./CH8-Conclusion.tex [14
+ [15]
+Overfull \vbox (302.69678pt too high) has occurred while \output is active []
 
 
 
-]
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16]
+\openout2 = `CH8-Discussion.aux'.
+
+ (./CH8-Discussion.tex
 Chapter 8.
-) [15]
-\openout2 = `AP1.aux'.
-
- (./AP1.tex [16
+) [17
 
 
 
 ]
-Appendix A.
-) [17] (./thesis.bbl [18
+\openout2 = `CH9-Conclusion.aux'.
+
+ (./CH9-Conclusion.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18
+
+
+
+]
+Chapter 9.
+) [19] (./thesis.bbl
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20
 
 
 ]
 
 Package natbib Warning: Empty `thebibliography' environment on input line 7.
 
-) [19] (./thesis.aux (./command-definitions.aux) (./CH1-Introduction.aux)
-(./CH2-Methodology.aux) (./CH3-LitRev.aux) (./CH4-ConceptualModel.aux)
-(./CH5-Development.aux) (./CH6-Evaluation.aux) (./CH7-Discussion.aux)
-(./CH8-Conclusion.aux) (./AP1.aux)) ) 
+) [21] (./thesis.aux (./command-definitions.aux) (./CH1-Introduction.aux)
+(./CH2-Methodology.aux) (./CH3-LitRev.aux) (./CH4-SystemStudy.aux)
+(./CH5-ConceptualModel.aux) (./CH6-Development.aux) (./CH7-Evaluation.aux)
+(./CH8-Discussion.aux) (./CH9-Conclusion.aux)) ) 
 Here is how much of TeX's memory you used:
- 6680 strings out of 495061
- 95579 string characters out of 1182622
- 173107 words of memory out of 3000000
- 9611 multiletter control sequences out of 15000+50000
- 11673 words of font info for 43 fonts, out of 3000000 for 9000
+ 7573 strings out of 495061
+ 109520 string characters out of 1182622
+ 191481 words of memory out of 3000000
+ 10393 multiletter control sequences out of 15000+50000
+ 14635 words of font info for 55 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 38i,10n,43p,277b,330s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/publ
-ic/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10
-.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/s
-hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-t
-exlive/fonts/type1/public/amsfonts/cm/cmsl10.pfb>
-Output written on thesis.pdf (34 pages, 142740 bytes).
+ 38i,12n,43p,277b,334s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
+/cm/cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.
+pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/sh
+are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-tex
+live/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmsl10.pfb></usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
+/cmtt9.pfb>
+Output written on thesis.pdf (40 pages, 235754 bytes).
 PDF statistics:
- 341 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
- 241 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 735 PDF objects out of 1000 (max. 8388607)
+ 143 named destinations out of 1000 (max. 500000)
+ 753 words of extra memory for PDF output out of 10000 (max. 10000000)
 
