@@ -56,6 +56,7 @@ ENTRY
     author
     booktitle
     chapter
+    doi
     edition
     editor
     eid
@@ -372,7 +373,12 @@ FUNCTION {bibinfo.warn}
 FUNCTION {format.url}
 { url empty$
     { "" }
-    { "\urlprefix\url{" url * "}" * }
+    { 
+      doi empty$
+      { "\urlprefix\url{" url * "}" * }
+      {  "doi:" doi * "" * }
+      if$
+    }
   if$
 }
 
@@ -723,6 +729,15 @@ FUNCTION {format.date}
   extra.label *
   before.all 'output.state :=
   " (" swap$ * ")" *
+}
+FUNCTION {format.year.month}
+{ month empty$
+    { format.date "year" output.check }
+    {
+      before.all 'output.state :=
+      " \textbf{(" year * ", " * month * ")}" * ""
+    }
+  if$
 }
 FUNCTION {format.btitle}
 { title "title" bibinfo.check
@@ -1212,7 +1227,7 @@ FUNCTION {misc}
 { output.bibitem
   format.authors output
   author format.key output
-  format.date "year" output.check
+  format.year.month output.check
   date.block
   format.title output
   new.block
@@ -1574,7 +1589,7 @@ FUNCTION {begin.bib}
   write$ newline$
   "\providecommand{\url}[1]{\texttt{#1}}"
   write$ newline$
-  "\providecommand{\urlprefix}{URL }"
+  "\providecommand{\urlprefix}{Retrieved from }"
   write$ newline$
 }
 EXECUTE {begin.bib}
