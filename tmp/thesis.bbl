@@ -1,4 +1,4 @@
-\begin{thebibliography}{77}
+\begin{thebibliography}{78}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -316,6 +316,11 @@ nts/ELLI\_EU\_eng\_final.pdf}.
 \newblock
   \urlprefix\url{http://www.businessweek.com/technology/content/jun2007/tc2007%
 0617\_133514.htm}.
+
+\bibitem[{{Mahara Governance Group}(2011)}]{MaharaGovernanceGroup2011}
+\textbf{{Mahara Governance Group}} (\textbf{2011}).
+\newblock \enquote{{About Mahara}.}
+\newblock \urlprefix\url{http://mahara.org}.
 
 \bibitem[{Malloff(2010)}]{Malloff2010}
 \textbf{Malloff, T.} (\textbf{2010}).

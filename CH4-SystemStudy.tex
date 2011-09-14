@@ -288,17 +288,21 @@ WebFolios to share with others, inside or outside of an institution, for certain
 periods of time through user-defined permissions. This system also supports
 collaboration allowing collectively creating items for joint projects.
 
-PebblePad has a newly developed Moodle block that allows \ep~users to
-have single sing-on with LMS and also export items from Moodle to their
-ePortfolio. The system supports export and import of personal portfolios through
-LEAP2A export format.
+PebblePad has a newly developed Moodle block that allows \ep~users to have
+single sing-on with LMS and also export items from Moodle to their ePortfolio.
+The system supports export and import of personal portfolios through LEAP2A
+export format.
  
 \subsubsection{Mahara}
-Mahara\footnote{\url{http://mahara.org}} is an \ep~system started in 2006
-funded by New Zealand Tertiary Education Commission. Its architecture is modular
-and extensible very much like architecture of Moodle. This system is highly
-'pluggable' which allows adding various Web 2.0 web services and establish
-interoperability with other systems.
+Mahara\footnote{\url{http://mahara.org}} is an \ep~system started in 2006 and
+funded by New Zealand Tertiary Education Commission. The system is a standalone
+web application and does not require any kind of LMS or another system
+installed. Its big advantage over other \ep~systems is in its modular and
+extensible architecture that resembles the architecture of Moodle LMS. This can
+be explained by the fact that developer community of Mahara is deeply involved
+in the Moodle community. The system is claimed to be highly 'pluggable' which
+allows adding various Web 2.0 web services and establish interoperability with
+other systems \citep{MaharaGovernanceGroup2011}.
 
 \begin{figure}[htb]
 \centering
@@ -309,19 +313,35 @@ interoperability with other systems.
 \label{fig:maharaep}
 \end{figure}
 
-Mahara includes a number of features like file repository, social networking
-tools (blogs, message board, e-mail, friends list, etc.), résumé builder,
-complete LEAP2A interoperability, and information security. As it became popular
-in ePortfolio systems throughout the recent years \citep{Waters2009},
-Mahara comes with a user-to-user permissions control. Users can set up three
-levels of access to parts of their ePortfolios (private, individual and public)
-which defines what items and information others can see. Currently the Mahara
-system does allow sharing views with others or making them public, but giving
-feedback is restricted to registered users. 
+Mahara functionality includes a number of standard \ep~features like file
+repository, reflection tools in form of blogs, presentation and sharing tools as
+well as elements of social networking like friends lists, forums, message board
+and e-mail. Mahara has internal r\'{e}sum\'{e} builder which allows users to
+create their digital CV with various information options. Sharing is done
+through pages which are called 'views'. Users can create single views or
+collections of views and fill them with artefacts from their \ep~repository.
+Views can be created from scratch as well as from a template developed by
+another user.
 
-The development team of Mahara claims it to be designed so that it can be
-integrated into LMS. Mahara supports single sign-on with Moodle, which means
-that users can log on to both systems using only one account.
+As it became popular in ePortfolio systems throughout the recent years
+\citep{Waters2009}, Mahara comes with a user-to-user permissions control. Users
+can set up three levels of access to parts of their ePortfolios (private,
+individual and public) which defines what items and information others can see.
+Currently the Mahara system does allow sharing views with others or making them
+public, but giving feedback is restricted to registered users.
+
+Mahara supports a complete LEAP2A interoperability which allows to import
+portfolio to Mahara and export it to another \ep~system, provided that this
+interoperability standard is implemented at the other side. In addition, export
+can be done in form of static HTML pages.
+
+Latest version of Mahara supports a single sign-on with Moodle, which means that
+users can log on to both systems using only one account. Unofficial plugins
+developed by community allow for submitting views as assignments to Moodle.
+However, this functionality is not included in official release. The roadmap of
+Moodle 2.0 included a repository plugin for Mahara that would allow direct
+export of artefacts from LMS to \ep. Meanwhile, Moodle 2.1.1 release still does
+not support this functionality.
 
 \subsubsection{ELGG}
 ELGG\footnote{\url{http://elgg.org}} is an open source social networking and
