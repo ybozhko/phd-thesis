@@ -1,4 +1,4 @@
-\begin{thebibliography}{73}
+\begin{thebibliography}{77}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -92,6 +92,10 @@
   teaching and learning}.}
 \newblock \emph{British Journal of Educational Technology}, 40(1): 179--183.
 
+\bibitem[{Clark and Neumann(2009)}]{Clark2009}
+\textbf{Clark, W. and Neumann, T.} (\textbf{2009}).
+\newblock \enquote{{ePortfolios: Models and Implementation}.}
+
 \bibitem[{Clarke(2003)}]{Clarke2003}
 \textbf{Clarke, M.} (\textbf{2003}).
 \newblock \enquote{{The Reflective Journal: Implications for Professional
@@ -116,6 +120,13 @@ m}.
 \newblock \enquote{{Reconsidering portfolios and research evidence}.}
 \newblock pages 141--170. Kluwer Academic Publishers, Dordrecht, Boston,
   London.
+
+\bibitem[{Dawson(2007)}]{Dawson2007}
+\textbf{Dawson, R.} \textbf{(2007, September~30)}.
+\newblock \enquote{{Launching the Web 2.0 Framework}.}
+\newblock
+  \urlprefix\url{http://rossdawsonblog.com/weblog/archives/2007/05/launching\_%
+the\_w.html}.
 
 \bibitem[{de~Freitas et~al.(2006)de~Freitas, Harrison, Magoulas, Mee, Mohamad,
   Oliver, Papamarkos, and Poulovassilis}]{Freitas2006}
@@ -429,11 +440,25 @@ on2002w.pdf}.
 \newblock \emph{{Lifelong learning: concepts and contexts}}.
 \newblock Routledge, London : New York.
 
+\bibitem[{Sweat-Guy and Buzzetto-More(2007)}]{Sweat-Guy2007}
+\textbf{Sweat-Guy, R. and Buzzetto-More, N.~A.} (\textbf{2007}).
+\newblock \enquote{{A Comparative Analysis of Common E-Portfolio Features and
+  Available Platforms}.}
+\newblock In \enquote{Proceedings of the 2007 Informing Science and IT
+  Education Joint Conference,} pages 327--342. Informing Science Institute,
+  Ljubljana, Slovenia.
+
 \bibitem[{Tuijnman and Bostr\"{o}m(2002)}]{Tuijnman2002}
 \textbf{Tuijnman, A. and Bostr\"{o}m, A.-K.} (\textbf{2002}).
 \newblock \enquote{{Changing Notions of Lifelong Education and Lifelong
   Learning}.}
 \newblock \emph{International Review of Education}, 48(1/2): 93--110.
+
+\bibitem[{{University of Toronto}(2010)}]{UniversityofTorontoScarborough2010}
+\textbf{{University of Toronto}} (\textbf{2010}).
+\newblock \enquote{{ePortfolios in Blackboard}.}
+\newblock
+  \urlprefix\url{http://ctl.utsc.utoronto.ca/technology/bb-eportfolios}.
 
 \bibitem[{{van Tartwijk J.} and Driessen(2004)}]{VanTartwijkJ.2004}
 \textbf{{van Tartwijk J.} and Driessen, E.} \textbf{(2004, April~26)}.

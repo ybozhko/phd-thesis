@@ -34,17 +34,17 @@
 \contentsline {chapter}{\numberline {4}Review of Institutional and Open Learning Spaces }{21}{chapter.4}
 \contentsline {section}{\numberline {4.1}Learning Management Systems}{21}{section.4.1}
 \contentsline {section}{\numberline {4.2}Web 2.0 and Social Virtual Spaces}{22}{section.4.2}
-\contentsline {section}{\numberline {4.3}Gap Between Learning Environments}{23}{section.4.3}
+\contentsline {section}{\numberline {4.3}Gap Between Learning Environments}{24}{section.4.3}
 \contentsline {section}{\numberline {4.4}ePortfolio}{24}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Characteristics of Portfolios and ePortfolio Systems}{24}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.1}Characteristics of Portfolios and ePortfolio Systems}{25}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}ePortfolio Systems Overview}{27}{subsection.4.4.2}
-\contentsline {subsubsection}{\numberline {4.4.2.1}PebblePad}{27}{subsubsection.4.4.2.1}
-\contentsline {subsubsection}{\numberline {4.4.2.2}Mahara}{28}{subsubsection.4.4.2.2}
-\contentsline {subsubsection}{\numberline {4.4.2.3}ELGG}{29}{subsubsection.4.4.2.3}
+\contentsline {subsubsection}{\numberline {4.4.2.1}PebblePad}{28}{subsubsection.4.4.2.1}
+\contentsline {subsubsection}{\numberline {4.4.2.2}Mahara}{29}{subsubsection.4.4.2.2}
+\contentsline {subsubsection}{\numberline {4.4.2.3}ELGG}{30}{subsubsection.4.4.2.3}
 \contentsline {subsubsection}{\numberline {4.4.2.4}BlackBoard ePortfolio}{30}{subsubsection.4.4.2.4}
-\contentsline {subsubsection}{\numberline {4.4.2.5}Desire2Learn}{31}{subsubsection.4.4.2.5}
-\contentsline {subsubsection}{\numberline {4.4.2.6}eFolio}{31}{subsubsection.4.4.2.6}
-\contentsline {section}{\numberline {4.5}Summary}{32}{section.4.5}
+\contentsline {subsubsection}{\numberline {4.4.2.5}Desire2Learn}{32}{subsubsection.4.4.2.5}
+\contentsline {subsubsection}{\numberline {4.4.2.6}eFolio}{32}{subsubsection.4.4.2.6}
+\contentsline {section}{\numberline {4.5}Summary}{33}{section.4.5}
 \contentsline {chapter}{\numberline {5}Stakeholders Requirements for Lifelong Learning Support in Universities }{35}{chapter.5}
 \contentsline {section}{\numberline {5.1}Lecturers' Perspective on Lifelong Learning Support}{35}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Participants Profile}{35}{subsection.5.1.1}

@@ -26,6 +26,10 @@ You can't pop an empty literal stack for entry CanadianCouncilonLearning2011
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry CanadianCouncilonLearning2011
 while executing---line 1597 of file bevbib4.bst
+You can't pop an empty literal stack for entry Clark2009
+while executing---line 1597 of file bevbib4.bst
+You can't pop an empty literal stack for entry Clark2009
+while executing---line 1597 of file bevbib4.bst
 Warning--empty booktitle in Clarke2003
 You can't pop an empty literal stack for entry CurtinUniversity2006
 while executing---line 1597 of file bevbib4.bst
@@ -100,45 +104,49 @@ You can't pop an empty literal stack for entry Siemens2004
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry Siemens2004
 while executing---line 1597 of file bevbib4.bst
-You've used 73 entries,
+You can't pop an empty literal stack for entry UniversityofTorontoScarborough2010
+while executing---line 1597 of file bevbib4.bst
+You can't pop an empty literal stack for entry UniversityofTorontoScarborough2010
+while executing---line 1597 of file bevbib4.bst
+You've used 77 entries,
             3124 wiz_defined-function locations,
-            1115 strings with 17518 characters,
-and the built_in function-call counts, 54162 in all, are:
-= -- 6030
-> -- 1299
-< -- 83
-+ -- 655
-- -- 408
-* -- 3169
-:= -- 6694
-add.period$ -- 305
-call.type$ -- 73
-change.case$ -- 445
-chr.to.int$ -- 73
-cite$ -- 84
-duplicate$ -- 5169
-empty$ -- 3494
-format.name$ -- 570
-if$ -- 10902
+            1140 strings with 18243 characters,
+and the built_in function-call counts, 56612 in all, are:
+= -- 6300
+> -- 1359
+< -- 88
++ -- 683
+- -- 426
+* -- 3317
+:= -- 7026
+add.period$ -- 322
+call.type$ -- 77
+change.case$ -- 469
+chr.to.int$ -- 77
+cite$ -- 88
+duplicate$ -- 5385
+empty$ -- 3654
+format.name$ -- 600
+if$ -- 11398
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 549
-newline$ -- 374
-num.names$ -- 302
-pop$ -- 1890
+missing$ -- 571
+newline$ -- 393
+num.names$ -- 318
+pop$ -- 1969
 preamble$ -- 1
-purify$ -- 425
+purify$ -- 447
 quote$ -- 0
-skip$ -- 2845
+skip$ -- 2967
 stack$ -- 0
-substring$ -- 2383
-swap$ -- 3987
-text.length$ -- 21
+substring$ -- 2484
+swap$ -- 4137
+text.length$ -- 22
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 624
+type$ -- 660
 warning$ -- 11
-while$ -- 341
+while$ -- 357
 width$ -- 0
-write$ -- 954
-(There were 38 error messages)
+write$ -- 1004
+(There were 42 error messages)
