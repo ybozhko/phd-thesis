@@ -52,6 +52,10 @@ You can't pop an empty literal stack for entry ELLIDevelopmentTeam2010
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry ELLIDevelopmentTeam2010
 while executing---line 1597 of file bevbib4.bst
+You can't pop an empty literal stack for entry Ellis2009
+while executing---line 1597 of file bevbib4.bst
+You can't pop an empty literal stack for entry Ellis2009
+while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry EuropeanCommission2000
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry EuropeanCommission2000
@@ -90,6 +94,10 @@ You can't pop an empty literal stack for entry NewZealandMinistryofEducation2008
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry NewZealandMinistryofEducation2008
 while executing---line 1597 of file bevbib4.bst
+You can't pop an empty literal stack for entry PebbleLearningLtd2010
+while executing---line 1597 of file bevbib4.bst
+You can't pop an empty literal stack for entry PebbleLearningLtd2010
+while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry PebbleLearningLtd
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry PebbleLearningLtd
@@ -112,45 +120,45 @@ You can't pop an empty literal stack for entry UniversityofTorontoScarborough201
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry UniversityofTorontoScarborough2010
 while executing---line 1597 of file bevbib4.bst
-You've used 78 entries,
+You've used 87 entries,
             3124 wiz_defined-function locations,
-            1145 strings with 18349 characters,
-and the built_in function-call counts, 56994 in all, are:
-= -- 6335
-> -- 1369
-< -- 89
-+ -- 687
-- -- 429
-* -- 3342
-:= -- 7095
-add.period$ -- 326
-call.type$ -- 78
-change.case$ -- 474
-chr.to.int$ -- 78
-cite$ -- 89
-duplicate$ -- 5413
-empty$ -- 3684
-format.name$ -- 604
-if$ -- 11472
+            1209 strings with 20234 characters,
+and the built_in function-call counts, 64313 in all, are:
+= -- 7182
+> -- 1527
+< -- 102
++ -- 770
+- -- 477
+* -- 3754
+:= -- 7969
+add.period$ -- 371
+call.type$ -- 87
+change.case$ -- 530
+chr.to.int$ -- 87
+cite$ -- 98
+duplicate$ -- 6129
+empty$ -- 4142
+format.name$ -- 669
+if$ -- 12960
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 575
-newline$ -- 398
-num.names$ -- 322
-pop$ -- 1979
+missing$ -- 644
+newline$ -- 446
+num.names$ -- 364
+pop$ -- 2214
 preamble$ -- 1
-purify$ -- 452
+purify$ -- 501
 quote$ -- 0
-skip$ -- 2979
+skip$ -- 3390
 stack$ -- 0
-substring$ -- 2495
-swap$ -- 4148
-text.length$ -- 22
+substring$ -- 2837
+swap$ -- 4721
+text.length$ -- 27
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 669
+type$ -- 750
 warning$ -- 11
-while$ -- 360
+while$ -- 408
 width$ -- 0
-write$ -- 1017
-(There were 44 error messages)
+write$ -- 1143
+(There were 48 error messages)

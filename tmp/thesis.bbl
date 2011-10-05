@@ -1,8 +1,14 @@
-\begin{thebibliography}{78}
+\begin{thebibliography}{87}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{Retrieved from }
+
+\bibitem[{AAEEBL(2011)}]{AAEEBL2011}
+\textbf{AAEEBL} \textbf{(2011, September~27)}.
+\newblock \enquote{{eFolioWorld Resource for Exploring Eportfolio Technologies
+  Webinar}.}
+\newblock \urlprefix\url{http://www.aaeebl.org/efolioworld-resource}.
 
 \bibitem[{Aller et~al.(2005)Aller, Kline, Tsang, Aravamuthan, Rasmusson, and
   Phillips}]{Aller2005}
@@ -77,6 +83,13 @@
 \textbf{Capell, K.} \textbf{(2006, October~24)}.
 \newblock \enquote{{Europe's Politicians Embrace Web 2.0}.}
 \newblock \urlprefix\url{http://www.businessweek.com}.
+
+\bibitem[{Chapman(2009)}]{Chapman2009}
+\textbf{Chapman, D.~D.} (\textbf{2009}).
+\newblock \enquote{{Introduction to Learning Management Systems}.}
+\newblock In P.~L. Rogers, G.~A. Berg, J.~V. Boettcher, C.~Howard, L.~Justice,
+  and K.~D. Schenk, editors, \enquote{Encyclopedia of Distance Learning,} pages
+  1280--1286. IGI Global, 2 edition.
 
 \bibitem[{Chen(2009)}]{Chen2009}
 \textbf{Chen, H.} (\textbf{2009}).
@@ -182,6 +195,11 @@ the\_w.html}.
   \urlprefix\url{http://www.elli.org/fileadmin/user\_upload/About\_ELLI/Docume%
 nts/ELLI\_EU\_eng\_final.pdf}.
 
+\bibitem[{Ellis(2009)}]{Ellis2009}
+\textbf{Ellis, R.~K.} (\textbf{2009}).
+\newblock \enquote{{Learning Management Systems 2009}.}
+\newblock \urlprefix\url{http://www.astd.org/LC/2009/0509\_LMS2009.htm}.
+
 \bibitem[{{European Commission}(2000)}]{EuropeanCommission2000}
 \textbf{{European Commission}} (\textbf{2000}).
 \newblock \enquote{{A Memorandum on Lifelong Learning}.}
@@ -271,6 +289,16 @@ nts/ELLI\_EU\_eng\_final.pdf}.
   framework}.}
 \newblock chapter~2, pages 39--65. RoutledgeFalmer, London; New York, NY.
 
+\bibitem[{Katz(2005)}]{Katz2005}
+\textbf{Katz, R.~N.} (\textbf{2005}).
+\newblock \enquote{{Foreword: Growing up digital}.}
+\newblock In R.~B. Kvavik and J.~B. Caruso, editors, \enquote{ECAR Study of
+  Students and Information Technology, 2005: Convenience, connection, control,
+  and learning,} volume~6, pages 5--8. EDUCAUSE.
+\newblock
+  \urlprefix\url{http://net.educause.edu/ir/library/pdf/ers0506/rs/ERS0506w.pd%
+f}.
+
 \bibitem[{Kay(2008)}]{Kay2008}
 \textbf{Kay, J.} (\textbf{2008}).
 \newblock \enquote{{Life-Long Learning, Learner Models and Augmented
@@ -284,6 +312,15 @@ nts/ELLI\_EU\_eng\_final.pdf}.
 \newblock In T.~van Weert and M.~Kendall, editors, \enquote{Lifelong learning
   in the digital age: sustainable for all in a changing world,} pages 191--216.
   Kluwer Academic, Boston.
+
+\bibitem[{Kennedy et~al.(2008)Kennedy, Judd, Churchward, and
+  Gray}]{Kennedy2008}
+\textbf{Kennedy, G.~E., Judd, T.~S., Churchward, A., and Gray, K.}
+  (\textbf{2008}).
+\newblock \enquote{{First year students' experiences with technology: Are they
+  really digital natives?}}
+\newblock \emph{Australasian Journal of Educational Technology}, 24(1):
+  108--122.
 
 \bibitem[{Knapper and Cropley(2000)}]{Knapper2000}
 \textbf{Knapper, C.~K. and Cropley, A.~J.} (\textbf{2000}).
@@ -382,6 +419,14 @@ nts/ELLI\_EU\_eng\_final.pdf}.
 \newblock \urlprefix\url{http://cmap.ihmc.us/Publications/ResearchPapers/
   TheoryUnderlyingConceptMaps.pdf}.
 
+\bibitem[{OECD(2005)}]{OECD2005}
+\textbf{OECD} (\textbf{2005}).
+\newblock \enquote{{IT infrastructure: use of learning management system (LMS)
+  and other applications.}}
+\newblock In OECD, editor, \enquote{E-learning in Tertiary Education: Where do
+  We Stand?}, chapter~4, pages 138--178. OECD Publishing, Paris.
+\newblock \urlprefix\url{http://www.oecd.org/dataoecd/54/57/34899494.pdf}.
+
 \bibitem[{Otala(1997)}]{Otala1997}
 \textbf{Otala, L.} (\textbf{1997}).
 \newblock \enquote{{Implementing Lifelong Learning in Partnership with the
@@ -389,6 +434,19 @@ nts/ELLI\_EU\_eng\_final.pdf}.
 \newblock \emph{The International Information and Library Review}, 29(3-4):
   455--460.
 \newblock doi:10.1006/iilr.1997.0063.
+
+\bibitem[{Overton(2009)}]{Overton2009}
+\textbf{Overton, L.} \textbf{(2009, August~12)}.
+\newblock \enquote{{Eportfolios in Engineering – Advantages and
+  Disadvantages}.}
+\newblock
+  \urlprefix\url{http://engaging-online-learning.blogspot.com/2009/08/eportfol%
+ios-in-engineering-advantages.html}.
+
+\bibitem[{{Pebble Learning Ltd}(2010)}]{PebbleLearningLtd2010}
+\textbf{{Pebble Learning Ltd}} (\textbf{2010}).
+\newblock \enquote{{PebblePad Functional Overview}.}
+\newblock \urlprefix\url{http://www.pebblepad.co.uk}.
 
 \bibitem[{{Pebble Learning Ltd}(2011)}]{PebbleLearningLtd}
 \textbf{{Pebble Learning Ltd}} (\textbf{2011}).
@@ -476,6 +534,13 @@ portfolio\_scenarios/portfolios\_types.htm}.
 \textbf{Waters, J.~K.} \textbf{(2009, November~9)}.
 \newblock \enquote{{E-Portfolios Come of Age}.}
 \newblock \urlprefix\url{http://thejournal.com}.
+
+\bibitem[{Watson and Watson(2007)}]{Watson2007}
+\textbf{Watson, B. W.~R. and Watson, S.~L.} (\textbf{2007}).
+\newblock \enquote{{An Argument for Clarity: What are Learning Management
+  Systems, What are They Not, and What Should They Become?}}
+\newblock \emph{TechTrends}, 51(2): 28--34.
+\newblock doi:10.1007/s11528-007-0023-y.
 
 \bibitem[{Wheeler et~al.(2008)Wheeler, Yeomans, and Wheeler}]{Wheeler2008}
 \textbf{Wheeler, S., Yeomans, P., and Wheeler, D.} (\textbf{2008}).
