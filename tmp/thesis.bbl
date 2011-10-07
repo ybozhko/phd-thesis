@@ -1,4 +1,4 @@
-\begin{thebibliography}{87}
+\begin{thebibliography}{97}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -40,6 +40,13 @@
   Study of Two Towns}.}
 \newblock \emph{Journal of Research in Rural Education}, 21(4).
 \newblock \urlprefix\url{http://www.jrre.psu.edu/articles/21-4.pdf}.
+
+\bibitem[{{Blackboard Inc.}(2009)}]{BlackboardInc.2009}
+\textbf{{Blackboard Inc.}} (\textbf{2009}).
+\newblock \enquote{{'Blackboard Release 9'}.}
+\newblock
+  \urlprefix\url{http://www.blackboard.com/About-Bb/Media-Center/Press-Release%
+s/Archive.aspx?releaseid=881188}.
 
 \bibitem[{Boshier(2000)}]{Boshier2000}
 \textbf{Boshier, R.} (\textbf{2000}).
@@ -254,6 +261,13 @@ nts/ELLI\_EU\_eng\_final.pdf}.
   transition project}.}
 \newblock \emph{British Journal of Educational Technology}, 37(6): 853--866.
 
+\bibitem[{Havenstein(2007)}]{Havenstein2007}
+\textbf{Havenstein, H.} (\textbf{2007}).
+\newblock \enquote{{Customers Courted With Web 2.0.}}
+\newblock
+  \urlprefix\url{http://www.computerworld.com/s/article/print/283355/Customers%
+\_Courted\_With\_Web\_2.0}.
+
 \bibitem[{Heinrich et~al.(2007)Heinrich, Bhattacharya, and
   Rayudu}]{Heinrich2007}
 \textbf{Heinrich, E., Bhattacharya, M., and Rayudu, R.} (\textbf{2007}).
@@ -274,6 +288,13 @@ nts/ELLI\_EU\_eng\_final.pdf}.
 \textbf{Holahan, C.} \textbf{(2007, March~27)}.
 \newblock \enquote{Close Harmony: Bands and Web 2.0.}
 \newblock \urlprefix\url{http://www.businessweek.com}.
+
+\bibitem[{Hughes and Barrie(2010)}]{Hughes2010}
+\textbf{Hughes, C. and Barrie, S.} (\textbf{2010}).
+\newblock \enquote{{Influences on the assessment of graduate attributes in
+  higher education}.}
+\newblock \emph{Assessment \& Evaluation in Higher Education}, 35(3): 325--334.
+\newblock doi:10.1080/02602930903221485.
 
 \bibitem[{{IMS Global Learning
   Consortium}(2005)}]{IMSGlobalLearningConsortium2005}
@@ -322,6 +343,13 @@ f}.
 \newblock \emph{Australasian Journal of Educational Technology}, 24(1):
   108--122.
 
+\bibitem[{Klamma et~al.(2007)Klamma, Chatti, Duval, Hummel, Thora, Kravcik,
+  Law, Naeve, and Scott}]{Klamma2007}
+\textbf{Klamma, R., Chatti, M.~A., Duval, E., Hummel, H., Thora, E., Kravcik,
+  M., Law, E., Naeve, A., and Scott, P.} (\textbf{2007}).
+\newblock \enquote{{Social Software for Life-long Learning}.}
+\newblock \emph{Educational Technology \& Society}, 10(3): 72--83.
+
 \bibitem[{Knapper and Cropley(2000)}]{Knapper2000}
 \textbf{Knapper, C.~K. and Cropley, A.~J.} (\textbf{2000}).
 \newblock \emph{{Lifelong learning in higher education}}.
@@ -335,6 +363,19 @@ f}.
   for personalized learning: methods and case studies,} chapter~3, pages
   30--49. Information Science Reference, Hershey, PA.
 
+\bibitem[{{Library Technology Reports}(2007)}]{LibraryTechnologyReports2007}
+\textbf{{Library Technology Reports}} (\textbf{2007}).
+\newblock \enquote{{Social video: videoblogging and YouTube}.}
+\newblock 43(5): 52--57.
+
+\bibitem[{Linden and Patrinos(2003)}]{Linden2003}
+\textbf{Linden, T. and Patrinos, H.~A.} (\textbf{2003}).
+\newblock \enquote{{Lifelong Learning in the Global Knowledge Economy}.}
+\newblock \emph{International Journal of Technologies for the Advancement of
+  Knowledge and Learning}, 5(1): 77--80.
+\newblock
+  \urlprefix\url{http://www.techknowlogia.org/TKL\_Articles/PDF/476.pdf}.
+
 \bibitem[{Lombardi(2008)}]{Lombardi2008}
 \textbf{Lombardi, M.~M.} (\textbf{2008}).
 \newblock \enquote{{Making the Grade: The Role of Assessment in Authentic
@@ -346,6 +387,11 @@ f}.
 \newblock \emph{{Lifelong learning in action: transforming education in the
   21st century}}.
 \newblock Kogan Page, London and Sterling, VA.
+
+\bibitem[{Lorenzo and Ittelson(2005)}]{Lorenzo2005}
+\textbf{Lorenzo, G. and Ittelson, J.} (\textbf{2005}).
+\newblock \enquote{{An Overview of E-Portfolios}.}
+\newblock \urlprefix\url{http://net.educause.edu/ir/library/pdf/ELI3001.pdf}.
 
 \bibitem[{MacMillan(2007)}]{MacMillan2007}
 \textbf{MacMillan, D.} (\textbf{2007}).
@@ -392,6 +438,12 @@ f}.
 \textbf{Morgan-Klein, B. and Osborne, M.} (\textbf{2007}).
 \newblock \emph{{The concepts and practices of lifelong learning}}.
 \newblock Routledge, London; New York.
+
+\bibitem[{Mott(2010)}]{Mott2010}
+\textbf{Mott, J.} (\textbf{2010}).
+\newblock \enquote{{Envisioning the Post-LMS Era: The Open Learning Network}.}
+\newblock \emph{EDUCAUSE Quarterly}, 33(1).
+\newblock \urlprefix\url{http://www.educause.edu/eq}.
 
 \bibitem[{Mourtos(2003)}]{Mourtos2003}
 \textbf{Mourtos, N.~J.} (\textbf{2003}).
@@ -493,6 +545,14 @@ on2002w.pdf}.
   learning}.}
 \newblock \urlprefix\url{http://www.elearnspace.org/Articles/lms.htm}.
 
+\bibitem[{Smidt and Sursock(2011)}]{Smidt2011}
+\textbf{Smidt, H. and Sursock, A.} (\textbf{2011}).
+\newblock \enquote{{Engaging in Lifelong Learning: Shaping Inclusive and
+  Responsive University Strategies}.}
+\newblock Technical report, European University Association, Brussels, Belgium.
+\newblock
+  \urlprefix\url{http://www.eua.be/pubs/Engaging\_in\_Lifelong\_Learning.pdf}.
+
 \bibitem[{Sommerville(2007)}]{Sommerville2007}
 \textbf{Sommerville, I.} (\textbf{2007}).
 \newblock \emph{{Software engineering}}.
@@ -510,6 +570,13 @@ on2002w.pdf}.
 \newblock In \enquote{Proceedings of the 2007 Informing Science and IT
   Education Joint Conference,} pages 327--342. Informing Science Institute,
   Ljubljana, Slovenia.
+
+\bibitem[{Tian et~al.(2011)Tian, Yu, Vogel, and Kwok}]{Tian2011}
+\textbf{Tian, S.~W., Yu, A.~Y., Vogel, D., and Kwok, R. C.-W.} (\textbf{2011}).
+\newblock \enquote{{The Impact of Online Social Networking on Learning: A
+  Social Integration Perspective}.}
+\newblock \emph{International Journal of Networking and Virtual Organisations},
+  8(3/4): 264 -- 280.
 
 \bibitem[{Tuijnman and Bostr\"{o}m(2002)}]{Tuijnman2002}
 \textbf{Tuijnman, A. and Bostr\"{o}m, A.-K.} (\textbf{2002}).

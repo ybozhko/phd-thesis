@@ -21,6 +21,10 @@ You can't pop an empty literal stack for entry Barrett2008
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry Barrett2008
 while executing---line 1597 of file bevbib4.bst
+You can't pop an empty literal stack for entry BlackboardInc.2009
+while executing---line 1597 of file bevbib4.bst
+You can't pop an empty literal stack for entry BlackboardInc.2009
+while executing---line 1597 of file bevbib4.bst
 Warning--empty booktitle in Brakke2002
 You can't pop an empty literal stack for entry CanadianCouncilonLearning2011
 while executing---line 1597 of file bevbib4.bst
@@ -61,6 +65,10 @@ while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry EuropeanCommission2000
 while executing---line 1597 of file bevbib4.bst
 Warning--empty booktitle in Fallows2003
+You can't pop an empty literal stack for entry Havenstein2007
+while executing---line 1597 of file bevbib4.bst
+You can't pop an empty literal stack for entry Havenstein2007
+while executing---line 1597 of file bevbib4.bst
 Warning--empty booktitle in Hernon2006
 You can't pop an empty literal stack for entry IMSGlobalLearningConsortium2005
 while executing---line 1597 of file bevbib4.bst
@@ -68,9 +76,14 @@ You can't pop an empty literal stack for entry IMSGlobalLearningConsortium2005
 while executing---line 1597 of file bevbib4.bst
 Warning--empty booktitle in Jarvis2004
 Warning--empty booktitle in Kay2008
+Warning--empty journal in LibraryTechnologyReports2007
 You can't pop an empty literal stack for entry Lombardi2008
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry Lombardi2008
+while executing---line 1597 of file bevbib4.bst
+You can't pop an empty literal stack for entry Lorenzo2005
+while executing---line 1597 of file bevbib4.bst
+You can't pop an empty literal stack for entry Lorenzo2005
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry MacMillan2007
 while executing---line 1597 of file bevbib4.bst
@@ -120,45 +133,45 @@ You can't pop an empty literal stack for entry UniversityofTorontoScarborough201
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry UniversityofTorontoScarborough2010
 while executing---line 1597 of file bevbib4.bst
-You've used 87 entries,
+You've used 97 entries,
             3124 wiz_defined-function locations,
-            1209 strings with 20234 characters,
-and the built_in function-call counts, 64313 in all, are:
-= -- 7182
-> -- 1527
-< -- 102
-+ -- 770
-- -- 477
-* -- 3754
-:= -- 7969
-add.period$ -- 371
-call.type$ -- 87
-change.case$ -- 530
-chr.to.int$ -- 87
-cite$ -- 98
-duplicate$ -- 6129
-empty$ -- 4142
-format.name$ -- 669
-if$ -- 12960
+            1280 strings with 22275 characters,
+and the built_in function-call counts, 72119 in all, are:
+= -- 8045
+> -- 1759
+< -- 110
++ -- 879
+- -- 552
+* -- 4251
+:= -- 8938
+add.period$ -- 415
+call.type$ -- 97
+change.case$ -- 596
+chr.to.int$ -- 97
+cite$ -- 109
+duplicate$ -- 6863
+empty$ -- 4598
+format.name$ -- 774
+if$ -- 14485
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 644
-newline$ -- 446
-num.names$ -- 364
-pop$ -- 2214
+missing$ -- 725
+newline$ -- 500
+num.names$ -- 404
+pop$ -- 2475
 preamble$ -- 1
-purify$ -- 501
+purify$ -- 566
 quote$ -- 0
-skip$ -- 3390
+skip$ -- 3781
 stack$ -- 0
-substring$ -- 2837
-swap$ -- 4721
+substring$ -- 3168
+swap$ -- 5316
 text.length$ -- 27
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 750
-warning$ -- 11
-while$ -- 408
+type$ -- 840
+warning$ -- 12
+while$ -- 453
 width$ -- 0
-write$ -- 1143
-(There were 48 error messages)
+write$ -- 1281
+(There were 54 error messages)
