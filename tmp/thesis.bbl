@@ -1,10 +1,16 @@
-\begin{thebibliography}{97}
+\begin{thebibliography}{98}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{Retrieved from }
 
-\bibitem[{AAEEBL(2011)}]{AAEEBL2011}
+\bibitem[{AAEEBL(2011{\natexlab{a}})}]{AAEEBL2011a}
+\textbf{AAEEBL} \textbf{(2011, October~10)}.
+\newblock \enquote{{Desire2Learn Resources for Exploring Eportfolio
+  Technologies Webinar}.}
+\newblock \urlprefix\url{http://www.aaeebl.org/desire2learn-resource}.
+
+\bibitem[{AAEEBL(2011{\natexlab{b}})}]{AAEEBL2011}
 \textbf{AAEEBL} \textbf{(2011, September~27)}.
 \newblock \enquote{{eFolioWorld Resource for Exploring Eportfolio Technologies
   Webinar}.}
