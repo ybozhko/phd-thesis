@@ -1,4 +1,4 @@
-\begin{thebibliography}{98}
+\begin{thebibliography}{114}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -82,6 +82,14 @@ s/Archive.aspx?releaseid=881188}.
   Higher Education Institutions in the United Kingdom}.}
 \newblock \emph{Interactive Learning Environments}, 14(2): 177--192.
 
+\bibitem[{Butler(2010)}]{Butler2010}
+\textbf{Butler, P.} (\textbf{2010}).
+\newblock \enquote{{E-Portfolios, Pedagogy and Implementation in Higher
+  Education: Considerations from the Literature}.}
+\newblock In N.~A. Buzzetto-More, editor, \enquote{The E-Portfolio Paradigm:
+  Informing, Educating, Assessing, and Managing With E-Portfolios,} chapter~6,
+  pages 109--139. Informing Science Press, Santa Rosa, California, USA.
+
 \bibitem[{Cambridge(2010)}]{Cambridge2010}
 \textbf{Cambridge, D.} (\textbf{2010}).
 \newblock \emph{{ePortfolios for Lifelong Learning and Assessment}}.
@@ -96,6 +104,13 @@ s/Archive.aspx?releaseid=881188}.
 \textbf{Capell, K.} \textbf{(2006, October~24)}.
 \newblock \enquote{{Europe's Politicians Embrace Web 2.0}.}
 \newblock \urlprefix\url{http://www.businessweek.com}.
+
+\bibitem[{Challis(2005)}]{Challis2005}
+\textbf{Challis, D.} (\textbf{2005}).
+\newblock \enquote{{Towards the mature ePortfolio: Some implications for higher
+  education}.}
+\newblock \emph{Canadian Journal of Learning and Technology}, 31(3).
+\newblock \urlprefix\url{http://www.cjlt.ca/index.php/cjlt/article/view/93/87}.
 
 \bibitem[{Chapman(2009)}]{Chapman2009}
 \textbf{Chapman, D.~D.} (\textbf{2009}).
@@ -112,11 +127,26 @@ s/Archive.aspx?releaseid=881188}.
   \enquote{Electronic Portfolios 2.0: Emergent Research on Implementation and
   Impact,} chapter~3, pages 29--35. Stylus Publishing, Sterling, Virginia, USA.
 
+\bibitem[{Chou and Chen(2009)}]{Chou2009}
+\textbf{Chou, P. and Chen, W.} (\textbf{2009}).
+\newblock \enquote{{E-portfolio Use at Higher Education Institutions: Potential
+  Problems for Pedagogy}.}
+\newblock In A.~M\'{e}ndez-Vilas, A.~{Solano Mart\'{\i}n}, J.~{Mesa
+  Gonz\'{a}lez}, and J.~{Mesa Gonz\'{a}lez}, editors, \enquote{Research,
+  Reflections and Innovations in Integrating ICT in Education,} volume~3, pages
+  1312--1315. FORMATEX, Badajoz, Spain.
+
 \bibitem[{Churchill(2009)}]{Churchill2009}
 \textbf{Churchill, D.} (\textbf{2009}).
 \newblock \enquote{{Educational applications of Web 2.0: Using blogs to support
   teaching and learning}.}
 \newblock \emph{British Journal of Educational Technology}, 40(1): 179--183.
+
+\bibitem[{Clark(2011)}]{Clark2011}
+\textbf{Clark, D.} \textbf{(2011, March~30)}.
+\newblock \enquote{{E-portfolios -- 7 reasons why I don't want my life in a
+  shoebox}.}
+\newblock \urlprefix\url{http://donaldclarkplanb.blogspot.com}.
 
 \bibitem[{Clark and Neumann(2009)}]{Clark2009}
 \textbf{Clark, W. and Neumann, T.} (\textbf{2009}).
@@ -127,6 +157,15 @@ s/Archive.aspx?releaseid=881188}.
 \newblock \enquote{{The Reflective Journal: Implications for Professional
   Learning}.}
 \newblock Auckland, New Zealand.
+
+\bibitem[{Cleven et~al.(2009)Cleven, Gubler, and H\"{u}ner}]{Cleven2009}
+\textbf{Cleven, A., Gubler, P., and H\"{u}ner, K.~M.} (\textbf{2009}).
+\newblock \enquote{{Design Alternatives for the Evaluation of Design Science
+  Research Artifacts}.}
+\newblock In \enquote{Proceedings of the 4th International Conference on Design
+  Science Research in Information Systems and Technology (DESRIST '09),} ACM
+  Press, New York, New York, USA.
+\newblock doi:10.1145/1555619.1555645.
 
 \bibitem[{Collis and {De Boer}(2004)}]{Collis2004}
 \textbf{Collis, B. and {De Boer}, W.} (\textbf{2004}).
@@ -236,6 +275,13 @@ nts/ELLI\_EU\_eng\_final.pdf}.
 \newblock \emph{{Lifelong learning: education across the lifespan}}.
 \newblock RoutledgeFalmer, London.
 
+\bibitem[{Freire(2008)}]{Freire2008}
+\textbf{Freire, J.} (\textbf{2008}).
+\newblock \enquote{{Universities and Web 2.0: Institutional Challenges}.}
+\newblock \emph{eLearning Papers}, (8): 1--8.
+\newblock
+  \urlprefix\url{http://www.elearningeuropa.info/files/media/media15530.pdf}.
+
 \bibitem[{Grabowski(2004)}]{Grabowski2004}
 \textbf{Grabowski, U.} (\textbf{2004}).
 \newblock \enquote{{Erfolgsfaktor Pers\"{o}nlichkeit: Anforderungen an eine
@@ -267,12 +313,22 @@ nts/ELLI\_EU\_eng\_final.pdf}.
   transition project}.}
 \newblock \emph{British Journal of Educational Technology}, 37(6): 853--866.
 
-\bibitem[{Havenstein(2007)}]{Havenstein2007}
-\textbf{Havenstein, H.} (\textbf{2007}).
+\bibitem[{Havenstein(2007{\natexlab{a}})}]{Havenstein2007}
+\textbf{Havenstein, H.} (\textbf{2007}{\natexlab{a}}).
 \newblock \enquote{{Customers Courted With Web 2.0.}}
+\newblock \emph{Computerworld}.
 \newblock
   \urlprefix\url{http://www.computerworld.com/s/article/print/283355/Customers%
 \_Courted\_With\_Web\_2.0}.
+
+\bibitem[{Havenstein(2007{\natexlab{b}})}]{Havenstein2007a}
+\textbf{Havenstein, H.} (\textbf{2007}{\natexlab{b}}).
+\newblock \enquote{{IT is a key barrier to corporate Web 2.0 adoption, users
+  say}.}
+\newblock \emph{Computerworld}.
+\newblock
+  \urlprefix\url{http://www.computerworld.com/s/article/9034898/IT\_is\_a\_key%
+\_barrier\_to\_corporate\_Web\_2.0\_adoption\_users\_say}.
 
 \bibitem[{Heinrich et~al.(2007)Heinrich, Bhattacharya, and
   Rayudu}]{Heinrich2007}
@@ -284,6 +340,16 @@ nts/ELLI\_EU\_eng\_final.pdf}.
 \textbf{Hernon, P.} (\textbf{2006}).
 \newblock \enquote{{Methods of data collection}.}
 \newblock pages 135--150. Libraries Unlimited, Westport, Connecticut, London.
+
+\bibitem[{Hevner and Chatterjee(2010)}]{Hevner2010}
+\textbf{Hevner, A. and Chatterjee, S.} (\textbf{2010}).
+\newblock \emph{{Design research in information systems: theory and practice}}.
+\newblock Springer, New York.
+
+\bibitem[{Hevner et~al.(2004)Hevner, March, Park, and Ram}]{Hevner2004}
+\textbf{Hevner, A., March, S., Park, J., and Ram, S.} (\textbf{2004}).
+\newblock \enquote{{Design Science in Information Systems Research}.}
+\newblock \emph{MIS Quarterly}, 28(1): 75--105.
 
 \bibitem[{Holahan(2006)}]{Holahan2006}
 \textbf{Holahan, C.} \textbf{(2006, September 1)}.
@@ -301,6 +367,13 @@ nts/ELLI\_EU\_eng\_final.pdf}.
   higher education}.}
 \newblock \emph{Assessment \& Evaluation in Higher Education}, 35(3): 325--334.
 \newblock doi:10.1080/02602930903221485.
+
+\bibitem[{Iivari and Venable(2009)}]{Iivari2009}
+\textbf{Iivari, J. and Venable, J.} (\textbf{2009}).
+\newblock \enquote{{Action Research and Design Science Research – Seemingly
+  Similar but Decisively Dissimilar}.}
+\newblock In \enquote{17th European Conference on Information System (ECIS),}
+  Verona, Italy.
 
 \bibitem[{{IMS Global Learning
   Consortium}(2005)}]{IMSGlobalLearningConsortium2005}
@@ -361,6 +434,11 @@ f}.
 \newblock \emph{{Lifelong learning in higher education}}.
 \newblock Kogan Page, London, 3rd edition.
 
+\bibitem[{Kumar(2005)}]{Kumar2005}
+\textbf{Kumar, R.} (\textbf{2005}).
+\newblock \emph{{Research methodology : a step-by-step guide for beginners}}.
+\newblock SAGE, London, 2nd edition.
+
 \bibitem[{Leone(2010)}]{Leone2019}
 \textbf{Leone, S.} (\textbf{2010}).
 \newblock \enquote{{PLE: A Brick in the Construction of a Lifelong Learning
@@ -415,6 +493,12 @@ f}.
 \textbf{Malloff, T.} (\textbf{2010}).
 \newblock \enquote{{Tamara Malloff Photostream}.}
 \newblock \urlprefix\url{http://www.flickr.com/photos/kootenayleadership}.
+
+\bibitem[{March and Storey(2008)}]{March2008}
+\textbf{March, S.~T. and Storey, V.~C.} (\textbf{2008}).
+\newblock \enquote{{Design Science in the Information Systems Discipline: An
+  Introducation to the Special Issue on Design Science Research}.}
+\newblock \emph{MIS Quarterly}, 32(4): 725--730.
 
 \bibitem[{{Massey University}(2008)}]{MasseyUniversity2008}
 \textbf{{Massey University}} (\textbf{2008}).
@@ -511,6 +595,14 @@ ios-in-engineering-advantages.html}.
 \newblock \enquote{{PebblePad Examples}.}
 \newblock \urlprefix\url{http://www.pebblepad.co.uk/pebblepad.examples.asp}.
 
+\bibitem[{Peffers et~al.(2008)Peffers, Tuunanen, Rothenberger, and
+  Chatterjee}]{Peffers2008}
+\textbf{Peffers, K., Tuunanen, T., Rothenberger, M.~A., and Chatterjee, S.}
+  (\textbf{2008}).
+\newblock \enquote{{A Design Science Research Methodology for Information
+  Systems Research}.}
+\newblock \emph{Journal of Management Information Systems}, 24(3): 45--78.
+
 \bibitem[{Pitman and Broomhall(2009)}]{Pitman2009}
 \textbf{Pitman, T. and Broomhall, S.} (\textbf{2009}).
 \newblock \enquote{{Australian universities, generic skills and lifelong
@@ -584,6 +676,13 @@ on2002w.pdf}.
 \newblock \emph{International Journal of Networking and Virtual Organisations},
   8(3/4): 264 -- 280.
 
+\bibitem[{Tosun and Baris(2011)}]{Tosun2011}
+\textbf{Tosun, N. and Baris, F.} (\textbf{2011}).
+\newblock \enquote{{E-Portfolio Applications in Education}.}
+\newblock \emph{TOJNED : The Online Journal Of New Horizons In Education},
+  1(4): 42--52.
+\newblock \urlprefix\url{http://www.tojned.net/pdf/tojnedv01i04-05.pdf}.
+
 \bibitem[{Tuijnman and Bostr\"{o}m(2002)}]{Tuijnman2002}
 \textbf{Tuijnman, A. and Bostr\"{o}m, A.-K.} (\textbf{2002}).
 \newblock \enquote{{Changing Notions of Lifelong Education and Lifelong
@@ -595,6 +694,12 @@ on2002w.pdf}.
 \newblock \enquote{{ePortfolios in Blackboard}.}
 \newblock
   \urlprefix\url{http://ctl.utsc.utoronto.ca/technology/bb-eportfolios}.
+
+\bibitem[{Vaishnavi and Kuechler(2008)}]{Vaishnavi2007}
+\textbf{Vaishnavi, V.~K. and Kuechler, W.} (\textbf{2008}).
+\newblock \emph{{Design Science Research Methods and Patterns: Innovating
+  Information and Communication Technology}}.
+\newblock Auerbach Publications, Boca Raton, New York.
 
 \bibitem[{{van Tartwijk J.} and Driessen(2004)}]{VanTartwijkJ.2004}
 \textbf{{van Tartwijk J.} and Driessen, E.} \textbf{(2004, April~26)}.
@@ -620,5 +725,10 @@ portfolio\_scenarios/portfolios\_types.htm}.
 \newblock \enquote{{The good, the bad and the wiki: Evaluating
   student-generated content for collaborative learning}.}
 \newblock \emph{British Journal of Educational Technology}, 39(6): 987--995.
+
+\bibitem[{Yin(2009)}]{Yin2009}
+\textbf{Yin, R.~K.} (\textbf{2009}).
+\newblock \emph{{Case study research: design and methods}}.
+\newblock Sage Publications, Los Angeles, 4th edition.
 
 \end{thebibliography}

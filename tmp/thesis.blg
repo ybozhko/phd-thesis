@@ -30,6 +30,7 @@ You can't pop an empty literal stack for entry CanadianCouncilonLearning2011
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry CanadianCouncilonLearning2011
 while executing---line 1597 of file bevbib4.bst
+Warning--can't use both volume and number fields in Chou2009
 You can't pop an empty literal stack for entry Clark2009
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry Clark2009
@@ -65,10 +66,7 @@ while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry EuropeanCommission2000
 while executing---line 1597 of file bevbib4.bst
 Warning--empty booktitle in Fallows2003
-You can't pop an empty literal stack for entry Havenstein2007
-while executing---line 1597 of file bevbib4.bst
-You can't pop an empty literal stack for entry Havenstein2007
-while executing---line 1597 of file bevbib4.bst
+Warning--there's a number but no volume in Freire2008
 Warning--empty booktitle in Hernon2006
 You can't pop an empty literal stack for entry IMSGlobalLearningConsortium2005
 while executing---line 1597 of file bevbib4.bst
@@ -133,45 +131,45 @@ You can't pop an empty literal stack for entry UniversityofTorontoScarborough201
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry UniversityofTorontoScarborough2010
 while executing---line 1597 of file bevbib4.bst
-You've used 98 entries,
+You've used 114 entries,
             3124 wiz_defined-function locations,
-            1285 strings with 22420 characters,
-and the built_in function-call counts, 72477 in all, are:
-= -- 8079
-> -- 1769
-< -- 111
-+ -- 884
-- -- 555
-* -- 4278
-:= -- 9005
-add.period$ -- 419
-call.type$ -- 98
-change.case$ -- 601
-chr.to.int$ -- 97
-cite$ -- 110
-duplicate$ -- 6886
-empty$ -- 4624
-format.name$ -- 778
-if$ -- 14553
-int.to.chr$ -- 2
+            1387 strings with 25646 characters,
+and the built_in function-call counts, 84596 in all, are:
+= -- 9375
+> -- 2077
+< -- 128
++ -- 1031
+- -- 650
+* -- 5037
+:= -- 10498
+add.period$ -- 491
+call.type$ -- 114
+change.case$ -- 705
+chr.to.int$ -- 112
+cite$ -- 128
+duplicate$ -- 8046
+empty$ -- 5438
+format.name$ -- 920
+if$ -- 16994
+int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 728
-newline$ -- 505
-num.names$ -- 408
-pop$ -- 2484
+missing$ -- 869
+newline$ -- 591
+num.names$ -- 476
+pop$ -- 2893
 preamble$ -- 1
-purify$ -- 571
+purify$ -- 665
 quote$ -- 0
-skip$ -- 3789
+skip$ -- 4400
 stack$ -- 0
-substring$ -- 3179
-swap$ -- 5325
-text.length$ -- 27
+substring$ -- 3676
+swap$ -- 6211
+text.length$ -- 31
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 849
-warning$ -- 12
-while$ -- 456
+type$ -- 981
+warning$ -- 14
+while$ -- 529
 width$ -- 0
-write$ -- 1293
-(There were 54 error messages)
+write$ -- 1511
+(There were 52 error messages)
