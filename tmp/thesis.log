@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.18)  3 NOV 2011 16:51
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.18)  4 NOV 2011 14:12
 entering extended mode
  Source specials enabled.
  %&-line parsing enabled.
@@ -502,7 +502,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [4]
-Underfull \hbox (badness 3179) in paragraph at lines 132--133
+Underfull \hbox (badness 3179) in paragraph at lines 125--126
 [][]\OT1/cmr/m/n/10.95 Research must de-velop technology-
  []
 
@@ -512,7 +512,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5] <./images/CH2-F1-Peffers.png, id=690, 472.76625pt x 967.615pt>
+[5] <./images/CH2-F1-Peffers.png, id=691, 472.76625pt x 967.615pt>
 File: ./images/CH2-F1-Peffers.png Graphic file (type png)
 
 <use ./images/CH2-F1-Peffers.png>
@@ -537,10 +537,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: ./images/CH2-F2-Vaishnavi.png Graphic file (type png)
 
 <use ./images/CH2-F2-Vaishnavi.png>
-<./images/CH2-F3-Prototype.png, id=717, 263.98625pt x 285.065pt>
-File: ./images/CH2-F3-Prototype.png Graphic file (type png)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<use ./images/CH2-F3-Prototype.png>
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -550,35 +549,50 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [8
 
  <./images/CH2-F2-Vaishnavi.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<./images/CH2-F3-Prototype.png, id=722, 263.98625pt x 285.065pt>
+File: ./images/CH2-F3-Prototype.png Graphic file (type png)
 
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[9 <./images/CH2-F3-Prototype.png>])
+<use ./images/CH2-F3-Prototype.png>
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10]
+[9 <./images/CH2-F3-Prototype.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11]
 \openout2 = `CH3-LitRev.aux'.
 
  (./CH3-LitRev.tex
-Chapter 3.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
- [11
+[12
 
 
 
 ]
+Chapter 3.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -588,7 +602,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12] <./images/CH3-F1-Learning.png, id=806, 579.66562pt x 599.99156pt>
+[14] <./images/CH3-F1-Learning.png, id=814, 579.66562pt x 599.99156pt>
 File: ./images/CH3-F1-Learning.png Graphic file (type png)
 
 <use ./images/CH3-F1-Learning.png>
@@ -598,7 +612,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13 <./images/CH3-F1-Learning.png>]
+[15 <./images/CH3-F1-Learning.png>]
 Underfull \vbox (badness 6641) has occurred while \output is active []
 
 
@@ -608,7 +622,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14] <./images/CH3-F2-CLI.png, id=845, 634.37pt x 620.3175pt>
+[16] <./images/CH3-F2-CLI.png, id=853, 634.37pt x 620.3175pt>
 File: ./images/CH3-F2-CLI.png Graphic file (type png)
 
 <use ./images/CH3-F2-CLI.png>
@@ -621,8 +635,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15 <./images/CH3-F2-CLI.png (PNG copy)>]
-<./images/CH3-F3-LLLFramework.png, id=873, 574.145pt x 262.9825pt>
+[17 <./images/CH3-F2-CLI.png (PNG copy)>]
+<./images/CH3-F3-LLLFramework.png, id=881, 574.145pt x 262.9825pt>
 File: ./images/CH3-F3-LLLFramework.png Graphic file (type png)
 
 <use ./images/CH3-F3-LLLFramework.png>
@@ -632,15 +646,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16]
+[18]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17 <./images/CH3-F3-LLLFramework.png>]
-<./images/CH3-F4-LLLDimension.png, id=911, 654.445pt x 320.19624pt>
+[19 <./images/CH3-F3-LLLFramework.png>]
+<./images/CH3-F4-LLLDimension.png, id=920, 654.445pt x 320.19624pt>
 File: ./images/CH3-F4-LLLDimension.png Graphic file (type png)
 
 <use ./images/CH3-F4-LLLDimension.png>
@@ -650,7 +664,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18 <./images/CH3-F4-LLLDimension.png>]
+[20 <./images/CH3-F4-LLLDimension.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -660,21 +674,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[19]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[20])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [21]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23]
 \openout2 = `CH4-SystemStudy.aux'.
 
  (./CH4-SystemStudy.tex
@@ -684,7 +698,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22
+[24
 
 
 
@@ -693,14 +707,14 @@ Chapter 4.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
+ [25]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[24] <./images/CH4-F0-WEB20.png, id=1074, 1068.99374pt x 654.445pt>
+[26] <./images/CH4-F0-WEB20.png, id=1082, 1068.99374pt x 654.445pt>
 File: ./images/CH4-F0-WEB20.png Graphic file (type png)
 
 <use ./images/CH4-F0-WEB20.png>
@@ -710,14 +724,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[25 <./images/CH4-F0-WEB20.png>]
+[27 <./images/CH4-F0-WEB20.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[26]
+[28]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -727,14 +741,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[27]
+[29]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[28] <./images/CH4-F1-EP.png, id=1161, 663.98062pt x 432.86719pt>
+[30] <./images/CH4-F1-EP.png, id=1170, 663.98062pt x 432.86719pt>
 File: ./images/CH4-F1-EP.png Graphic file (type png)
 
 <use ./images/CH4-F1-EP.png>
@@ -744,7 +758,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29 <./images/CH4-F1-EP.png>]
+[31 <./images/CH4-F1-EP.png>]
 Underfull \vbox (badness 2221) has occurred while \output is active []
 
 
@@ -754,14 +768,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30]
+[32]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31] <./images/CH4-F3-PebblePad.png, id=1204, 969.6225pt x 704.6325pt>
+[33] <./images/CH4-F3-PebblePad.png, id=1212, 969.6225pt x 704.6325pt>
 File: ./images/CH4-F3-PebblePad.png Graphic file (type png)
 
 <use ./images/CH4-F3-PebblePad.png>
@@ -774,8 +788,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[32 <./images/CH4-F3-PebblePad.png>]
-<./images/CH4-F4-Mahara.png, id=1220, 982.67125pt x 707.64375pt>
+[34 <./images/CH4-F3-PebblePad.png>]
+<./images/CH4-F4-Mahara.png, id=1228, 982.67125pt x 707.64375pt>
 File: ./images/CH4-F4-Mahara.png Graphic file (type png)
 
 <use ./images/CH4-F4-Mahara.png>
@@ -785,14 +799,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[33 <./images/CH4-F4-Mahara.png>]
+[35 <./images/CH4-F4-Mahara.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[34] <./images/CH4-F5-ELGG.png, id=1238, 996.72375pt x 692.5875pt>
+[36] <./images/CH4-F5-ELGG.png, id=1247, 996.72375pt x 692.5875pt>
 File: ./images/CH4-F5-ELGG.png Graphic file (type png)
 
 <use ./images/CH4-F5-ELGG.png>
@@ -805,8 +819,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[35 <./images/CH4-F5-ELGG.png>]
-<./images/CH4-F6-BB.png, id=1246, 533.995pt x 389.455pt>
+[37 <./images/CH4-F5-ELGG.png>]
+<./images/CH4-F6-BB.png, id=1255, 533.995pt x 389.455pt>
 File: ./images/CH4-F6-BB.png Graphic file (type png)
 
 <use ./images/CH4-F6-BB.png>
@@ -816,8 +830,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36 <./images/CH4-F6-BB.png (PNG copy)>]
-<./images/CH4-F7-D2L.png, id=1268, 536.0025pt x 387.4475pt>
+[38 <./images/CH4-F6-BB.png (PNG copy)>]
+<./images/CH4-F7-D2L.png, id=1276, 536.0025pt x 387.4475pt>
 File: ./images/CH4-F7-D2L.png Graphic file (type png)
 
 <use ./images/CH4-F7-D2L.png>
@@ -827,7 +841,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[37]
+[39]
 Underfull \vbox (badness 6493) has occurred while \output is active []
 
 
@@ -837,8 +851,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38 <./images/CH4-F7-D2L.png (PNG copy)>]
-<./images/CH4-F8-eFolio.png, id=1294, 762.85pt x 746.79pt>
+[40 <./images/CH4-F7-D2L.png (PNG copy)>]
+<./images/CH4-F8-eFolio.png, id=1302, 762.85pt x 746.79pt>
 File: ./images/CH4-F8-eFolio.png Graphic file (type png)
 
 <use ./images/CH4-F8-eFolio.png>
@@ -848,21 +862,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[39 <./images/CH4-F8-eFolio.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[40]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[41])
+[41 <./images/CH4-F8-eFolio.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -870,11 +870,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [42]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[43])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[44]
 \openout2 = `CH5-ConceptualModel.aux'.
 
  (./CH5-ConceptualModel.tex
 Chapter 5.
-[43
+[45
 
 
 
@@ -889,7 +903,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[44]
+[46]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
@@ -900,7 +914,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45]
+[47]
 \openout2 = `CH6-Development.aux'.
 
  (./CH6-Development.tex
@@ -910,20 +924,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[46
+[48
 
 
 
 ]
 Chapter 6.
-[47])
+[49])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[48]
+[50]
 \openout2 = `CH7-Evaluation.aux'.
 
  (./CH7-Evaluation.tex
@@ -931,7 +945,7 @@ Chapter 7.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49
+ [51
 
 
 
@@ -945,12 +959,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[50]
+[52]
 \openout2 = `CH8-Discussion.aux'.
 
  (./CH8-Discussion.tex
 Chapter 8.
-) [51
+) [53
 
 
 
@@ -964,20 +978,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[52
+[54
 
 
 
 ]
 Chapter 9.
-) [53] (./thesis.bbl
+) [55] (./thesis.bbl
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[54
+[56
 
 
 ]
@@ -1016,14 +1030,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--56
 ]Center / Press-[]Releases /
  []
 
-[55]
+[57]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[56]
+[58]
 Underfull \hbox (badness 2644) in paragraph at lines 190--195
 [][]\OT1/cmr/bx/n/10.95 Dawson, R. (2007, Septem-ber 30)\OT1/cmr/m/n/10.95 .  `
 `Launch-ing the Web 2.0 Frame-
@@ -1035,7 +1049,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[57]
+[59]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
@@ -1046,7 +1060,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[58]
+[60]
 Underfull \hbox (badness 1478) in paragraph at lines 317--323
 [][]\OT1/cmr/bx/n/10.95 Havenstein, H. \OT1/cmr/m/n/10.95 (\OT1/cmr/bx/n/10.95 
 2007\OT1/cmr/m/n/10.95 a).  ``Cus-tomers Courted With Web 2.0.''  \OT1/cmr/m/it
@@ -1074,14 +1088,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[59]
+[61]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[60]
+[62]
 Underfull \hbox (badness 1107) in paragraph at lines 481--486
 [][]\OT1/cmr/bx/n/10.95 MacMillan, D. \OT1/cmr/m/n/10.95 (\OT1/cmr/bx/n/10.95 2
 007\OT1/cmr/m/n/10.95 ).  ``Fam-ily Trees 2.0.''  Re-trieved from []$\OT1/cmtt/
@@ -1094,7 +1108,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[61]
+[63]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
@@ -1105,28 +1119,28 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[62]
+[64]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[63])
+[65])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[64] (./thesis.aux (./command-definitions.aux) (./CH1-Introduction.aux)
+[66] (./thesis.aux (./command-definitions.aux) (./CH1-Introduction.aux)
 (./CH2-Methodology.aux) (./CH3-LitRev.aux) (./CH4-SystemStudy.aux)
 (./CH5-ConceptualModel.aux) (./CH6-Development.aux) (./CH7-Evaluation.aux)
 (./CH8-Discussion.aux) (./CH9-Conclusion.aux)) ) 
 Here is how much of TeX's memory you used:
- 8311 strings out of 495061
- 123413 string characters out of 1182620
- 202400 words of memory out of 3000000
+ 8313 strings out of 495061
+ 123427 string characters out of 1182620
+ 202401 words of memory out of 3000000
  10904 multiletter control sequences out of 15000+50000
  18395 words of font info for 70 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
@@ -1145,9 +1159,9 @@ mss10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
 e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-tex
 live/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/
 type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on thesis.pdf (83 pages, 3186022 bytes).
+Output written on thesis.pdf (85 pages, 3189268 bytes).
 PDF statistics:
- 1637 PDF objects out of 1728 (max. 8388607)
- 338 named destinations out of 1000 (max. 500000)
+ 1646 PDF objects out of 1728 (max. 8388607)
+ 340 named destinations out of 1000 (max. 500000)
  873 words of extra memory for PDF output out of 10000 (max. 10000000)
 
