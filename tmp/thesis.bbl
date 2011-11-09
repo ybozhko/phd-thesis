@@ -1,4 +1,4 @@
-\begin{thebibliography}{114}
+\begin{thebibliography}{122}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -23,6 +23,12 @@
 \newblock \enquote{{WeBAL: A Web-Based Assessment Library to Enhance Teaching
   and Learning in Engineering}.}
 \newblock \emph{IEEE Transactions on Education}, 48(4): 764--771.
+
+\bibitem[{Archer(1984)}]{Archer1984}
+\textbf{Archer, L.} (\textbf{1984}).
+\newblock \enquote{{Systematic dethod for designers}.}
+\newblock In N.~Cross, editor, \enquote{Developments in design methodology,}
+  pages 57--82. Wiley, Chichester; New York.
 
 \bibitem[{Ashling(2007)}]{Ashling2007}
 \textbf{Ashling, J.} (\textbf{2007}).
@@ -49,7 +55,7 @@
 
 \bibitem[{{Blackboard Inc.}(2009)}]{BlackboardInc.2009}
 \textbf{{Blackboard Inc.}} (\textbf{2009}).
-\newblock \enquote{{'Blackboard Release 9'}.}
+\newblock \enquote{{Blackboard Release 9}.}
 \newblock
   \urlprefix\url{http://www.blackboard.com/About-Bb/Media-Center/Press-Release%
 s/Archive.aspx?releaseid=881188}.
@@ -173,12 +179,17 @@ s/Archive.aspx?releaseid=881188}.
 \newblock \emph{Teachers as learners: Embedded tools for implementing a CMS},
   48(6): 7--12.
 
+\bibitem[{Cross(1993)}]{Cross1993}
+\textbf{Cross, N.} (\textbf{1993}).
+\newblock \enquote{{A history of design methodology}.}
+\newblock In M.~J. de~Vries, N.~Cross, and D.~P. Grant, editors,
+  \enquote{Design methodology and relationships with science,} chapter~1, pages
+  15--28. Springer, Eindhoven, The Netherlands.
+
 \bibitem[{{Curtin University}(2006)}]{CurtinUniversity2006}
 \textbf{{Curtin University}} (\textbf{2006}).
-\newblock \enquote{{"Graduate Attributes Policy"}.}
-\newblock
-  \urlprefix\url{http://policies.curtin.edu.au/policies/teachingandlearning.cf%
-m}.
+\newblock \enquote{{Graduate Attributes Policy}.}
+\newblock \urlprefix\url{http://policies.curtin.edu.au}.
 
 \bibitem[{Davies and LeMahieu(2003)}]{Davies2003}
 \textbf{Davies, A. and LeMahieu, P.} (\textbf{2003}).
@@ -282,6 +293,17 @@ nts/ELLI\_EU\_eng\_final.pdf}.
 \newblock
   \urlprefix\url{http://www.elearningeuropa.info/files/media/media15530.pdf}.
 
+\bibitem[{G\"{o}rlitz et~al.(2010)G\"{o}rlitz, Seip, and
+  Zacharias}]{Gorlitz2010}
+\textbf{G\"{o}rlitz, R., Seip, B., and Zacharias, V.} (\textbf{2010}).
+\newblock \enquote{{Health 2.0 in practice: a review of German health care web
+  portals}.}
+\newblock In B.~White, P.~Isa\'{\i}as, and D.~Andone, editors,
+  \enquote{Proceedings of the IADIS International Conference on WWW/Internet,}
+  volume 2000, pages 49--56. IADIS, Timisoara, Romania.
+\newblock
+  \urlprefix\url{http://www.iadisportal.org/wwwinternet-2010-proceedings}.
+
 \bibitem[{Grabowski(2004)}]{Grabowski2004}
 \textbf{Grabowski, U.} (\textbf{2004}).
 \newblock \enquote{{Erfolgsfaktor Pers\"{o}nlichkeit: Anforderungen an eine
@@ -383,6 +405,13 @@ nts/ELLI\_EU\_eng\_final.pdf}.
 \newblock
   \urlprefix\url{http://www.imsglobal.org/ep/epv1p0/imsep\_infov1p0.html}.
 
+\bibitem[{Ioannidis(2007)}]{Ioannidis2007}
+\textbf{Ioannidis, J. P.~a.} (\textbf{2007}).
+\newblock \enquote{{Limitations are not properly acknowledged in the scientific
+  literature.}}
+\newblock \emph{Journal of clinical epidemiology}, 60(4): 324--9.
+\newblock doi:10.1016/j.jclinepi.2006.09.011.
+
 \bibitem[{Jarvis(2004)}]{Jarvis2004}
 \textbf{Jarvis, P.} (\textbf{2004}).
 \newblock \enquote{{From adult education to lifelong learning: a conceptual
@@ -446,6 +475,14 @@ f}.
 \newblock In J.~O'Donoghue, editor, \enquote{Technology-supported environments
   for personalized learning: methods and case studies,} chapter~3, pages
   30--49. Information Science Reference, Hershey, PA.
+
+\bibitem[{Leung et~al.(2011)Leung, Lee, and Law}]{Leung2011}
+\textbf{Leung, D., Lee, H.~A., and Law, R.} (\textbf{2011}).
+\newblock \enquote{{Adopting Web 2.0 technologies on chain and independent
+  hotel websites: A case study of hotels in Hong Kong}.}
+\newblock In R.~Law, F.~Ricci, and M.~Fuchs, editors, \enquote{Proceedings of
+  Information and Communication Technologies in Tourism 2011 International
+  Conference,} pages 229--240. Springer, Innsbruck, Austria.
 
 \bibitem[{{Library Technology Reports}(2007)}]{LibraryTechnologyReports2007}
 \textbf{{Library Technology Reports}} (\textbf{2007}).
@@ -523,6 +560,13 @@ f}.
 \textbf{Medel-A\~{n}onuevo, C., Ohsako, T., and Mauch, W.} (\textbf{2001}).
 \newblock \emph{{Revisiting Lifelong Learning for the 21st Century}}.
 \newblock UNESCO Institute for Education, Hamburg, Germany.
+
+\bibitem[{Metzger and Flanagin(2011)}]{Metzger2011}
+\textbf{Metzger, M.~J. and Flanagin, A.~J.} (\textbf{2011}).
+\newblock \enquote{{Using web 2.0 technologies to enhance evidence-based
+  medical information.}}
+\newblock \emph{Journal of health communication}, 16(Sup1): 45--58.
+\newblock doi:10.1080/10810730.2011.589881.
 
 \bibitem[{Morgan-Klein and Osborne(2007)}]{Morgan-Klein2007}
 \textbf{Morgan-Klein, B. and Osborne, M.} (\textbf{2007}).
@@ -679,8 +723,8 @@ on2002w.pdf}.
 \bibitem[{Tosun and Baris(2011)}]{Tosun2011}
 \textbf{Tosun, N. and Baris, F.} (\textbf{2011}).
 \newblock \enquote{{E-Portfolio Applications in Education}.}
-\newblock \emph{TOJNED : The Online Journal Of New Horizons In Education},
-  1(4): 42--52.
+\newblock \emph{TOJNED: The Online Journal Of New Horizons In Education}, 1(4):
+  42--52.
 \newblock \urlprefix\url{http://www.tojned.net/pdf/tojnedv01i04-05.pdf}.
 
 \bibitem[{Tuijnman and Bostr\"{o}m(2002)}]{Tuijnman2002}
@@ -708,6 +752,14 @@ on2002w.pdf}.
   \urlprefix\url{http://insight.eun.org/ww/en/pub/insight/school\_innovation/e%
 portfolio\_scenarios/portfolios\_types.htm}.
 
+\bibitem[{Venable(2010)}]{Venable2010}
+\textbf{Venable, J.~R.} (\textbf{2010}).
+\newblock \enquote{{Design Science Research Post Hevner et al.: Criteria,
+  Standards, Guidelines, and Expectations}.}
+\newblock In R.~Winter, J.~Zhao, and S.~Aier, editors, \enquote{Proceedings of
+  5th International Conference, DESRIST 2010,} pages 109--123. Springer, St.
+  Gallen, Switzerland.
+
 \bibitem[{Waters(2009)}]{Waters2009}
 \textbf{Waters, J.~K.} \textbf{(2009, November~9)}.
 \newblock \enquote{{E-Portfolios Come of Age}.}
@@ -725,6 +777,13 @@ portfolio\_scenarios/portfolios\_types.htm}.
 \newblock \enquote{{The good, the bad and the wiki: Evaluating
   student-generated content for collaborative learning}.}
 \newblock \emph{British Journal of Educational Technology}, 39(6): 987--995.
+
+\bibitem[{Wirtz et~al.(2010)Wirtz, Schilke, and Ullrich}]{Wirtz2010}
+\textbf{Wirtz, B.~W., Schilke, O., and Ullrich, S.} (\textbf{2010}).
+\newblock \enquote{{Strategic Development of Business Models: Implications of
+  the Web 2.0 for Creating Value on the Internet}.}
+\newblock \emph{Long Range Planning}, 43(2-3): 272--290.
+\newblock doi:10.1016/j.lrp.2010.01.005.
 
 \bibitem[{Yin(2009)}]{Yin2009}
 \textbf{Yin, R.~K.} (\textbf{2009}).

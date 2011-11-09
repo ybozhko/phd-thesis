@@ -12,16 +12,15 @@
 \contentsline {section}{\numberline {2.2}Research Questions}{4}{section.2.2}
 \contentsline {section}{\numberline {2.3}Research Approach}{5}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Design Science Research Methodology}{5}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Design Science Research Applied to This Project}{9}{subsection.2.3.2}
-\contentsline {subsubsection}{\numberline {2.3.2.1}Stage 1. Problem identification and motivation}{9}{subsubsection.2.3.2.1}
+\contentsline {subsection}{\numberline {2.3.2}Design Science Research Applied to This Project}{8}{subsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2.1}Stage 1. Problem identification and motivation}{8}{subsubsection.2.3.2.1}
 \contentsline {subsubsection}{\numberline {2.3.2.2}Stage 2. Objectives for a Solution}{9}{subsubsection.2.3.2.2}
 \contentsline {subsubsection}{\numberline {2.3.2.3}Stage 3. Design and Development}{9}{subsubsection.2.3.2.3}
-\contentsline {subsubsection}{\numberline {2.3.2.4}Stage 4. Demonstration}{9}{subsubsection.2.3.2.4}
-\contentsline {subsubsection}{\numberline {2.3.2.5}Stage 5. Evaluation}{9}{subsubsection.2.3.2.5}
-\contentsline {subsubsection}{\numberline {2.3.2.6}Stage 6. Communication}{10}{subsubsection.2.3.2.6}
+\contentsline {subsubsection}{\numberline {2.3.2.4}Stage 4. Demonstration and Evaluation}{10}{subsubsection.2.3.2.4}
+\contentsline {subsubsection}{\numberline {2.3.2.5}Stage 5. Conclusion and Communication}{10}{subsubsection.2.3.2.5}
 \contentsline {section}{\numberline {2.4}Methodological Limitations}{10}{section.2.4}
-\contentsline {section}{\numberline {2.5}Related Work}{10}{section.2.5}
-\contentsline {section}{\numberline {2.6}Summary}{11}{section.2.6}
+\contentsline {section}{\numberline {2.5}Related Work}{11}{section.2.5}
+\contentsline {section}{\numberline {2.6}Summary}{12}{section.2.6}
 \contentsline {chapter}{\numberline {3}Literature Review - Lifelong Learning }{13}{chapter.3}
 \contentsline {section}{\numberline {3.1}Literature Review Process}{14}{section.3.1}
 \contentsline {section}{\numberline {3.2}The General Concept of Lifelong Learning }{15}{section.3.2}
@@ -40,60 +39,60 @@
 \contentsline {subsection}{\numberline {4.4.2}ePortfolio Systems Overview}{33}{subsection.4.4.2}
 \contentsline {subsubsection}{\numberline {4.4.2.1}PebblePad}{33}{subsubsection.4.4.2.1}
 \contentsline {subsubsection}{\numberline {4.4.2.2}Mahara}{35}{subsubsection.4.4.2.2}
-\contentsline {subsubsection}{\numberline {4.4.2.3}ELGG}{36}{subsubsection.4.4.2.3}
+\contentsline {subsubsection}{\numberline {4.4.2.3}ELGG}{37}{subsubsection.4.4.2.3}
 \contentsline {subsubsection}{\numberline {4.4.2.4}BlackBoard ePortfolio}{38}{subsubsection.4.4.2.4}
-\contentsline {subsubsection}{\numberline {4.4.2.5}Desire2Learn}{39}{subsubsection.4.4.2.5}
+\contentsline {subsubsection}{\numberline {4.4.2.5}Desire2Learn}{40}{subsubsection.4.4.2.5}
 \contentsline {subsubsection}{\numberline {4.4.2.6}eFolio}{41}{subsubsection.4.4.2.6}
-\contentsline {subsection}{\numberline {4.4.3}ePortfolio\nobreakspace {}Systems in Light of Lifelong Learning}{42}{subsection.4.4.3}
-\contentsline {section}{\numberline {4.5}Summary}{43}{section.4.5}
-\contentsline {chapter}{\numberline {5}Stakeholders Requirements for Lifelong Learning Support in Universities }{45}{chapter.5}
-\contentsline {section}{\numberline {5.1}Lecturers' Perspective on Lifelong Learning Support}{45}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Participants Profile}{45}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Methodology}{45}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Results}{46}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}Students' Perspective on Lifelong Learning Support}{46}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Participants Profile}{46}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Methodology}{47}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Results}{47}{subsection.5.2.3}
-\contentsline {section}{\numberline {5.3}Requirements Elicitation}{47}{section.5.3}
-\contentsline {section}{\numberline {5.4}Summary}{47}{section.5.4}
-\contentsline {chapter}{\numberline {6}Prototype - Development and Implementation}{49}{chapter.6}
-\contentsline {section}{\numberline {6.1}Architecture}{49}{section.6.1}
-\contentsline {section}{\numberline {6.2}Development Toolkit}{49}{section.6.2}
-\contentsline {section}{\numberline {6.3}Implementations}{49}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Version Control Elements}{49}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Concept Map Module}{49}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Artifacts' Fragments Extraction}{50}{subsection.6.3.3}
-\contentsline {subsection}{\numberline {6.3.4}Progress Tracking}{50}{subsection.6.3.4}
-\contentsline {subsection}{\numberline {6.3.5}Advanced Sharing}{50}{subsection.6.3.5}
-\contentsline {section}{\numberline {6.4}Prototype Iterations and User Tests}{50}{section.6.4}
-\contentsline {section}{\numberline {6.5}Summary}{50}{section.6.5}
-\contentsline {chapter}{\numberline {7}Evaluation}{51}{chapter.7}
-\contentsline {section}{\numberline {7.1}Study One. Exploratory Evaluation by Lecturers}{52}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Goals}{52}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Research Protocol}{52}{subsection.7.1.2}
-\contentsline {subsection}{\numberline {7.1.3}Participants Profile}{52}{subsection.7.1.3}
-\contentsline {subsection}{\numberline {7.1.4}Data Collection and Analysis}{52}{subsection.7.1.4}
-\contentsline {subsection}{\numberline {7.1.5}Conclusions}{52}{subsection.7.1.5}
-\contentsline {section}{\numberline {7.2}Study Two. Group Experiment - Lifelong Learning Skills Development and Demostration}{52}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Goals}{52}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Research Protocol}{52}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Participants Profile}{52}{subsection.7.2.3}
-\contentsline {subsection}{\numberline {7.2.4}Activities and Artefacts}{52}{subsection.7.2.4}
-\contentsline {subsection}{\numberline {7.2.5}Data Collection and Analysis}{52}{subsection.7.2.5}
-\contentsline {subsection}{\numberline {7.2.6}Conclusions}{52}{subsection.7.2.6}
-\contentsline {section}{\numberline {7.3}Study Three. System Validation by Experienced Students}{52}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Goals}{52}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Research Protocol}{52}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Participants Profile}{52}{subsection.7.3.3}
-\contentsline {subsection}{\numberline {7.3.4}Activities and Artefacts}{52}{subsection.7.3.4}
-\contentsline {subsection}{\numberline {7.3.5}Data Collection and Analysis}{52}{subsection.7.3.5}
-\contentsline {subsection}{\numberline {7.3.6}Conclusions}{52}{subsection.7.3.6}
-\contentsline {section}{\numberline {7.4}Summary}{52}{section.7.4}
-\contentsline {chapter}{\numberline {8}Discussion}{53}{chapter.8}
-\contentsline {chapter}{\numberline {9}Conclusions and Future Work}{55}{chapter.9}
-\contentsline {section}{\numberline {9.1}Summary of the Research}{55}{section.9.1}
-\contentsline {section}{\numberline {9.2}Research Contributions}{55}{section.9.2}
-\contentsline {section}{\numberline {9.3}Future Research}{55}{section.9.3}
-\contentsline {section}{\numberline {9.4}Conclusions}{55}{section.9.4}
-\contentsline {chapter}{Bibliography}{56}{section.9.4}
+\contentsline {subsection}{\numberline {4.4.3}ePortfolio\nobreakspace {}Systems in Light of Lifelong Learning}{43}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}Summary}{44}{section.4.5}
+\contentsline {chapter}{\numberline {5}Stakeholders Requirements for Lifelong Learning Support in Universities }{47}{chapter.5}
+\contentsline {section}{\numberline {5.1}Lecturers' Perspective on Lifelong Learning Support}{47}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Participants Profile}{47}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Methodology}{47}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Results}{48}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}Students' Perspective on Lifelong Learning Support}{48}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Participants Profile}{48}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Methodology}{49}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Results}{49}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Requirements Elicitation}{49}{section.5.3}
+\contentsline {section}{\numberline {5.4}Summary}{49}{section.5.4}
+\contentsline {chapter}{\numberline {6}Prototype - Development and Implementation}{51}{chapter.6}
+\contentsline {section}{\numberline {6.1}Architecture}{51}{section.6.1}
+\contentsline {section}{\numberline {6.2}Development Toolkit}{51}{section.6.2}
+\contentsline {section}{\numberline {6.3}Implementations}{51}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Version Control Elements}{51}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Concept Map Module}{51}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Artifacts' Fragments Extraction}{52}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.4}Progress Tracking}{52}{subsection.6.3.4}
+\contentsline {subsection}{\numberline {6.3.5}Advanced Sharing}{52}{subsection.6.3.5}
+\contentsline {section}{\numberline {6.4}Prototype Iterations and User Tests}{52}{section.6.4}
+\contentsline {section}{\numberline {6.5}Summary}{52}{section.6.5}
+\contentsline {chapter}{\numberline {7}Evaluation}{53}{chapter.7}
+\contentsline {section}{\numberline {7.1}Study One. Exploratory Evaluation by Lecturers}{54}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Goals}{54}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Research Protocol}{54}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Participants Profile}{54}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.1.4}Data Collection and Analysis}{54}{subsection.7.1.4}
+\contentsline {subsection}{\numberline {7.1.5}Conclusions}{54}{subsection.7.1.5}
+\contentsline {section}{\numberline {7.2}Study Two. Group Experiment - Lifelong Learning Skills Development and Demostration}{54}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Goals}{54}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Research Protocol}{54}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Participants Profile}{54}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}Activities and Artefacts}{54}{subsection.7.2.4}
+\contentsline {subsection}{\numberline {7.2.5}Data Collection and Analysis}{54}{subsection.7.2.5}
+\contentsline {subsection}{\numberline {7.2.6}Conclusions}{54}{subsection.7.2.6}
+\contentsline {section}{\numberline {7.3}Study Three. System Validation by Experienced Students}{54}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Goals}{54}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Research Protocol}{54}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Participants Profile}{54}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.4}Activities and Artefacts}{54}{subsection.7.3.4}
+\contentsline {subsection}{\numberline {7.3.5}Data Collection and Analysis}{54}{subsection.7.3.5}
+\contentsline {subsection}{\numberline {7.3.6}Conclusions}{54}{subsection.7.3.6}
+\contentsline {section}{\numberline {7.4}Summary}{54}{section.7.4}
+\contentsline {chapter}{\numberline {8}Discussion}{55}{chapter.8}
+\contentsline {chapter}{\numberline {9}Conclusions and Future Work}{57}{chapter.9}
+\contentsline {section}{\numberline {9.1}Summary of the Research}{57}{section.9.1}
+\contentsline {section}{\numberline {9.2}Research Contributions}{57}{section.9.2}
+\contentsline {section}{\numberline {9.3}Future Research}{57}{section.9.3}
+\contentsline {section}{\numberline {9.4}Conclusions}{57}{section.9.4}
+\contentsline {chapter}{Bibliography}{58}{section.9.4}
