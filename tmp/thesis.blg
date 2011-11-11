@@ -25,6 +25,7 @@ You can't pop an empty literal stack for entry BlackboardInc.2009
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry BlackboardInc.2009
 while executing---line 1597 of file bevbib4.bst
+Warning--empty booktitle in Bourner2002
 Warning--empty booktitle in Brakke2002
 You can't pop an empty literal stack for entry CanadianCouncilonLearning2011
 while executing---line 1597 of file bevbib4.bst
@@ -131,45 +132,45 @@ You can't pop an empty literal stack for entry UniversityofTorontoScarborough201
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry UniversityofTorontoScarborough2010
 while executing---line 1597 of file bevbib4.bst
-You've used 122 entries,
+You've used 125 entries,
             3124 wiz_defined-function locations,
-            1459 strings with 27686 characters,
-and the built_in function-call counts, 93707 in all, are:
-= -- 10466
-> -- 2269
-< -- 140
-+ -- 1135
-- -- 708
-* -- 5545
-:= -- 11450
-add.period$ -- 537
-call.type$ -- 122
-change.case$ -- 762
-chr.to.int$ -- 120
-cite$ -- 136
-duplicate$ -- 8996
-empty$ -- 5981
-format.name$ -- 1000
-if$ -- 18868
+            1478 strings with 28112 characters,
+and the built_in function-call counts, 96084 in all, are:
+= -- 10748
+> -- 2299
+< -- 145
++ -- 1156
+- -- 717
+* -- 5665
+:= -- 11718
+add.period$ -- 551
+call.type$ -- 125
+change.case$ -- 779
+chr.to.int$ -- 123
+cite$ -- 140
+duplicate$ -- 9245
+empty$ -- 6139
+format.name$ -- 1012
+if$ -- 19353
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 959
-newline$ -- 635
-num.names$ -- 518
-pop$ -- 3218
+missing$ -- 984
+newline$ -- 651
+num.names$ -- 530
+pop$ -- 3305
 preamble$ -- 1
-purify$ -- 712
+purify$ -- 727
 quote$ -- 0
-skip$ -- 4939
+skip$ -- 5076
 stack$ -- 0
-substring$ -- 4130
-swap$ -- 7035
-text.length$ -- 38
+substring$ -- 4246
+swap$ -- 7235
+text.length$ -- 40
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1053
-warning$ -- 14
-while$ -- 587
+type$ -- 1080
+warning$ -- 15
+while$ -- 603
 width$ -- 0
-write$ -- 1629
+write$ -- 1672
 (There were 52 error messages)

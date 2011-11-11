@@ -1,4 +1,4 @@
-\begin{thebibliography}{122}
+\begin{thebibliography}{125}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -41,6 +41,12 @@
 \newblock
   \urlprefix\url{http://www.elearningeuropa.info/files/media/media11561.pdf}.
 
+\bibitem[{Bagnall(2009)}]{Bagnall2009}
+\textbf{Bagnall, R.~G.} (\textbf{2009}).
+\newblock \enquote{{Lifelong learning as an idea for our times: An extended
+  review}.}
+\newblock \emph{International Journal of Lifelong Education}, 28(2): 277--285.
+
 \bibitem[{Barrett(2008)}]{Barrett2008}
 \textbf{Barrett, H.} (\textbf{2008}).
 \newblock \enquote{{Categories of ePortfolio Tools}.}
@@ -71,6 +77,11 @@ s/Archive.aspx?releaseid=881188}.
 \newblock \enquote{{The emerging Web 2.0 social software: an enabling suite of
   sociable technologies in health and health care education}.}
 \newblock \emph{Health Information and Libraries Journal}, 24(1): 2--23.
+
+\bibitem[{Bourner(2002)}]{Bourner2002}
+\textbf{Bourner, T.} (\textbf{2002}).
+\newblock \enquote{{The reserach journey: four steps to success}.}
+\newblock chapter~2, pages 7--12. Arnold, London, 2nd edition.
 
 \bibitem[{Brakke and Brown(2002)}]{Brakke2002}
 \textbf{Brakke, D.~F. and Brown, D.~T.} (\textbf{2002}).
@@ -280,6 +291,14 @@ nts/ELLI\_EU\_eng\_final.pdf}.
   Rahnema, M., and Ward, F.~C.} (\textbf{1972}).
 \newblock \emph{{Learning to be; the world of education today and tomorrow}}.
 \newblock Harrap/UNESCO, Paris.
+
+\bibitem[{Felce(2011)}]{Felce2011}
+\textbf{Felce, A.} (\textbf{2011}).
+\newblock \enquote{{JISC Final Report ePPSME}.}
+\newblock Technical report, The University of Wolverhampton, Wolverhampton.
+\newblock
+  \urlprefix\url{http://www.jisc.ac.uk/media/documents/programmes/institutiona%
+linnovation/workforcedev/eppsmefinalreport.pdf}.
 
 \bibitem[{Field and Leicester(2003)}]{Field2003}
 \textbf{Field, J. and Leicester, M.} (\textbf{2003}).

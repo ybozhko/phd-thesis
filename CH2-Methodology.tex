@@ -1,5 +1,5 @@
 \chapter{Research Framework\label{cha:method}}
-%823words
+
 The main purpose of this chapter is to describe a research approach used in this
 study. The first section of the chapter identifies the objectives that need to
 be addressed in order to achieve the goal of this study, followed by the research
@@ -9,7 +9,7 @@ Design Science Research (DSR) methodology was adopted as the main research
 methodology of this study to address the research questions. This methodology
 emphasizes the problem-solving and performance-improving paradigms and is
 oriented towards creating and evaluating IT artifacts \citep{Hevner2004}. A
-six-stage research project framework is outlined in Section \ref{sec:method}
+five-stage research project framework is outlined in Section \ref{sec:method}
 which explains each stage of the project and the methods applied. Methodological
 limitations are brought to considerations in Section \ref{sec:limits}. This
 chapter concludes with the discussion of related work and projects carried out
@@ -17,24 +17,24 @@ in the area of \LLLsn.
 
 \section{Research Objectives}
 
-Understanding what kind of technical solution is required to effectively support
-\LLLs in universities is an overarching goal of this research. This goal brings
-up a number of objectives that need to be addressed:
+Understanding how \LLLs in universities can be effectively supported using
+technical solutions is an overarching goal of this research. This goal brings up
+a number of objectives that need to be addressed:
 \begin{description}
   \item[Objective 1.] To determine student and institutional requirements for a
-  \LLLs environment within the university context;
+  \LLLs environment within the university context.
   \item[Objective 2.] To map these requirements against the systems already used
-  in universities to support \LLLsn;
+  in universities to support \LLLsn.
   \item[Objective 3.] To design and implement the features required in an
-  environment that supports \LLLs to satisfy the defined requirements;
+  environment that supports \LLLs to satisfy the defined requirements.
   \item[Objective 4.] To evaluate how this environment meets the needs of all
   stakeholders in supporting \LLLsn.
 \end{description}
 
 \section{Research Questions}
 \label{sec:questions}
-Based on the context of the research objectives, this study addressed the
-following research questions supported by sub-questions:
+Based on the objectives, this study addressed the following research questions
+supported by sub-questions:
 
 \begin{description}
   \item[RQ1:] \textit{What is the concept of \LLLs and its connection to the
@@ -93,9 +93,9 @@ research study. A properly selected approach helps to obtain answers to the
 research questions while working within the framework that uses methods that
 have been verified and tested for validity \citep{Kumar2005}. Multi-paradigmatic
 field of ICT offers a number of methodologies drawn from the variety of research
-philisophies \citep{Vaishnavi2007}. This study follows design science research
+philosophies \citep{Vaishnavi2007}. This study follows design science research
 methodology that has become popular over the last five decades as fundamentally
-a problem-solving appoach \citep{Cross1993}.
+a problem-solving approach \citep{Cross1993}.
 
 \subsection{Design Science Research Methodology}
 
@@ -104,11 +104,11 @@ engineering and computer science where design is a component of the research
 process. \citet{Iivari2009} define DSR as \inlinequote{a research activity that
 invents or builds new, innovative artifacts for solving problems or achieving
 improvements}. This approach is used in ICT where there is a need to extend the
-existing boundaries of current systems or address the important problems by
-creating new and innovative solutions and artifacts \citep{Hevner2004}. The
-artifacts can be described as constructs (vocabulary of a domain), methods
-(algorithms), models (abstractions), instantiations (prototype systems), and
-better theories \citep{Hevner2010}.
+existing boundaries of the current systems or to address the important problems
+by creating new solutions and artifacts \citep{Hevner2004}. The artifacts can be
+described as constructs (vocabulary of a domain), methods (algorithms), models
+(abstractions), instantiations (prototype systems), and better theories
+\citep{Hevner2010}.
 
 Requirements for DSR contribution, defined by \citet{March2008}, include (1)
 identification of a problem, (2) demonstration that there are no existing
@@ -123,7 +123,7 @@ found in \citet{Vaishnavi2007} (see Figure \ref{fig:vaishnavi}).
 
 \begin{figure}[h!]
 \centering
-\includegraphics[height=0.75\textheight]{CH2-F1-Peffers}
+\includegraphics[height=0.76\textheight]{CH2-F1-Peffers}
 \caption[Design Science Research Methodology Process Model]{Design Science
 Research Methodology Process Model \citep{Peffers2008}}
 \label{fig:peffers}
@@ -134,7 +134,7 @@ Research Methodology Process Model \citep{Peffers2008}}
 \begin{figure}[htp]
 \centering
 \includegraphics[width=0.5\textwidth]{CH2-F2-Vaishnavi}
-\caption[Design Science Reseach Cycle]{Design Science Reseach Cycle
+\caption[Design Science Reseach Cycle]{Design Science Research Cycle
 \citep{Vaishnavi2007}}
 \label{fig:vaishnavi}
 \end{figure}
@@ -169,7 +169,7 @@ novel artifact, and its effectiveness with relevant research audiences; creating
 scholarly publications; presenting research findings at the conferences; and
 writing a project report \citep{Archer1984}. However, if no satisfying results
 have been reached at this stage of the research cycle, it might as well serve as
-a subject for further reseach.
+a subject for further research.
 
 To assist beginning researches, Hevner \citeyearpar{Hevner2004} identifies seven
 guidelines to follow for effective DSR:
@@ -185,7 +185,7 @@ guidelines to follow for effective DSR:
     artifact such as a construct, a model, a method or an instantiation \\ \hline
      Guideline 2: Problem Relevance & Research must develop technology-based
      solutions to important and relevant problems \\ \hline 
-     Guideline 3: Design Evaluation & Proper valuation mthods must be used to
+     Guideline 3: Design Evaluation & Proper valuation methods must be used to
      demonstrate artifact's quality and efficacy \\ \hline 
      Guideline 4: Research Contributions & Research must provide clear
      contributions to the research areas \\ \hline 
@@ -193,7 +193,7 @@ guidelines to follow for effective DSR:
      construction and evaluation of the artifacts \\ \hline 
      Guideline 6: Design as a Search Process & Research must incorporate a
      search process to find and effective solution to the problem \\ \hline
-     Guideline 7: Communication of Research & Research must be effectivey
+     Guideline 7: Communication of Research & Research must be effectively
      communicated to relevant audiences \\ \hline
     \end{tabular}
   \end{center}
@@ -203,47 +203,74 @@ guidelines to follow for effective DSR:
 In contrast to Hevner, \citet{Venable2010} argues that there is no common
 understanding of what kind of guidelines and standards should be used for
 effective DSR. However, based on analysis in the same work, the majority of
-researchers and DSR practitioners agree on a few points: DSR should address
-important problems, have an artifact that would help to solve the problem, and
-have some kind of evaluation of this artifact.
+respondents who are researchers and DSR practitioners agree on a few points: DSR
+should address important problems, have an artifact that would help to solve the
+problem, and have some kind of evaluation of this artifact.
 
 \subsection{Design Science Research Applied to This Project}
 
 The research framework in the current research is adapted from a DSR cycle
 established by \citet{Vaishnavi2007}. They identify five phases in the research
-model: (a) awareness of a problem, (b) suggestions of solution, (c) development,
-(d) demonstration and evaluation, and (e) conclusion and communication.
+model: (a) identification of a problem, (b) suggestions and objectives of a
+solution, (c) design and development, (d) demonstration and evaluation, and (e)
+conclusion and communication.
 
-\subsubsection{Stage 1. Problem identification and motivation}
+Figure \ref{fig:path} shows a research path of this project from the first
+to the last stage.
 
-The problem identified in the current research is not efficient technical
-support for \LLLs in universities.
+\begin{figure}[htb]
+\centering
+\includegraphics[width=1\textwidth]{CH2-F4-Path}
+\caption{The research path}
+\label{fig:path}
+\end{figure}
 
-\subsubsection{Stage 2. Objectives for a Solution}
+\subsubsection{Stage 1. Problem Identification and Motivation}
 
-To answer the reseach question on the concept of \LLLs and what tools can be
-used to support it, it is important to develop understanding of current
-situation and practices of \LLLs support. A comprehensive literature review
-and a review of the learning spaces was undertaken to address these questions.
+Any research project can be started either from the gap in the literature or
+when a problem that is worth solving exists \citep{Bourner2002}. Previous
+experience and observations of the existing problems in the field of study
+formed the background for this research. To define the main research topic,
+preliminary investigations were made as part of the field of study review. The
+problem identified in the current research is the difficulty in supporting
+students’ \LLLs in universities. Defining the research topic led to the research
+questions and objectives development which, in turn, formed the direction and
+focus of this project.
+
+\subsubsection{Stage 2. Objectives of a Solution}
+
+To answer the research question on the concept of \LLLs and what kind of
+environment can support it, it is important to develop understanding of
+current theories and practices of \LLLs support. A comprehensive literature
+review and a review of the learning spaces was undertaken to address these
+questions.
+
 However, this research did not rely on a literature review alone. A set of
-interviews with the stakeholders were organized to support literature finidings
-and identify the gaps that exsist in current \ep~systems.
+interviews with the stakeholders were organized to support literature findings
+and identify the gaps that exist in current \ep~systems. Interviewees were
+offered to look at the \ep~system from the \LLLs perspective and offer their
+solutions for supporting guiding principles and recommendations for successful
+\LLLs discovered in the literature.
+
+Interviews were audio recorded, transcribed and analyzed. The results were
+compiled into a set of formal software requirements specification to be
+implemented in a system prototype for the future evaluations.
 
 \subsubsection{Stage 3. Design and Development}
 
 In the development phase, the results of the literature review, interviews and
 requirements analysis were used to create a conceptual model of an \ep-supported
-environment which can facilitate students in \LLLs and be compatible with
+environment that can facilitate students in \LLLs and be compatible with
 university needs.
 
 A functionality, based on this model, was implemented in a prototype \ep~system.
-As requirements specifications was too large for the project of such size and
+As the requirements specification was too large for the project of such size and
 relatively short timeline, only priority requirements were implemented. The
 requirements were prioritized according to the feedback given by the interviews
-participants at the initial stages of the project. Due to this, a set of
-requirements for a better integration of the \ep~systems with LMS was left
-behind. Although, these requirements were not implemented they were still
-included into the conceptual model.
+participants at the initial stages of the project. Due to this, a number of
+requirements related to a better integration of the \ep~systems with LMS and
+usability improvements were left behind. Although these requirements were not
+implemented, they were still included into the conceptual model.
 
 Prototyping followed established software engineering practices that interleaved
 coding and revision, forming iterative development cycles, as it shown at
@@ -256,8 +283,12 @@ coding and revision, forming iterative development cycles, as it shown at
 \label{fig:prototype}
 \end{figure}
 
-Mahara \ep~system was used as an initial base system for a prototype. There
-are a number of reasons why this system was selected. Mahara is trusted,
+After each iteration was completed, the prototype was taken back to the
+stakeholders for feedback. This was necessary to understand what changes were
+required and to design further improvements.
+
+Mahara \ep~system was used as an initial base system for the prototype. There
+is a number of reasons why this system was selected. Mahara is a trusted and
 widely-used in universities (and at Massey University in particular) solution
 with a large community support. This system is open source which makes it easy
 to access and allows modifications like adding new features and changing the
@@ -265,23 +296,49 @@ existing ones. Mahara is a \textit{typical} representative of its category and
 provides all commonly available features. At the same time it is a leading edge
 system developed by using latest web technologies and programming practice.
 
-After each iteration was completed, the stakeholders were consulted for feedback
-and design of further improvements. 
-
-
-
 \subsubsection{Stage 4. Demonstration and Evaluation}
+\note{Do I need to write more about cases selection process, sample size, etc.,
+or should it go to the actual evaluation chapter?} 
 
 It is important for evaluation to be treated not as an isolated process, but as
-a part of design process \citep{Cleven2009}.
+a part of design process \citep{Cleven2009}. Although, the prototype was
+reviewed by the stakeholders after every development cycle, a complex evaluation
+of the overall concept was still required.
 
-Due to the context of this research -- \LLLsn, -- it had a complex evaluation
-design. 
+Due to the context of this research -- \LLLs perspective, -- time and resources
+constraints, and an extended \ep~system being a functional prototype, it was not 
+feasible to conduct evaluations in the real world settings. However, it was
+possible to develop a number of studies that looked into the specific aspects of
+\LLLs support and evaluated how well developed features satisfy the requirements 
+identified earlier by the stakeholders.
+ 
+As a result, features implemented in the prototype were evaluated from three
+different perspectives: 
 
-Case studies were used to evaluate prototype from the mature students
-perspective. This approach was favoured over others due to its internal and
-external validity, control and in-depth examination of each case
-\citep{Yin2009}.
+\begin{itemize}
+  \item Demonstrations of the prototype and its extended functionality were used
+  for exploratory evaluation with the lecturers. The aim was to explore how the
+  lecturers can integrate new features into their teaching to provide students
+  with guidance and help them to understand \LLLs skills.
+  
+  \item A set of experiments with various groups of undergraduate students was
+  undertaken to understand how added functionality can help them to address
+  institutional graduate attributes and lifelong learning skills. Three groups
+  with different levels of knowledge of \LLLs skills and experience of using
+  \ep~systems were involved in the experiments.
+
+  \item Case studies were used to evaluate prototype from the mature students
+  perspective. This approach was selected due to its internal and external
+  validity, control and in-depth examination of each case \citep{Yin2009}.
+  Participant with a different study background had access to the prototype for
+  an extended trial period of time and were able to get a better look at the new
+  features. At the end of the trial period, each participant was interviewed and
+  gave their feedback on the features they had used.
+  
+%  Strategy used to identify suitable cases. According to \citet{Stake1995},
+%  while selecting cases researchers should try to keep a balance between the
+%  uniqueness and the ordinariness.
+\end{itemize}
 
 \subsubsection{Stage 5. Conclusion and Communication}
 
@@ -293,28 +350,33 @@ Presentations} section of this thesis.
 \section{Methodological Limitations}
 \label{sec:limits}
 
-Any study and its findings should be weighed against methodological limitations.
-Acknowledging limitations is important for scientific progress as they might help
-to understand how research can be improved in the future \citep{Ioannidis2007}.
-Although, literature does not provide the explicit list of limitations of DSR
-methodology, they can still be derived from the limitations of methods used at
-each stage of the study. Therefore, the limitations considered in this research
-included:
+\note{Not sure what can be considered a limitation. The list contains only the
+ones I could think of\ldots}%
+
+Any study and its findings should be weighed against methodological
+limitations. Acknowledging limitations is important for scientific progress as
+they might help to understand how research can be improved in the future
+\citep{Ioannidis2007}. Although, literature does not explicitly describe
+limitations of DSR methodology, they can still be derived from the limitations
+of the methods used at each stage of the study. Therefore, the limitations
+considered in this research included:
 
 \begin{description}
-\item[Literature:] No explicit requirements for \LLLs support on a system level;
-\item[Sample size:] Sample size was relatively small due to the participants
-profile requirements;
+\item[Sample size:] Sample size for Stage 2 was relatively small due to the
+participants profile requirements. As well, snowballing sampling technique was
+used to find suitable student participants which might have influences the
+outcomes of this stage.
 \item[Prototyping:] Evaluated system was a prototype based on open source
 \ep~system Mahara which might have led to biased feedback as some participant
-were familiar with the system and already had their opinion about it;
-\item[Evaluation design:] Developing evaluation design was restricted by the
-scale of this research project, its time and resources constraints; 
-\item[Something else:]
+were familiar with the system and already had their opinion about it.
+\item[Evaluation:] Due to the nature and scale of this research project, its
+time and resources constraints, evaluation was not conducted in the real world
+settings. Instead, a set of case studies, experiments and exploratory
+evaluations have been undertaken.
 \end{description}
 
-More detailed analysis of limitations is discussed further in the relevant
-chapters.
+More detailed discussion of the limitations can be found further in the relevant
+chapters of this thesis.
 
 \section{Related Work}
 \label{sec:related}
@@ -336,12 +398,12 @@ of information and examples of previous research experience.
   education \citep{Freitas2006};
 
   \item The Regional Interoperability Project on Progression for Lifelong
-Learning\footnote{\url{http://www.jisc.ac.uk/whatwedo/programmes/edistributed/rippll.aspx
-}} (RIPPLL): This project was going to establish a model of cross-sector
-collaboration in personal development planning technology in the UK. The aim was
-to make interoperable all the major existing electronic systems for study-based
-progress files in use in further and higher education to provide an easier
-transition process from school to further education \citep{Hartnell-Young2006};
+Learning\footnote{\url{http://www.nottingham.ac.uk/rippll}} (RIPPLL): This
+project was going to establish a model of cross-sector collaboration in personal
+development planning technology in the UK. The aim was to make all the major
+existing electronic systems interoperable for study-based progress files that
+are used in further and higher education to provide an easier transition process
+from school to further education \citep{Hartnell-Young2006};
 
   \item ELGG-Moodle: In autumn 2006 Klagenfurt University, Austria was piloting
 the project aimed to integrated Moodle LMS and ELGG platform. This integration
@@ -350,21 +412,32 @@ provided integration between systems such as single login and file transfer
 \citep{Attwell2007}.
 
   \item Accessible \LLLc for Higher
-Education\footnote{\url{http://www.eu4all-project.eu}} (EU4ALL): a project
-started in 2006 and aimed to develop components and services for universities to
-make learning more accessible for both the students with functional diversity
-and the elderly. This project looks into provididing a better access to the
-electronic content and educational resources in higher education using a
-framework or a set of free tools that support mobile learning, audio recording
-transcription, DAISY digital books and other adaptations of contents based on
-the student's needs and preferences.
+  Education\footnote{\url{http://www.eu4all-project.eu}} (EU4ALL): A project
+  started in 2006 and aimed to develop components and services for universities
+  to make learning more accessible for both the students with functional
+  diversity and the elderly. This project looked into providing a better access
+  to the electronic content and educational resources in higher education using
+  a framework or a set of free tools that support mobile learning, audio
+  recording transcription, DAISY digital books and other adaptations of contents
+  based on the student's needs and preferences.
 
+  \item An ePortfolio based Pedagogy for Small to Medium-sized
+  Enterprises\footnote{\url{http://www.wlv.ac.uk/ePPSME}} (ePPSME): Finished
+  in 2011, this project provided higher education sector with reusable models
+  for an \ep-based pedagogy for work-based learners. This pedagogy addresses
+  the needs of learners with shortage of time, previous informal learning
+  experience, need for flexible delivery and quality of learning, and
+  opportunities to record achievements \citep{Felce2011}.
 \end{itemize}
 
 \section{Summary}
 
-This chapter explained the main research approach emplyed in this study to
-address the research questions.
+To address the objectives and research questions stated at the begining of the
+chapter, this research project follows DSR methodology. DSR is a problem solving
+approach that focuses on development and evaluation of innovative IT artifacts.
+This chapter outlined a five-stage research framework used in this work with
+each stage explained.
 
-Next chapter will look into the theory of \LLLs and how it is described in the
-literature that is used later to develop a basis for the study explorations.
+The next chapter will explore the literature to understand the concept of \LLLs
+and the requirements for its effifcient support. It will provide a background
+for the further theory development of this research.

@@ -10,7 +10,7 @@
 
 %%----------------------------------------------------------------------------------------
 % put a todo item in brackets, like   (todo: expand detail here )
-\newcommand {\todo}[1] {\emph{( todo:#1 )}}
+\newcommand {\note}[1] {\todo[inline]{#1}}
 
 % Put comments in a margin box
 \newcommand {\thought}[1]{\marginpar{#1}}
@@ -42,9 +42,6 @@
 
 \newcommand {\ep} {ePortfolio}
 
-\newcommand {\cmethods} {``Compare the Methods'' }
-\newcommand {\cresults} {``Compare the Results'' }
-
 % Registered (R) in a circle
 \def\registered{{\ooalign{\hfil\raise.05ex\hbox{\tiny{R}}\hfil\crcr\mathhexbox20D}}}
 
@@ -58,13 +55,13 @@
 %%==========================================================================================
 \newcommand {\shortquote}[1] {
    \noindent \begin{quote}
-     \emph{#1}
+     \emph{#1}todo
    \end{quote}}
 
 % Indented text, slightly smaller than usual, and italicised.
 \newcommand {\smallquote}[1] {\begin{quote}\noindent\small{\textit{#1}} \end{quote}}
 
-%%==========================================================================================
+%%===========================================+=======================
 \newcommand {\longquote}[1] {
    \noindent \begin{quotation}
      \emph{#1}
