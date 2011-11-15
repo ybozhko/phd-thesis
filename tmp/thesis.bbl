@@ -1,4 +1,4 @@
-\begin{thebibliography}{125}
+\begin{thebibliography}{133}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -106,6 +106,11 @@ s/Archive.aspx?releaseid=881188}.
 \newblock In N.~A. Buzzetto-More, editor, \enquote{The E-Portfolio Paradigm:
   Informing, Educating, Assessing, and Managing With E-Portfolios,} chapter~6,
   pages 109--139. Informing Science Press, Santa Rosa, California, USA.
+
+\bibitem[{Byrne(2001)}]{Byrne2001}
+\textbf{Byrne, M.} (\textbf{2001}).
+\newblock \enquote{{Sampling for qualitative research}.}
+\newblock \emph{AORN Journal}, 73(2): 494--498.
 
 \bibitem[{Cambridge(2010)}]{Cambridge2010}
 \textbf{Cambridge, D.} (\textbf{2010}).
@@ -312,6 +317,11 @@ linnovation/workforcedev/eppsmefinalreport.pdf}.
 \newblock
   \urlprefix\url{http://www.elearningeuropa.info/files/media/media15530.pdf}.
 
+\bibitem[{Gillham(2000)}]{Gillham2000}
+\textbf{Gillham, B.} (\textbf{2000}).
+\newblock \emph{{The Research Interview}}.
+\newblock Continuum, London.
+
 \bibitem[{G\"{o}rlitz et~al.(2010)G\"{o}rlitz, Seip, and
   Zacharias}]{Gorlitz2010}
 \textbf{G\"{o}rlitz, R., Seip, B., and Zacharias, V.} (\textbf{2010}).
@@ -437,6 +447,11 @@ linnovation/workforcedev/eppsmefinalreport.pdf}.
   framework}.}
 \newblock chapter~2, pages 39--65. RoutledgeFalmer, London; New York, NY.
 
+\bibitem[{Johnson(2001)}]{Johnson2001}
+\textbf{Johnson, J.~M.} (\textbf{2001}).
+\newblock \enquote{{In-depth Interviewing}.}
+\newblock chapter~5, pages 103--120. SAGE, London.
+
 \bibitem[{Katz(2005)}]{Katz2005}
 \textbf{Katz, R.~N.} (\textbf{2005}).
 \newblock \enquote{{Foreword: Growing up digital}.}
@@ -533,6 +548,14 @@ f}.
 \newblock \enquote{{An Overview of E-Portfolios}.}
 \newblock \urlprefix\url{http://net.educause.edu/ir/library/pdf/ELI3001.pdf}.
 
+\bibitem[{Mack et~al.(2005)Mack, Woodsong, MacQueen, Guest, and
+  Namey}]{Mack2005}
+\textbf{Mack, N., Woodsong, C., MacQueen, K.~M., Guest, G., and Namey, E.}
+  (\textbf{2005}).
+\newblock \emph{{Qualitative Research Methods: A Data Collector's Field Guid}}.
+\newblock Family Health International, North Carolina, USA.
+\newblock \urlprefix\url{http://www.fhi.org}.
+
 \bibitem[{MacMillan(2007)}]{MacMillan2007}
 \textbf{MacMillan, D.} (\textbf{2007}).
 \newblock \enquote{{Family Trees 2.0}.}
@@ -555,6 +578,11 @@ f}.
 \newblock \enquote{{Design Science in the Information Systems Discipline: An
   Introducation to the Special Issue on Design Science Research}.}
 \newblock \emph{MIS Quarterly}, 32(4): 725--730.
+
+\bibitem[{Marshall and Rossman(2011)}]{Marshall2010}
+\textbf{Marshall, C. and Rossman, G.~B.} (\textbf{2011}).
+\newblock \emph{{Designing qualitative research}}.
+\newblock SAGE, Los Angeles, 5 edition.
 
 \bibitem[{{Massey University}(2008)}]{MasseyUniversity2008}
 \textbf{{Massey University}} (\textbf{2008}).
@@ -693,12 +721,24 @@ on2002w.pdf}.
 \newblock
   \urlprefix\url{http://www.elearningeuropa.info/files/media/media15971.pdf}.
 
+\bibitem[{Schostak(2006)}]{Schostak2006}
+\textbf{Schostak, J.} (\textbf{2006}).
+\newblock \emph{{Interviewing and representation in qualitative research}}.
+\newblock Open University Press, Maidenhead.
+
 \bibitem[{Schuetze and Casey(2006)}]{Schuetze2006}
 \textbf{Schuetze, H.~G. and Casey, C.} (\textbf{2006}).
 \newblock \enquote{{Models and meanings of Lifelong Learning: progress and
   barriers on the road to a Learning Society}.}
 \newblock \emph{Compare: A Journal of Comparative and International Education},
   36(3): 279--287.
+
+\bibitem[{Shuy(2001)}]{Shuy2001}
+\textbf{Shuy, R.~W.} (\textbf{2001}).
+\newblock \enquote{{In-Person Versus Telephone Interviewing}.}
+\newblock In J.~F. Gubrium and J.~A. Holstein, editors, \enquote{Handbook of
+  interview research: context \& method,} chapter~26, pages 537--555. SAGE,
+  London.
 
 \bibitem[{Siemens(2004)}]{Siemens2004}
 \textbf{Siemens, G.} (\textbf{2004}).
@@ -778,6 +818,13 @@ portfolio\_scenarios/portfolios\_types.htm}.
 \newblock In R.~Winter, J.~Zhao, and S.~Aier, editors, \enquote{Proceedings of
   5th International Conference, DESRIST 2010,} pages 109--123. Springer, St.
   Gallen, Switzerland.
+
+\bibitem[{Warren(2001)}]{Warren2001}
+\textbf{Warren, C. A.~B.} (\textbf{2001}).
+\newblock \enquote{{Qualitative Interviewing}.}
+\newblock In J.~F. Gubrium and J.~A. Holstein, editors, \enquote{Handbook of
+  interview research: context \& method,} chapter~4, pages 83--101. SAGE,
+  London.
 
 \bibitem[{Waters(2009)}]{Waters2009}
 \textbf{Waters, J.~K.} \textbf{(2009, November~9)}.

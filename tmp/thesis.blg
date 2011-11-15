@@ -11,6 +11,8 @@ A level-1 auxiliary file: CH7-Evaluation.aux
 A level-1 auxiliary file: CH8-Discussion.aux
 A level-1 auxiliary file: CH9-Conclusion.aux
 The style file: bevbib4.bst
+A level-1 auxiliary file: A1.aux
+A level-1 auxiliary file: A2.aux
 Database file #1: references.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 You can't pop an empty literal stack for entry Attwell2007
@@ -74,6 +76,7 @@ while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry IMSGlobalLearningConsortium2005
 while executing---line 1597 of file bevbib4.bst
 Warning--empty booktitle in Jarvis2004
+Warning--empty booktitle in Johnson2001
 Warning--empty booktitle in Kay2008
 Warning--empty journal in LibraryTechnologyReports2007
 You can't pop an empty literal stack for entry Lombardi2008
@@ -124,6 +127,7 @@ You can't pop an empty literal stack for entry Schaffert2008
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry Schaffert2008
 while executing---line 1597 of file bevbib4.bst
+Warning--can't use both author and editor fields in Schostak2006
 You can't pop an empty literal stack for entry Siemens2004
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry Siemens2004
@@ -132,45 +136,45 @@ You can't pop an empty literal stack for entry UniversityofTorontoScarborough201
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry UniversityofTorontoScarborough2010
 while executing---line 1597 of file bevbib4.bst
-You've used 125 entries,
+You've used 133 entries,
             3124 wiz_defined-function locations,
-            1478 strings with 28112 characters,
-and the built_in function-call counts, 96084 in all, are:
-= -- 10748
-> -- 2299
-< -- 145
-+ -- 1156
-- -- 717
-* -- 5665
-:= -- 11718
-add.period$ -- 551
-call.type$ -- 125
-change.case$ -- 779
-chr.to.int$ -- 123
-cite$ -- 140
-duplicate$ -- 9245
-empty$ -- 6139
-format.name$ -- 1012
-if$ -- 19353
+            1528 strings with 29063 characters,
+and the built_in function-call counts, 102708 in all, are:
+= -- 11480
+> -- 2439
+< -- 158
++ -- 1230
+- -- 760
+* -- 6039
+:= -- 12487
+add.period$ -- 585
+call.type$ -- 133
+change.case$ -- 829
+chr.to.int$ -- 131
+cite$ -- 150
+duplicate$ -- 9902
+empty$ -- 6596
+format.name$ -- 1071
+if$ -- 20722
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 984
-newline$ -- 651
-num.names$ -- 530
-pop$ -- 3305
+missing$ -- 1057
+newline$ -- 692
+num.names$ -- 566
+pop$ -- 3539
 preamble$ -- 1
-purify$ -- 727
+purify$ -- 772
 quote$ -- 0
-skip$ -- 5076
+skip$ -- 5447
 stack$ -- 0
-substring$ -- 4246
-swap$ -- 7235
-text.length$ -- 40
+substring$ -- 4545
+swap$ -- 7749
+text.length$ -- 46
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1080
-warning$ -- 15
-while$ -- 603
+type$ -- 1140
+warning$ -- 17
+while$ -- 644
 width$ -- 0
-write$ -- 1672
+write$ -- 1777
 (There were 52 error messages)
