@@ -13,11 +13,6 @@
 \BOOKMARK [1][-]{section.2.3}{Research Approach}{chapter.2}
 \BOOKMARK [2][-]{subsection.2.3.1}{Design Science Research Methodology}{section.2.3}
 \BOOKMARK [2][-]{subsection.2.3.2}{Design Science Research Applied to This Project}{section.2.3}
-\BOOKMARK [3][-]{subsubsection.2.3.2.1}{Stage 1. Problem Identification and Motivation}{subsection.2.3.2}
-\BOOKMARK [3][-]{subsubsection.2.3.2.2}{Stage 2. Objectives of a Solution}{subsection.2.3.2}
-\BOOKMARK [3][-]{subsubsection.2.3.2.3}{Stage 3. Design and Development}{subsection.2.3.2}
-\BOOKMARK [3][-]{subsubsection.2.3.2.4}{Stage 4. Demonstration and Evaluation}{subsection.2.3.2}
-\BOOKMARK [3][-]{subsubsection.2.3.2.5}{Stage 5. Conclusion and Communication}{subsection.2.3.2}
 \BOOKMARK [1][-]{section.2.4}{Methodological Limitations}{chapter.2}
 \BOOKMARK [1][-]{section.2.5}{Related Work}{chapter.2}
 \BOOKMARK [1][-]{section.2.6}{Summary}{chapter.2}
@@ -37,12 +32,6 @@
 \BOOKMARK [1][-]{section.4.4}{ePortfolio}{chapter.4}
 \BOOKMARK [2][-]{subsection.4.4.1}{Characteristics of Portfolios and ePortfolio Systems}{section.4.4}
 \BOOKMARK [2][-]{subsection.4.4.2}{ePortfolio Systems Overview}{section.4.4}
-\BOOKMARK [3][-]{subsubsection.4.4.2.1}{PebblePad}{subsection.4.4.2}
-\BOOKMARK [3][-]{subsubsection.4.4.2.2}{Mahara}{subsection.4.4.2}
-\BOOKMARK [3][-]{subsubsection.4.4.2.3}{ELGG}{subsection.4.4.2}
-\BOOKMARK [3][-]{subsubsection.4.4.2.4}{BlackBoard ePortfolio}{subsection.4.4.2}
-\BOOKMARK [3][-]{subsubsection.4.4.2.5}{Desire2Learn}{subsection.4.4.2}
-\BOOKMARK [3][-]{subsubsection.4.4.2.6}{eFolio}{subsection.4.4.2}
 \BOOKMARK [2][-]{subsection.4.4.3}{ePortfolio Systems in Light of Lifelong Learning}{section.4.4}
 \BOOKMARK [1][-]{section.4.5}{Summary}{chapter.4}
 \BOOKMARK [0][-]{chapter.5}{Stakeholders Requirements for Lifelong Learning Support in Universities }{}
@@ -66,7 +55,7 @@
 \BOOKMARK [2][-]{subsection.6.3.2}{Concept Map Module}{section.6.3}
 \BOOKMARK [2][-]{subsection.6.3.3}{Artifacts' Fragments Extraction}{section.6.3}
 \BOOKMARK [2][-]{subsection.6.3.4}{Progress Tracking}{section.6.3}
-\BOOKMARK [2][-]{subsection.6.3.5}{Advanced Sharing}{section.6.3}
+\BOOKMARK [2][-]{subsection.6.3.5}{Advanced Sharing Options}{section.6.3}
 \BOOKMARK [1][-]{section.6.4}{Prototype Iterations and User Tests}{chapter.6}
 \BOOKMARK [1][-]{section.6.5}{Summary}{chapter.6}
 \BOOKMARK [0][-]{chapter.7}{Evaluation}{}
@@ -100,12 +89,14 @@
 \BOOKMARK [1][-]{section.9.2}{Research Contributions}{chapter.9}
 \BOOKMARK [1][-]{section.9.3}{Future Research}{chapter.9}
 \BOOKMARK [1][-]{section.9.4}{Conclusions}{chapter.9}
-\BOOKMARK [0][-]{section*.29}{Bibliography}{}
+\BOOKMARK [0][-]{section*.28}{Bibliography}{}
 \BOOKMARK [0][-]{appendix.A}{Ethics Documentation: Requirements Analysis}{}
 \BOOKMARK [1][-]{section.A.1}{Ethics Approval Letter}{appendix.A}
 \BOOKMARK [1][-]{section.A.2}{Information Sheet for Lecturers}{appendix.A}
 \BOOKMARK [1][-]{section.A.3}{Information Sheet for Students}{appendix.A}
 \BOOKMARK [1][-]{section.A.4}{Participant Consent Form}{appendix.A}
 \BOOKMARK [0][-]{appendix.B}{Interviews Documentation }{}
-\BOOKMARK [1][-]{section.B.1}{Questions used in the interviews with the lecturers}{appendix.B}
-\BOOKMARK [1][-]{section.B.2}{Scenario examples}{appendix.B}
+\BOOKMARK [1][-]{section.B.1}{Questions used in the interviews with lecturers}{appendix.B}
+\BOOKMARK [1][-]{section.B.2}{Lecturers scenario examples}{appendix.B}
+\BOOKMARK [1][-]{section.B.3}{Questions used in the interviews with students}{appendix.B}
+\BOOKMARK [1][-]{section.B.4}{Students scenario examples}{appendix.B}

@@ -6,7 +6,7 @@
 \usepackage{verbatim}
 \usepackage{graphicx}
 \usepackage{url}
-\usepackage{hyperref}
+\usepackage[linkbordercolor={0 .7 .7}, urlbordercolor={0 1 1}]{hyperref}
 \usepackage[round]{natbib}
 \usepackage{amsmath}
 \usepackage{amssymb}
@@ -14,6 +14,7 @@
 \usepackage[small, font=sf, labelfont={sf,bf}]{caption}
 \usepackage[final]{pdfpages}
 \usepackage{epigraph}
+\usepackage{supertabular}
 \usepackage{placeins}
 \usepackage[color=green!40, textsize=footnotesize]{todonotes} %disable
 
@@ -21,7 +22,7 @@
 \DeclareGraphicsExtensions{.jpeg,.png}
 
 \setcounter{secnumdepth}{3}
-\setcounter{tocdepth}{3} %should be 2
+\setcounter{tocdepth}{2} %should be 2
 \setlength{\parindent}{0.0in}
 \setlength{\parskip}{0.1in}
 \setlength{\epigraphwidth}{7cm}
@@ -30,6 +31,15 @@
 % Other things to set:
 \subject{Computer Science}
 \campus{Palmerston North} 
+
+\hypersetup{  
+  pdftitle = {Lifelong Learning in Universities Supported By ePortfolio
+  Process}, 
+  pdfauthor = {Yuliya Bozhko},
+  pdfsubject = {PhD Thesis},
+  pdfkeywords = {lifelong learning, ePortfolio},
+  pdfdisplaydoctitle = true  
+} 
 
 \begin{document}
 
@@ -97,7 +107,7 @@ I would like to thank...
 
 \fancyhead{}
 %\fancyhead[LE,RO]{\slshape \rightmark}
-\fancyhead[LO,RE]{\slshape \leftmark}
+\fancyhead[LE,RO]{\slshape \leftmark}
 
 \fancyfoot{} 
 \fancyfoot[LE,RO]{\thepage} 

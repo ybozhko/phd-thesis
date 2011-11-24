@@ -1,4 +1,4 @@
-\begin{thebibliography}{133}
+\begin{thebibliography}{136}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -310,6 +310,11 @@ linnovation/workforcedev/eppsmefinalreport.pdf}.
 \newblock \emph{{Lifelong learning: education across the lifespan}}.
 \newblock RoutledgeFalmer, London.
 
+\bibitem[{Flyvbjerg(2006)}]{Flyvbjerg2006}
+\textbf{Flyvbjerg, B.} (\textbf{2006}).
+\newblock \enquote{{Five Misunderstandings About Case-Study Research}.}
+\newblock \emph{Qualitative Inquiry}, 12(2): 219--245.
+
 \bibitem[{Freire(2008)}]{Freire2008}
 \textbf{Freire, J.} (\textbf{2008}).
 \newblock \enquote{{Universities and Web 2.0: Institutional Challenges}.}
@@ -502,6 +507,12 @@ f}.
 \newblock \emph{{Research methodology : a step-by-step guide for beginners}}.
 \newblock SAGE, London, 2nd edition.
 
+\bibitem[{Leffingwell(2011)}]{Leffingwell2011}
+\textbf{Leffingwell, D.} (\textbf{2011}).
+\newblock \emph{{Agile Software Requirements: Lean Requirements Practices for
+  Teams, Programs, and the Enterprise}}.
+\newblock Addison-Wesley Professional, 1 edition.
+
 \bibitem[{Leone(2010)}]{Leone2019}
 \textbf{Leone, S.} (\textbf{2010}).
 \newblock \enquote{{PLE: A Brick in the Construction of a Lifelong Learning
@@ -643,6 +654,12 @@ f}.
 \textbf{{New Zealand Ministry of Education}} (\textbf{2008}).
 \newblock \enquote{{Tertiary Education Strategy 2007-2012. Incorporating
   Statement of Tertiary Education Priorities 2008-2010}.}
+
+\bibitem[{Novak(2010)}]{Novak2010}
+\textbf{Novak, J.~D.} (\textbf{2010}).
+\newblock \emph{{Learning, creating, and using knowledge: concept maps as
+  facilitative tools in schools and corporations}}.
+\newblock Routledge, New York, NY, 2 edition.
 
 \bibitem[{Novak and Ca\~{n}as(2008)}]{Novak2008}
 \textbf{Novak, J.~D. and Ca\~{n}as, A.~J.} (\textbf{2008}).
