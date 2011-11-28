@@ -621,135 +621,199 @@ professional development.
 
 \section{Requirements Elicitation}
 
+This section operates with the terms commonly used in software engineering for
+requirements management. Based on \citet{Wiegers2003}, \textit{requirement} can
+be either a capability that must be implemented in a system, description of how
+the system should behave, or a property of the system. \textit{Feature} is a set
+of related requirements that provides users with a capability to satisfy their
+objectives or needs.
+
 The problems described in the previous sections were translated into a set of
-formal requirements for the future implementation. Due to the aim of this
+features to be considered for the future implementation. Due to the aim of this
 project to support students in \LLLs and in order to avoid the problem of
 conflicting project stakeholder priorities \citep{Leffingwell2011}, students'
-requirements were favoured over the reqiurements of lecturers.
+requirements were favoured over the requirements of lecturers. Some of the
+features, like systems integration, were not implemented because of the
+rapidly changing field of \ep~development. By the time the features were
+identified, some of them had already been included into system development
+road-maps. However, where it was required, these features were extended and
+added to the overall conceptual framework.
 
-Table \ref{tab:req} outlines the requirements developed to address various
-problems identified through the interviews. Where possible the requirements were
-mapped to the guiding recommendations discovered in the literature.
+Table \ref{tab:req} outlines the potential features identified through the
+interviews. Features were grouped according to the major themes developed
+through the interviews analysis. 
 
-\begin{center}
+\begin{center} \small
     \tablefirsthead{
      \hline
-     \multicolumn{1}{|c|}{\textbf{\LLLc Guidelines}} &
-     \multicolumn{1}{c|}{\textbf{Potential \ep~System Features}} \\
+     \multicolumn{1}{|c|}{\textbf{\#}} &
+     \multicolumn{1}{c|}{\textbf{Feature}} \\
      \hline}
     \tablehead{
      \hline
      \multicolumn{2}{|l|}{\small\sl continued from previous page}\\
      \hline
-     \multicolumn{1}{|c|}{\textbf{\LLLc Guidelines}} &
-     \multicolumn{1}{c|}{\textbf{Potential \ep~System Features}} \\
+     \multicolumn{1}{|c|}{\textbf{\#}} &
+     \multicolumn{1}{c|}{\textbf{Feature}} \\
      \hline} 
     \tabletail{
      \hline
      \multicolumn{2}{|r|}{\small\sl continued on next page}\\
      \hline}
     \tablelasttail{\hline} 
-	\bottomcaption{Requirements}
-    \begin{supertabular}{| p{6.5cm} | p{7cm} |} 
-     Support for all aspects of learning & 
-	 \small{-- Integration between the systems used in university;
+	\bottomcaption{Identified \ep~system features improvements and additions}
+    \begin{supertabular}{| c | p{13cm} |}
+    
+    \multicolumn{2}{|l|}{\bfit{Supporting course-related activities}} \\ \hline 
+	 I1 & Integration between an \ep~system and other systems used in
+	 university\\ \hline
+
+     I2 & Being able to submit \ep~work for formal evaluation \\ \hline
+     \hline 
+
+     \multicolumn{2}{|l|}{\bfit{Going beyond the course boundaries}} \\ \hline
+     B1 & Being able to link everything students learn as a way
+     of understanding development of knowledge and skills \\  \hline
      
-     -- Data transfer between systems;
+     B2 & Being able to point out opportunities for good examples of skills
+     development\\ \hline  
      
-     -- Being able to submit \ep~work for formal evaluation}
-     \\ \hline 
-     Learning recorded from various sources and maintained over a long  
-     period of time & 
-     \small{-- Data export/import between systems used in universities;
+     B3 & Support for a dialog between lecturers and students \\ \hline
+     \hline
+
+     \multicolumn{2}{|l|}{\bfit{Data flow between systems}} \\ \hline
+     D1 & Data transfer (export/import) between systems\\ \hline
      
-     -- Should take into account confidentiality and ethics issues; 
+     D2 & Being able to provide resolution of confidentiality, ownership, and
+     ethics issues \\ \hline
      
-     -- Should bulk export of everything that has been done in LMS;
+     D3 &  Being able to bulk export everything that has been done by a student
+     from LMS to \ep \\ \hline
      
-     -- Providing notifications about future access changes;
+     D4 & Providing notifications about future changes in access to the systems
+     provided by the university \\ \hline
      
-     -- Being able to set up automatic synchronization of the data
-     }  \\ \hline
+     D5 & Being able to set up automatic synchronization of the data  \\ \hline
+     \hline
+
+     \multicolumn{2}{|l|}{\bfit{Improved \ep~sharing}}\\ \hline 
+     C1 & Being able to \textit{pin} feedback to a specific part of
+     shared \ep \\ \hline
      
-     Guidance, Facilitation and Communication & 
-     \small{-- Being able to \textit{pin} feedback to a specific part of shared
-     \ep;
+     C2 & Being able to respond to given feedback \\ \hline
      
-     -- Being able to respond to given feedback; 
+     C3 & Being able to point out the changes made according to the feedback \\
+     \hline
      
-     -- Being able to record changes made according to the feedback;
+     C4 & Being able to share specific parts of \ep~with relevant audiences \\
+     \hline
      
-     -- Being able to share specific pieces of information with relevant
-     audiences;
+     C5 & Provide notifications about shared resources \\ \hline
      
-     -- Provide notifications about shared resources;
-     
-     -- Provide options for easy re-sharing of information and history of
-     access;
-     
-     -- Support for a dialog between lecturers and students} \\ \hline
-     
-     Developing awareness of the personal achievements, knowledge and learning
-     progress & 
-     \small{-- Being able to organize data in a timeline way that would show
-     progress towards some goals; 
-     
-     -- Be able to track and share achievements from a specific perspective.
-     Involves knowledge management and structuring, visualization of
-     information}  \\ \hline
-     
-     Organizing learning materials in the way that would help students learn how
-     they learn & 
-     \small{-- Building a link between the concepts of skills that are learnt
-     and the practical tasks that students do every day 
-     
-     -- Being able to point out opportunities for good examples of skills
-     developemnt;
-     
-     -- } \\ \hline
-          
-     Addressing high-order skills & 
-     \small{-- Provide a way of recording institutional graduate attributes and
-     other \LLLs skills; 
+     C6 & Provide options for easy re-sharing of information and history of
+     access \\ \hline
+     \hline
          
-     -- Being able to add own set of skills in addition to institutional
-     graduate attributes; 
+    \multicolumn{2}{|l|}{\bfit{Addressing graduate attributes}} \\ \hline
+     A1 & Provide a way of recording institutional graduate attributes and
+     other \LLLs skills \\ \hline
+         
+     A2 & Being able to add own set of skills in addition to institutional
+     graduate attributes \\ \hline
      
-     -- Being able to provide own definitions of the skills;
+     A3 & Being able to provide own understanding of the skills \\ \hline
      
-     -- Being able to link these skills to examples from the personal
-     repository;
+     A4 & Being able to link these skills to examples from the personal
+     repository \\ \hline
      
-     -- Being able to showcase achievements connected to these skills;      
+     A5 & Being able to showcase achievements connected to these skills \\
+     \hline
      
-     -- Being able to import institutional template with the list of graduate
-     attributes;}
-     \\  \hline
+     A6 & Being able to import institutional template with the list of graduate
+     attributes \\ \hline
+     \hline
+
+     \multicolumn{2}{|l|}{\bfit{Personal progress tracking}} \\ \hline
+     P1 & Being able to set up learning goals\\ \hline
      
-     Evaluation and reflection on one's own performance and learning progress &
-     \small{-- Being able to link through everything students learn as
-     a way of understanding development of knowledge and skills;
+     P2 & Being able to organize data in a timeline way that would show progress
+     towards the goals\\ \hline
      
-     -- Being able to see the changes in reflections from specific perspectives;
+     P3 & Be able to track and share achievements from a specific perspective
+     \\ \hline
+       
+     P4 & Being able to evaluate own learning progress \\ \hline
      
-     -- Being able to evaluate own learning progress
-     }  \\   \hline
+     P5 & Being able to see the changes in reflections, marks, or feedback from
+     specific perspectives \\   \hline
+     \hline
+     
+     \multicolumn{2}{|l|}{\bfit{\ep~knowledge management}} \\ \hline 
+     K1 & Being able to organize \ep~content in a way that would reflect their
+     learning\\ \hline
+     
+     K2 & Being able to establish a link between the concepts of skills
+     that are learnt and the practical tasks that are done every day\\ \hline  
+     
+     K3 & Being able to add reflections to any artifact in \ep~repository that
+     would suit specific purposes \\  \hline
+
     \end{supertabular}
     \label{tab:req}
 \end{center}
 
-These requirements were used in the prototype functionality development at the
-further stage of the project.
+Table \ref{tab:mapping} shows analytical mapping of these features to the
+recommendations for successful \LLLs discovered in the literature (Section
+\ref{sec:needs}).
+
+\begin{center} \small
+    \tablefirsthead{
+     \hline
+     \multicolumn{1}{|c|}{\textbf{Recommendation}} &
+     \multicolumn{1}{c|}{\textbf{Matching Features}} \\
+     \hline}
+    \tablehead{
+     \hline
+     \multicolumn{2}{|l|}{\small\sl continued from previous page}\\
+     \hline
+     \multicolumn{1}{|c|}{\textbf{Recommendation}} &
+     \multicolumn{1}{c|}{\textbf{Matching Features}} \\
+     \hline}
+    \tabletail{
+     \hline
+     \multicolumn{2}{|r|}{\small\sl continued on next page}\\
+     \hline}
+    \tablelasttail{\hline}
+	\bottomcaption{Matching features to the recommendations}
+    \begin{supertabular}{|l|l|}
+     G1 & I1, D1, I2 \\ \hline
+     G2 & C1, B2, A6 \\ \hline
+     G3 & B2, B3, C1 \\ \hline
+     G4 & K1, K2, B2 \\ \hline
+     G5 & C2, C3, C4, C5, C6 \\ \hline
+     G6 & D1, D2, D3, D4, D5 \\ \hline
+     G7 & P1, P2, P3 \\ \hline
+     G8 & A1, A2, A3, A4, A5, A6 \\ \hline
+     G9 & B1, P4, P5, K3 \\ \hline
+    \end{supertabular}
+    \label{tab:mapping}
+\end{center}
+
+At the next stage of this project, prototype implementation of the required
+features was aimed at partially supporting each guideline. Formal requirements
+specification for the implemented features can be found in the relevant sections
+of Chapter \ref{cha:prototype}.
 
 \section{Summary}
 
 This chapter explored \LLLs support from the perspective of the main
 stakeholders in university -- students and lecturers. The stakeholders were
-interviewed to discuss the guiding priciples and recommendations outlined in
+interviewed to discuss the guiding principles and recommendations outlined in
 Chapter \ref{cha:litrev}. All participants were invited to analyse the
 \ep~systems functionality, express their needs and suggest improvements or new
 features that would help to provide better support for students in \LLLsn.
-Information obtained from the interviews was translated into formal requirements
-specification. It allowed this research to move to the next stage of
-implementation of the prototype functionality. The next chapter will discuss
-development of this system prototype.
+Information obtained from the interviews was translated into potential features
+each mapped to the recommendations for successful \LLLsn. It allowed this
+project to move to the next stage of implementation of the prototype
+functionality. The next chapter will discuss design and development of this
+functional prototype.

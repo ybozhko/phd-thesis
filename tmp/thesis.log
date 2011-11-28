@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.18)  24 NOV 2011 16:04
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.18)  28 NOV 2011 16:16
 entering extended mode
  Source specials enabled.
  %&-line parsing enabled.
@@ -735,7 +735,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] <./images/CH1-F1-Thesis.png, id=677, 574.145pt x 353.32pt>
+[2] <./images/CH1-F1-Thesis.png, id=679, 574.145pt x 353.32pt>
 File: ./images/CH1-F1-Thesis.png Graphic file (type png)
 
 <use ./images/CH1-F1-Thesis.png>
@@ -782,11 +782,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7] <./images/CH2-F1-Peffers.png, id=739, 541.02126pt x 760.8425pt>
+[7] <./images/CH2-F1-Peffers.png, id=741, 541.02126pt x 760.8425pt>
 File: ./images/CH2-F1-Peffers.png Graphic file (type png)
 
 <use ./images/CH2-F1-Peffers.png>
-<./images/CH2-F2-Vaishnavi.png, id=744, 401.5pt x 436.63126pt>
+<./images/CH2-F2-Vaishnavi.png, id=746, 401.5pt x 436.63126pt>
 File: ./images/CH2-F2-Vaishnavi.png Graphic file (type png)
 
 <use ./images/CH2-F2-Vaishnavi.png>
@@ -819,7 +819,7 @@ Underfull \hbox (badness 1552) in paragraph at lines 188--189
 [][]\OT1/cmr/m/n/10.95 Proper val-u-a-tion meth-ods must be
  []
 
-<./images/CH2-F4-Path.png, id=778, 1415.2875pt x 586.19pt>
+<./images/CH2-F4-Path.png, id=780, 1415.2875pt x 586.19pt>
 File: ./images/CH2-F4-Path.png Graphic file (type png)
 
 <use ./images/CH2-F4-Path.png>
@@ -840,7 +840,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [11 <./images/CH2-F4-Path.png>]
-<./images/CH2-F3-Prototype.png, id=795, 263.98625pt x 285.065pt>
+<./images/CH2-F3-Prototype.png, id=797, 263.98625pt x 285.065pt>
 File: ./images/CH2-F3-Prototype.png Graphic file (type png)
 
 <use ./images/CH2-F3-Prototype.png>
@@ -903,7 +903,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18] <./images/CH3-F1-Learning.png, id=906, 579.66562pt x 599.99156pt>
+[18] <./images/CH3-F1-Learning.png, id=908, 579.66562pt x 599.99156pt>
 File: ./images/CH3-F1-Learning.png Graphic file (type png)
 
 <use ./images/CH3-F1-Learning.png>
@@ -923,7 +923,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20] <./images/CH3-F2-CLI.png, id=944, 634.37pt x 620.3175pt>
+[20] <./images/CH3-F2-CLI.png, id=946, 634.37pt x 620.3175pt>
 File: ./images/CH3-F2-CLI.png Graphic file (type png)
 
 <use ./images/CH3-F2-CLI.png>
@@ -937,7 +937,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [21 <./images/CH3-F2-CLI.png (PNG copy)>]
-<./images/CH3-F3-LLLFramework.png, id=972, 574.145pt x 262.9825pt>
+<./images/CH3-F3-LLLFramework.png, id=974, 574.145pt x 262.9825pt>
 File: ./images/CH3-F3-LLLFramework.png Graphic file (type png)
 
 <use ./images/CH3-F3-LLLFramework.png>
@@ -955,7 +955,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [23 <./images/CH3-F3-LLLFramework.png>]
-<./images/CH3-F4-LLLDimension.png, id=1010, 654.445pt x 320.19624pt>
+<./images/CH3-F4-LLLDimension.png, id=1012, 654.445pt x 320.19624pt>
 File: ./images/CH3-F4-LLLDimension.png Graphic file (type png)
 
 <use ./images/CH3-F4-LLLDimension.png>
@@ -1015,7 +1015,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30] <./images/CH4-F0-WEB20.png, id=1172, 1068.99374pt x 654.445pt>
+[30] <./images/CH4-F0-WEB20.png, id=1174, 1068.99374pt x 654.445pt>
 File: ./images/CH4-F0-WEB20.png Graphic file (type png)
 
 <use ./images/CH4-F0-WEB20.png>
@@ -1049,7 +1049,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[34] <./images/CH4-F1-EP.png, id=1271, 663.98062pt x 432.86719pt>
+[34] <./images/CH4-F1-EP.png, id=1273, 663.98062pt x 432.86719pt>
 File: ./images/CH4-F1-EP.png Graphic file (type png)
 
 <use ./images/CH4-F1-EP.png>
@@ -1073,7 +1073,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[37] <./images/CH4-F3-PebblePad.png, id=1313, 969.6225pt x 704.6325pt>
+[37] <./images/CH4-F3-PebblePad.png, id=1315, 969.6225pt x 704.6325pt>
 File: ./images/CH4-F3-PebblePad.png Graphic file (type png)
 
 <use ./images/CH4-F3-PebblePad.png>
@@ -1084,7 +1084,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [38 <./images/CH4-F3-PebblePad.png>]
-<./images/CH4-F4-Mahara.png, id=1330, 982.67125pt x 707.64375pt>
+<./images/CH4-F4-Mahara.png, id=1332, 982.67125pt x 707.64375pt>
 File: ./images/CH4-F4-Mahara.png Graphic file (type png)
 
 <use ./images/CH4-F4-Mahara.png>
@@ -1105,7 +1105,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [40 <./images/CH4-F4-Mahara.png>]
-<./images/CH4-F5-ELGG.png, id=1350, 996.72375pt x 692.5875pt>
+<./images/CH4-F5-ELGG.png, id=1352, 996.72375pt x 692.5875pt>
 File: ./images/CH4-F5-ELGG.png Graphic file (type png)
 
 <use ./images/CH4-F5-ELGG.png>
@@ -1118,7 +1118,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41] <./images/CH4-F6-BB.png, id=1359, 533.995pt x 389.455pt>
+[41] <./images/CH4-F6-BB.png, id=1361, 533.995pt x 389.455pt>
 File: ./images/CH4-F6-BB.png Graphic file (type png)
 
 <use ./images/CH4-F6-BB.png>
@@ -1139,7 +1139,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [43 <./images/CH4-F6-BB.png (PNG copy)>]
-<./images/CH4-F7-D2L.png, id=1388, 536.0025pt x 387.4475pt>
+<./images/CH4-F7-D2L.png, id=1390, 536.0025pt x 387.4475pt>
 File: ./images/CH4-F7-D2L.png Graphic file (type png)
 
 <use ./images/CH4-F7-D2L.png>
@@ -1156,7 +1156,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45] <./images/CH4-F8-eFolio.png, id=1417, 762.85pt x 746.79pt>
+[45] <./images/CH4-F8-eFolio.png, id=1419, 762.85pt x 746.79pt>
 File: ./images/CH4-F8-eFolio.png Graphic file (type png)
 
 <use ./images/CH4-F8-eFolio.png>
@@ -1612,7 +1612,7 @@ Appendix A.
 
 
 ]
-<appendix/Low-Risk-Notification-2009.pdf, id=1791, page=1, 598.235pt x 845.1575
+<appendix/Low-Risk-Notification-2009.pdf, id=1800, page=1, 598.235pt x 845.1575
 pt>
 File: appendix/Low-Risk-Notification-2009.pdf Graphic file (type pdf)
  <use appendix/Low-Risk-Notification-2009.pdf, page 1>
@@ -1634,7 +1634,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: appendix/Low-Risk-Notification-2009.pdf Graphic file (type pdf)
 <use appendix/Low-Risk-Notification-2009.pdf, page 1> [92 <./appendix/Low-Risk-
 Notification-2009.pdf, page is rotated 90 degrees>]
-<appendix/Lecturer_sheet_1.pdf, id=1800, page=1, 598.235pt x 845.1575pt>
+<appendix/Lecturer_sheet_1.pdf, id=1809, page=1, 598.235pt x 845.1575pt>
 File: appendix/Lecturer_sheet_1.pdf Graphic file (type pdf)
 
 <use appendix/Lecturer_sheet_1.pdf, page 1>
@@ -1656,7 +1656,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: appendix/Lecturer_sheet_1.pdf Graphic file (type pdf)
 <use appendix/Lecturer_sheet_1.pdf, page 1> [93 <./appendix/Lecturer_sheet_1.pd
 f, page is rotated 90 degrees>]
-<appendix/Lecturer_sheet_2.pdf, id=1809, page=1, 598.235pt x 845.1575pt>
+<appendix/Lecturer_sheet_2.pdf, id=1818, page=1, 598.235pt x 845.1575pt>
 File: appendix/Lecturer_sheet_2.pdf Graphic file (type pdf)
 
 <use appendix/Lecturer_sheet_2.pdf, page 1>
@@ -1673,7 +1673,7 @@ File: appendix/Lecturer_sheet_2.pdf Graphic file (type pdf)
 
 <use appendix/Lecturer_sheet_2.pdf, page 1> [94 <./appendix/Lecturer_sheet_2.pd
 f, page is rotated 90 degrees>]
-<appendix/Student_sheet_1.pdf, id=1818, page=1, 598.235pt x 845.1575pt>
+<appendix/Student_sheet_1.pdf, id=1827, page=1, 598.235pt x 845.1575pt>
 File: appendix/Student_sheet_1.pdf Graphic file (type pdf)
 
 <use appendix/Student_sheet_1.pdf, page 1>
@@ -1695,7 +1695,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: appendix/Student_sheet_1.pdf Graphic file (type pdf)
 <use appendix/Student_sheet_1.pdf, page 1> [95 <./appendix/Student_sheet_1.pdf,
  page is rotated 90 degrees>]
-<appendix/Student_sheet_2.pdf, id=1827, page=1, 598.235pt x 845.1575pt>
+<appendix/Student_sheet_2.pdf, id=1836, page=1, 598.235pt x 845.1575pt>
 File: appendix/Student_sheet_2.pdf Graphic file (type pdf)
 
 <use appendix/Student_sheet_2.pdf, page 1>
@@ -1712,7 +1712,7 @@ File: appendix/Student_sheet_2.pdf Graphic file (type pdf)
 
 <use appendix/Student_sheet_2.pdf, page 1> [96 <./appendix/Student_sheet_2.pdf,
  page is rotated 90 degrees>]
-<appendix/Concent_form.pdf, id=1837, page=1, 598.235pt x 845.1575pt>
+<appendix/Concent_form.pdf, id=1846, page=1, 598.235pt x 845.1575pt>
 File: appendix/Concent_form.pdf Graphic file (type pdf)
 
 <use appendix/Concent_form.pdf, page 1>
@@ -1761,31 +1761,32 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 (./CH5-ConceptualModel.aux) (./CH6-Development.aux) (./CH7-Evaluation.aux)
 (./CH8-Discussion.aux) (./CH9-Conclusion.aux) (./A1.aux) (./A2.aux)) ) 
 Here is how much of TeX's memory you used:
- 17238 strings out of 495061
- 300096 string characters out of 1182620
- 367234 words of memory out of 3000000
- 19517 multiletter control sequences out of 15000+50000
- 18748 words of font info for 71 fonts, out of 3000000 for 9000
+ 17248 strings out of 495061
+ 300234 string characters out of 1182620
+ 368372 words of memory out of 3000000
+ 19524 multiletter control sequences out of 15000+50000
+ 19415 words of font info for 73 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  63i,18n,80p,425b,671s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/pub
-lic/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
-s/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.p
-fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/shar
-e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texli
-ve/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type
-1/public/amsfonts/cm/cmsl10.pfb></usr/share/texmf-texlive/fonts/type1/public/am
-sfonts/cm/cmss10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
-mssbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/shar
-e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on thesis.pdf (119 pages, 4654552 bytes).
+/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-texlive/fonts/type1/pu
+blic/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
+nts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/cm/cmsl10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
+/cmss10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssbx10.p
+fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
+are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/font
+s/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on thesis.pdf (119 pages, 4673024 bytes).
 PDF statistics:
- 1997 PDF objects out of 2073 (max. 8388607)
- 418 named destinations out of 1000 (max. 500000)
+ 2009 PDF objects out of 2073 (max. 8388607)
+ 420 named destinations out of 1000 (max. 500000)
  1004 words of extra memory for PDF output out of 10000 (max. 10000000)
 

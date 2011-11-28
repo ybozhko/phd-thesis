@@ -136,45 +136,45 @@ You can't pop an empty literal stack for entry UniversityofTorontoScarborough201
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry UniversityofTorontoScarborough2010
 while executing---line 1597 of file bevbib4.bst
-You've used 136 entries,
+You've used 137 entries,
             3124 wiz_defined-function locations,
-            1546 strings with 29534 characters,
-and the built_in function-call counts, 104573 in all, are:
-= -- 11682
-> -- 2469
-< -- 161
-+ -- 1248
-- -- 769
-* -- 6139
-:= -- 12725
-add.period$ -- 595
-call.type$ -- 136
-change.case$ -- 846
-chr.to.int$ -- 134
-cite$ -- 153
-duplicate$ -- 10086
-empty$ -- 6736
-format.name$ -- 1083
-if$ -- 21100
+            1552 strings with 29732 characters,
+and the built_in function-call counts, 105005 in all, are:
+= -- 11716
+> -- 2479
+< -- 162
++ -- 1252
+- -- 772
+* -- 6167
+:= -- 12795
+add.period$ -- 598
+call.type$ -- 137
+change.case$ -- 852
+chr.to.int$ -- 135
+cite$ -- 154
+duplicate$ -- 10122
+empty$ -- 6778
+format.name$ -- 1087
+if$ -- 21189
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 1080
-newline$ -- 707
-num.names$ -- 578
-pop$ -- 3603
+missing$ -- 1088
+newline$ -- 712
+num.names$ -- 582
+pop$ -- 3618
 preamble$ -- 1
-purify$ -- 787
+purify$ -- 792
 quote$ -- 0
-skip$ -- 5545
+skip$ -- 5558
 stack$ -- 0
-substring$ -- 4627
-swap$ -- 7883
+substring$ -- 4638
+swap$ -- 7899
 text.length$ -- 46
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1161
+type$ -- 1167
 warning$ -- 17
-while$ -- 656
+while$ -- 659
 width$ -- 0
-write$ -- 1816
+write$ -- 1829
 (There were 52 error messages)

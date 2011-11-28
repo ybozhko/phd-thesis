@@ -1,4 +1,4 @@
-\begin{thebibliography}{136}
+\begin{thebibliography}{137}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -860,6 +860,12 @@ portfolio\_scenarios/portfolios\_types.htm}.
 \newblock \enquote{{The good, the bad and the wiki: Evaluating
   student-generated content for collaborative learning}.}
 \newblock \emph{British Journal of Educational Technology}, 39(6): 987--995.
+
+\bibitem[{Wiegers(2003)}]{Wiegers2003}
+\textbf{Wiegers, K.~E.} (\textbf{2003}).
+\newblock \emph{{Software requirements: practical techniques for gathering and
+  managing requirements throughout the product development cycle}}.
+\newblock Microsoft Press, Redmond, Washington, 2 edition.
 
 \bibitem[{Wirtz et~al.(2010)Wirtz, Schilke, and Ullrich}]{Wirtz2010}
 \textbf{Wirtz, B.~W., Schilke, O., and Ullrich, S.} (\textbf{2010}).
