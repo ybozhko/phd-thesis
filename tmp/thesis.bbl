@@ -1,4 +1,4 @@
-\begin{thebibliography}{137}
+\begin{thebibliography}{142}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -111,6 +111,16 @@ s/Archive.aspx?releaseid=881188}.
 \textbf{Byrne, M.} (\textbf{2001}).
 \newblock \enquote{{Sampling for qualitative research}.}
 \newblock \emph{AORN Journal}, 73(2): 494--498.
+
+\bibitem[{Ca\~{n}as(2003)}]{Canas2003}
+\textbf{Ca\~{n}as, A.~J.} (\textbf{2003}).
+\newblock \enquote{{A Summary of Literature Pertaining to the Use of Concept
+  Mapping Techniques and Technologies for Education and Performance Support}.}
+\newblock Technical report, The Institute for Human and Machine Cognition,
+  Pensacola, FL.
+\newblock
+  \urlprefix\url{http://www.ihmc.us/users/acanas/Publications/ConceptMapLitRev%
+iew/IHMC Literature Review on Concept Mapping.pdf}.
 
 \bibitem[{Cambridge(2010)}]{Cambridge2010}
 \textbf{Cambridge, D.} (\textbf{2010}).
@@ -619,6 +629,14 @@ f}.
 \newblock \emph{{Revisiting Lifelong Learning for the 21st Century}}.
 \newblock UNESCO Institute for Education, Hamburg, Germany.
 
+\bibitem[{{Media Fragments Working Group}(2011)}]{MediaGroup2011}
+\textbf{{Media Fragments Working Group}} (\textbf{2011}).
+\newblock \enquote{{Media Fragments URI 1.0}.}
+\newblock
+  \urlprefix\url{http://www.w3.org/2008/WebVideo/Fragments/WD-media-fragments-%
+spec}.
+\newblock W3C Working Draft 29 November 2011. World Wide Web Consortium.
+
 \bibitem[{Metzger and Flanagin(2011)}]{Metzger2011}
 \textbf{Metzger, M.~J. and Flanagin, A.~J.} (\textbf{2011}).
 \newblock \enquote{{Using web 2.0 technologies to enhance evidence-based
@@ -693,6 +711,11 @@ f}.
   \urlprefix\url{http://engaging-online-learning.blogspot.com/2009/08/eportfol%
 ios-in-engineering-advantages.html}.
 
+\bibitem[{Patton(2002)}]{Patton2002}
+\textbf{Patton, M.~Q.} (\textbf{2002}).
+\newblock \emph{{Qualitative research \& evaluation methods}}.
+\newblock Sage Publications, Thousand Oaks, California, 3 edition.
+
 \bibitem[{{Pebble Learning Ltd}(2010)}]{PebbleLearningLtd2010}
 \textbf{{Pebble Learning Ltd}} (\textbf{2010}).
 \newblock \enquote{{PebblePad Functional Overview}.}
@@ -716,6 +739,15 @@ ios-in-engineering-advantages.html}.
 \newblock \enquote{{Australian universities, generic skills and lifelong
   learning}.}
 \newblock \emph{International Journal of Lifelong Education}, 28(4): 439--458.
+
+\bibitem[{Quinlan et~al.(2008)Quinlan, Kane, and Trochim}]{Quinlan2008}
+\textbf{Quinlan, K.~M., Kane, M., and Trochim, W. M.~K.} (\textbf{2008}).
+\newblock \enquote{{Evaluation of large research initiatives: Outcomes,
+  challenges, and methodological considerations}.}
+\newblock In C.~L. Coryn and M.~Scriven, editors, \enquote{Reforming the
+  evaluation of research. New Directions for Evaluation,} volume 118, pages
+  61--72. Jossey-Bass and American Evalution Association, Vancouver, B.C.
+\newblock doi:10.1002/ev.261.
 
 \bibitem[{Rubenson(2002)}]{Rubenson2002}
 \textbf{Rubenson, K.} (\textbf{2002}).
@@ -775,6 +807,12 @@ on2002w.pdf}.
 \textbf{Sommerville, I.} (\textbf{2007}).
 \newblock \emph{{Software engineering}}.
 \newblock Addison-Wesley, New York, 8th edition.
+
+\bibitem[{Strauss and Corbin(2008)}]{Strauss2008}
+\textbf{Strauss, A.~L. and Corbin, J.} (\textbf{2008}).
+\newblock \emph{{Basics of qualitative research: techniques and procedures for
+  developing grounded theory}}.
+\newblock SAGE, London, 3 edition.
 
 \bibitem[{Sutherland and Crowther(2006)}]{Sutherland2006}
 \textbf{Sutherland, P. and Crowther, J.} (\textbf{2006}).
