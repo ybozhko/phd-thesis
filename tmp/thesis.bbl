@@ -1,4 +1,4 @@
-\begin{thebibliography}{142}
+\begin{thebibliography}{143}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -604,6 +604,13 @@ f}.
 \textbf{Marshall, C. and Rossman, G.~B.} (\textbf{2011}).
 \newblock \emph{{Designing qualitative research}}.
 \newblock SAGE, Los Angeles, 5 edition.
+
+\bibitem[{Marzano et~al.(1993)Marzano, Pickering, and McTighe}]{Marzano1993}
+\textbf{Marzano, R.~J., Pickering, D., and McTighe, J.} (\textbf{1993}).
+\newblock \emph{{Assessing Student Outcomes: Performance Assessment Using the
+  Dimensions of Learning Model}}.
+\newblock Association for Supervision and Curriculum Development, Alexandria,
+  VA.
 
 \bibitem[{{Massey University}(2008)}]{MasseyUniversity2008}
 \textbf{{Massey University}} (\textbf{2008}).

@@ -1,5 +1,5 @@
 \chapter{Prototype - Development and Implementation\label{cha:prototype}}
-%657
+%2900
 This chapter presents design and implementation of the \ep~aided environment
 that provides support for \LLLs in universities.
 
@@ -40,23 +40,26 @@ prototype.
 Features that involved LMS environment were not considered for implementation,
 as there were enough road-map specifications discovered in the area of
 \ep~development that included integration and data transfer between LMS and an
-\ep~system. As well, stakeholders did not identified LMS functionality as
-important one in \LLLs context. However, LMS was still described in overall
-architecture as there were a number of improvements required.
+\ep~system. As well, stakeholders had not identified LMS functionality as an
+important one in \LLLs context. Due to this, guidelines G1 and G6 that would
+have involved LMS modifications were not supported by implementations and are
+not discussed further in this section. However, LMS is still included in overall
+architecture.
 
 \section{Development Toolkit}
 
 Using Mahara \ep~system as an initial system defined technologies that were
-employed in development phase. Development and prototype environments were
-installed on LAMP\footnote{\url{http://en.wikipedia.org/wiki/LAMP_(software_bundle)}}
+employed in development phase. Development and prototype systems were installed
+on LAMP\footnote{\url{http://en.wikipedia.org/wiki/LAMP_(software_bundle)}}
 software bundle for Linux which included Apache HTTP Server, MySQL database
 server and PHP. These were the basic components for building a general purpose
 web server.
 
-The Eclipse\footnote{\url{http://www.eclipse.org}} Platform with PHP Development
-Tools\footnote{\url{http://eclipse.org/pdt}} was used for implementation.
+Development environment consisted of the
+Eclipse\footnote{\url{http://www.eclipse.org}} Platform with PHP Development
+Tools\footnote{\url{http://eclipse.org/pdt}}.
 
-Following standards and external packages were used in development:
+Following standards and external packages were used during implementation:
 
 \begin{itemize}
 
@@ -93,46 +96,85 @@ embedded video/audio, used in artifact's fragments, were not used in testing.
 
 Components added to the standard Mahara \ep~installation were expected to
 address the requirements developed by the stakeholders and derived from the
-literature review.
+literature review. In most cases, the stakeholders provided their own vision of
+what kind of features could have been implemented to solve particular problems.
+Their suggestions were used during development. In some cases when the
+stakeholders could not propose any suitable solution, it was necessary to refer
+to other domains and analyse solution to similar problems. Most suitable, as
+well as feasible for development, approach was implemented.
 
-Table \ref{tab:implement} matches implemented components to the requested
-features.
+Table \ref{tab:implement} matches implemented components to the guidelines they
+support and the requested features. Guidelines and features identifiers used in
+this table were described in Sections \ref{sec:needs} and \ref{sec:elicit},
+respectively.
 
 \begin{center} \small
     \tablefirsthead{
      \hline
-     \multicolumn{1}{|c|}{\textbf{Component}} &
-     \multicolumn{1}{c|}{\textbf{Feature}} \\
-     \hline}
+     \multicolumn{1}{|c||}{} &
+     \multicolumn{5}{c|}{\textbf{Implemented components}} \\ \cline{2-6}}
     \tablehead{
      \hline
-     \multicolumn{2}{|l|}{\small\sl continued from previous page}\\
+     \multicolumn{6}{|l|}{\small\sl continued from previous page}\\
      \hline
-     \multicolumn{1}{|c|}{\textbf{Component}} &
-     \multicolumn{1}{c|}{\textbf{Feature}} \\
-     \hline} 
+     \multicolumn{1}{|c||}{} &
+     \multicolumn{5}{c|}{\textbf{Implemented components}} \\  \hline} 
     \tabletail{
      \hline
-     \multicolumn{2}{|r|}{\small\sl continued on next page}\\
-     \hline}
+     \multicolumn{6}{|r|}{\small\sl continued on next page}\\ \hline}
     \tablelasttail{\hline} 
 	\bottomcaption{Implemented \ep~system components}
-    \begin{supertabular}{| p{6cm} | p{6cm} |}
-    Version control elements & \\ \hline
-    Concept mapping module & \\ \hline
-    Artifacts' fragments extraction & \\ \hline
-    Learning progress tracking & \\ \hline
-    Advanced sharing options & \\ \hline
+    \begin{supertabular}{| c || p{2cm} | p{2cm} | p{2cm} | p{2cm} | p{2cm} |}
+     \textbf{Guidelines} & 
+     \textit{Version \newline control \newline Section \ref{sec:version}} & 
+     \textit{Concept mapping \newline Section \ref{sec:mapping}} & 
+     \textit{Artifacts' fragments \newline Section \ref{sec:frag}} & 
+     \textit{Progress tracking \newline Section \ref{sec:timeline}} & 
+     \textit{Advanced \newline sharing \newline Section \ref{sec:sharing}} \\
+     \hline \hline
+     \rowcolor[gray]{.8} G1 & & & & & \\ \hline
+     G2 & I3 & & & C1 & B3\\ \hline
+     G3 & I3 & & & & B3 \\ \hline
+     G4 & & K1, K2 & K2 & & \\ \hline
+     G5 & C2, C3, C4 & & C4 & & C5, C6 \\ \hline
+     \rowcolor[gray]{.8} G6 & & & & & \\ \hline
+     G7 & & P1 & & P1, P2, P3 & \\ \hline
+     G8 & & A1, A2, A3, \newline A4, A5, A6 & & & \\ \hline
+     G9 & & B1 & K3 & P4, P5 & \\ \hline
     \end{supertabular}
     \label{tab:implement}
 \end{center}
 
-\subsection{Version Control Elements}
+Table \ref{tab:implement} also shows that, as it has been initially planned,
+implementations are covering at least partially each of the guidelines. Formal
+requirements for each component are described in the relevant sections of
+Appendix \ref{app:specification}. Detailed screenshots of the interface can be
+found in Appendix \ref{cha:appscreen}.
 
-Screenshots for every feature.
+\subsection{Version Control Elements}
+\label{sec:version}
+Implementing this feature was very straightforward compared to other features.
+Suggested by the stakeholders functionality of having versions of the shareable
+resources was easy to fit into \ep~system. Versioning was implemented in a
+simple way that allowed only \textit{parent} $\to$ \textit{child} relationship
+between versions and did not support versions branching as in complex revision
+control systems. As well, this component does not perform an automated
+difference analysis between versions because pages can incorporate both textual
+and block elements that would make it technically difficult and time consuming to
+implement this kind of analysis. Therefore, analysing the difference between
+versions was left for users.
+ 
+As can be seen from Table \ref{tab:req1}, this feature was implemented only for
+\ep~pages. It was considered sufficient to demonstrate the general concept as
+\ep~pages could be shared with others and experience of using this feature can
+be easily transferred to other shareable resources.
+
+Adopting version control elements in \ep~system was expected to provide support
+for communication and feedback-response cycle between students and lecturers, as
+well as between students and audience outside of institutional environment.
 
 \subsection{Concept Mapping Module}
-
+\label{sec:mapping}
 Addressing the challenges of \ep~knowledge management\footnote{In this thesis,
 the \ep~knowledge management is referred to in terms of creating knowledge,
 sharing it, managing and organizing it in \ep~space.} and development of
@@ -263,12 +305,110 @@ the concept maps is beyond the scope of this thesis. For detailed examples and
 evaluation of effectiveness of this tool refer to The Institute for Human and
 Machine Cognition research group report \citep{Canas2003}.
 
+\subsubsection{Component implementation}
+
+The framework (Figure \ref{fig:mapping}), presented in this section, adopts the
+idea of concept maps in terms of developing or understanding concepts and
+relations between them. Following qualitative data analysis techniques, students
+create their own codes for the concepts which later form a concept map. Students
+can also be provided with a map structure predefined by universities as a set of
+Graduate Attributes in form of abstract concepts. Going thought the program of
+study, students can learn to understand these concepts and recognize the
+valuable examples of their work in the learning process.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=1\textwidth]{CH5-F2-Mapping}
+\caption{Object Role Modeling (ORM) diagram of the concept map structure}
+\label{fig:mapping} 
+\end{figure}
+
+Each map can have an abstract core or key concept and optional supporting
+sub-concepts. In this framework, students can provide definitions for the
+concepts, which gives them descriptions from their point of view. Examples
+chosen by students for these definitions are parts of the items (Section
+\ref{sec:frag}), or entire items, from the \ep~repository which represent their
+personal experience and achievements. Each example has to be supported by the
+student's reflection that should explain what is special about this example, or
+how it addresses this specific concept. It is expected to help students
+understand that their ePortfolio space is not a place for ``dumping'' all
+possible items. Each element of an ePortfolio is an important example of their
+personal and professional development carefully selected to demonstrate learning
+progress.
+
+An \ep~concepts structure can be represented as shown in Figure \ref{fig:mapex}.
+Data for the example was taken from the examples offered by \citet{Marzano1993}
+on how to assess \LLLs standards.
+ 
+\begin{figure}[htb]
+\centering
+\includegraphics[height=0.5\textheight]{CH5-F3-Map-Example}
+\caption{Concept mapping framework applied to the example}
+\label{fig:mapex} 
+\end{figure}
+
+Due to the dynamic nature of learning process this kind of structure might never
+be complete. It is constantly changing as students deepen their understanding
+and potentially find more suitable evidence to underpin their development.
+
+The expectations were that this approach would allow students to:
+
+\begin{itemize}
+  \item Manage and structure large amounts of information in their \ep:
+  students will be able to organize and navigate through the information, find
+  relations between the content and the concepts and see the data in their
+  \ep~from various perspectives: from an item belonging to different
+  structures; from a concept containing multiple evidences; and from items and
+  concepts attached to a timeline (Section \ref{sec:timeline});
+
+\item Share their progress/development map with others for feedback or
+evaluation: students will be able to create specific structures for various
+purposes to show to the audience specific parts of their \ep~(for example,
+share with a potential employer communication and writing skills developed over
+the last year at university);
+
+\item Access and address institutional graduate attributes: by providing
+students with a concept map of the graduate attributes (maybe even already
+supported by the institutional definitions), universities would be able to
+help students to understand the skills requirements of their study area and look
+at their study program from the \LLLs perspective;
+
+\item Develop a flexible structure for self-directed learning: students are
+provided with all operations necessary to make their structures flexible such as
+creating new concepts, removing or merging existing ones, creating links between
+structure fragments and taking snippets of \ep~items as examples (Section
+\ref{sec:frag});
+
+\item Facilitate setting up learning/development goals and expressing students
+visions of their knowledge: constructing their own concepts and definitions
+might encourage students to think of what skills are important to them, how they
+understand these skills and how it links to their learning outcomes.
+\end{itemize}
+
 \subsection{Artifacts' Fragments Extraction}
 \label{sec:frag}
 
-This would allow the presentation of different artifacts to different audiences,
-but at the same time saving duplication of materials as all artifacts will be
-hosted together. 
+Artefact's fragments extraction was developed as a part of concept mapping
+module. This feature allows selecting of any artifact's fragment and using
+it as an example in definitions of the concepts described in the previous
+section. Using fragments or parts of artifacts could be useful for a number of
+reasons: it allows the presentation of different parts of artifacts to different
+audiences, but at the same time avoiding files duplication; it saves user's time
+that would be spent on cropping images or videos; it .
+
+To demonstrate this feature, the following artifact fragments were implemented:
+
+\begin{itemize}
+  \item Image:
+  \item Video:
+  \item Text:
+  \item Blog:
+  \item Bookmark:
+\end{itemize} 
+
+Files that do not support fragments extraction allow attaching an entire
+artefact
+
 
 From the perspective of this component evolving Media Fragments 1.0
 specification \citep{MediaGroup2011} becomes very useful as it describes the
@@ -277,10 +417,31 @@ Identifiers (URI). Once it is finished, this specification could be adopted in
 the \ep~system for improved fragments description and extraction.
 
 \subsection{Learning Progress Tracking}
+\label{sec:timeline}
+
+In addition, custom time tags were included within this structure that allowed
+any map to be transformed into a timeline. This was identified as a requirement
+by students as a way to facilitate the tracking of their personal progress.
+Students will be able to define their own time frames and organize their maps
+according to their needs. Looking at the information from different perspective
+allows seeing progress over time and may lead to the better understanding of
+one's personal development. It can also help to showcase the progress for
+evaluation or share it with others for feedback purpose.
+
+
+
+To sum up, this conponent is expected to support tracking personal progress in
+various areas and aspects. Generating timelines could add a temporal dimension
+to students progress analysis: they would be able to see how their skills evidence
+changed in time, how feedback received from the others reflects their growing
+understanding, what achievements they have made and what concepts require more
+input;
+
 
 \subsection{Advanced Sharing Options}
-
+\label{sec:sharing}
 What was added: history, re-share, notifications, share by email.
+
 
 \section{Prototype Iterations and User Tests}
  
