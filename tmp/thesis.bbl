@@ -1,4 +1,4 @@
-\begin{thebibliography}{143}
+\begin{thebibliography}{144}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -336,6 +336,13 @@ linnovation/workforcedev/eppsmefinalreport.pdf}.
 \textbf{Gillham, B.} (\textbf{2000}).
 \newblock \emph{{The Research Interview}}.
 \newblock Continuum, London.
+
+\bibitem[{G\"{o}rg et~al.(2007)G\"{o}rg, Pohl, Qeli, and Xu}]{Gorg2007}
+\textbf{G\"{o}rg, C., Pohl, M., Qeli, E., and Xu, K.} (\textbf{2007}).
+\newblock \enquote{{Visual Representations}.}
+\newblock In A.~Kerren, A.~Ebert, and J.~Meyer, editors,
+  \enquote{Human-Centered Visualization Environments,} chapter~4, pages
+  163--230. Springer, Berlin Heidelberg.
 
 \bibitem[{G\"{o}rlitz et~al.(2010)G\"{o}rlitz, Seip, and
   Zacharias}]{Gorlitz2010}

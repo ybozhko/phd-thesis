@@ -1,5 +1,5 @@
 \chapter{Prototype - Development and Implementation\label{cha:prototype}}
-%2900
+%3100
 This chapter presents design and implementation of the \ep~aided environment
 that provides support for \LLLs in universities.
 
@@ -146,10 +146,10 @@ respectively.
 \end{center}
 
 Table \ref{tab:implement} also shows that, as it has been initially planned,
-implementations are covering at least partially each of the guidelines. Formal
-requirements for each component are described in the relevant sections of
-Appendix \ref{app:specification}. Detailed screenshots of the interface can be
-found in Appendix \ref{cha:appscreen}.
+implementations are covering at least partially each of the guidelines. Full
+requirements for each component in form of user stories are described in the
+relevant sections of Appendix \ref{app:specification}. Detailed screenshots
+of the interface can be found in Appendix \ref{cha:appscreen}.
 
 \subsection{Version Control Elements}
 \label{sec:version}
@@ -158,11 +158,14 @@ Suggested by the stakeholders functionality of having versions of the shareable
 resources was easy to fit into \ep~system. Versioning was implemented in a
 simple way that allowed only \textit{parent} $\to$ \textit{child} relationship
 between versions and did not support versions branching as in complex revision
-control systems. As well, this component does not perform an automated
-difference analysis between versions because pages can incorporate both textual
-and block elements that would make it technically difficult and time consuming to
-implement this kind of analysis. Therefore, analysing the difference between
-versions was left for users.
+control systems. Creating new version is triggered by users on demand and is
+not done automatically every time user saves the page. This allows users to
+control what they want to save and when. 
+
+The component does not perform an automated difference analysis between versions
+because pages can incorporate both textual and block elements that would make it
+technically difficult and time consuming to implement this kind of analysis.
+Therefore, analysing the difference between versions was left for users.
  
 As can be seen from Table \ref{tab:req1}, this feature was implemented only for
 \ep~pages. It was considered sufficient to demonstrate the general concept as
@@ -318,23 +321,31 @@ valuable examples of their work in the learning process.
 
 \begin{figure}[htb]
 \centering
-\includegraphics[width=1\textwidth]{CH5-F2-Mapping}
+\includegraphics[width=1\textwidth]{CH6-F2-Mapping}
 \caption{Object Role Modeling (ORM) diagram of the concept map structure}
 \label{fig:mapping} 
 \end{figure}
 
-Each map can have an abstract core or key concept and optional supporting
-sub-concepts. In this framework, students can provide definitions for the
-concepts, which gives them descriptions from their point of view. Examples
-chosen by students for these definitions are parts of the items (Section
-\ref{sec:frag}), or entire items, from the \ep~repository which represent their
-personal experience and achievements. Each example has to be supported by the
-student's reflection that should explain what is special about this example, or
-how it addresses this specific concept. It is expected to help students
-understand that their ePortfolio space is not a place for ``dumping'' all
-possible items. Each element of an ePortfolio is an important example of their
-personal and professional development carefully selected to demonstrate learning
-progress.
+Using a \textit{tree} is considered to be the natural way of visualizing
+hierarchical data \citep{Gorg2007}. Therefore, concept mapping in this component
+was simplified to a tree-like structure and did not support cross-linking
+between concepts.
+
+Each map starts with an abstract core or key concept followed by optional
+supporting sub-concepts. Hierarchy of the concepts can go as far as required by
+learners starting from highly abstract concepts and going to very specific ones.
+In this framework, students can provide definitions for the concepts, which
+gives them descriptions from learners' point of view. As it was noticed from the
+interviews with the stakeholders, very often students do not understand the
+meaning of the concepts offered by the university in the graduate profiles or
+attributes. In this case, being able to provide own definitions to the concepts,
+might help learners to express their own understanding and communicate it to
+others.
+
+Examples chosen by students for these concepts and definitions are parts of the
+items, or entire items, from the \ep~repository which represent their personal
+experience and achievements. Detailed description of this feature can be found
+in Section \ref{sec:frag}.
 
 An \ep~concepts structure can be represented as shown in Figure \ref{fig:mapex}.
 Data for the example was taken from the examples offered by \citet{Marzano1993}
@@ -342,7 +353,7 @@ on how to assess \LLLs standards.
  
 \begin{figure}[htb]
 \centering
-\includegraphics[height=0.5\textheight]{CH5-F3-Map-Example}
+\includegraphics[height=0.5\textheight]{CH6-F3-Map-Example}
 \caption{Concept mapping framework applied to the example}
 \label{fig:mapex} 
 \end{figure}
@@ -351,7 +362,7 @@ Due to the dynamic nature of learning process this kind of structure might never
 be complete. It is constantly changing as students deepen their understanding
 and potentially find more suitable evidence to underpin their development.
 
-The expectations were that this approach would allow students to:
+The expectations are that this approach would allow students to:
 
 \begin{itemize}
   \item Manage and structure large amounts of information in their \ep:
@@ -391,80 +402,168 @@ understand these skills and how it links to their learning outcomes.
 Artefact's fragments extraction was developed as a part of concept mapping
 module. This feature allows selecting of any artifact's fragment and using
 it as an example in definitions of the concepts described in the previous
-section. Using fragments or parts of artifacts could be useful for a number of
-reasons: it allows the presentation of different parts of artifacts to different
-audiences, but at the same time avoiding files duplication; it saves user's time
-that would be spent on cropping images or videos; it .
+section. 
 
-To demonstrate this feature, the following artifact fragments were implemented:
+Each fragment/example has to be supported by the student's reflection that
+should explain what is special about this example, or how it addresses some
+specific concept which it refers to. It is expected to help students understand
+that their \ep~space is not a place for \textit{dumping} all possible items.
+Each element of an \ep~is an important example of their personal and
+professional development carefully selected to showcase learning progress.
+
+When learners create a fragment/example, they can link it directly to the
+concepts that already exist in their \ep. If learners do not know where this
+example belongs to in the hierarchy of concepts, they can leave it as a free
+fragment and use later.
+
+To demonstrate this feature, the following artifacts fragments were implemented:
 
 \begin{itemize}
-  \item Image:
-  \item Video:
-  \item Text:
-  \item Blog:
-  \item Bookmark:
+  \item Image: JPEG, PNG, GIF
+  \item Video: OGV, MP4, 3GP, WEBM
+  \item Text: TXT
+  \item Blog: Selection of one or more blogposts
+  \item Bookmark: URL that links to the resources outside of \ep~repository.
 \end{itemize} 
 
-Files that do not support fragments extraction allow attaching an entire
-artefact
+At this stage, fragments of textual files support only TXT files because such
+popular, but proprietary formats as PDF or DOC do not allow selecting fragments.
+Although, it is possible to access specific fragments of PDF documents through
+fragment identifiers, it is not possible to extract the fragment and restrain
+access to this fragment only.
 
+Files that do not support fragments extraction allow attaching an entire
+artifact for download. Each extracted fragment can be as well accompanied with a
+link to the item in case learners would want to allow its download.
+
+Using fragments of artifacts can be useful for a number of reasons:
+\begin{itemize}
+  \item it allows to draw attention to a specific part of artifacts (like part
+  of a picture, or fragment of a video);
+  \item it allows the presentation of different parts of artifacts to different
+  audiences;
+  \item it helps to avoid files duplication;
+  \item it saves user's time that otherwise would be spent on cropping images,
+  videos, or textual files;
+  \item it can help to solve some ethics issues (for example, teaching students
+  are not allowed to show the faces of children they teach at schools, but they
+  still have to demostrate their competencies of teaching).
+\end{itemize}
 
 From the perspective of this component evolving Media Fragments 1.0
 specification \citep{MediaGroup2011} becomes very useful as it describes the
 ways of extracting temporal and spatial media fragments using Uniform Resource
-Identifiers (URI). Once it is finished, this specification could be adopted in
-the \ep~system for improved fragments description and extraction.
+Identifiers (URI). Once it is finished (as planned for December 2011 -- January
+2012), this specification could be adopted in the \ep~system for improved
+fragments description and extraction.
 
 \subsection{Learning Progress Tracking}
 \label{sec:timeline}
 
-In addition, custom time tags were included within this structure that allowed
-any map to be transformed into a timeline. This was identified as a requirement
-by students as a way to facilitate the tracking of their personal progress.
-Students will be able to define their own time frames and organize their maps
-according to their needs. Looking at the information from different perspective
-allows seeing progress over time and may lead to the better understanding of
-one's personal development. It can also help to showcase the progress for
-evaluation or share it with others for feedback purpose.
+Timeline representation of learning progress was developed in conjunction with
+concept mapping component.
 
+Each example or fragment described in the previous section is accompanied with a
+\textit{time tags} whether is it taken from the properties of the artifact
+as creation date or added as a customary selected date. Time property of the
+examples allow any concept map to be transformed into a timeline. This was
+identified as a requirement by students as a way to facilitate tracking of their
+personal progress. Looking at the information from different perspective allows
+seeing progress over time and may lead to the better understanding of one's
+personal development. It can also help to showcase the progress for evaluation
+or share it with others for feedback purpose.
 
+In addition to the standard month-year timeline representation, users can create
+their own custom time frames (e.g., BA year 1, BA year 2) and organize their
+maps according to these. As well, information on the timeline can be filtered
+using concepts hierarchy. This can be used to see the progress towards
+development of some specific concept(s), changes in feedback and improvement of
+examples.
 
-To sum up, this conponent is expected to support tracking personal progress in
+To sum up, this component is expected to support tracking personal progress in
 various areas and aspects. Generating timelines could add a temporal dimension
 to students progress analysis: they would be able to see how their skills evidence
 changed in time, how feedback received from the others reflects their growing
 understanding, what achievements they have made and what concepts require more
-input;
-
+input.
 
 \subsection{Advanced Sharing Options}
 \label{sec:sharing}
-What was added: history, re-share, notifications, share by email.
 
+To be able to share the parts of \ep~in a way required by the stakeholders was
+another important aspect of \LLLs support that needed improvements. As it was
+shown in the previous chapters, current \ep~systems already provide extensive
+list of sharing options: by email, secret URL, temporary accounts, etc. However,
+managing shared resources was missing from the features provided by these
+systems.
+
+The following improvements were implemented in this area to provide a better
+control over shared resources:
+
+\begin{itemize}
+  \item Saving sharing/access history: every time a page or a concept map is
+  shared with others a record is created in the user access log. This allows to
+  review when a part of \ep~was shared and with whom; 
+  \item Easy re-share through access history: Saving access history made it
+  possible to re-share resources with the same audience once their access
+  expires;
+  \item Notifications on access expiry for system users and resources shared by
+  email: if set up by a learner, when access to the shared resources is close to
+  the expiry date, the system sends notification to people on the access list;
+  \item Control over level of feedback provided: bringing concept mapping with
+  its hierarchy of concepts and examples into \ep, opened opportunity to give
+  learners control over level of feedback they expect to get. In concept maps,
+  learners can choose what kind of feedback they want, whether it is feedback on
+  overall map structure, individual examples or a group of examples related to a
+  concept. From lecturers' perspective, it allows them to attach their feedback
+  to the elements of a concept map which means that they can focus on specific
+  aspects as well as on the general picture.
+\end{itemize}
+
+Better control over shared resources has potential to bring more confidence to
+learners, support dialog between interested parties, improve quality of
+feedback, and facilitate its provision in a timely manner.
 
 \section{Prototype Iterations and User Tests}
  
 Before formal evaluation was undertaken, implemented functionality had been
-tested by users. Overall, time and resources constraints of the project allowed
-for two planned prototype iterations. Each iteration produced a workable version
-of the implemented features. At the end of each iteration, the functional
-prototype was presented to a student and a lecturer selected from the
+reviewed by users. Overall, time and resources constraints of the project
+allowed for two planned prototype iterations. Each iteration produced a workable
+version of the implemented features. At the end of each iteration, the
+functional prototype was presented to a student and a lecturer selected from the
 participants of the requirements elicitation phase who had agreed to continue
 their participation in this research.
 
 Each feedback session included up to an hour demonstration and discussion of the
 implemented functionality. Users were encouraged to give their ideas about
-potential improvements and 
+additional improvements and provide their thoughts on possible drawbacks of
+presented implementations.
 
-Feedback between iterations was very useful as it provided information on
-necessary improvements and drawbacks of current implementations. Users were
-generally satisfied with the improvements and made largely positive comments.
-However, several issues were noted: \ldots
+Feedback between iterations was very useful as it facilitated further discussion
+with the stakeholders and helped to get more information on potential
+improvements. Users were generally satisfied with the improvements and made
+largely positive comments. However, several issues were noticed. Most notably,
+users mentioned that they would have difficulties using the system on their
+own without comprehensive instructions. Some features not common for web
+interfaces, like right-click context menu in concept mapping, might confuse
+novice users. It was decided that starting tips on the web-pages could be an
+additional help to the beginners who are not familiar with the system.
 
 All discovered issues were addressed in the later versions of the prototype
 in preparation for the formal evaluation stage.
 
 \section{Summary}
 
-This chapter presented \ldots
+This chapter presented design and implementation of additions and improvements
+of the \ep~system based on the needs of the stakeholders and \LLLs success
+guidelines discovered in the literature. A set of features was introduced to
+the standard \ep~installation with the aim to address various aspects of \LLLs
+support in universities. These features are expected to support understanding,
+development an showcasing of \LLLs skills, learning progress tracking,
+management of \ep~content and knowledge, communication between students and
+lecturers, and better control over access to the \ep~resources.
+
+From this stage, to understand whether new implementations meet the needs of
+the stakeholders, a formal evaluation has to be undertaken. The next chapter
+looks at the improved \ep~system prototype from the perspective of lecturers
+and students, experienced and mature as well as young.

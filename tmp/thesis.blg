@@ -14,6 +14,7 @@ The style file: bevbib4.bst
 A level-1 auxiliary file: A1.aux
 A level-1 auxiliary file: A2.aux
 A level-1 auxiliary file: A3.aux
+A level-1 auxiliary file: A4.aux
 Database file #1: references.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 You can't pop an empty literal stack for entry Attwell2007
@@ -137,45 +138,45 @@ You can't pop an empty literal stack for entry UniversityofTorontoScarborough201
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry UniversityofTorontoScarborough2010
 while executing---line 1597 of file bevbib4.bst
-You've used 143 entries,
+You've used 144 entries,
             3124 wiz_defined-function locations,
-            1595 strings with 31235 characters,
-and the built_in function-call counts, 108574 in all, are:
-= -- 12046
-> -- 2593
-< -- 168
-+ -- 1297
-- -- 807
-* -- 6414
-:= -- 13311
-add.period$ -- 624
-call.type$ -- 143
-change.case$ -- 893
-chr.to.int$ -- 141
-cite$ -- 160
-duplicate$ -- 10426
-empty$ -- 7043
-format.name$ -- 1137
-if$ -- 21908
+            1604 strings with 31462 characters,
+and the built_in function-call counts, 110040 in all, are:
+= -- 12212
+> -- 2640
+< -- 170
++ -- 1319
+- -- 822
+* -- 6506
+:= -- 13463
+add.period$ -- 630
+call.type$ -- 144
+change.case$ -- 903
+chr.to.int$ -- 142
+cite$ -- 161
+duplicate$ -- 10573
+empty$ -- 7126
+format.name$ -- 1156
+if$ -- 22211
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 1139
-newline$ -- 745
-num.names$ -- 608
-pop$ -- 3738
+missing$ -- 1154
+newline$ -- 750
+num.names$ -- 614
+pop$ -- 3783
 preamble$ -- 1
-purify$ -- 827
+purify$ -- 835
 quote$ -- 0
-skip$ -- 5689
+skip$ -- 5779
 stack$ -- 0
-substring$ -- 4749
-swap$ -- 8090
-text.length$ -- 48
+substring$ -- 4817
+swap$ -- 8219
+text.length$ -- 50
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1212
+type$ -- 1221
 warning$ -- 17
-while$ -- 682
+while$ -- 690
 width$ -- 0
-write$ -- 1914
+write$ -- 1928
 (There were 52 error messages)
