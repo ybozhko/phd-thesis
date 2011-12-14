@@ -1,14 +1,14 @@
 \chapter{Prototype - Development and Implementation\label{cha:prototype}}
 %3100
-This chapter presents design and implementation of the \ep~aided environment
-that provides support for \LLLs in universities.
+This chapter presents design and implementation decisions for the \ep~aided
+environment that provides support for \LLLs in universities.
 
-Previous chapters (Chapter \ref{cha:litrev} and \ref{cha:systudy}) identified
+Previous chapters (Chapters \ref{cha:litrev} and \ref{cha:systudy}) identified
 recommendations and needs for successful \LLLs support. With the help of the
 major stakeholders, Chapter \ref{cha:model} took these highly conceptual
-requirements to the practical level of the system features. Now, in this chapter
-development of these features using open-source \ep~system Mahara as a basic
-platform for implementation is described.
+requirements to the practical level of the system features. Now, in this
+chapter, development of these features using open-source \ep~system Mahara as a
+basic platform for implementation is described.
 
 This chapter starts with briefly discussing the overall architecture of the
 environment and development toolkit. Then, each implemented component is
@@ -19,11 +19,11 @@ from the literature.
 
 Figure \ref{fig:arch} shows the overall architecture of the environment which
 consists of two main components: institutionally controlled LMS and an external,
-but institutionally supported \ep~system. Main implementations were carried
-out in the \ep~system environment as the features prioritised by the interview
-participants were largely in the \ep~domain. They included developing such
-components and modules as version control, artifacts' fragments extraction,
-concept mapping, timeline based progress tracking and advanced sharing options.
+but institutionally supported \ep~system. The systems are connected in terms of
+data exchange and users account management. LMS provides resources for formal
+learning along with its outcomes which can be transferred to \ep~system. Being
+hosted outside of institutional barrier, an \ep~system provides students with
+private space for personal development and informal learning.
 
 \begin{figure}[htp]
 \centering
@@ -32,19 +32,58 @@ concept mapping, timeline based progress tracking and advanced sharing options.
 \label{fig:arch}
 \end{figure}
 
-Each component provided working functionality sufficient to demonstrate the
-general concept. Non-functional requirements described in Chapter
-\ref{cha:model} were not taken into account as non-essential ones in functional
-prototype.
+In this project, the main implementations were carried out in the \ep~system
+environment. Due to cost vs benefit issues, features that involved LMS
+environment were not considered for development. 
 
-Features that involved LMS environment were not considered for implementation,
-as there were enough road-map specifications discovered in the area of
-\ep~development that included integration and data transfer between LMS and an
-\ep~system. As well, stakeholders had not identified LMS functionality as an
-important one in \LLLs context. Due to this, guidelines G1 and G6 that would
-have involved LMS modifications were not supported by implementations and are
-not discussed further in this section. However, LMS is still included in overall
-architecture.
+Benefit was analysed based on how high the interview participants had ranked
+their requirements for \LLLs support. According to this, LMS aspects of system
+support had not been identified as highly important in \LLLs context. 
+
+The cost was measured by referring to the LMS developing communities that had
+\ep~and LMS integration on their road-maps. For example, based on the issue
+MDL-14591\footnote{\url{http://tracker.moodle.org/browse/MDL-14591}} on the
+Moodle LMS issue tracking system, it took one developer from the development
+team, who potentially had already been familiar with the environment and its
+APIs, more than two years to develop an \ep~API that would support single
+sign-on and enable simple data export/import functionality. To date, this
+functionality still has a large number of unresolved issues and bugs that
+require fixing (as can be seen from searching ``portfolio'' in Moodle Issue
+Navigator\footnote{\url{http://tracker.moodle.org/secure/IssueNavigator.jspa}}).
+
+Therefore, it can be concluded that investment into time and resources for the
+development of these features would exceed the benefit that would be gained from
+them by the users.
+
+For these reasons, guidelines (G1 and G6) and features, that would have involved
+LMS modifications, were not supported by implementations and are not to be
+discussed further in this chapter. LMS is still included in overall architecture
+as a system for formal learning support in university.
+ 
+Features identified through the interviews with the stakeholders were grouped
+and developed in the following components and modules: 
+
+\begin{itemize}
+  \item Version control -- for addressing the issues of guidance, facilitation
+  and communication for \LLLsn;
+  \item Artifacts' fragments extraction -- for better communication of specific
+  part of \ep~and organizing learning materials;
+  \item Concept mapping -- for linking abstract concepts to practical skills,
+  managing \ep~knowledge, supporting reflection and developing awareness of
+  personal learning achievements;
+  \item Timeline based progress tracking -- for showcasing personal learning
+  achievements and evaluation of progress towards learning goals;
+  \item Advanced sharing options -- for addressing the issues of guidance and
+  facilitation from non-institutional audiences, providing learners with better
+  control over shared resources.
+\end{itemize}
+
+These component are discussed in detail further in this chapter.
+
+Each component provided working functionality sufficient to demonstrate the
+general concept. Non-functional requirements, as described in Chapter
+\ref{cha:model}, were not taken into account as non-essential in functional
+prototype.
 
 \section{Development Toolkit}
 
@@ -96,35 +135,24 @@ embedded video/audio, used in artifact's fragments, were not used in testing.
 
 Components added to the standard Mahara \ep~installation were expected to
 address the requirements developed by the stakeholders and derived from the
-literature review. In most cases, the stakeholders provided their own vision of
-what kind of features could have been implemented to solve particular problems.
-Their suggestions were used during development. In some cases when the
-stakeholders could not propose any suitable solution, it was necessary to refer
-to other domains and analyse solution to similar problems. Most suitable, as
-well as feasible for development, approach was implemented.
+literature review. In most cases, the suggestions from stakeholders, when they
+provided their own vision of what kind of features could have been implemented
+to solve particular problems, were used during development. In other cases,
+where the stakeholders could not propose any suitable solution, it was necessary
+to refer to other domains and analyse solutions to similar problems. In this
+case, most suitable, as well as feasible for development, approach was adopted.
 
 Table \ref{tab:implement} matches implemented components to the guidelines they
-support and the requested features. Guidelines and features identifiers used in
+support and the requested features. Guidelines and feature identifiers used in
 this table were described in Sections \ref{sec:needs} and \ref{sec:elicit},
 respectively.
 
-\begin{center} \small
-    \tablefirsthead{
-     \hline
+\begin{table}[htb]
+  \begin{center} \small
+    \begin{tabular}{| c || p{2cm} | p{2cm} | p{2cm} | p{2cm} | p{2cm} |}
+    \hline
      \multicolumn{1}{|c||}{} &
-     \multicolumn{5}{c|}{\textbf{Implemented components}} \\ \cline{2-6}}
-    \tablehead{
-     \hline
-     \multicolumn{6}{|l|}{\small\sl continued from previous page}\\
-     \hline
-     \multicolumn{1}{|c||}{} &
-     \multicolumn{5}{c|}{\textbf{Implemented components}} \\  \hline} 
-    \tabletail{
-     \hline
-     \multicolumn{6}{|r|}{\small\sl continued on next page}\\ \hline}
-    \tablelasttail{\hline} 
-	\bottomcaption{Implemented \ep~system components}
-    \begin{supertabular}{| c || p{2cm} | p{2cm} | p{2cm} | p{2cm} | p{2cm} |}
+     \multicolumn{5}{c|}{\textbf{Implemented components}} \\ \cline{2-6}
      \textbf{Guidelines} & 
      \textit{Version \newline control \newline Section \ref{sec:version}} & 
      \textit{Concept mapping \newline Section \ref{sec:mapping}} & 
@@ -141,37 +169,73 @@ respectively.
      G7 & & P1 & & P1, P2, P3 & \\ \hline
      G8 & & A1, A2, A3, \newline A4, A5, A6 & & & \\ \hline
      G9 & & B1 & K3 & P4, P5 & \\ \hline
-    \end{supertabular}
-    \label{tab:implement}
-\end{center}
+    \end{tabular}
+  \end{center}
+  \caption{Matrix of implemented \ep~system components}  
+  \label{tab:implement}
+\end{table}
+
+\FloatBarrier
 
 Table \ref{tab:implement} also shows that, as it has been initially planned,
-implementations are covering at least partially each of the guidelines. Full
-requirements for each component in form of user stories are described in the
-relevant sections of Appendix \ref{app:specification}. Detailed screenshots
-of the interface can be found in Appendix \ref{cha:appscreen}.
+implementations are covering at least partially each of the guidelines. Complete
+lists of requirements for each component in form of user stories were described
+in the relevant sections of Appendix \ref{app:specification}. Detailed
+screenshots of the interface can be found in Appendix \ref{cha:appscreen}.
 
 \subsection{Version Control Elements}
 \label{sec:version}
-Implementing this feature was very straightforward compared to other features.
-Suggested by the stakeholders functionality of having versions of the shareable
-resources was easy to fit into \ep~system. Versioning was implemented in a
-simple way that allowed only \textit{parent} $\to$ \textit{child} relationship
-between versions and did not support versions branching as in complex revision
-control systems. Creating new version is triggered by users on demand and is
-not done automatically every time user saves the page. This allows users to
-control what they want to save and when. 
+
+Version control adopted in this prototype resembles functionality of a standard
+revision control system that allows management of changes in the documents,
+source code, and other types information stored in files.
+
+Creating and keeping versions of the shareable resources was suggested by the
+stakeholders as a way of communicating changes made to the \ep~items and
+responding to the comments and feedback. According to the systems review in
+Chapter \ref{cha:systudy}, conventinal functionality of the \ep~systems does not
+support multiple versions of repository items or web pages making it difficult
+to track changes being made. Normally, when learners get feedback on the shared
+part of their \ep, they would just apply changes according to this feedback
+making it nearly impossible for others to compare what was actually altered.
+This results in a mismatch because feedback still referres to the old version of
+shared \ep~while content is already renewed. Being able to take snapshots of
+various \ep~parts is a simple solution requested by the stakeholders to address
+this problem.
+
+This feature was easy to fit into the system and straightforward to implement.
+As every record in \ep~has its own timestamp, all that was required was to
+create a new copy of the current record, allow users to make changes and,
+after changes are saved, present the new record to users in a way that would
+allow tracing back to the previous versions.
+
+A simple revision control implemented in the prototype supported \textit{parent}
+$\to$ \textit{child} relationship between versions (Figure \ref{fig:version}),
+but did not support versions branching as in complex revision control systems.
+This made it possible to bring work with versions to intuitive level for less
+computer-savvy learners.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.7\textwidth]{CH6-F2-Version}
+\caption{Page version control}
+\label{fig:version}
+\end{figure}
+
+Creating a new version of an item is triggered by users on demand and is not
+done automatically every time user alters or saves the item. This allows users to
+control what they want to save and when.
+
+As can be seen from the requirements in Table \ref{tab:req1}, this feature was
+implemented for the \ep~pages. It was considered sufficient to demonstrate the
+general concept as \ep~pages could be shared with others, and experience of
+using this feature can be easily transferred to other shareable resources.
 
 The component does not perform an automated difference analysis between versions
 because pages can incorporate both textual and block elements that would make it
 technically difficult and time consuming to implement this kind of analysis.
 Therefore, analysing the difference between versions was left for users.
  
-As can be seen from Table \ref{tab:req1}, this feature was implemented only for
-\ep~pages. It was considered sufficient to demonstrate the general concept as
-\ep~pages could be shared with others and experience of using this feature can
-be easily transferred to other shareable resources.
-
 Adopting version control elements in \ep~system was expected to provide support
 for communication and feedback-response cycle between students and lecturers, as
 well as between students and audience outside of institutional environment.
@@ -203,24 +267,25 @@ always knowing which items to select and where the items they put in their
 \ep~should go. Students start their \ep~work by collecting \textit{raw} data
 available from formal learning and outside activities and transforming it into
 information that they decide to put into their \ep. After working with and
-reflecting on this information students arrive at knowledge. A parallel with
-qualitative data analysis can be drawn here where researchers either develop new
-theories from data, moving from specific observations to general concepts and
-theories (inductive approach), or they try to check if their data map against
-the theories that are already known and understood (deductive approach)
-\citep{Strauss2008,Patton2002}. An assumption here is that analyzing one's own
-learning process takes similar steps as qualitative data analysis: small bits,
-specific data that learners are collecting, contribute to the bigger picture of
-knowledge development. The difference is that the learner developing their
-\ep~is not aware of the existing theories yet. These theories are the concept
-structures that exist in the understanding of society, institution and
-employers. However, these must be eventually understood and \textit{made their
-own} by the learner. Like the qualitative researcher, the learner needs to
-immerse themselves in their data and to come to an understanding of the kind of
-material they should be collecting in their \ep~and the concepts that express
-their learning goals. They need to find (and to a certain degree construct by
-exposing themselves to learning opportunities) evidence in their data to show
-that they conform to these concepts.
+reflecting on this information students arrive at knowledge. 
+
+A parallel with qualitative data analysis can be drawn here where researchers
+either develop new theories from data, moving from specific observations to
+general concepts and theories (inductive approach), or they try to check if
+their data map against the theories that are already known and understood
+(deductive approach) \citep{Strauss2008,Patton2002}. An assumption here is that
+analyzing one's own learning process takes similar steps as qualitative data
+analysis: small bits, specific data that learners are collecting, contribute to
+the bigger picture of knowledge development. The difference is that the learner
+developing their \ep~is not aware of the existing theories yet. These theories
+are the concept structures that exist in the understanding of society,
+institution and employers. However, these must be eventually understood and
+\textit{made their own} by the learner. Like the qualitative researcher, the
+learner needs to immerse themselves in their data and to come to an
+understanding of the kind of material they should be collecting in their \ep~and
+the concepts that express their learning goals. They need to find (and to a
+certain degree construct by exposing themselves to learning opportunities)
+evidence in their data to show that they conform to these concepts.
 
 In qualitative research, a number of techniques are available to the researcher
 in managing, analyzing and interpreting their data, such as coding, grouping,
@@ -310,7 +375,7 @@ Machine Cognition research group report \citep{Canas2003}.
 
 \subsubsection{Component implementation}
 
-The framework (Figure \ref{fig:mapping}), presented in this section, adopts the
+The component (Figure \ref{fig:mapping}), presented in this section, adopts the
 idea of concept maps in terms of developing or understanding concepts and
 relations between them. Following qualitative data analysis techniques, students
 create their own codes for the concepts which later form a concept map. Students
@@ -321,26 +386,27 @@ valuable examples of their work in the learning process.
 
 \begin{figure}[htb]
 \centering
-\includegraphics[width=1\textwidth]{CH6-F2-Mapping}
-\caption{Object Role Modeling (ORM) diagram of the concept map structure}
-\label{fig:mapping} 
+\includegraphics[width=0.7\textwidth]{CH6-F3-Mapping}
+\caption{ER diagram of the concept mapping elements}
+\label{fig:mapping}
 \end{figure}
 
-Using a \textit{tree} is considered to be the natural way of visualizing
-hierarchical data \citep{Gorg2007}. Therefore, concept mapping in this component
-was simplified to a tree-like structure and did not support cross-linking
-between concepts.
+Using a \textit{tree} is considered to be the natural and commonly used way of
+visualizing hierarchical data \citep{Gorg2007,Holten2006}. Therefore, instead of
+implementing a complete directed acyclic graph structure, as described in the
+previous section, concept mapping in this component was simplified to a
+tree-like structure and did not provide cross-linking between the concepts.
 
 Each map starts with an abstract core or key concept followed by optional
 supporting sub-concepts. Hierarchy of the concepts can go as far as required by
 learners starting from highly abstract concepts and going to very specific ones.
-In this framework, students can provide definitions for the concepts, which
-gives them descriptions from learners' point of view. As it was noticed from the
-interviews with the stakeholders, very often students do not understand the
-meaning of the concepts offered by the university in the graduate profiles or
-attributes. In this case, being able to provide own definitions to the concepts,
-might help learners to express their own understanding and communicate it to
-others.
+As shown on Figure \ref{fig:mapping}, students can provide definitions for the
+concepts, which gives them descriptions from learners' point of view. As it was
+noticed from the interviews with the stakeholders, very often students do not
+understand the meaning of the concepts offered by the university in the graduate
+profiles or attributes. In this case, being able to provide own definitions to
+the concepts, might help learners to express their own understanding and
+communicate it to others.
 
 Examples chosen by students for these concepts and definitions are parts of the
 items, or entire items, from the \ep~repository which represent their personal
@@ -353,7 +419,7 @@ on how to assess \LLLs standards.
  
 \begin{figure}[htb]
 \centering
-\includegraphics[height=0.5\textheight]{CH6-F3-Map-Example}
+\includegraphics[height=0.5\textheight]{CH6-F4-Map-Example}
 \caption{Concept mapping framework applied to the example}
 \label{fig:mapex} 
 \end{figure}
@@ -400,31 +466,48 @@ understand these skills and how it links to their learning outcomes.
 \label{sec:frag}
 
 Artefact's fragments extraction was developed as a part of concept mapping
-module. This feature allows selecting of any artifact's fragment and using
-it as an example in definitions of the concepts described in the previous
-section. 
+module. This feature allows selecting \ep~artifact's fragments and using
+them as example in definitions of the concepts described in the previous
+section.
 
-Each fragment/example has to be supported by the student's reflection that
-should explain what is special about this example, or how it addresses some
-specific concept which it refers to. It is expected to help students understand
-that their \ep~space is not a place for \textit{dumping} all possible items.
-Each element of an \ep~is an important example of their personal and
-professional development carefully selected to showcase learning progress.
+The idea behind this feature was to allow students to share specific parts of
+\ep~artifacts linked to the conceptual level of their learning. Because
+extracting a fragment is a part of creating an example to the concepts, each
+fragment has to be supported by the student's reflection. Reflection should
+explain what is so special about this example, or how it addresses some specific
+concept which it refers to. It is expected to help students understand that
+their \ep~space is not a place for \textit{dumping} all possible items. Each
+element of an \ep~is an important example of their personal and professional
+development carefully selected to showcase learning progress.
 
-When learners create a fragment/example, they can link it directly to the
-concepts that already exist in their \ep. If learners do not know where this
-example belongs to in the hierarchy of concepts, they can leave it as a free
-fragment and use later.
+When learners create a fragment as a part of an example, they can link it
+directly to the concepts that already exist in their \ep. In case learners do
+not know where this example belongs to in the hierarchy of concepts, they can
+leave it as a free fragment and use later.
 
-To demonstrate this feature, the following artifacts fragments were implemented:
+Figure \ref{fig:frag} shows the way of extracting fragments for different file
+types and \ep~artifacts.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{CH6-F5-Fragments}
+\caption{Artifact's fragment extraction}
+\label{fig:frag}
+\end{figure}
+
+To demonstrate this feature, the following artifact fragments were implemented:
 
 \begin{itemize}
-  \item Image: JPEG, PNG, GIF
-  \item Video: OGV, MP4, 3GP, WEBM
-  \item Text: TXT
-  \item Blog: Selection of one or more blogposts
-  \item Bookmark: URL that links to the resources outside of \ep~repository.
+  \item Image: JPEG, PNG, GIF -- by selecting of a part of an image;
+  \item Video: OGV, MP4, 3GP, WEBM -- by specifying start and end time of a
+  fragment;
+  \item Text: TXT -- by selecting a text fragment;
+  \item Blog -- by selecting one or more blogposts;
+  \item Bookmark: URL of the resources on the Internet -- no selection is
+  required.
 \end{itemize} 
+
+\FloatBarrier
 
 At this stage, fragments of textual files support only TXT files because such
 popular, but proprietary formats as PDF or DOC do not allow selecting fragments.
@@ -447,7 +530,7 @@ Using fragments of artifacts can be useful for a number of reasons:
   videos, or textual files;
   \item it can help to solve some ethics issues (for example, teaching students
   are not allowed to show the faces of children they teach at schools, but they
-  still have to demostrate their competencies of teaching).
+  still have to demonstrate their competencies of teaching).
 \end{itemize}
 
 From the perspective of this component evolving Media Fragments 1.0
@@ -461,31 +544,53 @@ fragments description and extraction.
 \label{sec:timeline}
 
 Timeline representation of learning progress was developed in conjunction with
-concept mapping component.
+concept mapping component. It is used to present the data from the concept map
+in chronological order.
 
-Each example or fragment described in the previous section is accompanied with a
-\textit{time tags} whether is it taken from the properties of the artifact
-as creation date or added as a customary selected date. Time property of the
-examples allow any concept map to be transformed into a timeline. This was
-identified as a requirement by students as a way to facilitate tracking of their
-personal progress. Looking at the information from different perspective allows
-seeing progress over time and may lead to the better understanding of one's
-personal development. It can also help to showcase the progress for evaluation
+Timelines are used in various areas, such as education, history, natural
+sciences, software development and project management, for presenting and often
+visualizing a progression of related events. This valuable property of a
+timeline to show progression was used in the prototype development to bring a
+sense of change over time to the learners analysing their personal or professional
+development.
+
+Timelines in the prototype are generated automatically and do not require
+user's input. Each example described in the previous section is accompanied with
+a \textit{time tags} whether is it taken from the properties of the artifact as
+creation date or added as a customary selected date. These time tags of the
+examples allow any concept map to be transformed into a timeline, as shown on
+Figure \ref{fig:timeline}. Each entry on the timeline is an example from the
+concept maps.
+
+\begin{figure}[htb]
+\centering 
+\includegraphics[width=0.75\textwidth]{CH6-F6-Timeline}
+\caption{Timeline structure}
+\label{fig:timeline}
+\end{figure}
+
+Standard representation of the timeline uses a linear time scale available in
+two options, i.e., month and year. In addition to the standard representation,
+users can create their own time scales with the custom time frames (e.g., BA
+year 1, BA year 2). In custom time frames, users need to specify start and end
+date of the frame. Examples are then grouped and visualised under a specific
+time frame based on their time tags. 
+
+Users can navigate through any part of the timeline by clicking on the bar
+labeled with time frames. Clicking on the entry brings up a window with the
+details of the example: title, reflection and concept it belongs to.
+
+Information on the timeline can be filtered based on the concepts hierarchy of
+the map. This can be used to see the progress towards development of some
+specific concept(s), changes in feedback and improvements of the examples.
+
+Adoption of this component is expected to provide support for tracking personal
+progress in various areas and aspects. Generating timelines could add a temporal
+dimension to students progress analysis: they would be able to see how their
+skills evidence changed in time, how feedback received from the others reflects
+their growing understanding, what achievements they have made and what concepts
+require more input. It could also help to showcase the progress for evaluation
 or share it with others for feedback purpose.
-
-In addition to the standard month-year timeline representation, users can create
-their own custom time frames (e.g., BA year 1, BA year 2) and organize their
-maps according to these. As well, information on the timeline can be filtered
-using concepts hierarchy. This can be used to see the progress towards
-development of some specific concept(s), changes in feedback and improvement of
-examples.
-
-To sum up, this component is expected to support tracking personal progress in
-various areas and aspects. Generating timelines could add a temporal dimension
-to students progress analysis: they would be able to see how their skills evidence
-changed in time, how feedback received from the others reflects their growing
-understanding, what achievements they have made and what concepts require more
-input.
 
 \subsection{Advanced Sharing Options}
 \label{sec:sharing}

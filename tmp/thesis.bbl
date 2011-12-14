@@ -1,4 +1,4 @@
-\begin{thebibliography}{144}
+\begin{thebibliography}{145}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -433,6 +433,13 @@ linnovation/workforcedev/eppsmefinalreport.pdf}.
 \textbf{Holahan, C.} \textbf{(2007, March~27)}.
 \newblock \enquote{Close Harmony: Bands and Web 2.0.}
 \newblock \urlprefix\url{http://www.businessweek.com}.
+
+\bibitem[{Holten(2006)}]{Holten2006}
+\textbf{Holten, D.} (\textbf{2006}).
+\newblock \enquote{{Hierarchical Edge Bundles: Visualization of Adjacency
+  Relations in Hierarchical Data}.}
+\newblock \emph{IEEE Transactions on Visualization and Computer Graphics},
+  12(5): 741--748.
 
 \bibitem[{Hughes and Barrie(2010)}]{Hughes2010}
 \textbf{Hughes, C. and Barrie, S.} (\textbf{2010}).
