@@ -27,7 +27,7 @@ private space for personal development and informal learning.
 
 \begin{figure}[htp]
 \centering
-\includegraphics[width=0.8\textwidth]{CH6-F1-Architecture}
+\includegraphics[width=0.9\textwidth]{CH6-F1-Architecture}
 \caption{Environment architecture}
 \label{fig:arch}
 \end{figure}
@@ -51,9 +51,15 @@ functionality still has a large number of unresolved issues and bugs that
 require fixing (as can be seen from searching ``portfolio'' in Moodle Issue
 Navigator\footnote{\url{http://tracker.moodle.org/secure/IssueNavigator.jspa}}).
 
+As another example, based on discussions from ``Moodle and Elgg in Education''
+group\footnote{\url{http://community.elgg.org/pg/groups/1057/moodle-and-elgg-in-education/}}
+of Elgg community, more than 100 days were spent on development of a proprietary
+plugin that would allow single sign-on and getting user statistics from Moodle
+to Elgg.
+
 Therefore, it can be concluded that investment into time and resources for the
-development of these features would exceed the benefit that would be gained from
-them by the users.
+development of the features that would allow integration between the systems
+would exceed the benefit that would be gained from them by the users.
 
 For these reasons, guidelines (G1 and G6) and features, that would have involved
 LMS modifications, were not supported by implementations and are not to be
@@ -73,9 +79,9 @@ and developed in the following components and modules:
   personal learning achievements;
   \item Timeline based progress tracking -- for showcasing personal learning
   achievements and evaluation of progress towards learning goals;
-  \item Advanced sharing options -- for addressing the issues of guidance and
-  facilitation from non-institutional audiences, providing learners with better
-  control over shared resources.
+  \item Shared resources management -- for addressing the issues of guidance
+  and facilitation from non-institutional audiences, providing learners with
+  better control over shared resources.
 \end{itemize}
 
 These component are discussed in detail further in this chapter.
@@ -158,7 +164,7 @@ respectively.
      \textit{Concept mapping \newline Section \ref{sec:mapping}} & 
      \textit{Artifacts' fragments \newline Section \ref{sec:frag}} & 
      \textit{Progress tracking \newline Section \ref{sec:timeline}} & 
-     \textit{Advanced \newline sharing \newline Section \ref{sec:sharing}} \\
+     \textit{Managing \newline sharing \newline Section \ref{sec:sharing}} \\
      \hline \hline
      \rowcolor[gray]{.8} G1 & & & & & \\ \hline
      G2 & I3 & & & C1 & B3\\ \hline
@@ -485,12 +491,12 @@ directly to the concepts that already exist in their \ep. In case learners do
 not know where this example belongs to in the hierarchy of concepts, they can
 leave it as a free fragment and use later.
 
-Figure \ref{fig:frag} shows the way of extracting fragments for different file
-types and \ep~artifacts.
+Figure \ref{fig:frag} shows the way of extracting fragments for various
+\ep~artifacts.
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=1\textwidth]{CH6-F5-Fragments}
+\includegraphics[width=0.99\textwidth]{CH6-F5-Fragments}
 \caption{Artifact's fragment extraction}
 \label{fig:frag}
 \end{figure}
@@ -592,7 +598,7 @@ their growing understanding, what achievements they have made and what concepts
 require more input. It could also help to showcase the progress for evaluation
 or share it with others for feedback purpose.
 
-\subsection{Advanced Sharing Options}
+\subsection{Shared Resources Management}
 \label{sec:sharing}
 
 To be able to share the parts of \ep~in a way required by the stakeholders was

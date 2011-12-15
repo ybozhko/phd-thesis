@@ -61,16 +61,16 @@
 \contentsline {chapter}{\numberline {6}Prototype - Development and Implementation}{69}{chapter.6}
 \contentsline {section}{\numberline {6.1}Architecture}{69}{section.6.1}
 \contentsline {section}{\numberline {6.2}Development Toolkit}{71}{section.6.2}
-\contentsline {section}{\numberline {6.3}Implementations}{72}{section.6.3}
+\contentsline {section}{\numberline {6.3}Implementations}{73}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Version Control Elements}{73}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Concept Mapping Module}{75}{subsection.6.3.2}
 \contentsline {subsubsection}{\numberline {6.3.2.1}Parallels to qualitative research}{75}{subsubsection.6.3.2.1}
 \contentsline {subsubsection}{\numberline {6.3.2.2}Concept maps}{77}{subsubsection.6.3.2.2}
-\contentsline {subsubsection}{\numberline {6.3.2.3}Component implementation}{77}{subsubsection.6.3.2.3}
+\contentsline {subsubsection}{\numberline {6.3.2.3}Component implementation}{78}{subsubsection.6.3.2.3}
 \contentsline {subsection}{\numberline {6.3.3}Artifacts' Fragments Extraction}{80}{subsection.6.3.3}
-\contentsline {subsection}{\numberline {6.3.4}Learning Progress Tracking}{82}{subsection.6.3.4}
-\contentsline {subsection}{\numberline {6.3.5}Advanced Sharing Options}{84}{subsection.6.3.5}
-\contentsline {section}{\numberline {6.4}Prototype Iterations and User Tests}{84}{section.6.4}
+\contentsline {subsection}{\numberline {6.3.4}Learning Progress Tracking}{83}{subsection.6.3.4}
+\contentsline {subsection}{\numberline {6.3.5}Shared Resources Management}{84}{subsection.6.3.5}
+\contentsline {section}{\numberline {6.4}Prototype Iterations and User Tests}{85}{section.6.4}
 \contentsline {section}{\numberline {6.5}Summary}{85}{section.6.5}
 \contentsline {chapter}{\numberline {7}Evaluation}{87}{chapter.7}
 \contentsline {section}{\numberline {7.1}Study One. Exploratory Evaluation by Lecturers}{87}{section.7.1}

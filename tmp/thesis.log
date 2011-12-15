@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.18)  14 DEC 2011 17:26
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.18)  15 DEC 2011 13:38
 entering extended mode
  Source specials enabled.
  %&-line parsing enabled.
@@ -1358,7 +1358,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
  (./CH6-Development.tex
 Chapter 6.
-<./images/CH6-F1-Architecture.png, id=1698, 951.555pt x 624.3325pt>
+<./images/CH6-F1-Architecture.png, id=1698, 513.92pt x 355.3275pt>
 File: ./images/CH6-F1-Architecture.png Graphic file (type png)
 
 <use ./images/CH6-F1-Architecture.png>
@@ -1369,6 +1369,9 @@ Underfull \vbox (badness 2486) has occurred while \output is active []
 
 
 ]
+Underfull \vbox (badness 1577) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1390,22 +1393,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [72]
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 164--164
 []|[]\OT1/cmr/m/it/10 Concept
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 []|[]\OT1/cmr/m/it/10 Artifacts'
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--160
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
 []|[]\OT1/cmr/m/it/10 Progress
  []
 
 
-Overfull \hbox (2.03166pt too wide) in paragraph at lines 152--173
+Overfull \hbox (2.03166pt too wide) in paragraph at lines 158--179
  [][] 
  []
 
@@ -1415,13 +1418,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[73] <./images/CH6-F2-Version.png, id=1772, 368.37625pt x 181.67876pt>
+[73] <./images/CH6-F2-Version.png, id=1775, 368.37625pt x 181.67876pt>
 File: ./images/CH6-F2-Version.png Graphic file (type png)
 
 <use ./images/CH6-F2-Version.png>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1460,10 +1460,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [78 <./images/CH6-F3-Mapping.png>]
-<./images/CH6-F4-Map-Example.png, id=1852, 576.1525pt x 543.02875pt>
+<./images/CH6-F4-Map-Example.png, id=1855, 576.1525pt x 543.02875pt>
 File: ./images/CH6-F4-Map-Example.png Graphic file (type png)
 
 <use ./images/CH6-F4-Map-Example.png>
+Underfull \vbox (badness 4913) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1471,20 +1474,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [79 <./images/CH6-F4-Map-Example.png>]
-<./images/CH6-F5-Fragments.png, id=1862, 829.0975pt x 892.33376pt>
-File: ./images/CH6-F5-Fragments.png Graphic file (type png)
-
-<use ./images/CH6-F5-Fragments.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[80]
+[80] <./images/CH6-F5-Fragments.png, id=1869, 829.0975pt x 892.33376pt>
+File: ./images/CH6-F5-Fragments.png Graphic file (type png)
+
+<use ./images/CH6-F5-Fragments.png>
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1498,19 +1497,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[82] <./images/CH6-F6-Timeline.png, id=1880, 431.6125pt x 188.705pt>
+[82] <./images/CH6-F6-Timeline.png, id=1883, 431.6125pt x 188.705pt>
 File: ./images/CH6-F6-Timeline.png Graphic file (type png)
 
 <use ./images/CH6-F6-Timeline.png>
-Overfull \hbox (2.59268pt too wide) in paragraph at lines 587--594
-[][]\OT1/cmr/m/n/10.95 Adoption of this com-po-nent is ex-pected to pro-vide su
-p-port for track-ing per-sonal progress
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1518,39 +1508,44 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [83 <./images/CH6-F6-Timeline.png>]
+Overfull \hbox (2.59268pt too wide) in paragraph at lines 593--600
+[][]\OT1/cmr/m/n/10.95 Adoption of this com-po-nent is ex-pected to pro-vide su
+p-port for track-ing per-sonal progress
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[84])
+[84]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[85]
+[85])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[86]
 \openout2 = `CH7-Evaluation.aux'.
 
  (./CH7-Evaluation.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[86
-
-
-
-]
 Chapter 7.
 
 Underfull \vbox (badness 4913) has occurred while \output is active []
 
- [87]
+ [87
+
+
+
+]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1818,7 +1813,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 Appendix A.
 [109]
-<appendix/Low-Risk-Notification-2009.pdf, id=2089, page=1, 598.235pt x 845.1575
+<appendix/Low-Risk-Notification-2009.pdf, id=2092, page=1, 598.235pt x 845.1575
 pt>
 File: appendix/Low-Risk-Notification-2009.pdf Graphic file (type pdf)
  <use appendix/Low-Risk-Notification-2009.pdf, page 1>
@@ -1840,7 +1835,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: appendix/Low-Risk-Notification-2009.pdf Graphic file (type pdf)
 <use appendix/Low-Risk-Notification-2009.pdf, page 1> [110 <./appendix/Low-Risk
 -Notification-2009.pdf, page is rotated 90 degrees>]
-<appendix/Lecturer_sheet_1.pdf, id=2098, page=1, 598.235pt x 845.1575pt>
+<appendix/Lecturer_sheet_1.pdf, id=2101, page=1, 598.235pt x 845.1575pt>
 File: appendix/Lecturer_sheet_1.pdf Graphic file (type pdf)
 
 <use appendix/Lecturer_sheet_1.pdf, page 1>
@@ -1862,7 +1857,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: appendix/Lecturer_sheet_1.pdf Graphic file (type pdf)
 <use appendix/Lecturer_sheet_1.pdf, page 1> [111 <./appendix/Lecturer_sheet_1.p
 df, page is rotated 90 degrees>]
-<appendix/Lecturer_sheet_2.pdf, id=2107, page=1, 598.235pt x 845.1575pt>
+<appendix/Lecturer_sheet_2.pdf, id=2110, page=1, 598.235pt x 845.1575pt>
 File: appendix/Lecturer_sheet_2.pdf Graphic file (type pdf)
 
 <use appendix/Lecturer_sheet_2.pdf, page 1>
@@ -1879,7 +1874,7 @@ File: appendix/Lecturer_sheet_2.pdf Graphic file (type pdf)
 
 <use appendix/Lecturer_sheet_2.pdf, page 1> [112 <./appendix/Lecturer_sheet_2.p
 df, page is rotated 90 degrees>]
-<appendix/Student_sheet_1.pdf, id=2116, page=1, 598.235pt x 845.1575pt>
+<appendix/Student_sheet_1.pdf, id=2119, page=1, 598.235pt x 845.1575pt>
 File: appendix/Student_sheet_1.pdf Graphic file (type pdf)
 
 <use appendix/Student_sheet_1.pdf, page 1>
@@ -1901,7 +1896,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: appendix/Student_sheet_1.pdf Graphic file (type pdf)
 <use appendix/Student_sheet_1.pdf, page 1> [113 <./appendix/Student_sheet_1.pdf
 , page is rotated 90 degrees>]
-<appendix/Student_sheet_2.pdf, id=2126, page=1, 598.235pt x 845.1575pt>
+<appendix/Student_sheet_2.pdf, id=2129, page=1, 598.235pt x 845.1575pt>
 File: appendix/Student_sheet_2.pdf Graphic file (type pdf)
 
 <use appendix/Student_sheet_2.pdf, page 1>
@@ -1918,7 +1913,7 @@ File: appendix/Student_sheet_2.pdf Graphic file (type pdf)
 
 <use appendix/Student_sheet_2.pdf, page 1> [114 <./appendix/Student_sheet_2.pdf
 , page is rotated 90 degrees>]
-<appendix/Concent_form.pdf, id=2135, page=1, 598.235pt x 845.1575pt>
+<appendix/Concent_form.pdf, id=2138, page=1, 598.235pt x 845.1575pt>
 File: appendix/Concent_form.pdf Graphic file (type pdf)
 
 <use appendix/Concent_form.pdf, page 1>
@@ -2029,9 +2024,9 @@ Appendix D.
 (./CH8-Discussion.aux) (./CH9-Conclusion.aux) (./A1.aux) (./A2.aux) (./A3.aux)
 (./A4.aux)) ) 
 Here is how much of TeX's memory you used:
- 17518 strings out of 495061
- 304077 string characters out of 1182620
- 378921 words of memory out of 3000000
+ 17519 strings out of 495061
+ 304089 string characters out of 1182620
+ 378924 words of memory out of 3000000
  19690 multiletter control sequences out of 15000+50000
  19415 words of font info for 73 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
@@ -2051,9 +2046,9 @@ amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.p
 fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/sh
 are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on thesis.pdf (145 pages, 5324450 bytes).
+Output written on thesis.pdf (145 pages, 5299172 bytes).
 PDF statistics:
- 2345 PDF objects out of 2487 (max. 8388607)
- 498 named destinations out of 1000 (max. 500000)
+ 2349 PDF objects out of 2487 (max. 8388607)
+ 499 named destinations out of 1000 (max. 500000)
  1130 words of extra memory for PDF output out of 10000 (max. 10000000)
 
