@@ -73,56 +73,85 @@
 \contentsline {section}{\numberline {6.4}Prototype Iterations and User Tests}{85}{section.6.4}
 \contentsline {section}{\numberline {6.5}Summary}{85}{section.6.5}
 \contentsline {chapter}{\numberline {7}Evaluation}{87}{chapter.7}
-\contentsline {section}{\numberline {7.1}Study One. Exploratory Evaluation by Lecturers}{87}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Goals}{87}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Research Protocol}{87}{subsection.7.1.2}
-\contentsline {subsection}{\numberline {7.1.3}Participants Profile}{87}{subsection.7.1.3}
-\contentsline {subsection}{\numberline {7.1.4}Data Collection and Analysis}{88}{subsection.7.1.4}
-\contentsline {subsection}{\numberline {7.1.5}Conclusions}{88}{subsection.7.1.5}
-\contentsline {section}{\numberline {7.2}Study Two. Group Experiment - Lifelong Learning Skills Development and Demostration}{88}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Goals}{88}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Research Protocol}{88}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Participants Profile}{88}{subsection.7.2.3}
-\contentsline {subsection}{\numberline {7.2.4}Activities and Artefacts}{88}{subsection.7.2.4}
-\contentsline {subsection}{\numberline {7.2.5}Data Collection and Analysis}{88}{subsection.7.2.5}
-\contentsline {subsection}{\numberline {7.2.6}Conclusions}{89}{subsection.7.2.6}
-\contentsline {section}{\numberline {7.3}Study Three. System Validation by Experienced Students}{89}{section.7.3}
+\contentsline {section}{\numberline {7.1}Design Overview}{87}{section.7.1}
+\contentsline {section}{\numberline {7.2}Ethical Considerations}{89}{section.7.2}
+\contentsline {section}{\numberline {7.3}Study One. Exploratory Evaluation by Lecturers}{89}{section.7.3}
 \contentsline {subsection}{\numberline {7.3.1}Goals}{89}{subsection.7.3.1}
 \contentsline {subsection}{\numberline {7.3.2}Research Protocol}{89}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Participants Profile}{89}{subsection.7.3.3}
-\contentsline {subsection}{\numberline {7.3.4}Activities and Artefacts}{89}{subsection.7.3.4}
-\contentsline {subsection}{\numberline {7.3.5}Data Collection and Analysis}{89}{subsection.7.3.5}
-\contentsline {subsection}{\numberline {7.3.6}Conclusions}{89}{subsection.7.3.6}
-\contentsline {section}{\numberline {7.4}Summary}{89}{section.7.4}
-\contentsline {chapter}{\numberline {8}Discussion}{91}{chapter.8}
-\contentsline {section}{\numberline {8.1}Implications}{91}{section.8.1}
-\contentsline {section}{\numberline {8.2}Applications}{91}{section.8.2}
-\contentsline {section}{\numberline {8.3}Recommendations}{91}{section.8.3}
-\contentsline {chapter}{\numberline {9}Conclusions and Future Work}{93}{chapter.9}
-\contentsline {section}{\numberline {9.1}Summary of the Research}{93}{section.9.1}
-\contentsline {section}{\numberline {9.2}Research Contributions}{93}{section.9.2}
-\contentsline {section}{\numberline {9.3}Future Research}{93}{section.9.3}
-\contentsline {section}{\numberline {9.4}Conclusions}{93}{section.9.4}
-\contentsline {chapter}{Bibliography}{95}{section*.36}
-\contentsline {chapter}{\numberline {A}Ethics Documentation: Requirements Analysis}{109}{appendix.A}
-\contentsline {section}{\numberline {A.1}Ethics Approval Letter}{110}{section.A.1}
-\contentsline {section}{\numberline {A.2}Information Sheet for Lecturers}{111}{section.A.2}
-\contentsline {section}{\numberline {A.3}Information Sheet for Students}{113}{section.A.3}
-\contentsline {section}{\numberline {A.4}Participant Consent Form}{115}{section.A.4}
-\contentsline {chapter}{\numberline {B}Interviews Documentation }{117}{appendix.B}
-\contentsline {section}{\numberline {B.1}Questions used in the interviews with lecturers}{117}{section.B.1}
-\contentsline {section}{\numberline {B.2}Lecturers scenario examples}{118}{section.B.2}
-\contentsline {section}{\numberline {B.3}Questions used in the interviews with students}{118}{section.B.3}
-\contentsline {section}{\numberline {B.4}Students scenario examples}{118}{section.B.4}
-\contentsline {chapter}{\numberline {C}Component Requirements }{119}{appendix.C}
-\contentsline {section}{\numberline {C.1}Version Control Elements}{119}{section.C.1}
-\contentsline {section}{\numberline {C.2}Concept Mapping Module}{120}{section.C.2}
-\contentsline {section}{\numberline {C.3}Artifacts' Fragments Extraction}{121}{section.C.3}
-\contentsline {section}{\numberline {C.4}Learning Progress Tracking}{122}{section.C.4}
-\contentsline {section}{\numberline {C.5}Advanced Sharing Options}{123}{section.C.5}
-\contentsline {chapter}{\numberline {D}Interface Screenshots }{125}{appendix.D}
-\contentsline {section}{\numberline {D.1}Version Control Elements}{125}{section.D.1}
-\contentsline {section}{\numberline {D.2}Concept Mapping Module}{125}{section.D.2}
-\contentsline {section}{\numberline {D.3}Artifacts' Fragments Extraction}{125}{section.D.3}
-\contentsline {section}{\numberline {D.4}Learning Progress Tracking}{125}{section.D.4}
-\contentsline {section}{\numberline {D.5}Advanced Sharing Options}{125}{section.D.5}
+\contentsline {subsection}{\numberline {7.3.3}Participants Profile}{90}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.4}Results}{90}{subsection.7.3.4}
+\contentsline {subsection}{\numberline {7.3.5}Conclusions}{90}{subsection.7.3.5}
+\contentsline {section}{\numberline {7.4}Study Two. Group Experiments -- Lifelong Learning Skills Development and Demonstration}{91}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Goals}{91}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Research Protocol}{91}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.3}Participants Profile}{93}{subsection.7.4.3}
+\contentsline {subsection}{\numberline {7.4.4}Activities and Artifacts}{94}{subsection.7.4.4}
+\contentsline {subsection}{\numberline {7.4.5}Data Analysis and Results}{95}{subsection.7.4.5}
+\contentsline {subsubsection}{\numberline {7.4.5.1}Observed Behaviour}{95}{subsubsection.7.4.5.1}
+\contentsline {subsubsection}{\numberline {7.4.5.2}Exit Questionnaire Results}{96}{subsubsection.7.4.5.2}
+\contentsline {subsubsection}{\numberline {7.4.5.3}Concept Maps Created by Students in the ePortfolio\nobreakspace {}System}{99}{subsubsection.7.4.5.3}
+\contentsline {subsection}{\numberline {7.4.6}Conclusions}{99}{subsection.7.4.6}
+\contentsline {section}{\numberline {7.5}Study Three. System Validation by Experienced Students}{100}{section.7.5}
+\contentsline {subsection}{\numberline {7.5.1}Goals}{100}{subsection.7.5.1}
+\contentsline {subsection}{\numberline {7.5.2}Research Protocol}{100}{subsection.7.5.2}
+\contentsline {subsection}{\numberline {7.5.3}Participants Profile}{100}{subsection.7.5.3}
+\contentsline {subsection}{\numberline {7.5.4}Activities and Artifacts}{100}{subsection.7.5.4}
+\contentsline {subsection}{\numberline {7.5.5}Data Collection and Analysis}{100}{subsection.7.5.5}
+\contentsline {subsection}{\numberline {7.5.6}Conclusions}{100}{subsection.7.5.6}
+\contentsline {section}{\numberline {7.6}Summary}{100}{section.7.6}
+\contentsline {chapter}{\numberline {8}Discussion}{101}{chapter.8}
+\contentsline {section}{\numberline {8.1}Reflection}{101}{section.8.1}
+\contentsline {section}{\numberline {8.2}Implications}{101}{section.8.2}
+\contentsline {section}{\numberline {8.3}Applications}{101}{section.8.3}
+\contentsline {section}{\numberline {8.4}Recommendations}{101}{section.8.4}
+\contentsline {chapter}{\numberline {9}Conclusions and Future Work}{103}{chapter.9}
+\contentsline {section}{\numberline {9.1}Summary of the Research}{103}{section.9.1}
+\contentsline {section}{\numberline {9.2}Research Contributions}{103}{section.9.2}
+\contentsline {section}{\numberline {9.3}Future Research}{103}{section.9.3}
+\contentsline {section}{\numberline {9.4}Conclusions}{103}{section.9.4}
+\contentsline {chapter}{Bibliography}{105}{section*.45}
+\contentsline {chapter}{\numberline {A}Ethics Documentation: Requirements Analysis}{119}{appendix.A}
+\contentsline {section}{\numberline {A.1}Ethics Approval Letter}{120}{section.A.1}
+\contentsline {section}{\numberline {A.2}Information Sheet for Lecturers}{121}{section.A.2}
+\contentsline {section}{\numberline {A.3}Information Sheet for Students}{123}{section.A.3}
+\contentsline {section}{\numberline {A.4}Participant Consent Form}{125}{section.A.4}
+\contentsline {chapter}{\numberline {B}Interviews Documentation }{127}{appendix.B}
+\contentsline {section}{\numberline {B.1}Questions used in the interviews with lecturers}{127}{section.B.1}
+\contentsline {section}{\numberline {B.2}Lecturers scenario examples}{128}{section.B.2}
+\contentsline {section}{\numberline {B.3}Questions used in the interviews with students}{128}{section.B.3}
+\contentsline {section}{\numberline {B.4}Students scenario examples}{128}{section.B.4}
+\contentsline {chapter}{\numberline {C}Component Requirements }{129}{appendix.C}
+\contentsline {section}{\numberline {C.1}Version Control Elements}{129}{section.C.1}
+\contentsline {section}{\numberline {C.2}Concept Mapping Module}{130}{section.C.2}
+\contentsline {section}{\numberline {C.3}Artifacts' Fragments Extraction}{131}{section.C.3}
+\contentsline {section}{\numberline {C.4}Learning Progress Tracking}{132}{section.C.4}
+\contentsline {section}{\numberline {C.5}Advanced Sharing Options}{133}{section.C.5}
+\contentsline {chapter}{\numberline {D}Interface Screenshots }{135}{appendix.D}
+\contentsline {section}{\numberline {D.1}Version Control Elements}{135}{section.D.1}
+\contentsline {section}{\numberline {D.2}Concept Mapping Module}{135}{section.D.2}
+\contentsline {section}{\numberline {D.3}Artifacts' Fragments Extraction}{135}{section.D.3}
+\contentsline {section}{\numberline {D.4}Learning Progress Tracking}{135}{section.D.4}
+\contentsline {section}{\numberline {D.5}Advanced Sharing Options}{135}{section.D.5}
+\contentsline {chapter}{\numberline {E}Ethics Documentation: Prototype Evaluation }{137}{appendix.E}
+\contentsline {section}{\numberline {E.1}Ethics Approval Letter}{138}{section.E.1}
+\contentsline {section}{\numberline {E.2}Information Sheet for Lecturers}{139}{section.E.2}
+\contentsline {section}{\numberline {E.3}Information Sheet for Case Study Participants}{140}{section.E.3}
+\contentsline {section}{\numberline {E.4}Information Sheet for Group Experiment Participants}{142}{section.E.4}
+\contentsline {section}{\numberline {E.5}Participant Consent Form}{144}{section.E.5}
+\contentsline {chapter}{\numberline {F}Study Two Documentation }{145}{appendix.F}
+\contentsline {section}{\numberline {F.1}Invitation Poster}{146}{section.F.1}
+\contentsline {section}{\numberline {F.2}Study Protocol}{147}{section.F.2}
+\contentsline {section}{\numberline {F.3}Background and Exit Questionnaire}{148}{section.F.3}
+\contentsline {section}{\numberline {F.4}Concept Map Examples Created by Students}{150}{section.F.4}
+\contentsline {section}{\numberline {F.5}Exit Questionnaire Responses}{150}{section.F.5}
+\contentsline {subsection}{\numberline {F.5.1}Potential impact of concept mapping on the development and understanding of personal learning achievements and graduate attributes.}{150}{subsection.F.5.1}
+\contentsline {subsection}{\numberline {F.5.2}Most favoured part about concept mapping in the ePortfolio\nobreakspace {}system}{151}{subsection.F.5.2}
+\contentsline {subsection}{\numberline {F.5.3}Least favoured part about concept mapping in the ePortfolio\nobreakspace {}system}{152}{subsection.F.5.3}
+\contentsline {subsection}{\numberline {F.5.4}Recommended improvements}{152}{subsection.F.5.4}
+\contentsline {chapter}{\numberline {G}Study Three Documentation }{155}{appendix.G}
+\contentsline {section}{\numberline {G.1}Study Protocol}{155}{section.G.1}
+\contentsline {section}{\numberline {G.2}Potential Questions for the Follow-up Discussion}{155}{section.G.2}
+\contentsline {section}{\numberline {G.3}Background Questionnaire}{156}{section.G.3}
+\contentsline {section}{\numberline {G.4}Participant One}{157}{section.G.4}
+\contentsline {section}{\numberline {G.5}Participant Two}{157}{section.G.5}
+\contentsline {section}{\numberline {G.6}Participant Three}{157}{section.G.6}

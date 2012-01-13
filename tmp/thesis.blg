@@ -15,6 +15,9 @@ A level-1 auxiliary file: A1.aux
 A level-1 auxiliary file: A2.aux
 A level-1 auxiliary file: A3.aux
 A level-1 auxiliary file: A4.aux
+A level-1 auxiliary file: A5.aux
+A level-1 auxiliary file: A6.aux
+A level-1 auxiliary file: A7.aux
 Database file #1: references.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 You can't pop an empty literal stack for entry Attwell2007
@@ -138,45 +141,45 @@ You can't pop an empty literal stack for entry UniversityofTorontoScarborough201
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry UniversityofTorontoScarborough2010
 while executing---line 1597 of file bevbib4.bst
-You've used 145 entries,
+You've used 148 entries,
             3124 wiz_defined-function locations,
-            1611 strings with 31666 characters,
-and the built_in function-call counts, 111051 in all, are:
-= -- 12346
-> -- 2650
-< -- 171
-+ -- 1329
-- -- 825
-* -- 6552
-:= -- 13561
-add.period$ -- 634
-call.type$ -- 145
-change.case$ -- 908
-chr.to.int$ -- 143
-cite$ -- 162
-duplicate$ -- 10687
-empty$ -- 7183
-format.name$ -- 1160
-if$ -- 22413
+            1630 strings with 32023 characters,
+and the built_in function-call counts, 113297 in all, are:
+= -- 12600
+> -- 2690
+< -- 175
++ -- 1352
+- -- 837
+* -- 6670
+:= -- 13827
+add.period$ -- 646
+call.type$ -- 148
+change.case$ -- 927
+chr.to.int$ -- 146
+cite$ -- 165
+duplicate$ -- 10907
+empty$ -- 7342
+format.name$ -- 1179
+if$ -- 22884
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 1162
-newline$ -- 755
-num.names$ -- 618
-pop$ -- 3826
+missing$ -- 1186
+newline$ -- 770
+num.names$ -- 630
+pop$ -- 3903
 preamble$ -- 1
-purify$ -- 840
+purify$ -- 856
 quote$ -- 0
-skip$ -- 5842
+skip$ -- 5974
 stack$ -- 0
-substring$ -- 4877
-swap$ -- 8323
-text.length$ -- 50
+substring$ -- 4981
+swap$ -- 8489
+text.length$ -- 51
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1230
+type$ -- 1251
 warning$ -- 17
-while$ -- 696
+while$ -- 709
 width$ -- 0
-write$ -- 1941
+write$ -- 1980
 (There were 52 error messages)

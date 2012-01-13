@@ -1,4 +1,4 @@
-\begin{thebibliography}{145}
+\begin{thebibliography}{148}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -603,6 +603,13 @@ f}.
 \newblock \enquote{{About Mahara}.}
 \newblock \urlprefix\url{http://mahara.org}.
 
+\bibitem[{Maimbo and Pervan(2005)}]{Maimbo2005}
+\textbf{Maimbo, H. and Pervan, G.} (\textbf{2005}).
+\newblock \enquote{{Designing a Case Study Protocol for Application in IS
+  Research}.}
+\newblock In \enquote{Proceedings of the 9th Pacific Asia Conference on
+  Information Systems,} pages 1281--1292. Bangkok, Thailand.
+
 \bibitem[{Malloff(2010)}]{Malloff2010}
 \textbf{Malloff, T.} (\textbf{2010}).
 \newblock \enquote{{Tamara Malloff Photostream}.}
@@ -829,6 +836,11 @@ on2002w.pdf}.
 \newblock \emph{{Software engineering}}.
 \newblock Addison-Wesley, New York, 8th edition.
 
+\bibitem[{Stake(1995)}]{Stake1995}
+\textbf{Stake, R.~E.} (\textbf{1995}).
+\newblock \emph{{The art of case study research}}.
+\newblock Sage Publications, Thousand Oaks, California.
+
 \bibitem[{Strauss and Corbin(2008)}]{Strauss2008}
 \textbf{Strauss, A.~L. and Corbin, J.} (\textbf{2008}).
 \newblock \emph{{Basics of qualitative research: techniques and procedures for
@@ -937,5 +949,10 @@ portfolio\_scenarios/portfolios\_types.htm}.
 \textbf{Yin, R.~K.} (\textbf{2009}).
 \newblock \emph{{Case study research: design and methods}}.
 \newblock Sage Publications, Los Angeles, 4th edition.
+
+\bibitem[{Yin(2012)}]{Yin2012}
+\textbf{Yin, R.~K.} (\textbf{2012}).
+\newblock \emph{{Applications of case study research}}.
+\newblock SAGE, Thousand Oaks, California, 3 edition.
 
 \end{thebibliography}
