@@ -1,4 +1,4 @@
-\begin{thebibliography}{148}
+\begin{thebibliography}{149}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -873,6 +873,11 @@ on2002w.pdf}.
 \newblock \emph{TOJNED: The Online Journal Of New Horizons In Education}, 1(4):
   42--52.
 \newblock \urlprefix\url{http://www.tojned.net/pdf/tojnedv01i04-05.pdf}.
+
+\bibitem[{Trochim(2001)}]{Trochim2001}
+\textbf{Trochim, W. M.~K.} (\textbf{2001}).
+\newblock \emph{{Research methods knowledge base}}.
+\newblock Atomic Dog Pub., Cincinnati, Ohio, 2 edition.
 
 \bibitem[{Tuijnman and Bostr\"{o}m(2002)}]{Tuijnman2002}
 \textbf{Tuijnman, A. and Bostr\"{o}m, A.-K.} (\textbf{2002}).
