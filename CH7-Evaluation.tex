@@ -1,5 +1,5 @@
 \chapter{Evaluation\label{cha:evaluation}}
-%9160
+%10041
 Throughout this thesis the requirements, design and prototype implementation of
 the \ep~system that can support \LLLs has been discussed. This chapter focuses
 on the evaluation of this research and its contributions based on three studies.
@@ -557,15 +557,21 @@ All students were able to complete exercises in allocated time. Students, new to
 the concept mapping, followed the techniques presented in the introduction
 tutorial on how to build the maps. This included deciding the main message or
 the key concept of their map followed by identifying the related concepts. When
-this was done, they tried to organize the concepts into maps.
+this was done, they tried to organize the concepts into maps (Figure
+\ref{fig:study2maps}, a).
 
-% TODO: photo of the concept map on paper
-\note{TODO: Add photo of maps on paper here}
+% TODO: photo of the concept maps on paper
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.96\textwidth]{CH7-F12-Map-Photo}
+\caption{Concept map drawing examples by the students}
+\label{fig:study2maps}
+\end{figure}
 
 More experienced students preferred to follow their own established procedure of
 creating concept maps. Some of them did not spend time making a list of the
 concepts, but were adding concepts straight to the maps making corrections when
-necessary.
+necessary (Figure \ref{fig:study2maps}, b).
 
 Due to the lack of information about previous experiences of the participants,
 in some cases groups consisted of students with very different knowledge of the
@@ -721,15 +727,16 @@ concepts of \LLLs and \ep s.
 \subsubsection{Concept Maps Created by Students in the \ep~System}
 
 Section \ref{sec:examples1} of Appendix \ref{cha:app6} provides examples of the
-concept maps created by the students during the experiment. As it was
-requested by the exercise task, the majority of students transferred their hand
-drawn concept maps to the \ep~system prototype. A small number of concepts had
-examples attached to them that would demonstrate students' experience of the
-related concepts. Due to the fact that the participants had not been expected to
-bring examples with them to the study, they were asked to think about what
-examples they would include and create empty files or short blog posts for
-these. As it was explained to the students, understanding and evaluation of the
-general concept rather than content they create was in focus of this study.
+concept maps created by the students using \ep~tools during the experiment. As
+it was requested by the exercise task, the majority of students transferred
+their hand drawn concept maps to the \ep~system prototype. A small number of
+concepts had examples attached to them that would demonstrate students'
+experience of the related concepts. Due to the fact that the participants had
+not been expected to bring examples with them to the study, they were asked to
+think about what examples they would include and create empty files or short
+blog posts for these. As it was explained to the students, understanding and
+evaluation of the general concept rather than content they create was in focus
+of this study.
 
 \subsection{Conclusions}
 
@@ -1173,16 +1180,16 @@ haven't seen it in the \ep~systems before.}
 
 Participant Two liked the idea of fragments in terms of viewing a single
 document from different perspectives to see what concepts had been learnt. They
-said that this feature can be used for splitting up artifacts into different
+said that this feature could be used for splitting up artifacts into different
 examples to be presented in the concept map.
 
-From the perspective of their field, Participant Two understood the difficulties
-of marking up or selecting fragments of the documents that had proprietary
-format. However, they said that there could be an choice for users to open a
-document as a plain text file for fragment selection. Users generally know
-whether their document can be open in plan text format. This would be very
-useful for the students in technical areas, such as Participant's Two, where a
-lot of skills are demonstrated in programming and code samples.
+From the perspective of their professional field, Participant Two understood the
+difficulties of marking up or selecting fragments of the documents that had
+proprietary format. However, they said that there could be an choice for users
+to open a document as a plain text file for fragment selection. Users generally
+know whether their document can be opened in plan text format. This would be
+very useful for the students in technical areas, such as Participant's Two,
+where a lot of skills are demonstrated in programming and code samples.
 
 Participant Three said that fragments of the artifacts might have a potential
 value of communicating ideas more clearly between a learner and a teacher.
@@ -1190,58 +1197,129 @@ From this perspective, selecting an exact part of a picture or limiting a long
 video to just a number of time frames allows to be more specific about the
 things that students might want to share.
 
+Compared to other \ep~systems, Participant Three liked that reflection could be
+directly attached to a potential evidence of any concept from a concept map.
+They said that it should be useful for students to be able to explain what and
+why they added to their \ep.
+
+It can be concluded that all three participants understood the general principle
+of working with this feature. Each of them saw the various ways of applying it
+together with the other prototype features in the \ep~system for better
+reflection, sharing and emphasizing elements of one's learning that contribute
+to the bigger picture of personal development.
+
 \subsubsection{Learning Progress Tracking}
 
 Each of the participants had a common view that timeline-based progress tracking
-feature was useful for discovering gaps in their learning.
+feature was useful for discovering gaps in their learning and demonstrating
+improvements towards achievement of their learning goals. For example,
+Participant one said:
 
 \shortquote{Participant One: The timeline is really useful actually in the way
 that I can get a really quick look at my progress and re-factor my gaps.}
 
-According to Participant Two, \textit{The timeline functionality is an
-excellent way of viewing progress. It enables the view of what I have done and
-then I can also see areas for improvement.}
+\begin{figure}[htb]
+\centering
+\setlength\fboxsep{0pt}
+\setlength\fboxrule{0.5pt}
+\fbox{\includegraphics[width=1\textwidth]{CH7-F11-Example3}}
+\caption{Progress tracking example by Participant Two}
+\label{fig:p2timeline}
+\end{figure}
+
+Figure \ref{fig:p2timeline} shows one of the examples of using progress tracking
+feature provided by Participant Two. According to them, the timeline
+functionality was an \textit{excellent way of viewing progress} which allowed to
+see achievements of the past and learning potential for the future:
+
+\shortquote{Participant Two: It enables the view of what I have done and then I
+can also see areas for improvement.}
+
+Participant Two did not like the way custom time-frames were supposed to be
+created by the users. They found the implementations to be confusing and not
+straightforward, although the overall idea looked interesting to them. They
+suggested that this part would either require more detailed explanation to the
+learners who are just starting to use the \ep~system or considerable changes to
+the way custom timelines and time-frames are created.
 
 Participant Three thought that together with the concept mapping tools timeline
 provided another perspective on learning. According to their opinion, if used
 properly, these features could be a very powerful tool for lecturers to perform
 assessment.
 
-\shortquote{In the concept map, someone can see how I understand the knowledge
-concepts, while in timeline I can easily show what I have actually done to
-address these concepts [\ldots] If I was teaching now, I would definitely use it
-with my students.}
+\shortquote{Participant Three: In the concept map, someone can see how I
+understand the knowledge concepts, while in timeline I can easily show what I
+have actually done to address these concepts [\ldots] If I was teaching now, I
+would definitely use it with my students.}
+
+Participant One noticed that this feature did not require any manual input from
+the users. Although, timeline representation builds itself from the concepts and
+examples that learners provide in adjacent features, there might be a room for
+data manipulation on timeline level as well. For example, students should be
+able to drag examples between time frames which would allow them to easily
+update date of an example. Another potential improvements would be a color
+highlight of the elements on timeline based on the examples association with a
+concept.
+
+Overall, all participants were satisfied with the feature and said that they
+could see it working for the purpose of learning progress tracking for students
+as well as for lecturers.
 
 \subsubsection{Version Control Elements}
 
-Participant Two:
+Version control feature was implemented through a simple page versioning in the
+\ep~repository. Participant Two really liked the idea of adding this kind of
+functionality to the \ep~system.
 
-\textit{Everything in \ep~should be done with versions. It might be my Computer
-Science background, but for me it's a really good way of own seeing progress.}
+\shortquote{Participant Two: Everything in \ep~should be done with versions. It
+might be my Computer Science background, but for me it's a really good way of
+own seeing progress in work.}
 
-Participant Three \textit{I think adding version control elements to the
-\ep~system may be an excellent idea, though it requires significant work by both
-the student and the teacher. It would be useful in many circumstances to view
-changes and improvement.}
+According to Participant's Three views, in addition to being able to show the
+changes that had been done in the process of developing a showcase \ep~page,
+this feature would also help to support discussion between a learner and other
+interested parties. An opportunity to justify the changes and communicate the
+improvements is a valuable addition to the conventional \ep~systems'
+functionality.
+
+\shortquote{Participant Three: I think adding version control elements to the
+\ep~system is an excellent idea. It would be useful in many circumstances to
+view changes and improvement.}
+
+Participant One said that in the way it is implemented now, \textit{the
+lecturers might enjoy this feature much more than students}. As they explained,
+traditionally version control features were used for an opportunity to go
+back and revert the changes rather than review the progress made between
+versions. In case of this implementation, it was more like a version release of
+a software when one can introduce improvements and share them with others.
+Participant One could not imagine going back and trying to compare versions of
+pages, but from the perspective of a lecture, their dialog with a student
+that could be supported this way, and an opportunity to review students'
+progress, it seemed to be useful.
+
+It can be concluded that all three participants found this feature useful for
+the purpose it was created. None of the students could not think of any other
+potential applications than the ones suggested by the researcher.
 
 \subsubsection{Shared Resources Management}
 
 Due to the system being a prototype with no social activity going on, none of
-the participants could properly test the features for the shared resources
-management. Participant One found the way out by registering another account and
-sharing resources between the two accounts. Other participants followed the
-descriptions in the user manual and looked at the feature's set ups without
-actually sharing resources with anyone. In some cases, they tried out giving
-feedback to themselves.
+the participants could properly test the all features implemented for the shared
+resources management. Participant One found the way out by registering another
+account and sharing resources between the two accounts. Other participants
+followed the descriptions in the user manual and looked at the feature's set ups
+without actually sharing resources with anyone. In some cases, they tried out
+giving feedback to their own artifacts and other items, or sharing resourced
+with the friends group and logged-in users.
 
 Participant Two said that it might be difficult to measure the effectiveness
 of the shared items management by just sharing something with others or
 compiling a C.V. for a potential employer. According to their point of view, the
 problem with this approach would be that there were already effective mechanisms
-in place that allowed sharing resources. However, the valuable benefit of the
-\ep~system prototype would potentially be in combination of sharing with the
-elements of version control in order to also manage changes and feedback at the
-same time.
+in place that allowed sharing resources. However, the valuable benefit of this
+feature in the \ep~system prototype would potentially be in combination with the
+version control feature in order to manage changes and feedback to the artifacts
+at the same time.
 
 Participant One noticed that notifications about access to the shared resources
 in the \ep~system might not be positively accepted by some users. From the
@@ -1250,12 +1328,34 @@ turn the \ep~system into another spam sending web-site. From their point of
 view, this feature required much more options to consider for both a sender and
 a person who would receive notifications.
 
+Although, none of the students could evaluate full potential of this feature,
+they all said that they could see it being helpful combined with other features
+for \LLLs support. However, from the research perspective, these assumptions
+have to be tested by further investigations.
+
 \subsection{Conclusions}
 
 Overall, based on the evidence gathered during the case studies, it can be
 concluded that all three participants supported the prototype implementations
 and agreed that being properly utilized these implementations could be a part of
 a successful approach to \LLLs support in universities.
+
+Although, all three participants were generally satisfied with the
+implementations, they also tended to suggest a number of improvements for each
+feature. These included the following:
+
+\begin{itemize}
+  \item improvements to the concept mapping tool for better interaction,
+  flexibility and user control;
+  \item improvements to the artifacts' fragment extraction to provide users with
+  more file options and better communicating their ideas;
+  \item improvements to the shared resources management with more opportunities
+  for a sender as well as a recipient; 
+  \item improvements to the progress tracking using more intuitive creating of
+  custom timeline and time-frames;
+  \item improvements to the version control feature with more \ep~artifacts
+  having version property.
+\end{itemize}
 
 Due to some of the tested features' dependence on the social interactions
 between the users, it was not possible to evaluate the entire prototype in depth
@@ -1265,21 +1365,35 @@ use with a larger number of participants would decide strengths and weaknesses
 of the implementations performance and feasibility of their use in the social
 settings. This can be one of the questions for the future research.
 
-Improvements:
-I would like to be able to reorganize concept maps manually. It is just another
-level of control.
-
-I would recommend more improvements on the conceptual mapping tool, better
-interaction, more tools to order and organise the concepts.
- 
 \section{Summary}
 
 This section presented the evaluation design and the results of the evaluation
-of this research project's contributions.
+of this research project's contributions. Three studies were carried out to
+understand how the new features can be utilized by the stakeholders to provide
+better support for \LLLs in the universities.
 
-Rather unexpected outcome of the evaluation was in the fact that it was very
-difficult for the participants to give their opinion of the underlying concepts
-without paying attention to the user interface. The evaluated system was a
-functional prototype and therefore was not aiming at providing highly attractive
-and usable user interface. However, this problem should be considered in any
-future research.
+The results of these studies can be summarized as follows:
+
+\begin{enumerate}
+  \item Lecturers see the ways and are willing to incorporate the new features
+  into their teaching to provide students with their guidance and help them to
+  understand \LLLs skills.
+  \item Based on the experiment results, concept mapping as a part of the
+  \ep~system can be successfully used by students to demonstrate learning
+  achievements and address institutional graduate attributes. It also can
+  provide opportunities for targeted reflection and better feedback.
+  \item According to the case studies, students see the new features as
+  helpful and useful for tracking their learning progress, managing
+  \ep~knowledge and content, demonstrating and sharing their achievements with
+  others. Further improvements are still required to make the features more
+  flexible, intuitive and user-friendly. This would also ensure that the
+  evaluation of the underlying concepts have not been affected by the limits of
+  implementations.
+\end{enumerate} 
+
+An apparent issue of the evaluation was in the fact that it was very difficult
+for some of the participants to give their opinion of the underlying concepts
+without paying attention to the shortcomings of the user interface. The
+evaluated system was a functional prototype and therefore was not aiming at
+providing highly attractive and usable user interface. However, this problem
+should be considered and addressed in any future research.
