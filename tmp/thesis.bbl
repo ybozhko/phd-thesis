@@ -1,4 +1,4 @@
-\begin{thebibliography}{149}
+\begin{thebibliography}{153}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -332,6 +332,14 @@ linnovation/workforcedev/eppsmefinalreport.pdf}.
 \newblock
   \urlprefix\url{http://www.elearningeuropa.info/files/media/media15530.pdf}.
 
+\bibitem[{Gero(1999)}]{Gero1999}
+\textbf{Gero, J.~S.} (\textbf{1999}).
+\newblock \enquote{{Research Methods for Design Science Research: Computational
+  and Cognitive Approaches}.}
+\newblock In \enquote{Proceedings of the 33rd Annual Conference of the
+  Australian and NZ Architectural Science Association (ANZAScA) Conference,}
+  Sydney, Australia.
+
 \bibitem[{Gillham(2000)}]{Gillham2000}
 \textbf{Gillham, B.} (\textbf{2000}).
 \newblock \emph{{The Research Interview}}.
@@ -463,6 +471,11 @@ linnovation/workforcedev/eppsmefinalreport.pdf}.
 \newblock
   \urlprefix\url{http://www.imsglobal.org/ep/epv1p0/imsep\_infov1p0.html}.
 
+\bibitem[{{International Labour Office}(2008)}]{InternationalLabourOffice2008}
+\textbf{{International Labour Office}} (\textbf{2008}).
+\newblock \enquote{{Conclusions on skills for improved productivity, employment
+  growth and development. International Labour Conference, 2008}.}
+
 \bibitem[{Ioannidis(2007)}]{Ioannidis2007}
 \textbf{Ioannidis, J. P.~a.} (\textbf{2007}).
 \newblock \enquote{{Limitations are not properly acknowledged in the scientific
@@ -474,7 +487,15 @@ linnovation/workforcedev/eppsmefinalreport.pdf}.
 \textbf{Jarvis, P.} (\textbf{2004}).
 \newblock \enquote{{From adult education to lifelong learning: a conceptual
   framework}.}
-\newblock chapter~2, pages 39--65. RoutledgeFalmer, London; New York, NY.
+\newblock In P.~Jarvis, editor, \enquote{Adult education and lifelong learning:
+  theory and practice,} chapter~2, pages 39--65. Routledge, London; New York,
+  NY.
+
+\bibitem[{Jarvis(2008)}]{Jarvis2008}
+\textbf{Jarvis, P.} (\textbf{2008}).
+\newblock \emph{{Democracy, Lifelong Learning and the Learning Society. Active
+  Citizenship in a Late Modern Age}}.
+\newblock Routledge, London; New York, NY.
 
 \bibitem[{Johnson(2001)}]{Johnson2001}
 \textbf{Johnson, J.~M.} (\textbf{2001}).
@@ -822,6 +843,13 @@ on2002w.pdf}.
 \newblock \enquote{{Learning Management Systems: The wrong place to start
   learning}.}
 \newblock \urlprefix\url{http://www.elearnspace.org/Articles/lms.htm}.
+
+\bibitem[{Simmons-McDonald(2009)}]{Simmons-McDonald2009}
+\textbf{Simmons-McDonald, H.} (\textbf{2009}).
+\newblock \enquote{{Employability and lifelong learning}.}
+\newblock \emph{The Electronic Journal of The International Council for Open
+  and Distance Education}, 4(2).
+\newblock \urlprefix\url{http://www.openpraxis.com/}.
 
 \bibitem[{Smidt and Sursock(2011)}]{Smidt2011}
 \textbf{Smidt, H. and Sursock, A.} (\textbf{2011}).

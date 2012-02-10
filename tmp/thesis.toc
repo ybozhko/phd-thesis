@@ -14,7 +14,7 @@
 \contentsline {subsection}{\numberline {2.3.1}Design Science Research Methodology}{7}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Design Science Research Applied to This Project}{10}{subsection.2.3.2}
 \contentsline {subsubsection}{\numberline {2.3.2.1}Stage 1. Problem Identification and Motivation}{11}{subsubsection.2.3.2.1}
-\contentsline {subsubsection}{\numberline {2.3.2.2}Stage 2. Objectives of a Solution}{11}{subsubsection.2.3.2.2}
+\contentsline {subsubsection}{\numberline {2.3.2.2}Stage 2. Objectives of a Solution}{12}{subsubsection.2.3.2.2}
 \contentsline {subsubsection}{\numberline {2.3.2.3}Stage 3. Design and Development}{12}{subsubsection.2.3.2.3}
 \contentsline {subsubsection}{\numberline {2.3.2.4}Stage 4. Demonstration and Evaluation}{13}{subsubsection.2.3.2.4}
 \contentsline {subsubsection}{\numberline {2.3.2.5}Stage 5. Conclusion and Communication}{14}{subsubsection.2.3.2.5}
@@ -114,6 +114,11 @@
 \contentsline {chapter}{\numberline {9}Conclusions and Future Work}{129}{chapter.9}
 \contentsline {section}{\numberline {9.1}Research Contributions}{129}{section.9.1}
 \contentsline {section}{\numberline {9.2}Future Research}{130}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Production level of the ePortfolio\nobreakspace {}system prototype}{130}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}Further evaluation of the existing ePortfolio\nobreakspace {}systems}{130}{subsection.9.2.2}
+\contentsline {subsection}{\numberline {9.2.3}Seamless environment for lifelong learning }{130}{subsection.9.2.3}
+\contentsline {subsection}{\numberline {9.2.4}}{130}{subsection.9.2.4}
+\contentsline {subsection}{\numberline {9.2.5}}{130}{subsection.9.2.5}
 \contentsline {section}{\numberline {9.3}General Conclusions}{130}{section.9.3}
 \contentsline {chapter}{Bibliography}{131}{section*.51}
 \contentsline {chapter}{\numberline {A}Ethics Documentation: Requirements Analysis}{145}{appendix.A}
