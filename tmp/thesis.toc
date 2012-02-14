@@ -26,10 +26,10 @@
 \contentsline {section}{\numberline {3.2}The General Concept of Lifelong Learning }{19}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Terms and Definitions}{19}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Paradigm Shift and Lifelong Learning Today}{20}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Components and Attributes of Lifelong Learning}{22}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Lifelong Learning in Universities}{24}{section.3.3}
-\contentsline {section}{\numberline {3.4}Requirements for Successful Lifelong Learning }{26}{section.3.4}
-\contentsline {section}{\numberline {3.5}Summary}{27}{section.3.5}
+\contentsline {subsection}{\numberline {3.2.3}Components and Attributes of Lifelong Learning}{23}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Lifelong Learning in Universities}{25}{section.3.3}
+\contentsline {section}{\numberline {3.4}Requirements for Successful Lifelong Learning }{27}{section.3.4}
+\contentsline {section}{\numberline {3.5}Summary}{28}{section.3.5}
 \contentsline {chapter}{\numberline {4}Review of Institutional and Open Learning Spaces }{29}{chapter.4}
 \contentsline {section}{\numberline {4.1}Learning Management Systems}{30}{section.4.1}
 \contentsline {section}{\numberline {4.2}Web 2.0 and Social Virtual Spaces}{31}{section.4.2}

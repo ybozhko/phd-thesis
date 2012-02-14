@@ -1,4 +1,4 @@
-\begin{thebibliography}{153}
+\begin{thebibliography}{156}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -35,6 +35,13 @@
 \newblock \enquote{{Transforming Research Communication}.}
 \newblock \emph{Information Today}, 24(5): 29--30.
 
+\bibitem[{Aspin and Chapman(2001)}]{Aspin2001}
+\textbf{Aspin, D. and Chapman, J.} (\textbf{2001}).
+\newblock \enquote{{Lifelong learning: concepts, theories and values}.}
+\newblock In \enquote{Proceedings of the 31st Annual conference of SCUTREA: The
+  Standing Conference on University Teaching and Research in the Education of
+  Adults,} July, pages 38--41. London, UK.
+
 \bibitem[{Attwell(2007)}]{Attwell2007}
 \textbf{Attwell, G.} (\textbf{2007}).
 \newblock \enquote{{Personal Learning Environments - the future of eLearning?}}
@@ -58,6 +65,11 @@
   Study of Two Towns}.}
 \newblock \emph{Journal of Research in Rural Education}, 21(4).
 \newblock \urlprefix\url{http://www.jrre.psu.edu/articles/21-4.pdf}.
+
+\bibitem[{Biggs and Tang(2007)}]{Biggs2007}
+\textbf{Biggs, J. and Tang, C.} (\textbf{2007}).
+\newblock \emph{{Teaching for quality learning at university}}.
+\newblock Open University Press, Maidenhead, New York, NY, 3 edition.
 
 \bibitem[{{Blackboard Inc.}(2009)}]{BlackboardInc.2009}
 \textbf{{Blackboard Inc.}} (\textbf{2009}).
@@ -265,6 +277,14 @@ the\_w.html}.
   progression of experienced engineering technologists to professional engineer
   status}.}
 \newblock \emph{European Journal of Engineering Education}, 31(1): 95--107.
+
+\bibitem[{Duke(2001)}]{Duke2001}
+\textbf{Duke, C.} (\textbf{2001}).
+\newblock \enquote{{Lifeong learning and tertiary education: The learning
+  university revisited}.}
+\newblock In D.~Aspin, J.~Chapman, M.~Hatton, and Y.~Sawano, editors,
+  \enquote{International handbook of lifelong learning,} pages 501--528. Kluwer
+  Academic, Boston.
 
 \bibitem[{EACEA(2009)}]{TheEducation2009}
 \textbf{EACEA} (\textbf{2009}).
