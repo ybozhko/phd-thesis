@@ -1,4 +1,4 @@
-\begin{thebibliography}{156}
+\begin{thebibliography}{157}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -808,6 +808,15 @@ ios-in-engineering-advantages.html}.
 \newblock \enquote{{Australian universities, generic skills and lifelong
   learning}.}
 \newblock \emph{International Journal of Lifelong Education}, 28(4): 439--458.
+
+\bibitem[{Pries-Heje et~al.(2008)Pries-Heje, Baskerville, and
+  Venable}]{Pries-Heje2008}
+\textbf{Pries-Heje, J., Baskerville, R., and Venable, J.} (\textbf{2008}).
+\newblock \enquote{{Strategies for Design Science Research Evaluation}.}
+\newblock In W.~Golden, T.~Acton, K.~Conboy, and V.~K. Tuunainen, editors,
+  \enquote{Conference Proceedings, 16th European Conference on Information
+  Systems,} 2008. National University of Ireland.
+\newblock \urlprefix\url{http://is2.lse.ac.uk/asp/aspecis/20080023.pdf}.
 
 \bibitem[{Quinlan et~al.(2008)Quinlan, Kane, and Trochim}]{Quinlan2008}
 \textbf{Quinlan, K.~M., Kane, M., and Trochim, W. M.~K.} (\textbf{2008}).
