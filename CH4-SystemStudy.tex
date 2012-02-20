@@ -1,5 +1,5 @@
 \chapter{Review of Institutional and Open Learning Spaces \label{cha:systudy}}
-%6200
+%6900
 In the previous chapter it was shown that many factors need to combine to fully
 support lifelong learning at universities: changes in the way of thinking of
 both students and lecturers, support at the department or institutional levels,
@@ -213,6 +213,7 @@ over time, on which the person or organization has reflected, designed for
 presentation to one or more audiences for a particular rhetorical purpose.}
 
 \subsection{Characteristics of Portfolios and ePortfolio Systems}
+\label{sec:charep}
 The term portfolio is used in many different ways. As it was already
 mentioned, an important distinction can be made along the lines of purpose of a
 portfolio, namely for development, showcase, assessment or competences
@@ -313,7 +314,9 @@ combination are well suited to support \LLLsn. Each of the features looked at
 separately can be found in other computer systems or Web 2.0, but their
 combination within one system makes ePortfolio systems so valuable.
 
-\subsection{ePortfolio Systems Overview}
+\subsection[ePortfolio Systems Overview]{ePortfolio Systems
+Overview\footnote{The \ep~systems in this section will appear in alphabetical
+order.}} 
 The following sections explore the features and functionality of various
 \ep~systems. These specific systems were chosen for their level of success in
 learning communities and current development status. Four proprietary
@@ -322,7 +325,9 @@ ELGG) systems are reviewed and analysed. Where possible, proprietary systems
 were reviewed by accessing demonstration web sites. In case demonstration web
 sites were not available, the systems were reviewed by analysing user or
 administrator documentation, video demonstrations, attending demonstration
-seminars, and external reviews.
+seminars, and external reviews. If not specified otherwise, any material in
+the systems overview that requires further clarification should be referred back
+to the developer's official web site.
 
 It is important to note here that this section is not aiming to find the best
 system, but rather to evaluate \ep~systems that are currently available and
@@ -330,176 +335,8 @@ successful. Examining strengths and weaknesses of these systems can provide a
 better foundation for understanding and development of an \ep~aided environment
 that could support \LLLsn.
 
-\subsubsection{PebblePad}
-
-PebblePad\footnote{\url{http://www.pebblepad.co.uk}} is a proprietary web-based
-\ep~system. However, its designers tend to call it not just an \ep~system, but
-Personal Learning System that can be used in a variety of learning contexts
-\citep{PebbleLearningLtd2010}. The system is popular and primarily used in the
-UK Higher Education sector and has been involved in a number of JISC funded
-ePortfolio research projects including
-ePistle\footnote{\url{http://www.jisc.ac.uk/whatwedo/programmes/edistributed/epistle}}
-and File-Pass\footnote{\url{http://www.jisc.ac.uk/whatwedo/programmes/edistributed/filepass}}.
-
-According to the PebblePad technical specification, the back-end of the system
-requires Windows and SQL Servers to run. The front-end uses Flash, which can
-create a challenge for the web application's accessibility, usability and
-performance. To function, Flash-based applications require plugin which in turns
-might cause many standard browser features not perform as the user would expect
-or may even cause a browser crash. Flash applications do not work on many mobile
-and portable devices. In addition, because Flash applications are compiled into
-binary files, screen readers used on web sites with support of sight impaired
-cannot read them resulting in poor accessibility.
-
-PebblePad has a customizable user interface which includes user-defined size and
-style of text and background colours. Institutions can have their own interface
-that fits in with the institutional branding.
-
-Items stored in PebblePad repository are called assets. There are thirteen asset
-types that are subdivided into three core types, such as: uploaded files, single
-assets and aggregating assets. Creation of some assets can be guided by
-step-by-step wizard. Assets can be shared with others, inside or outside of an
-institution, for a certain period of time through user-defined permissions. If a
-person, who needs to see an asset, is not a part of PebblePad community, a
-temporary username and password will be automatically created allowing them to
-view a shared asset. Assets allow for setting up a wide range of permissions,
-which can include commenting and copying rights, collaboration and re-sharing
-of a shared asset with a third party.
-
-\begin{figure}[htb]
-\centering
-\includegraphics[width=0.9\textwidth]{CH4-F3-PebblePad}
-\caption[PebblePad ePortfolio system example]{PebblePad ePortfolio system example
-\citep{PebbleLearningLtd}}
-\label{fig:ppep}
-\end{figure}
-
-However, despite these features, working with assets in PebblePad has its
-disadvantages. The way the system's repository is structured, asset tracking and
-finding in PebblePad is noted to be not user-friendly \citep{Overton2009}. Due
-to poor asset management, users can end up deleting files and breaking links
-between assets, or forgetting to update the hyperlinks of the changed assets,
-which results in missing files for someone who is viewing the asset. Users
-cannot upload files larger than 10MB.
-
-PebblePad has an interface with the Moodle LMS that allows \ep~users to have
-single sing-on with LMS and also export items from Moodle to their ePortfolio.
-The system supports Leap2a and IMS eP as well as import from any RSS or Atom
-compliant system. According to vendors website, as for the middle of 2011,
-the price of PebblePad adoption ranged from 14,95GBP for individual accounts
-hosted by the company to 1GBP per user for the largest customers hosting
-the system themselves. After graduation from the sponsoring institution,
-students can get a free 12-month personal account managed by Pebble Learning.
- 
-\subsubsection{Mahara}
-Mahara\footnote{\url{http://mahara.org}} is an open source \ep~system started in
-2006 funded by New Zealand Tertiary Education Commission. The system is a
-standalone web application and does not require any kind of LMS or another
-system installed. Its modular and extensible architecture that resembles the
-architecture of Moodle LMS. This can be explained by the fact that developer
-community of Mahara is deeply involved in the Moodle community. The system is
-claimed to be highly 'pluggable' which allows adding various Web 2.0 web
-services and establish interoperability with other systems
-\citep{MaharaGovernanceGroup2011}.
-
-Mahara functionality includes a number of standard \ep~features like file
-repository, reflection tools in form of blogs, presentation and sharing tools as
-well as elements of social networking like friends lists, forums, message board
-and e-mail. Mahara has internal r\'{e}sum\'{e} builder which allows users to
-create their digital CV with various information options. Sharing is done
-through pages which are called 'views'. Users can create single views or
-collections of views and fill them with artifacts from their \ep~repository.
-Views can be created from scratch as well as from a template developed by
-another user.
-
-\begin{figure}[htb]
-\centering
-\setlength\fboxsep{0pt}
-\setlength\fboxrule{0.5pt}
-\fbox{\includegraphics[width=0.9\textwidth]{CH4-F4-Mahara}}
-\caption{Mahara ePortfolio 1.3 example}
-\label{fig:maharaep}
-\end{figure}
-
-A group portfolio is available for collaboration purposes. Compared to personal
-accounts, groups have functionality limited to creating and maintaining pages
-(views), forums and file repository.
-
-As it became popular in ePortfolio systems throughout the recent years
-\citep{Waters2009}, Mahara comes with a user-to-user permissions control. Users
-can set up three levels of access to parts of their ePortfolios (private,
-individual and public) which defines what items and information others can see.
-Currently the Mahara system does allow sharing views with others or making them
-public, but giving feedback is restricted to registered users.
-
-Mahara supports a complete LEAP2A interoperability which allows to import
-portfolio content to Mahara and export to another \ep~system, provided that
-this interoperability standard is implemented at the other side. In addition,
-export in form of static HTML pages is supported.
-
-The latest version of Mahara supports single sign-on with Moodle, which means
-that users can log on to both systems using only one account. Unofficial plugins
-developed by the community allow for submitting views as assignments to Moodle.
-However, this functionality is not included in official release. The road-map of
-Moodle 2.0 included a repository plugin for Mahara that would allow direct
-export of artifacts from LMS to \ep. Meanwhile, Moodle 2.1.1 release still does
-not support this functionality.
-
-\subsubsection{ELGG}
-ELGG\footnote{\url{http://elgg.org}} is an open source social networking and
-social publishing platform started in 2004 and released under the GNU Public
-License v2. It was originally aimed at higher education, but is currently used
-in many contexts from business to sport. Developers of ELGG call it a
-\textit{social engine to empower social environment}.
-
-Most the end-user functionality comes from plugins which can be loaded into
-system. This review examines a standard installation. ELGG is supported by an
-extensive community which has contributed a large number of plugins. In
-general, most of these plugins are aimed at supporting social networking.
-
-Features available in the standard platform installation include user management
-and administration, social networking components (like friends list and ``the
-wire''), blogging, message board, file repository, private messaging, pages, and
-bookmarks. Additional components can be installed by administrator as plugins
-and can be used within the entire system.
-
-In ELGG, each account has a profile page which links to all available artifacts
-created by the user through adding or removing widgets. Except for the profile
-page, there is no standard way of aggregating artifacts for presentation.
-The profile page is as well the main option for showcasing as users cannot have
-multiple ePortfolios.
-
-Unlike other ePortfolio systems, ELGG has a quite limited choice of permissions.
-Artifacts in the system can be either private/public, or shared with friends
-or logged-in users. There is no way of having multiple permission settings or
-user-to-user permissions for artifacts.
-
-Similar to Mahara ePortfolio system, ELGG has groups for collaboration. Groups
-have the same system components (e.g. blogs, pages, files) as single profiles,
-and these options can be set up or removed at any time.
-
-ELGG has no reporting system for users which would show a number of page
-visits, file downloas, etc. However, minor reporting functionality is available
-for administrative purposes.
-
-In 2007, interoperability between ELGG and the open source LMS Moodle was
-established for single sign-on and courses integration. However, since Moodle
-1.9 there is no news on plugin updates. Information has been found on the
-Internet about a proprietary plugin being developed for ELGG-Moodle integration,
-although no up-to-date documentation is currently available that would describe
-this plugin.
-
-\begin{figure}[htb]
-\centering
-\setlength\fboxsep{0pt}
-\setlength\fboxrule{0.5pt}
-\fbox{\includegraphics[width=0.9\textwidth]{CH4-F5-ELGG}}
-\caption{ELGG 1.8 example}
-\label{fig:elgg}
-\end{figure}
-
 \subsubsection{BlackBoard ePortfolio}
-After BlackBoard\footnote{\url{http://www.blackboard.com/}} took over WebCT in
+After BlackBoard\footnote{\url{http://www.blackboard.com}} took over WebCT in
 February 2006, this popular LMS provider developed an \ep~toolkit the most
 recent release of which is currently a part of BlackBoard Learn 9.1. This
 \ep~system is designed as an add-on to the LMS environment and can not be used
@@ -601,10 +438,10 @@ Feedback can be applied to individual artifacts, collections, reflections or
 entire presentations. If needed, evaluators can review all comments made by
 peers. Users can add assessment rubrics to artifacts that require specific
 type of evaluation. More comprehensive assessment features are available via
-integration with other Desire2Learn LMS tools.
+integration with other Desire2Learn LMS tools. 
 
-Desire2Learn \ep~has reporting capabilities for administrators and teachers which
-support tracking usage and accessing detailed information on competency
+Desire2Learn \ep~has reporting capabilities for administrators and teachers
+which support tracking usage and accessing detailed information on competency
 achievement by students. Minor reporting is available to users in form of
 presentations access logs.
 
@@ -632,7 +469,7 @@ implementations.
 \centering
 \setlength\fboxsep{0pt}
 \setlength\fboxrule{0.5pt}
-\includegraphics[width=0.9\textwidth]{CH4-F8-eFolio}
+\includegraphics[width=0.87\textwidth]{CH4-F8-eFolio}
 \caption[eFolio system example]{eFolio system example \citep{EFolioMinnesota2011}}
 \label{fig:efolio}
 \end{figure}
@@ -676,11 +513,325 @@ using their eFolio for an annual fee of 15USD. Prices for institutions depend
 on numbers of users, and can range between 15USD - 4USD per user
 \citep{AAEEBL2011}.
 
-\subsubsection{Discussion and Summary}
-%TODO: Write Summary
-Summary for eP systems, what they have in common, what is unique, etc.
+\subsubsection{ELGG}
+ELGG\footnote{\url{http://elgg.org}} is an open source social networking and
+social publishing platform started in 2004 and released under the GNU Public
+License v2. It was originally aimed at higher education, but is currently used
+in many contexts from business to sport. Developers of ELGG call it a
+\textit{social engine to empower social environment}.
 
-Table with mapping of recommendations to the features.
+Most the end-user functionality comes from plugins which can be loaded into
+system. This review examines a standard installation. ELGG is supported by an
+extensive community which has contributed a large number of plugins. In
+general, most of these plugins are aimed at supporting social networking.
+
+Features available in the standard platform installation include user management
+and administration, social networking components (like friends list and ``the
+wire''), blogging, message board, file repository, private messaging, pages, and
+bookmarks. Additional components can be installed by administrator as plugins
+and can be used within the entire system.
+
+\begin{figure}[htb]
+\centering
+\setlength\fboxsep{0pt}
+\setlength\fboxrule{0.5pt}
+\fbox{\includegraphics[width=0.9\textwidth]{CH4-F5-ELGG}}
+\caption{ELGG 1.8 example}
+\label{fig:elgg}
+\end{figure}
+
+In ELGG, each account has a profile page (Figure \ref{fig:elgg}) which links to
+all available artifacts created by the user through adding or removing widgets.
+Except for the profile page, there is no standard way of aggregating artifacts
+for presentation. The profile page is as well the main option for showcasing as
+users cannot have multiple ePortfolios.
+
+Unlike other ePortfolio systems, ELGG has a quite limited choice of permissions.
+Artifacts in the system can be either private/public, or shared with friends
+or logged-in users. There is no way of having multiple permission settings or
+user-to-user permissions for artifacts.
+
+Similar to Mahara ePortfolio system, ELGG has groups for collaboration. Groups
+have the same system components (e.g. blogs, pages, files) as single profiles,
+and these options can be set up or removed at any time.
+
+ELGG has no reporting system for users which would show a number of page
+visits, file downloas, etc. However, minor reporting functionality is available
+for administrative purposes.
+
+In 2007, interoperability between ELGG and the open source LMS Moodle was
+established for single sign-on and courses integration. However, since Moodle
+1.9 there is no news on plugin updates. Information has been found on the
+Internet about a proprietary plugin being developed for ELGG-Moodle integration,
+although no up-to-date documentation is currently available that would describe
+this plugin.
+
+\subsubsection{Mahara}
+Mahara\footnote{\url{http://mahara.org}} is an open source \ep~system started in
+2006 funded by New Zealand Tertiary Education Commission. The system is a
+standalone web application and does not require any kind of LMS or another
+system installed. Its modular and extensible architecture that resembles the
+architecture of Moodle LMS. This can be explained by the fact that developer
+community of Mahara is deeply involved in the Moodle community. The system is
+claimed to be highly 'pluggable' which allows adding various Web 2.0 web
+services and establish interoperability with other systems
+\citep{MaharaGovernanceGroup2011}.
+
+Mahara functionality includes a number of standard \ep~features like file
+repository, reflection tools in form of blogs, presentation and sharing tools as
+well as elements of social networking like friends lists, forums, message board
+and e-mail. Mahara has internal r\'{e}sum\'{e} builder which allows users to
+create their digital CV with various information options. Sharing is done
+through pages which are called 'views'. Users can create single views or
+collections of views and fill them with artifacts from their \ep~repository.
+Views can be created from scratch as well as from a template developed by
+another user.
+
+A group portfolio is available for collaboration purposes. Compared to personal
+accounts, groups have functionality limited to creating and maintaining pages
+(views), forums and file repository.
+
+As it became popular in ePortfolio systems throughout the recent years
+\citep{Waters2009}, Mahara comes with a user-to-user permissions control. Users
+can set up three levels of access to parts of their ePortfolios (private,
+individual and public) which defines what items and information others can see.
+Currently the Mahara system does allow sharing views with others or making them
+public, but giving feedback is restricted to registered users.
+
+\begin{figure}[htb]
+\centering
+\setlength\fboxsep{0pt}
+\setlength\fboxrule{0.5pt}
+\fbox{\includegraphics[width=0.95\textwidth]{CH4-F4-Mahara}}
+\caption{Mahara ePortfolio 1.3 example}
+\label{fig:maharaep}
+\end{figure}
+
+Mahara supports a complete LEAP2A interoperability which allows to import
+portfolio content to Mahara and export to another \ep~system, provided that
+this interoperability standard is implemented at the other side. In addition,
+export in form of static HTML pages is supported.
+
+The latest version of Mahara supports single sign-on with Moodle, which means
+that users can log on to both systems using only one account. Unofficial plugins
+developed by the community allow for submitting views as assignments to Moodle.
+However, this functionality is not included in official release. The road-map of
+Moodle 2.0 included a repository plugin for Mahara that would allow direct
+export of artifacts from LMS to \ep. Meanwhile, Moodle 2.1.1 release still does
+not support this functionality.
+
+\subsubsection{PebblePad}
+
+PebblePad\footnote{\url{http://www.pebblepad.co.uk}} is a proprietary web-based
+\ep~system. However, its designers tend to call it not just an \ep~system, but
+Personal Learning System that can be used in a variety of learning contexts
+\citep{PebbleLearningLtd2010}. The system is popular and primarily used in the
+UK Higher Education sector and has been involved in a number of JISC funded
+ePortfolio research projects including such projects as 
+ePistle\footnote{\url{http://www.jisc.ac.uk/whatwedo/programmes/edistributed/epistle}}
+and File-Pass\footnote{\url{http://www.jisc.ac.uk/whatwedo/programmes/edistributed/filepass}}.
+
+According to the PebblePad technical specification, the back-end of the system
+requires Windows and SQL Servers to run. The front-end uses Flash, which can
+create a challenge for the web application's accessibility, usability and
+performance. To function, Flash-based applications require plugin which in turns
+might cause many standard browser features not perform as the user would expect
+or may even cause a browser crash. Flash applications do not work on many mobile
+and portable devices. In addition, because Flash applications are compiled into
+binary files, screen readers used on web sites with support of sight impaired
+cannot read them which results in poor accessibility.
+
+PebblePad has a customizable user interface (Figure \ref{fig:ppep}) which
+includes user-defined size and style of text and background colours.
+Institutions can have their own interface that fits in with the institutional
+branding.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.9\textwidth]{CH4-F3-PebblePad}
+\caption[PebblePad ePortfolio system example]{PebblePad ePortfolio system
+example \citep{PebbleLearningLtd}}
+\label{fig:ppep}
+\end{figure}
+
+Items stored in PebblePad repository are called assets. There are thirteen asset
+types that are subdivided into three core types, such as: uploaded files, single
+assets and aggregating assets. Creation of some assets can be guided by
+step-by-step wizard. Assets can be shared with others, inside or outside of an
+institution, for a certain period of time through user-defined permissions. If a
+person, who needs to see an asset, is not a part of PebblePad community, a
+temporary username and password will be automatically created allowing them to
+view a shared asset. Assets allow for setting up a wide range of permissions,
+which can include commenting and copying rights, collaboration and re-sharing
+of a shared asset with a third party.
+
+However, despite these features, working with assets in PebblePad has its
+disadvantages. The way the system's repository is structured, asset tracking and
+finding in PebblePad is noted to be not user-friendly \citep{Overton2009}. Due
+to poor asset management, users can end up deleting files and breaking links
+between assets, or forgetting to update the hyperlinks of the changed assets,
+which results in missing files for someone who is viewing the asset. Users
+cannot upload files larger than 10MB.
+
+PebblePad has an interface with the Moodle LMS that allows \ep~users to have
+single sing-on with LMS and also export items from Moodle to their ePortfolio.
+The system supports Leap2a and IMS eP as well as import from any RSS or Atom
+compliant system. According to vendors website, as for the middle of 2011,
+the price of PebblePad adoption ranged from 14,95GBP for individual accounts
+hosted by the company to 1GBP per user for the largest customers hosting
+the system themselves. After graduation from the sponsoring institution,
+students can get a free 12-month personal account managed by Pebble Learning.
+
+\subsubsection{Discussion and Summary}
+The overview of the \ep~systems showed that they have relatively standard set of
+features. All systems provide support for key \ep~processes of collecting,
+selecting, reflecting, planning and connecting as described in Section
+\ref{sec:charep}. Collecting is usually done though gathering various files and
+creating records in the system. After information capturing is finished, user
+can sort artifacts selecting the ones that can be used for intended purpose.
+Reflection in majority of the \ep~systems is supported through personal blogs.
+Some systems (eFolio, PebblePad) also provide reflection option linked directly
+to individual artifacts. Planning is implemented in form of personal learning
+objectives or learning plans, although not all \ep~systems have this feature.
+Connecting of artifacts is largely achieved through web pages or other
+aggregation methods. All reviewed \ep~systems allow meaningful collections of
+artifacts to be shared for feedback and assessment purposes.
+
+Apart from common functionality, some of the \ep~systems have unique features
+not present in other systems. Among these were:
+\begin{itemize}
+  \item Creating audio recordings within the \ep~environment (Desire2Learn)
+  \item Individual items can have multiple reflections (eFolio)
+  \item 3
+  \item 4
+  \item 5
+\end{itemize}
+
+Reviewing the \ep~systems from the \LLLs perspective requires looking further
+than key \ep~processes and activities. Suitability and ability of the systems
+to provide support for \LLLs should be evaluated against the guidelines and
+recommendations discovered in the literature (Section \ref{sec:needs}). Table
+\ref{tab:ep2map} shows possible mapping of these recommendations to the features
+of the reviewed \ep~systems. Exploration of these features from the \LLLs
+perspective showed that not all guidelines are followed or supported by the
+\ep~systems. However, this analysis should be considered carefully for various
+reasons. Firstly, in some cases no reliable information was found to make
+unambiguous conclusion. Secondly, the majority of proprietary systems were
+reviewed relying on the sources of information other than first-hand experience
+of the researcher which might have influence their trustworthiness. Finally, the
+guidelines provided in the literature were not formal requirements and therefore
+their assessment was largely done using analogical reasoning. Due to these
+issues, a further exploration of the \ep~systems from the \LLLs perspective is
+required, and the next section provides the reasons for this.
+
+\begin{sidewaystable} \scriptsize
+\centering
+	\begin{tabular}{|c|p{3.25cm}|p{3.25cm}|p{3.25cm}|p{3.25cm}|p{3.25cm}|p{3.25cm}|}
+	\hline
+	 \multicolumn{1}{|c|}{} &
+     \multicolumn{1}{c|}{\textbf{BlackBoard ePortfolio}} & 
+     \multicolumn{1}{c|}{\textbf{Desire2Learn}} & 
+     \multicolumn{1}{c|}{\textbf{eFolio}} & 
+     \multicolumn{1}{c|}{\textbf{ELGG}} & 
+     \multicolumn{1}{c|}{\textbf{Mahara}} & 
+     \multicolumn{1}{c|}{\textbf{PebblePad}} \\ \hline
+	\textbf{G1} & 
+	\ep~is an add-on to the LMS environment which enables data transfer between
+	systems & 
+	Close integration with Desire2Learn LMS which enables data transfer between
+	systems & 
+	Potential integration with Moodle LMS \textit{(No reliable information found)}
+	& Potential single sign-on with Moodle LMS \textit{(No reliable information
+	found)} & 
+	-- Integration with Moodle LMS; \newline -- Data export from LMS to
+	\ep; \newline -- Submitting web pages as assignments. &
+	-- Integration with Moodle LMS; \newline -- Data export from LMS to
+	\ep. \\ \hline 
+	\textbf{G2} & 
+	-- Initial \ep~set-up wizard; \newline -- Link to course goals and objectives;
+	\newline -- Feedback in form of comments on web pages & 
+	-- Feedback on various types of artifacts; \newline -- Guidance through
+	predefine competences in LMS; \newline -- Templates can be used as guidance &  
+	-- Feedback on various types of artifacts; \newline -- ``Getting started"
+	Wizard for initial set-up & 
+	Feedback on web pages and individual artifacts & 
+	Feedback on web pages and artifacts on web pages; \newline -- Templates of web
+	pages can be used as guidance & 
+	Feedback on assets can be provided as guidance for students \\ \hline 
+	\textbf{G3} & 
+	-- Lecturers can define learning objectives; \newline -- Lecturers can provide
+	feedback on shared resources & 
+	-- Lecturers can define competences in LMS; \newline -- Lecturers can
+	provide feedback and evaluate; \newline -- Lecturers can create templates for
+	evaluations & 
+	-- Lecturers can provide feedback on shared resources; \newline -- Lecturers
+	can create templates to map competencies & 
+	-- Lecturers can set up questionnaires; \newline -- Lecturers can provide
+	feedback & 
+	-- Lecturers can provide feedback on shared resources; \newline -- Lecturer
+	can create templates of web pages & 
+	Lecturers can provide feedback on shared assets	\\	\hline 
+	\textbf{G4} & \textit{No information found} & \textit{No information found} &
+	\textit{No information found} & \textit{No information found} & 
+	\textit{No information found} & \textit{No information found} \\ \hline 
+	\textbf{G5} & 
+	\textit{No information found on collaboration} \newline -- Communication is
+	in form of comments or through message center & 
+	-- Collaboration through sharing; \newline -- Enhanced communication through
+	LMS features & 
+	\textit {No support for collaborative activities} \newline Integrated
+	communication tools & 
+	-- Groups are used for collaboration; \newline --	Communication is in 
+	form of comments, message board and internal message system & 
+	-- Groups are used for collaboration; \newline -- Communication is
+	in form of comments, wall messages and internal message system & 
+	-- Collaborative work with assets; \newline -- Communication is
+	in form of comments; \newline -- Assets re-sharing \\
+	\hline 
+	\textbf{G6} & 
+	Data and grades export from LMS to \ep & 
+	Data and grades export from LMS to \ep & 
+	\textit{No information found} & 
+	\textit{No data integration with external sources or LMS} & 
+	Data export from LMS to \ep & 
+	Data export from LMS to \ep \\ \hline
+	\textbf{G7} & 
+	-- Users can define learning objectives; \newline -- Users can
+	associate artifacts with learning objectives & 
+	-- Achievements can be recorded in form of presentations; \newline -- Users can
+	set up personalized learning plans & 
+	Mapping of specific competencies and learning outcomes into individual
+	portfolios & 
+	No specialized way or recording achievements. Blogs and pages can be used for
+	this purpose & 
+	-- Achievements are described as a part of user profile; \newline -- Users can
+	create goals in form of plans & 
+	Achievements can be recorded through the assets ``achievements''
+	and ``experiences''	\\ \hline 
+	\textbf{G8} & 
+	Addressing high-order skills through defined by lecturers learning
+	objectives / course goals & 
+	Addressing high-order skills through assessment rubrics or integration with LMS
+	& 
+	Addressing high-order skills is done in form of web pages or tied to
+	institutional rubrics & 
+	Addressing high-order skills is done in form of web pages & 
+	Addressing high-order skills is done in form of web pages & 
+	Addressing high-order skills can be done in form of web pages or assets \\
+	\hline 
+	\textbf{G9} & 
+	Reflections are in form of blogs and threaded topics & 
+	-- Forms can be used for self-evaluation; \newline -- Reflections are a
+	separate form of the artifacts & 
+	Individual items can have multiple reflections & 
+	Reflection in form of blogs & 
+	Reflection in form of blogs & 
+	-- Reflection through wizard when creating assets; \newline -- Reflection in
+	form of blogs \\ \hline
+	\end{tabular}
+\caption{Mapping \ep~systems' features against \LLLs guidelines}
+\label{tab:ep2map} 
+\end{sidewaystable} 
 
 \subsection{\ep~Systems in Light of Lifelong Learning}
 
@@ -692,18 +843,18 @@ translate these into formal requirements. Therefore, assessment whether these
 recommendations are met by the features implemented in the systems turns into a
 challenging task. 
 
-The previous section described an attempt to address this proble trying to map
-the recommendations aganst the features of the reviewed \ep~systems. However,
+The previous section described an attempt to address this problem trying to map
+the recommendations against the features of the reviewed \ep~systems. However,
 due to the formal ambiguity of these recommendations, the results of this
-analysis should not be considered complete. The researcher had to follow common
-sense and personal experience to perform this analytical mapping. To solve this
-problem, bringing the recommendations to the practical level is the next
-important step towards a better understanding of what is expected from the
-environment that can support \LLLsn. One can argue that the majority of these
-recommendations cannot be addressed by just providing an improved system
-\citep{Schaffert2008}. However, from another perspective, a better system might
-aid to supporting various important aspects of learning that usually stay
-outside of focus of many learning environments.
+analysis should not be considered complete and final. As it was explained, the
+researcher had to follow common sense and personal experience to perform this
+analytical mapping. To solve this problem, bringing the recommendations to the
+practical level is the next important step towards a better understanding of
+what is expected from the environment that can support \LLLsn. One can argue
+that the majority of these recommendations cannot be addressed by just providing
+an improved system \citep{Schaffert2008}. However, from another perspective, a
+better system might aid to supporting various important aspects of learning that
+usually stay outside of focus of many learning environments.
 
 Although, no prior research was discovered that would look at the \ep~systems
 from the \LLLs perspective, there is a number of issues known among the
