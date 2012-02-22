@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.18)  20 FEB 2012 19:44
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.18)  22 FEB 2012 15:56
 entering extended mode
  Source specials enabled.
  %&-line parsing enabled.
@@ -851,7 +851,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10] <./images/CH2-F4-Path.png, id=1085, 1415.2875pt x 641.39626pt>
+[10] <./images/CH2-F4-Path.png, id=1084, 1415.2875pt x 641.39626pt>
 File: ./images/CH2-F4-Path.png Graphic file (type png)
 
 <use ./images/CH2-F4-Path.png>
@@ -865,7 +865,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [11 <./images/CH2-F4-Path.png>]
-<./images/CH2-F3-Prototype.png, id=1096, 263.98625pt x 285.065pt>
+<./images/CH2-F3-Prototype.png, id=1095, 263.98625pt x 285.065pt>
 File: ./images/CH2-F3-Prototype.png Graphic file (type png)
 
 <use ./images/CH2-F3-Prototype.png>
@@ -928,7 +928,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18] <./images/CH3-F1-Learning.png, id=1211, 579.66562pt x 599.99156pt>
+[18] <./images/CH3-F1-Learning.png, id=1209, 579.66562pt x 599.99156pt>
 File: ./images/CH3-F1-Learning.png Graphic file (type png)
 
 <use ./images/CH3-F1-Learning.png>
@@ -955,7 +955,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21] <./images/CH3-F2-CLI.png, id=1281, 634.37pt x 620.3175pt>
+[21] <./images/CH3-F2-CLI.png, id=1279, 634.37pt x 620.3175pt>
 File: ./images/CH3-F2-CLI.png Graphic file (type png)
 
 <use ./images/CH3-F2-CLI.png>
@@ -969,7 +969,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [22 <./images/CH3-F2-CLI.png (PNG copy)>]
-<./images/CH3-F3-LLLFramework.png, id=1301, 944.52875pt x 427.5975pt>
+<./images/CH3-F3-LLLFramework.png, id=1299, 944.52875pt x 427.5975pt>
 File: ./images/CH3-F3-LLLFramework.png Graphic file (type png)
 
 <use ./images/CH3-F3-LLLFramework.png>
@@ -980,7 +980,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [23 <./images/CH3-F3-LLLFramework.png>]
-<./images/CH3-F4-LLLDimension.png, id=1330, 654.445pt x 320.19624pt>
+<./images/CH3-F4-LLLDimension.png, id=1328, 654.445pt x 320.19624pt>
 File: ./images/CH3-F4-LLLDimension.png Graphic file (type png)
 
 <use ./images/CH3-F4-LLLDimension.png>
@@ -991,9 +991,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [24]
-Underfull \vbox (badness 1137) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1029,10 +1026,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
  (./CH4-SystemStudy.tex
 Chapter 4.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [29
+[29
 
 
 
@@ -1043,7 +1037,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30] <./images/CH4-F0-WEB20.png, id=1508, 1068.99374pt x 654.445pt>
+[30]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[31] <./images/CH4-F0-WEB20.png, id=1523, 1068.99374pt x 654.445pt>
 File: ./images/CH4-F0-WEB20.png Graphic file (type png)
 
 <use ./images/CH4-F0-WEB20.png>
@@ -1053,17 +1057,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31 <./images/CH4-F0-WEB20.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[32]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+[32 <./images/CH4-F0-WEB20.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1071,40 +1065,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [33]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[34] <./images/CH4-F1-EP.png, id=1608, 663.98062pt x 432.86719pt>
-File: ./images/CH4-F1-EP.png Graphic file (type png)
-
-<use ./images/CH4-F1-EP.png>
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[35]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[36 <./images/CH4-F1-EP.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[37] <./images/CH4-F6-BB.png, id=1642, 533.995pt x 389.455pt>
-File: ./images/CH4-F6-BB.png Graphic file (type png)
-
-<use ./images/CH4-F6-BB.png>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1114,8 +1074,55 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38 <./images/CH4-F6-BB.png (PNG copy)>]
-<./images/CH4-F7-D2L.png, id=1663, 536.0025pt x 387.4475pt>
+[34]
+Underfull \vbox (badness 4981) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[35] <./images/CH4-F1-EP.png, id=1625, 663.98062pt x 432.86719pt>
+File: ./images/CH4-F1-EP.png Graphic file (type png)
+
+<use ./images/CH4-F1-EP.png>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[37 <./images/CH4-F1-EP.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[38] <./images/CH4-F6-BB.png, id=1657, 533.995pt x 389.455pt>
+File: ./images/CH4-F6-BB.png Graphic file (type png)
+
+<use ./images/CH4-F6-BB.png>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[39 <./images/CH4-F6-BB.png (PNG copy)>]
+<./images/CH4-F7-D2L.png, id=1680, 536.0025pt x 387.4475pt>
 File: ./images/CH4-F7-D2L.png Graphic file (type png)
 
 <use ./images/CH4-F7-D2L.png>
@@ -1125,7 +1132,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[39]
+[40]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1135,8 +1142,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[40 <./images/CH4-F7-D2L.png (PNG copy)>]
-<./images/CH4-F8-eFolio.png, id=1690, 762.85pt x 746.79pt>
+[41 <./images/CH4-F7-D2L.png (PNG copy)>]
+<./images/CH4-F8-eFolio.png, id=1707, 762.85pt x 746.79pt>
 File: ./images/CH4-F8-eFolio.png Graphic file (type png)
 
 <use ./images/CH4-F8-eFolio.png>
@@ -1146,17 +1153,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41 <./images/CH4-F8-eFolio.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[42] <./images/CH4-F5-ELGG.png, id=1718, 996.72375pt x 692.5875pt>
-File: ./images/CH4-F5-ELGG.png Graphic file (type png)
-
-<use ./images/CH4-F5-ELGG.png>
+[42]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1166,14 +1163,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[43 <./images/CH4-F5-ELGG.png>]
+[43 <./images/CH4-F8-eFolio.png>]
+<./images/CH4-F5-ELGG.png, id=1733, 996.72375pt x 692.5875pt>
+File: ./images/CH4-F5-ELGG.png Graphic file (type png)
+
+<use ./images/CH4-F5-ELGG.png>
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[44] <./images/CH4-F4-Mahara.png, id=1739, 982.67125pt x 707.64375pt>
+[44]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[45 <./images/CH4-F5-ELGG.png>]
+<./images/CH4-F4-Mahara.png, id=1759, 982.67125pt x 707.64375pt>
 File: ./images/CH4-F4-Mahara.png Graphic file (type png)
 
 <use ./images/CH4-F4-Mahara.png>
@@ -1186,227 +1195,206 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45 <./images/CH4-F4-Mahara.png>]
-<./images/CH4-F3-PebblePad.png, id=1756, 969.6225pt x 704.6325pt>
+[46 <./images/CH4-F4-Mahara.png>]
+<./images/CH4-F3-PebblePad.png, id=1775, 969.6225pt x 704.6325pt>
 File: ./images/CH4-F3-PebblePad.png Graphic file (type png)
 
 <use ./images/CH4-F3-PebblePad.png>
-Underfull \vbox (badness 1990) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[46]
-Underfull \vbox (badness 2173) has occurred while \output is active []
-
-
+[47]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[47 <./images/CH4-F3-PebblePad.png>]
-Underfull \hbox (badness 4403) in paragraph at lines 741--742
+[48 <./images/CH4-F3-PebblePad.png>]
+Underfull \hbox (badness 4403) in paragraph at lines 788--789
 []|[]\OT1/cmr/m/n/8 Close in-te-gra-tion with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 743--744
+Underfull \hbox (badness 10000) in paragraph at lines 790--791
 []|[]\OT1/cmr/m/n/8 Potential in-te-gra-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 743--744
+Underfull \hbox (badness 10000) in paragraph at lines 790--791
 \OT1/cmr/m/it/8 re-li-able in-for-ma-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 744--745
+Underfull \hbox (badness 10000) in paragraph at lines 791--792
 \OT1/cmr/m/it/8 re-li-able in-for-ma-tion
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 753--754
+Underfull \hbox (badness 1448) in paragraph at lines 800--801
 []|[]\OT1/cmr/m/n/8 -- Feed-back on var-i-ous
  []
 
 
-Underfull \hbox (badness 6559) in paragraph at lines 753--754
+Underfull \hbox (badness 6559) in paragraph at lines 800--801
 \OT1/cmr/m/n/8 de-fine com-pe-tences in
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 755--756
+Underfull \hbox (badness 1448) in paragraph at lines 802--803
 []|[]\OT1/cmr/m/n/8 -- Feed-back on var-i-ous
  []
 
 
-Underfull \hbox (badness 5726) in paragraph at lines 758--759
+Underfull \hbox (badness 5726) in paragraph at lines 805--806
 \OT1/cmr/m/n/8 and ar-ti-facts on web
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 762--763
+Underfull \hbox (badness 1546) in paragraph at lines 809--810
 []|[]\OT1/cmr/m/n/8 -- Lec-tur-ers can de-fine
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 764--766
+Underfull \hbox (badness 1546) in paragraph at lines 811--813
 []|[]\OT1/cmr/m/n/8 -- Lec-tur-ers can de-fine
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 764--766
+Underfull \hbox (badness 1348) in paragraph at lines 811--813
 \OT1/cmr/m/n/8 -- Lec-tur-ers can cre-ate
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 767--768
+Underfull \hbox (badness 1348) in paragraph at lines 814--815
 \OT1/cmr/m/n/8 -- Lec-tur-ers can cre-ate
  []
 
 
-Underfull \hbox (badness 3179) in paragraph at lines 771--772
+Underfull \hbox (badness 3179) in paragraph at lines 818--819
 \OT1/cmr/m/n/8 -- Lec-turer can cre-ate
  []
 
 
-Underfull \hbox (badness 7595) in paragraph at lines 773--773
+Underfull \hbox (badness 7595) in paragraph at lines 820--820
 []|[]\OT1/cmr/m/n/8 Lecturers can pro-vide
  []
 
 
-Underfull \hbox (badness 4569) in paragraph at lines 778--779
+Underfull \hbox (badness 4569) in paragraph at lines 825--826
 \OT1/cmr/m/n/8 form of com-ments or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 782--783
+Underfull \hbox (badness 10000) in paragraph at lines 829--830
 \OT1/cmr/m/n/8 Integrated com-mu-ni-ca-
  []
 
 
-Underfull \hbox (badness 6396) in paragraph at lines 786--787
-\OT1/cmr/m/n/8 mes-sages and in-ter-nal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 788--790
+Underfull \hbox (badness 10000) in paragraph at lines 835--837
 []|[]\OT1/cmr/m/n/8 -- Col-lab-o-ra-tive work
  []
 
 
-Underfull \hbox (badness 3815) in paragraph at lines 803--804
+Underfull \hbox (badness 3815) in paragraph at lines 850--851
 \OT1/cmr/m/n/8 pe-ten-cies and learn-ing
  []
 
 
-Underfull \hbox (badness 2197) in paragraph at lines 805--806
+Underfull \hbox (badness 2197) in paragraph at lines 852--853
 []|[]\OT1/cmr/m/n/8 No spe-cial-ized way or
  []
 
 
-Underfull \hbox (badness 2426) in paragraph at lines 805--806
+Underfull \hbox (badness 2426) in paragraph at lines 852--853
 \OT1/cmr/m/n/8 record-ing achieve-ments.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 809--810
+Underfull \hbox (badness 10000) in paragraph at lines 856--857
 []|[]\OT1/cmr/m/n/8 Achievements can be
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 809--810
+Underfull \hbox (badness 10000) in paragraph at lines 856--857
 \OT1/cmr/m/n/8 recorded through the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 809--810
+Underfull \hbox (badness 10000) in paragraph at lines 856--857
 \OT1/cmr/m/n/8 as-sets ``achieve-ments''
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 812--813
+Underfull \hbox (badness 10000) in paragraph at lines 859--860
 []|[]\OT1/cmr/m/n/8 Addressing high-order
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 812--813
+Underfull \hbox (badness 10000) in paragraph at lines 859--860
 \OT1/cmr/m/n/8 skills through de-fined
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 812--813
+Underfull \hbox (badness 10000) in paragraph at lines 859--860
 \OT1/cmr/m/n/8 by lec-tur-ers learn-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 814--815
+Underfull \hbox (badness 10000) in paragraph at lines 861--862
 []|[]\OT1/cmr/m/n/8 Addressing high-order
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 814--815
+Underfull \hbox (badness 10000) in paragraph at lines 861--862
 \OT1/cmr/m/n/8 rubrics or in-te-gra-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 816--817
+Underfull \hbox (badness 10000) in paragraph at lines 863--864
 []|[]\OT1/cmr/m/n/8 Addressing high-order
  []
 
 
-Underfull \hbox (badness 1983) in paragraph at lines 816--817
+Underfull \hbox (badness 1983) in paragraph at lines 863--864
 \OT1/cmr/m/n/8 skills is done in form
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 818--818
+Underfull \hbox (badness 10000) in paragraph at lines 865--865
 []|[]\OT1/cmr/m/n/8 Addressing high-order
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 819--819
+Underfull \hbox (badness 10000) in paragraph at lines 866--866
 []|[]\OT1/cmr/m/n/8 Addressing high-order
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 820--821
+Underfull \hbox (badness 10000) in paragraph at lines 867--868
 []|[]\OT1/cmr/m/n/8 Addressing high-order
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 820--821
+Underfull \hbox (badness 2608) in paragraph at lines 867--868
 \OT1/cmr/m/n/8 skills can be done in
  []
 
 
-Underfull \hbox (badness 1748) in paragraph at lines 820--821
+Underfull \hbox (badness 1748) in paragraph at lines 867--868
 \OT1/cmr/m/n/8 form of web pages or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 826--826
+Underfull \hbox (badness 10000) in paragraph at lines 873--873
 []|[]\OT1/cmr/m/n/8 Individual items can
  []
 
 
-Underfull \hbox (badness 5175) in paragraph at lines 827--827
-[]|[]\OT1/cmr/m/n/8 Reflection in form of
- []
-
-
-Underfull \hbox (badness 5175) in paragraph at lines 828--828
-[]|[]\OT1/cmr/m/n/8 Reflection in form of
- []
-
-
-Overfull \hbox (19.79135pt too wide) in paragraph at lines 729--832
+Overfull \hbox (19.79135pt too wide) in paragraph at lines 776--879
  [][][] 
  []
 
@@ -1416,15 +1404,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[48]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [49]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[50]
+Underfull \vbox (badness 1406) has occurred while \output is active []
 
 
 
@@ -1433,30 +1421,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[50])
+[51])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[51]
+[52]
 \openout2 = `CH5-ConceptualModel.aux'.
 
  (./CH5-ConceptualModel.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[52
+Chapter 5.
+[53
 
 
 
 ]
-Chapter 5.
-[53]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1597,7 +1578,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
  (./CH6-Development.tex
 Chapter 6.
-<./images/CH6-F1-Architecture.png, id=1955, 513.92pt x 355.3275pt>
+<./images/CH6-F1-Architecture.png, id=1970, 513.92pt x 355.3275pt>
 File: ./images/CH6-F1-Architecture.png Graphic file (type png)
 
 <use ./images/CH6-F1-Architecture.png>
@@ -1657,7 +1638,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[75] <./images/CH6-F2-Version.png, id=2032, 368.37625pt x 181.67876pt>
+[75] <./images/CH6-F2-Version.png, id=2047, 368.37625pt x 181.67876pt>
 File: ./images/CH6-F2-Version.png Graphic file (type png)
 
 <use ./images/CH6-F2-Version.png>
@@ -1688,7 +1669,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[79] <./images/CH6-F3-Mapping.png, id=2091, 797.98125pt x 586.19pt>
+[79] <./images/CH6-F3-Mapping.png, id=2106, 797.98125pt x 586.19pt>
 File: ./images/CH6-F3-Mapping.png Graphic file (type png)
 
 <use ./images/CH6-F3-Mapping.png>
@@ -1699,7 +1680,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [80 <./images/CH6-F3-Mapping.png>]
-<./images/CH6-F4-Map-Example.png, id=2111, 576.1525pt x 543.02875pt>
+<./images/CH6-F4-Map-Example.png, id=2126, 576.1525pt x 543.02875pt>
 File: ./images/CH6-F4-Map-Example.png Graphic file (type png)
 
 <use ./images/CH6-F4-Map-Example.png>
@@ -1719,7 +1700,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[82] <./images/CH6-F5-Fragments.png, id=2126, 829.0975pt x 892.33376pt>
+[82] <./images/CH6-F5-Fragments.png, id=2141, 829.0975pt x 892.33376pt>
 File: ./images/CH6-F5-Fragments.png Graphic file (type png)
 
 <use ./images/CH6-F5-Fragments.png>
@@ -1736,7 +1717,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[84] <./images/CH6-F6-Timeline.png, id=2140, 431.6125pt x 188.705pt>
+[84] <./images/CH6-F6-Timeline.png, id=2155, 431.6125pt x 188.705pt>
 File: ./images/CH6-F6-Timeline.png Graphic file (type png)
 
 <use ./images/CH6-F6-Timeline.png>
@@ -1850,7 +1831,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[98] <./images/CH7-F7-Settings.png, id=2223, 3452.9pt x 1704.3675pt>
+[98] <./images/CH7-F7-Settings.png, id=2238, 3452.9pt x 1704.3675pt>
 File: ./images/CH7-F7-Settings.png Graphic file (type png)
 
 <use ./images/CH7-F7-Settings.png>
@@ -1864,7 +1845,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [99 <./images/CH7-F7-Settings.png>]
-<./images/CH7-F5-Demographics.png, id=2233, 692.5875pt x 265.99374pt>
+<./images/CH7-F5-Demographics.png, id=2248, 692.5875pt x 265.99374pt>
 File: ./images/CH7-F5-Demographics.png Graphic file (type png)
 
 <use ./images/CH7-F5-Demographics.png>
@@ -1875,7 +1856,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [100 <./images/CH7-F5-Demographics.png>]
-<./images/CH7-F8-Activities.png, id=2240, 1046.91125pt x 248.93pt>
+<./images/CH7-F8-Activities.png, id=2255, 1046.91125pt x 248.93pt>
 File: ./images/CH7-F8-Activities.png Graphic file (type png)
 
 <use ./images/CH7-F8-Activities.png>
@@ -1886,7 +1867,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [101 <./images/CH7-F8-Activities.png>]
-<./images/CH7-F12-Map-Photo.png, id=2249, 803.0pt x 351.3125pt>
+<./images/CH7-F12-Map-Photo.png, id=2264, 803.0pt x 351.3125pt>
 File: ./images/CH7-F12-Map-Photo.png Graphic file (type png)
 
 <use ./images/CH7-F12-Map-Photo.png>
@@ -1903,7 +1884,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[103] <./images/CH7-F1-Chart.png, id=2266, 689.57625pt x 281.05pt>
+[103] <./images/CH7-F1-Chart.png, id=2281, 689.57625pt x 281.05pt>
 File: ./images/CH7-F1-Chart.png Graphic file (type png)
 
 <use ./images/CH7-F1-Chart.png>
@@ -1914,15 +1895,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [104 <./images/CH7-F1-Chart.png>]
-<./images/CH7-F6-Groups.png, id=2273, 496.85625pt x 359.3425pt>
+<./images/CH7-F6-Groups.png, id=2288, 496.85625pt x 359.3425pt>
 File: ./images/CH7-F6-Groups.png Graphic file (type png)
 
 <use ./images/CH7-F6-Groups.png>
-<./images/CH7-F2-Chart-GA.png, id=2274, 577.15625pt x 226.8475pt>
+<./images/CH7-F2-Chart-GA.png, id=2289, 577.15625pt x 226.8475pt>
 File: ./images/CH7-F2-Chart-GA.png Graphic file (type png)
 
 <use ./images/CH7-F2-Chart-GA.png>
-<./images/CH7-F3-Chart-GB.png, id=2275, 580.1675pt x 231.86626pt>
+<./images/CH7-F3-Chart-GB.png, id=2290, 580.1675pt x 231.86626pt>
 File: ./images/CH7-F3-Chart-GB.png Graphic file (type png)
 
 <use ./images/CH7-F3-Chart-GB.png>
@@ -1933,7 +1914,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [105 <./images/CH7-F6-Groups.png> <./images/CH7-F2-Chart-GA.png>]
-<./images/CH7-F4-Chart-GC.png, id=2284, 578.16pt x 227.85126pt>
+<./images/CH7-F4-Chart-GC.png, id=2299, 578.16pt x 227.85126pt>
 File: ./images/CH7-F4-Chart-GC.png Graphic file (type png)
 
 <use ./images/CH7-F4-Chart-GC.png>
@@ -2037,7 +2018,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[113] <./images/CH7-F10-Example2.png, id=2356, 508.90125pt x 321.2pt>
+[113] <./images/CH7-F10-Example2.png, id=2371, 508.90125pt x 321.2pt>
 File: ./images/CH7-F10-Example2.png Graphic file (type png)
 
 <use ./images/CH7-F10-Example2.png>
@@ -2048,7 +2029,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [114 <./images/CH7-F10-Example2.png>]
-<./images/CH7-F9-Example1.png, id=2363, 738.76pt x 738.76pt>
+<./images/CH7-F9-Example1.png, id=2378, 738.76pt x 738.76pt>
 File: ./images/CH7-F9-Example1.png Graphic file (type png)
 
 <use ./images/CH7-F9-Example1.png>
@@ -2072,7 +2053,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[117] <./images/CH7-F11-Example3.png, id=2380, 961.5925pt x 169.63374pt>
+[117] <./images/CH7-F11-Example3.png, id=2395, 961.5925pt x 169.63374pt>
 File: ./images/CH7-F11-Example3.png Graphic file (type png)
 
 <use ./images/CH7-F11-Example3.png>
@@ -2262,7 +2243,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [137]
-Underfull \hbox (badness 2644) in paragraph at lines 239--244
+Underfull \hbox (badness 2644) in paragraph at lines 247--252
 [][]\OT1/cmr/bx/n/10.95 Dawson, R. (2007, Septem-ber 30)\OT1/cmr/m/n/10.95 .  `
 `Launch-ing the Web 2.0 Frame-
  []
@@ -2278,20 +2259,20 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
 
-Underfull \hbox (badness 1430) in paragraph at lines 331--337
+Underfull \hbox (badness 1430) in paragraph at lines 346--352
 [][]\OT1/cmr/bx/n/10.95 Felce, A. \OT1/cmr/m/n/10.95 (\OT1/cmr/bx/n/10.95 2011\
 OT1/cmr/m/n/10.95 ).  ``JISC Fi-nal Re-port ePPSME.''  Tech-ni-cal re-port, The
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--337
+Underfull \hbox (badness 10000) in paragraph at lines 346--352
 \OT1/cmr/m/n/10.95 Uni-ver-sity of Wolver-hamp-ton, Wolver-hamp-ton.  Re-trieve
 d from []$\OT1/cmtt/m/n/10.95 http :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--337
+Underfull \hbox (badness 10000) in paragraph at lines 346--352
 \OT1/cmtt/m/n/10.95 / / www . jisc . ac . uk / media / documents / programmes /
  institutionalinnovation /
  []
@@ -2303,20 +2284,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [139]
-Underfull \hbox (badness 1478) in paragraph at lines 418--424
+Underfull \hbox (badness 1478) in paragraph at lines 433--439
 [][]\OT1/cmr/bx/n/10.95 Havenstein, H. \OT1/cmr/m/n/10.95 (\OT1/cmr/bx/n/10.95 
 2007\OT1/cmr/m/n/10.95 a).  ``Cus-tomers Courted With Web 2.0.''  \OT1/cmr/m/it
 /10.95 Com-put-
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 418--424
+Underfull \hbox (badness 1874) in paragraph at lines 433--439
 \OT1/cmr/m/it/10.95 er-world\OT1/cmr/m/n/10.95 .  Re-trieved from []$\OT1/cmtt/
 m/n/10.95 http : / / www . computerworld . com / s / article / print /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--433
+Underfull \hbox (badness 10000) in paragraph at lines 441--448
 \OT1/cmtt/m/n/10.95 s / article / 9034898 / IT _ is _ a _ key _ barrier _ to _ 
 corporate _ Web _ 2 . 0 _ adoption _
  []
@@ -2332,7 +2313,7 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
 
-Underfull \hbox (badness 2126) in paragraph at lines 500--505
+Underfull \hbox (badness 2126) in paragraph at lines 515--520
 [][]\OT1/cmr/bx/n/10.95 Ioannidis, J. P. a. \OT1/cmr/m/n/10.95 (\OT1/cmr/bx/n/1
 0.95 2007\OT1/cmr/m/n/10.95 ).  ``Lim-i-ta-tions are not prop-erly ac-knowl-edg
 ed
@@ -2352,7 +2333,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [142]
-Underfull \hbox (badness 1107) in paragraph at lines 636--641
+Underfull \hbox (badness 1107) in paragraph at lines 650--655
 [][]\OT1/cmr/bx/n/10.95 MacMillan, D. \OT1/cmr/m/n/10.95 (\OT1/cmr/bx/n/10.95 2
 007\OT1/cmr/m/n/10.95 ).  ``Fam-ily Trees 2.0.''  Re-trieved from []$\OT1/cmtt/
 m/n/10.95 http : / / www .
@@ -2365,13 +2346,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [143]
-Underfull \hbox (badness 6300) in paragraph at lines 702--708
+Underfull \hbox (badness 6300) in paragraph at lines 716--722
 [][]\OT1/cmr/bx/n/10.95 Media Frag-ments Work-ing Group \OT1/cmr/m/n/10.95 (\OT
 1/cmr/bx/n/10.95 2011\OT1/cmr/m/n/10.95 ).  ``Me-dia Frag-ments URI
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 702--708
+Underfull \hbox (badness 10000) in paragraph at lines 716--722
 \OT1/cmr/m/n/10.95 1.0.''  Re-trieved from []$\OT1/cmtt/m/n/10.95 http : / / ww
 w . w3 . org / 2008 / WebVideo / Fragments /
  []
@@ -2423,7 +2404,7 @@ Appendix A.
 
 
 ]
-<appendix/Low-Risk-Notification-2009.pdf, id=2636, page=1, 598.235pt x 845.1575
+<appendix/Low-Risk-Notification-2009.pdf, id=2658, page=1, 598.235pt x 845.1575
 pt>
 File: appendix/Low-Risk-Notification-2009.pdf Graphic file (type pdf)
  <use appendix/Low-Risk-Notification-2009.pdf, page 1>
@@ -2445,7 +2426,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: appendix/Low-Risk-Notification-2009.pdf Graphic file (type pdf)
 <use appendix/Low-Risk-Notification-2009.pdf, page 1> [150 <./appendix/Low-Risk
 -Notification-2009.pdf, page is rotated 90 degrees>]
-<appendix/Lecturer_sheet_1.pdf, id=2645, page=1, 598.235pt x 845.1575pt>
+<appendix/Lecturer_sheet_1.pdf, id=2667, page=1, 598.235pt x 845.1575pt>
 File: appendix/Lecturer_sheet_1.pdf Graphic file (type pdf)
 
 <use appendix/Lecturer_sheet_1.pdf, page 1>
@@ -2467,7 +2448,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: appendix/Lecturer_sheet_1.pdf Graphic file (type pdf)
 <use appendix/Lecturer_sheet_1.pdf, page 1> [151 <./appendix/Lecturer_sheet_1.p
 df, page is rotated 90 degrees>]
-<appendix/Lecturer_sheet_2.pdf, id=2654, page=1, 598.235pt x 845.1575pt>
+<appendix/Lecturer_sheet_2.pdf, id=2676, page=1, 598.235pt x 845.1575pt>
 File: appendix/Lecturer_sheet_2.pdf Graphic file (type pdf)
 
 <use appendix/Lecturer_sheet_2.pdf, page 1>
@@ -2484,7 +2465,7 @@ File: appendix/Lecturer_sheet_2.pdf Graphic file (type pdf)
 
 <use appendix/Lecturer_sheet_2.pdf, page 1> [152 <./appendix/Lecturer_sheet_2.p
 df, page is rotated 90 degrees>]
-<appendix/Student_sheet_1.pdf, id=2663, page=1, 598.235pt x 845.1575pt>
+<appendix/Student_sheet_1.pdf, id=2685, page=1, 598.235pt x 845.1575pt>
 File: appendix/Student_sheet_1.pdf Graphic file (type pdf)
 
 <use appendix/Student_sheet_1.pdf, page 1>
@@ -2506,7 +2487,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: appendix/Student_sheet_1.pdf Graphic file (type pdf)
 <use appendix/Student_sheet_1.pdf, page 1> [153 <./appendix/Student_sheet_1.pdf
 , page is rotated 90 degrees>]
-<appendix/Student_sheet_2.pdf, id=2673, page=1, 598.235pt x 845.1575pt>
+<appendix/Student_sheet_2.pdf, id=2695, page=1, 598.235pt x 845.1575pt>
 File: appendix/Student_sheet_2.pdf Graphic file (type pdf)
 
 <use appendix/Student_sheet_2.pdf, page 1>
@@ -2523,7 +2504,7 @@ File: appendix/Student_sheet_2.pdf Graphic file (type pdf)
 
 <use appendix/Student_sheet_2.pdf, page 1> [154 <./appendix/Student_sheet_2.pdf
 , page is rotated 90 degrees>]
-<appendix/Consent_form.pdf, id=2682, page=1, 598.235pt x 845.1575pt>
+<appendix/Consent_form.pdf, id=2704, page=1, 598.235pt x 845.1575pt>
 File: appendix/Consent_form.pdf Graphic file (type pdf)
 
 <use appendix/Consent_form.pdf, page 1>
@@ -2645,7 +2626,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 Appendix E.
 [167]
-<appendix/Low-Risk-Notification-2011.pdf, id=2742, page=1, 598.235pt x 845.1575
+<appendix/Low-Risk-Notification-2011.pdf, id=2764, page=1, 598.235pt x 845.1575
 pt>
 File: appendix/Low-Risk-Notification-2011.pdf Graphic file (type pdf)
  <use appendix/Low-Risk-Notification-2011.pdf, page 1>
@@ -2687,7 +2668,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: appendix/Lecturer_sheet_1.pdf Graphic file (type pdf)
 <use appendix/Lecturer_sheet_1.pdf, page 1> [169]
-<appendix/Information_sheet_p_2011.pdf, id=2759, page=1, 597.23125pt x 845.1575
+<appendix/Information_sheet_p_2011.pdf, id=2781, page=1, 597.23125pt x 845.1575
 pt>
 File: appendix/Information_sheet_p_2011.pdf Graphic file (type pdf)
  <use appendix/Information_sheet_p_2011.pdf, page 1>
@@ -2709,7 +2690,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: appendix/Information_sheet_p_2011.pdf Graphic file (type pdf)
 <use appendix/Information_sheet_p_2011.pdf, page 1> [170 <./appendix/Informatio
 n_sheet_p_2011.pdf>]
-<appendix/Information_sheet_p_2011.pdf, id=2789, page=2, 597.23125pt x 845.1575
+<appendix/Information_sheet_p_2011.pdf, id=2811, page=2, 597.23125pt x 845.1575
 pt>
 File: appendix/Information_sheet_p_2011.pdf Graphic file (type pdf)
  <use appendix/Information_sheet_p_2011.pdf, page 2>
@@ -2726,7 +2707,7 @@ File: appendix/Information_sheet_p_2011.pdf Graphic file (type pdf)
 
 <use appendix/Information_sheet_p_2011.pdf, page 2> [171 <./appendix/Informatio
 n_sheet_p_2011.pdf>]
-<appendix/Information_sheet_u_2011.pdf, id=2800, page=1, 597.23125pt x 845.1575
+<appendix/Information_sheet_u_2011.pdf, id=2822, page=1, 597.23125pt x 845.1575
 pt>
 File: appendix/Information_sheet_u_2011.pdf Graphic file (type pdf)
  <use appendix/Information_sheet_u_2011.pdf, page 1>
@@ -2753,7 +2734,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: appendix/Information_sheet_u_2011.pdf Graphic file (type pdf)
 <use appendix/Information_sheet_u_2011.pdf, page 1> [172 <./appendix/Informatio
 n_sheet_u_2011.pdf>]
-<appendix/Information_sheet_u_2011.pdf, id=2834, page=2, 597.23125pt x 845.1575
+<appendix/Information_sheet_u_2011.pdf, id=2856, page=2, 597.23125pt x 845.1575
 pt>
 File: appendix/Information_sheet_u_2011.pdf Graphic file (type pdf)
  <use appendix/Information_sheet_u_2011.pdf, page 2>
@@ -2770,7 +2751,7 @@ File: appendix/Information_sheet_u_2011.pdf Graphic file (type pdf)
 
 <use appendix/Information_sheet_u_2011.pdf, page 2> [173 <./appendix/Informatio
 n_sheet_u_2011.pdf>]
-<appendix/Consent_form_2011.pdf, id=2844, page=1, 614.295pt x 794.97pt>
+<appendix/Consent_form_2011.pdf, id=2866, page=1, 614.295pt x 794.97pt>
 File: appendix/Consent_form_2011.pdf Graphic file (type pdf)
 
 <use appendix/Consent_form_2011.pdf, page 1>
@@ -2800,7 +2781,7 @@ Appendix F.
 
 
 
-] <appendix/Poster.pdf, id=2878, page=1, 597.23125pt x 845.1575pt>
+] <appendix/Poster.pdf, id=2900, page=1, 597.23125pt x 845.1575pt>
 File: appendix/Poster.pdf Graphic file (type pdf)
 
 <use appendix/Poster.pdf, page 1>
@@ -2825,7 +2806,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[177] <appendix/Exit_u_Q.pdf, id=2927, page=1, 597.23125pt x 845.1575pt>
+[177] <appendix/Exit_u_Q.pdf, id=2949, page=1, 597.23125pt x 845.1575pt>
 File: appendix/Exit_u_Q.pdf Graphic file (type pdf)
 
 <use appendix/Exit_u_Q.pdf, page 1>
@@ -2844,7 +2825,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: appendix/Exit_u_Q.pdf Graphic file (type pdf)
 <use appendix/Exit_u_Q.pdf, page 1> [178 <./appendix/Exit_u_Q.pdf>]
-<appendix/Exit_u_Q.pdf, id=2963, page=2, 597.23125pt x 845.1575pt>
+<appendix/Exit_u_Q.pdf, id=2985, page=2, 597.23125pt x 845.1575pt>
 File: appendix/Exit_u_Q.pdf Graphic file (type pdf)
 
 <use appendix/Exit_u_Q.pdf, page 2>
@@ -2907,7 +2888,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 Appendix G.
 [185]
-<appendix/Background-2011.pdf, id=2998, page=1, 597.23125pt x 845.1575pt>
+<appendix/Background-2011.pdf, id=3020, page=1, 597.23125pt x 845.1575pt>
 File: appendix/Background-2011.pdf Graphic file (type pdf)
 
 <use appendix/Background-2011.pdf, page 1>
@@ -2941,13 +2922,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 (./CH8-Discussion.aux) (./CH9-Conclusion.aux) (./A1.aux) (./A2.aux) (./A3.aux)
 (./A4.aux) (./A5.aux) (./A6.aux) (./A7.aux)) ) 
 Here is how much of TeX's memory you used:
- 17935 strings out of 495061
- 311183 string characters out of 1182620
- 392407 words of memory out of 3000000
- 19907 multiletter control sequences out of 15000+50000
+ 17948 strings out of 495061
+ 311390 string characters out of 1182620
+ 393529 words of memory out of 3000000
+ 19916 multiletter control sequences out of 15000+50000
  21682 words of font info for 81 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 63i,18n,75p,446b,709s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,18n,75p,446b,705s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/t
 ype1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public
 /amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
@@ -2966,9 +2947,9 @@ msfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
 cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti8.pfb><
 /usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/
 texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on thesis.pdf (209 pages, 16800845 bytes).
+Output written on thesis.pdf (209 pages, 16809669 bytes).
 PDF statistics:
- 3228 PDF objects out of 3580 (max. 8388607)
- 641 named destinations out of 1000 (max. 500000)
+ 3251 PDF objects out of 3580 (max. 8388607)
+ 645 named destinations out of 1000 (max. 500000)
  1598 words of extra memory for PDF output out of 10000 (max. 10000000)
 

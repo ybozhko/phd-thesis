@@ -226,19 +226,19 @@ FUNCTION {bbl.etal}
 { "et~al." }
 
 FUNCTION {bbl.editors}
-{ "editors" }
+{ "Eds." }
 
 FUNCTION {bbl.editor}
-{ "editor" }
+{ "Ed." }
 
 FUNCTION {bbl.edby}
 { "edited by" }
 
 FUNCTION {bbl.edition}
-{ "edition" }
+{ "ed." }
 
 FUNCTION {bbl.volume}
-{ "volume" }
+{ "Volume" }
 
 FUNCTION {bbl.of}
 { "of" }
@@ -253,13 +253,13 @@ FUNCTION {bbl.in}
 { "in" }
 
 FUNCTION {bbl.pages}
-{ "pages" }
+{ "pp." }
 
 FUNCTION {bbl.page}
-{ "page" }
+{ "p." }
 
 FUNCTION {bbl.chapter}
-{ "chapter" }
+{ "Chapter" }
 
 FUNCTION {bbl.techrep}
 { "Technical Report" }
@@ -500,7 +500,7 @@ FUNCTION {get.bbl.editor}
 { editor num.names$ #1 > 'bbl.editors 'bbl.editor if$ }
 
 FUNCTION {format.editors}
-{ editor "editor" format.names duplicate$ empty$ 'skip$
+{ editor "Ed." format.names duplicate$ empty$ 'skip$
     {
       "," *
       " " *
@@ -757,7 +757,7 @@ FUNCTION {format.bvolume}
 { volume empty$
     { "" }
     { bbl.volume volume tie.or.space.prefix
-      "volume" bibinfo.check * *
+      "Volume" bibinfo.check * *
       series "series" bibinfo.check
       duplicate$ empty$ 'pop$
         { swap$ bbl.of space.word * swap$
@@ -796,7 +796,7 @@ FUNCTION {format.edition}
         { "l" }
         { "t" }
       if$ change.case$
-      "edition" bibinfo.check
+      "ed." bibinfo.check
       " " * bbl.edition *
     }
   if$
@@ -833,7 +833,7 @@ FUNCTION {format.pages}
         }
       if$
       tie.or.space.prefix
-      "pages" bibinfo.check
+      "pp." bibinfo.check
       * *
     }
   if$
@@ -846,7 +846,7 @@ FUNCTION {format.journal.pages}
           ": " *
           swap$
           n.dashify
-          "pages" bibinfo.check
+          "pp." bibinfo.check
           *
         }
       if$
@@ -869,7 +869,7 @@ FUNCTION {format.vol.num.pages}
 { volume field.or.null
   duplicate$ empty$ 'skip$
     {
-      "volume" bibinfo.check
+      "Volume" bibinfo.check
     }
   if$
   number "number" bibinfo.check duplicate$ empty$ 'skip$
@@ -898,7 +898,7 @@ FUNCTION {format.chapter.pages}
         }
       if$
       chapter tie.or.space.prefix
-      "chapter" bibinfo.check
+      "Chapter" bibinfo.check
       * *
       pages empty$
         'skip$
@@ -926,7 +926,7 @@ FUNCTION {format.booktitle}
 FUNCTION {format.in.ed.booktitle}
 { format.booktitle duplicate$ empty$ 'skip$
     {
-      editor "editor" format.names.ed duplicate$ empty$ 'pop$
+      editor "Ed." format.names.ed duplicate$ empty$ 'pop$
         {
           "," *
           " " *
