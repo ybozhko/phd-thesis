@@ -1,4 +1,4 @@
-\begin{thebibliography}{160}
+\begin{thebibliography}{167}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -58,6 +58,12 @@
 \textbf{Barrett, H.} (\textbf{2008}).
 \newblock \enquote{{Categories of ePortfolio Tools}.}
 \newblock \urlprefix\url{http://electronicportfolios.com/categories.html}.
+
+\bibitem[{Batson and Peet(2010)}]{Batson2010}
+\textbf{Batson, T. and Peet, M.~R.} \textbf{(2010, May~4)}.
+\newblock \enquote{{CollabTech 2010: ePortfolio and the Emergent Learning
+  Ecology [Online Video]}.}
+\newblock \urlprefix\url{http://www.youtube.com/watch?v=Z1PGOgDtVJw}.
 
 \bibitem[{Benseman(2006)}]{Benseman2006}
 \textbf{Benseman, J.} (\textbf{2006}).
@@ -158,6 +164,12 @@ iew/IHMC Literature Review on Concept Mapping.pdf}.
 \newblock \enquote{{Europe's Politicians Embrace Web 2.0}.}
 \newblock \urlprefix\url{http://www.businessweek.com}.
 
+\bibitem[{Carter(2008)}]{Carter2008}
+\textbf{Carter, B.} (\textbf{2008}).
+\newblock \enquote{{Dewey, the OECD and differing discourses of 'lifelong
+  learning'}.}
+\newblock \emph{New Zealand journal of adult learning}, 36(2): 110--117.
+
 \bibitem[{Challis(2005)}]{Challis2005}
 \textbf{Challis, D.} (\textbf{2005}).
 \newblock \enquote{{Towards the mature ePortfolio: Some implications for higher
@@ -226,6 +238,12 @@ iew/IHMC Literature Review on Concept Mapping.pdf}.
 \newblock \emph{Teachers as learners: Embedded tools for implementing a CMS},
   48(6): 7--12.
 
+\bibitem[{Creswell(2009)}]{Creswell2009}
+\textbf{Creswell, J.~W.} (\textbf{2009}).
+\newblock \emph{{Research design: qualitative, quantitative, and mixed methods
+  approaches}}.
+\newblock Sage Publications, Thousand Oaks, California, 3 ed.
+
 \bibitem[{Cross(1993)}]{Cross1993}
 \textbf{Cross, N.} (\textbf{1993}).
 \newblock \enquote{{A history of design methodology}.}
@@ -257,6 +275,14 @@ the\_w.html}.
 \newblock \enquote{{The development of a system for supporting the lifelong
   learner}.}
 \newblock \emph{British Journal of Educational Technology}, 37(6): 867--880.
+
+\bibitem[{Dench(2010)}]{Dench2010}
+\textbf{Dench, O.} (\textbf{2010}).
+\newblock \enquote{{Education Statistics of New Zealand: 2009}.}
+\newblock Technical report, Indicators and Reporting, Ministry of Education.
+\newblock
+  \urlprefix\url{http://www.educationcounts.govt.nz/\_\_data/assets/pdf\_file/%
+0017/80225/CO7078\_Education-Stats\_27082010.pdf}.
 
 \bibitem[{{Desire2Learn Incorporated}(2011)}]{Desire2LearnIncorporated2011}
 \textbf{{Desire2Learn Incorporated}} (\textbf{2011}).
@@ -451,6 +477,14 @@ linnovation/workforcedev/eppsmefinalreport.pdf}.
 \textbf{Heinrich, E., Bhattacharya, M., and Rayudu, R.} (\textbf{2007}).
 \newblock \enquote{{Preparation for lifelong learning using ePortfolios}.}
 \newblock \emph{European Journal of Engineering Education}, 32(6): 653--663.
+
+\bibitem[{Heinrich and Bozhko(2012)}]{Heinrich2012}
+\textbf{Heinrich, E. and Bozhko, Y.} (\textbf{2012}).
+\newblock \enquote{{The Role of Institutions in Creating Student-Focused
+  Virtual Learning Spaces with ePortfolio Systems}.}
+\newblock In M.~Keppell, K.~Souter, and M.~Riddle, Eds., \enquote{Physical and
+  Virtual Learning Spaces in Higher Education: Concepts for the Modern Learning
+  Environment,} Chapter VIII. IGI Global.
 
 \bibitem[{Hernon(2006)}]{Hernon2006}
 \textbf{Hernon, P.} (\textbf{2006}).
@@ -874,6 +908,11 @@ on2002w.pdf}.
 \newblock \emph{Compare: A Journal of Comparative and International Education},
   36(3): 279--287.
 
+\bibitem[{Shelly and Frydenberg(2011)}]{Shelly2011}
+\textbf{Shelly, G.~B. and Frydenberg, M.} (\textbf{2011}).
+\newblock \emph{{Web 2.0: Concepts and Applications}}.
+\newblock Course Technology Cengage Learning, Boston, Mass.
+
 \bibitem[{Shuy(2001)}]{Shuy2001}
 \textbf{Shuy, R.~W.} (\textbf{2001}).
 \newblock \enquote{{In-Person Versus Telephone Interviewing}.}
@@ -1034,5 +1073,11 @@ portfolio\_scenarios/portfolios\_types.htm}.
 \textbf{Yin, R.~K.} (\textbf{2012}).
 \newblock \emph{{Applications of case study research}}.
 \newblock SAGE, Thousand Oaks, California, 3 ed.
+
+\bibitem[{Zhan(2010)}]{Zhan2010}
+\textbf{Zhan, Z.} (\textbf{2010}).
+\newblock \enquote{{Feeling the Sense of Community in Social Networking
+  Usage}.}
+\newblock \emph{IEEE Transactions On Engineering Management}, 57(2): 225--239.
 
 \end{thebibliography}
