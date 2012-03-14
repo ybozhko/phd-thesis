@@ -3,6 +3,20 @@
 % cat *.tex | grep -v ^% | wc| awk '{print $2}'
 \documentclass[11pt,PhD,twoside,openright]{muthesis}
 
+% Alter some LaTeX defaults for better treatment of figures:
+%   General parameters, for ALL pages:
+\renewcommand{\topfraction}{0.9}	
+\renewcommand{\bottomfraction}{0.8}	
+%   Parameters for TEXT pages:
+\setcounter{topnumber}{2}
+\setcounter{bottomnumber}{2}
+\setcounter{totalnumber}{4}     
+\setcounter{dbltopnumber}{2}
+\renewcommand{\dbltopfraction}{0.9}
+\renewcommand{\textfraction}{0.07}
+\renewcommand{\floatpagefraction}{0.7}
+\renewcommand{\dblfloatpagefraction}{0.7}
+
 \usepackage{verbatim}
 \usepackage{graphicx}
 \usepackage{url}
@@ -21,6 +35,7 @@
 \usepackage{colortbl}
 \usepackage{multirow}
 \usepackage{rotating}
+\usepackage{enumitem}
 
 \graphicspath{{./images/}}
 \DeclareGraphicsExtensions{.jpeg,.png}

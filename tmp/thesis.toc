@@ -134,37 +134,37 @@
 \contentsline {section}{\numberline {B.3}Questions used in the interviews with students}{172}{section.B.3}
 \contentsline {section}{\numberline {B.4}Students scenario examples}{172}{section.B.4}
 \contentsline {chapter}{\numberline {C}Component Requirements }{173}{appendix.C}
-\contentsline {section}{\numberline {C.1}Version Control Elements}{173}{section.C.1}
-\contentsline {section}{\numberline {C.2}Concept Mapping Module}{174}{section.C.2}
-\contentsline {section}{\numberline {C.3}Artifacts' Fragments Extraction}{175}{section.C.3}
-\contentsline {section}{\numberline {C.4}Learning Progress Tracking}{176}{section.C.4}
-\contentsline {section}{\numberline {C.5}Advanced Sharing Options}{177}{section.C.5}
-\contentsline {chapter}{\numberline {D}Interface Screenshots }{179}{appendix.D}
-\contentsline {section}{\numberline {D.1}Version Control Elements}{179}{section.D.1}
-\contentsline {section}{\numberline {D.2}Concept Mapping Module}{179}{section.D.2}
-\contentsline {section}{\numberline {D.3}Artifacts' Fragments Extraction}{179}{section.D.3}
-\contentsline {section}{\numberline {D.4}Learning Progress Tracking}{179}{section.D.4}
-\contentsline {section}{\numberline {D.5}Shared Resources Management}{179}{section.D.5}
-\contentsline {chapter}{\numberline {E}Ethics Documentation: Prototype Evaluation }{181}{appendix.E}
-\contentsline {section}{\numberline {E.1}Ethics Approval Letter}{182}{section.E.1}
-\contentsline {section}{\numberline {E.2}Information Sheet for Lecturers}{183}{section.E.2}
-\contentsline {section}{\numberline {E.3}Information Sheet for Case Study Participants}{184}{section.E.3}
-\contentsline {section}{\numberline {E.4}Information Sheet for Group Experiment Participants}{186}{section.E.4}
-\contentsline {section}{\numberline {E.5}Participant Consent Form}{188}{section.E.5}
-\contentsline {chapter}{\numberline {F}Study Two Documentation }{189}{appendix.F}
-\contentsline {section}{\numberline {F.1}Invitation Poster}{190}{section.F.1}
-\contentsline {section}{\numberline {F.2}Study Protocol}{191}{section.F.2}
-\contentsline {section}{\numberline {F.3}Background and Exit Questionnaire}{192}{section.F.3}
-\contentsline {section}{\numberline {F.4}Concept Map Examples Created by Students}{194}{section.F.4}
-\contentsline {section}{\numberline {F.5}Exit Questionnaire Responses}{194}{section.F.5}
-\contentsline {subsection}{\numberline {F.5.1}Potential impact of concept mapping on the development and understanding of personal learning achievements and graduate attributes.}{194}{subsection.F.5.1}
-\contentsline {subsection}{\numberline {F.5.2}Most favoured part about concept mapping in the ePortfolio\nobreakspace {}system}{195}{subsection.F.5.2}
-\contentsline {subsection}{\numberline {F.5.3}Least favoured part about concept mapping in the ePortfolio\nobreakspace {}system}{196}{subsection.F.5.3}
-\contentsline {subsection}{\numberline {F.5.4}Recommended improvements}{196}{subsection.F.5.4}
-\contentsline {chapter}{\numberline {G}Study Three Documentation }{199}{appendix.G}
-\contentsline {section}{\numberline {G.1}Study Protocol}{199}{section.G.1}
-\contentsline {section}{\numberline {G.2}Potential Questions for the Follow-up Discussion}{199}{section.G.2}
-\contentsline {section}{\numberline {G.3}Background Questionnaire}{200}{section.G.3}
-\contentsline {section}{\numberline {G.4}Participant One}{201}{section.G.4}
-\contentsline {section}{\numberline {G.5}Participant Two}{201}{section.G.5}
-\contentsline {section}{\numberline {G.6}Participant Three}{201}{section.G.6}
+\contentsline {section}{\numberline {C.1}User Stories}{173}{section.C.1}
+\contentsline {section}{\numberline {C.2}Version Control Elements}{173}{section.C.2}
+\contentsline {section}{\numberline {C.3}Concept Mapping Module}{174}{section.C.3}
+\contentsline {section}{\numberline {C.4}Artifacts' Fragments Extraction}{175}{section.C.4}
+\contentsline {section}{\numberline {C.5}Learning Progress Tracking}{175}{section.C.5}
+\contentsline {section}{\numberline {C.6}Advanced Sharing Options}{175}{section.C.6}
+\contentsline {chapter}{\numberline {D}Interface Screenshots }{177}{appendix.D}
+\contentsline {section}{\numberline {D.1}Version Control Elements}{177}{section.D.1}
+\contentsline {section}{\numberline {D.2}Concept Mapping Module}{178}{section.D.2}
+\contentsline {section}{\numberline {D.3}Artifact Fragments Extraction}{183}{section.D.3}
+\contentsline {section}{\numberline {D.4}Learning Progress Tracking}{186}{section.D.4}
+\contentsline {section}{\numberline {D.5}Shared Resources Management}{189}{section.D.5}
+\contentsline {chapter}{\numberline {E}Ethics Documentation: Prototype Evaluation }{191}{appendix.E}
+\contentsline {section}{\numberline {E.1}Ethics Approval Letter}{192}{section.E.1}
+\contentsline {section}{\numberline {E.2}Information Sheet for Case Study Participants}{193}{section.E.2}
+\contentsline {section}{\numberline {E.3}Information Sheet for Group Experiment Participants}{195}{section.E.3}
+\contentsline {section}{\numberline {E.4}Participant Consent Form}{197}{section.E.4}
+\contentsline {chapter}{\numberline {F}Study Two Documentation }{199}{appendix.F}
+\contentsline {section}{\numberline {F.1}Invitation Poster}{200}{section.F.1}
+\contentsline {section}{\numberline {F.2}Study Protocol}{201}{section.F.2}
+\contentsline {section}{\numberline {F.3}Background and Exit Questionnaire}{203}{section.F.3}
+\contentsline {section}{\numberline {F.4}Concept Map Examples Created by Students}{205}{section.F.4}
+\contentsline {section}{\numberline {F.5}Exit Questionnaire Responses}{210}{section.F.5}
+\contentsline {subsection}{\numberline {F.5.1}Potential Impact of Concept Mapping}{210}{subsection.F.5.1}
+\contentsline {subsection}{\numberline {F.5.2}Most favoured part about concept mapping in the ePortfolio\nobreakspace {}system}{211}{subsection.F.5.2}
+\contentsline {subsection}{\numberline {F.5.3}Least favoured part about concept mapping in the ePortfolio\nobreakspace {}system}{212}{subsection.F.5.3}
+\contentsline {subsection}{\numberline {F.5.4}Recommended improvements}{213}{subsection.F.5.4}
+\contentsline {chapter}{\numberline {G}Study Three Documentation }{215}{appendix.G}
+\contentsline {section}{\numberline {G.1}Study Protocol}{215}{section.G.1}
+\contentsline {section}{\numberline {G.2}Potential Questions for the Follow-up Discussion}{215}{section.G.2}
+\contentsline {section}{\numberline {G.3}Background Questionnaire}{216}{section.G.3}
+\contentsline {section}{\numberline {G.4}Participant One}{217}{section.G.4}
+\contentsline {section}{\numberline {G.5}Participant Two}{217}{section.G.5}
+\contentsline {section}{\numberline {G.6}Participant Three}{217}{section.G.6}

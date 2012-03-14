@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.18)  1 MAR 2012 10:52
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.18)  13 MAR 2012 20:24
 entering extended mode
  Source specials enabled.
  %&-line parsing enabled.
@@ -635,7 +635,14 @@ Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 \rot@float@box=\box40
 \rot@mess@toks=\toks37
 )
-Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 46.
+(/usr/share/texmf-texlive/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2009/05/18 v2.2 Customized lists
+\enit@toks=\toks38
+\labelindent=\skip78
+\enit@outerparindent=\dimen184
+\enitdp@desc=\count141
+)
+Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 61.
 
  (./thesis.aux
 (./command-definitions.aux) (./CH1-Introduction.aux) (./CH2-Methodology.aux)
@@ -645,44 +652,44 @@ Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 46.
 (./A6.aux) (./A7.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
  (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count141
-\scratchdimen=\dimen184
+\scratchcounter=\count142
+\scratchdimen=\dimen185
 \scratchbox=\box41
-\nofMPsegments=\count142
-\nofMParguments=\count143
-\everyMPshowfont=\toks38
-\MPscratchCnt=\count144
-\MPscratchDim=\dimen185
-\MPnumerator=\count145
-\everyMPtoPDFconversion=\toks39
+\nofMPsegments=\count143
+\nofMParguments=\count144
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count145
+\MPscratchDim=\dimen186
+\MPnumerator=\count146
+\everyMPtoPDFconversion=\toks40
 )
-Package hyperref Info: Link coloring OFF on input line 48.
+Package hyperref Info: Link coloring OFF on input line 63.
  (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
 (/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count146
+\c@section@level=\count147
 )
-LaTeX Info: Redefining \ref on input line 48.
-LaTeX Info: Redefining \pageref on input line 48.
+LaTeX Info: Redefining \ref on input line 63.
+LaTeX Info: Redefining \pageref on input line 63.
  (./thesis.out)
 (./thesis.out)
 \@outlinefile=\write4
@@ -761,15 +768,18 @@ Underfull \vbox (badness 1783) has occurred while \output is active []
 
  [19] [20
 
-] (./thesis.lof [21])
+] (./thesis.lof [21]
+Underfull \vbox (badness 1852) has occurred while \output is active []
+
+ [22])
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
- [22]
+
+[23]
 \openout2 = `CH1-Introduction.aux'.
 
-
-(./CH1-Introduction.tex
+ (./CH1-Introduction.tex
 Chapter 1.
 [1
 
@@ -781,7 +791,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] <./images/CH1-F1-Thesis.png, id=1003, 813.0375pt x 565.11125pt>
+[2] <./images/CH1-F1-Thesis.png, id=1056, 813.0375pt x 565.11125pt>
 File: ./images/CH1-F1-Thesis.png Graphic file (type png)
 
 <use ./images/CH1-F1-Thesis.png>
@@ -842,11 +852,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9] <./images/CH2-F1-Peffers.png, id=1077, 541.02126pt x 760.8425pt>
+[9] <./images/CH2-F1-Peffers.png, id=1129, 541.02126pt x 760.8425pt>
 File: ./images/CH2-F1-Peffers.png Graphic file (type png)
 
 <use ./images/CH2-F1-Peffers.png>
-<./images/CH2-F2-Vaishnavi.png, id=1082, 401.5pt x 436.63126pt>
+<./images/CH2-F2-Vaishnavi.png, id=1134, 401.5pt x 436.63126pt>
 File: ./images/CH2-F2-Vaishnavi.png Graphic file (type png)
 
 <use ./images/CH2-F2-Vaishnavi.png>
@@ -879,7 +889,7 @@ Underfull \hbox (badness 1552) in paragraph at lines 193--194
 []|[]\OT1/cmr/m/n/10.95 Proper val-u-a-tion meth-ods must be
  []
 
-<./images/CH2-F4-Path.png, id=1114, 1415.2875pt x 641.39626pt>
+<./images/CH2-F4-Path.png, id=1166, 1415.2875pt x 641.39626pt>
 File: ./images/CH2-F4-Path.png Graphic file (type png)
 
 <use ./images/CH2-F4-Path.png>
@@ -900,7 +910,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [13 <./images/CH2-F4-Path.png>]
-<./images/CH2-F3-Prototype.png, id=1136, 263.98625pt x 285.065pt>
+<./images/CH2-F3-Prototype.png, id=1188, 263.98625pt x 285.065pt>
 File: ./images/CH2-F3-Prototype.png Graphic file (type png)
 
 <use ./images/CH2-F3-Prototype.png>
@@ -977,7 +987,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22] <./images/CH3-F1-Learning.png, id=1259, 579.66562pt x 599.99156pt>
+[22] <./images/CH3-F1-Learning.png, id=1311, 579.66562pt x 599.99156pt>
 File: ./images/CH3-F1-Learning.png Graphic file (type png)
 
 <use ./images/CH3-F1-Learning.png>
@@ -1004,7 +1014,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[25] <./images/CH3-F2-CLI.png, id=1326, 634.37pt x 620.3175pt>
+[25] <./images/CH3-F2-CLI.png, id=1378, 634.37pt x 620.3175pt>
 File: ./images/CH3-F2-CLI.png Graphic file (type png)
 
 <use ./images/CH3-F2-CLI.png>
@@ -1018,7 +1028,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [26 <./images/CH3-F2-CLI.png (PNG copy)>]
-<./images/CH3-F3-LLLFramework.png, id=1346, 944.52875pt x 427.5975pt>
+<./images/CH3-F3-LLLFramework.png, id=1399, 944.52875pt x 427.5975pt>
 File: ./images/CH3-F3-LLLFramework.png Graphic file (type png)
 
 <use ./images/CH3-F3-LLLFramework.png>
@@ -1029,7 +1039,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [27 <./images/CH3-F3-LLLFramework.png>]
-<./images/CH3-F4-LLLDimension.png, id=1376, 654.445pt x 320.19624pt>
+<./images/CH3-F4-LLLDimension.png, id=1428, 654.445pt x 320.19624pt>
 File: ./images/CH3-F4-LLLDimension.png Graphic file (type png)
 
 <use ./images/CH3-F4-LLLDimension.png>
@@ -1096,7 +1106,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[35] <./images/CH4-F0-WEB20.png, id=1568, 1068.99374pt x 654.445pt>
+[35] <./images/CH4-F0-WEB20.png, id=1620, 1068.99374pt x 654.445pt>
 File: ./images/CH4-F0-WEB20.png Graphic file (type png)
 
 <use ./images/CH4-F0-WEB20.png>
@@ -1137,7 +1147,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[40] <./images/CH4-F1-EP.png, id=1687, 430.60875pt x 386.44376pt>
+[40] <./images/CH4-F1-EP.png, id=1739, 430.60875pt x 386.44376pt>
 File: ./images/CH4-F1-EP.png Graphic file (type png)
 
 <use ./images/CH4-F1-EP.png>
@@ -1161,7 +1171,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[43] <./images/CH4-F6-BB.png, id=1717, 533.995pt x 389.455pt>
+[43] <./images/CH4-F6-BB.png, id=1769, 533.995pt x 389.455pt>
 File: ./images/CH4-F6-BB.png Graphic file (type png)
 
 <use ./images/CH4-F6-BB.png>
@@ -1178,7 +1188,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45] <./images/CH4-F7-D2L.png, id=1748, 536.0025pt x 387.4475pt>
+[45] <./images/CH4-F7-D2L.png, id=1800, 536.0025pt x 387.4475pt>
 File: ./images/CH4-F7-D2L.png Graphic file (type png)
 
 <use ./images/CH4-F7-D2L.png>
@@ -1189,7 +1199,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [46 <./images/CH4-F7-D2L.png (PNG copy)>]
-<./images/CH4-F8-eFolio.png, id=1768, 762.85pt x 746.79pt>
+<./images/CH4-F8-eFolio.png, id=1820, 762.85pt x 746.79pt>
 File: ./images/CH4-F8-eFolio.png Graphic file (type png)
 
 <use ./images/CH4-F8-eFolio.png>
@@ -1210,7 +1220,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [48 <./images/CH4-F8-eFolio.png>]
-<./images/CH4-F5-ELGG.png, id=1794, 996.72375pt x 692.5875pt>
+<./images/CH4-F5-ELGG.png, id=1846, 996.72375pt x 692.5875pt>
 File: ./images/CH4-F5-ELGG.png Graphic file (type png)
 
 <use ./images/CH4-F5-ELGG.png>
@@ -1231,7 +1241,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [50 <./images/CH4-F5-ELGG.png>]
-<./images/CH4-F4-Mahara.png, id=1818, 982.67125pt x 707.64375pt>
+<./images/CH4-F4-Mahara.png, id=1871, 982.67125pt x 707.64375pt>
 File: ./images/CH4-F4-Mahara.png Graphic file (type png)
 
 <use ./images/CH4-F4-Mahara.png>
@@ -1245,7 +1255,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [51 <./images/CH4-F4-Mahara.png>]
-<./images/CH4-F3-PebblePad.png, id=1835, 969.6225pt x 704.6325pt>
+<./images/CH4-F3-PebblePad.png, id=1887, 969.6225pt x 704.6325pt>
 File: ./images/CH4-F3-PebblePad.png Graphic file (type png)
 
 <use ./images/CH4-F3-PebblePad.png>
@@ -1651,7 +1661,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Chapter 6.
-<./images/CH6-F1-Architecture.png, id=2043, 513.92pt x 355.3275pt>
+<./images/CH6-F1-Architecture.png, id=2095, 513.92pt x 355.3275pt>
 File: ./images/CH6-F1-Architecture.png Graphic file (type png)
 
 <use ./images/CH6-F1-Architecture.png>
@@ -1707,7 +1717,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[83] <./images/CH6-F2-Version.png, id=2120, 368.37625pt x 181.67876pt>
+[83] <./images/CH6-F2-Version.png, id=2172, 368.37625pt x 181.67876pt>
 File: ./images/CH6-F2-Version.png Graphic file (type png)
 
 <use ./images/CH6-F2-Version.png>
@@ -1738,7 +1748,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[87] <./images/CH6-F3-Mapping.png, id=2180, 797.98125pt x 586.19pt>
+[87] <./images/CH6-F3-Mapping.png, id=2232, 797.98125pt x 586.19pt>
 File: ./images/CH6-F3-Mapping.png Graphic file (type png)
 
 <use ./images/CH6-F3-Mapping.png>
@@ -1749,7 +1759,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [88 <./images/CH6-F3-Mapping.png>]
-<./images/CH6-F4-Map-Example.png, id=2200, 576.1525pt x 543.02875pt>
+<./images/CH6-F4-Map-Example.png, id=2252, 576.1525pt x 543.02875pt>
 File: ./images/CH6-F4-Map-Example.png Graphic file (type png)
 
 <use ./images/CH6-F4-Map-Example.png>
@@ -1769,7 +1779,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[90] <./images/CH6-F5-Fragments.png, id=2214, 829.0975pt x 892.33376pt>
+[90] <./images/CH6-F5-Fragments.png, id=2266, 829.0975pt x 892.33376pt>
 File: ./images/CH6-F5-Fragments.png Graphic file (type png)
 
 <use ./images/CH6-F5-Fragments.png>
@@ -1786,7 +1796,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[92] <./images/CH6-F6-Timeline.png, id=2228, 431.6125pt x 188.705pt>
+[92] <./images/CH6-F6-Timeline.png, id=2281, 431.6125pt x 188.705pt>
 File: ./images/CH6-F6-Timeline.png Graphic file (type png)
 
 <use ./images/CH6-F6-Timeline.png>
@@ -1869,9 +1879,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [101]
-Underfull \vbox (badness 3098) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1879,6 +1886,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [102]
+Underfull \vbox (badness 6316) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1906,7 +1916,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[106] <./images/CH7-F7-Settings.png, id=2312, 3452.9pt x 1704.3675pt>
+[106] <./images/CH7-F7-Settings.png, id=2364, 3452.9pt x 1704.3675pt>
 File: ./images/CH7-F7-Settings.png Graphic file (type png)
 
 <use ./images/CH7-F7-Settings.png>
@@ -1920,9 +1930,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [107]
-Underfull \vbox (badness 1072) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1930,11 +1937,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [108 <./images/CH7-F7-Settings.png>]
-<./images/CH7-F5-Demographics.png, id=2325, 692.5875pt x 265.99374pt>
+<./images/CH7-F5-Demographics.png, id=2377, 692.5875pt x 265.99374pt>
 File: ./images/CH7-F5-Demographics.png Graphic file (type png)
 
 <use ./images/CH7-F5-Demographics.png>
-<./images/CH7-F8-Activities.png, id=2327, 1046.91125pt x 248.93pt>
+<./images/CH7-F8-Activities.png, id=2379, 1046.91125pt x 248.93pt>
 File: ./images/CH7-F8-Activities.png Graphic file (type png)
 
 <use ./images/CH7-F8-Activities.png>
@@ -1952,7 +1959,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [110 <./images/CH7-F8-Activities.png>]
-<./images/CH7-F12-Map-Photo.png, id=2341, 803.0pt x 351.3125pt>
+<./images/CH7-F12-Map-Photo.png, id=2394, 803.0pt x 351.3125pt>
 File: ./images/CH7-F12-Map-Photo.png Graphic file (type png)
 
 <use ./images/CH7-F12-Map-Photo.png>
@@ -1969,18 +1976,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[112]
+[112] <./images/CH7-F1-Chart.png, id=2411, 689.57625pt x 281.05pt>
+File: ./images/CH7-F1-Chart.png Graphic file (type png)
+
+<use ./images/CH7-F1-Chart.png>
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[113] <./images/CH7-F1-Chart.png, id=2363, 689.57625pt x 281.05pt>
-File: ./images/CH7-F1-Chart.png Graphic file (type png)
-
-<use ./images/CH7-F1-Chart.png>
-<./images/CH7-F6-Groups.png, id=2365, 496.85625pt x 359.3425pt>
+[113] <./images/CH7-F6-Groups.png, id=2417, 496.85625pt x 359.3425pt>
 File: ./images/CH7-F6-Groups.png Graphic file (type png)
 
 <use ./images/CH7-F6-Groups.png>
@@ -1991,15 +1997,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [114 <./images/CH7-F1-Chart.png> <./images/CH7-F6-Groups.png>]
-<./images/CH7-F2-Chart-GA.png, id=2372, 577.15625pt x 226.8475pt>
+<./images/CH7-F2-Chart-GA.png, id=2424, 577.15625pt x 226.8475pt>
 File: ./images/CH7-F2-Chart-GA.png Graphic file (type png)
 
 <use ./images/CH7-F2-Chart-GA.png>
-<./images/CH7-F3-Chart-GB.png, id=2373, 580.1675pt x 231.86626pt>
+<./images/CH7-F3-Chart-GB.png, id=2425, 580.1675pt x 231.86626pt>
 File: ./images/CH7-F3-Chart-GB.png Graphic file (type png)
 
 <use ./images/CH7-F3-Chart-GB.png>
-<./images/CH7-F4-Chart-GC.png, id=2375, 578.16pt x 227.85126pt>
+<./images/CH7-F4-Chart-GC.png, id=2427, 578.16pt x 227.85126pt>
 File: ./images/CH7-F4-Chart-GC.png Graphic file (type png)
 
 <use ./images/CH7-F4-Chart-GC.png>
@@ -2010,11 +2016,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [115 <./images/CH7-F2-Chart-GA.png> <./images/CH7-F3-Chart-GB.png>]
-<./images/CH7-F10-ExampleStud1.png, id=2386, 332.24126pt x 280.04625pt>
+<./images/CH7-F10-ExampleStud1.png, id=2438, 332.24126pt x 280.04625pt>
 File: ./images/CH7-F10-ExampleStud1.png Graphic file (type png)
 
 <use ./images/CH7-F10-ExampleStud1.png>
-<./images/CH7-F10-ExampleStud2.png, id=2387, 337.26pt x 283.0575pt>
+<./images/CH7-F10-ExampleStud2.png, id=2439, 337.26pt x 283.0575pt>
 File: ./images/CH7-F10-ExampleStud2.png Graphic file (type png)
 
 <use ./images/CH7-F10-ExampleStud2.png>
@@ -2025,7 +2031,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [116 <./images/CH7-F4-Chart-GC.png>]
-<./images/CH7-F10-ExampleStud3.png, id=2395, 613.29124pt x 369.38pt>
+<./images/CH7-F10-ExampleStud3.png, id=2448, 613.29124pt x 369.38pt>
 File: ./images/CH7-F10-ExampleStud3.png Graphic file (type png)
 
 <use ./images/CH7-F10-ExampleStud3.png>
@@ -2044,13 +2050,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [118]
-Overfull \hbox (8.48425pt too wide) in paragraph at lines 905--905
+Overfull \hbox (8.48425pt too wide) in paragraph at lines 908--908
 [][]\OT1/cmr/m/it/10.95 To in-ves-ti-gate how new fea-tures can help stu-dents 
 track their learn-ing progress,
  []
 
 
-Overfull \hbox (14.73677pt too wide) in paragraph at lines 905--905
+Overfull \hbox (14.73677pt too wide) in paragraph at lines 908--908
 \OT1/cmr/m/it/10.95 man-age ePort-fo-lio knowl-edge and con-tent, demon-strate 
 and share their achieve-
  []
@@ -2069,27 +2075,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [120]
-Underfull \hbox (badness 10000) in paragraph at lines 979--979
+Underfull \hbox (badness 10000) in paragraph at lines 983--983
 []|[]\OT1/cmr/m/n/10 Self-rated ePort-fo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 979--979
+Underfull \hbox (badness 10000) in paragraph at lines 983--983
 \OT1/cmr/m/n/10 lio use ex-pe-ri-ence
  []
 
 
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 980--980
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 984--984
 []|[]| 
  []
 
 
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 983--983
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 987--987
 []|[]| 
  []
 
 
-Overfull \hbox (1.91475pt too wide) in paragraph at lines 968--991
+Overfull \hbox (1.91475pt too wide) in paragraph at lines 972--995
  [][] 
  []
 
@@ -2120,7 +2126,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[124] <./images/CH7-F9-Example1.png, id=2467, 738.76pt x 738.76pt>
+[124] <./images/CH7-F9-Example1.png, id=2519, 738.76pt x 738.76pt>
 File: ./images/CH7-F9-Example1.png Graphic file (type png)
 
 <use ./images/CH7-F9-Example1.png>
@@ -2144,11 +2150,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[127] <./images/CH7-F11-Example3.png, id=2483, 961.5925pt x 169.63374pt>
+[127] <./images/CH7-F11-Example3.png, id=2535, 961.5925pt x 169.63374pt>
 File: ./images/CH7-F11-Example3.png Graphic file (type png)
 
 <use ./images/CH7-F11-Example3.png>
-Overfull \hbox (1.0pt too wide) in paragraph at lines 1295--1296
+Overfull \hbox (1.0pt too wide) in paragraph at lines 1300--1301
  [][][] 
  []
 
@@ -2537,7 +2543,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 Appendix A.
 [163]
-<appendix/Low-Risk-Notification-2009.pdf, id=2775, page=1, 598.235pt x 845.1575
+<appendix/Low-Risk-Notification-2009.pdf, id=2827, page=1, 598.235pt x 845.1575
 pt>
 File: appendix/Low-Risk-Notification-2009.pdf Graphic file (type pdf)
  <use appendix/Low-Risk-Notification-2009.pdf, page 1>
@@ -2559,7 +2565,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: appendix/Low-Risk-Notification-2009.pdf Graphic file (type pdf)
 <use appendix/Low-Risk-Notification-2009.pdf, page 1> [164 <./appendix/Low-Risk
 -Notification-2009.pdf, page is rotated 90 degrees>]
-<appendix/Lecturer_sheet_1.pdf, id=2784, page=1, 598.235pt x 845.1575pt>
+<appendix/Lecturer_sheet_1.pdf, id=2837, page=1, 598.235pt x 845.1575pt>
 File: appendix/Lecturer_sheet_1.pdf Graphic file (type pdf)
 
 <use appendix/Lecturer_sheet_1.pdf, page 1>
@@ -2581,7 +2587,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: appendix/Lecturer_sheet_1.pdf Graphic file (type pdf)
 <use appendix/Lecturer_sheet_1.pdf, page 1> [165 <./appendix/Lecturer_sheet_1.p
 df, page is rotated 90 degrees>]
-<appendix/Lecturer_sheet_2.pdf, id=2794, page=1, 598.235pt x 845.1575pt>
+<appendix/Lecturer_sheet_2.pdf, id=2846, page=1, 598.235pt x 845.1575pt>
 File: appendix/Lecturer_sheet_2.pdf Graphic file (type pdf)
 
 <use appendix/Lecturer_sheet_2.pdf, page 1>
@@ -2598,7 +2604,7 @@ File: appendix/Lecturer_sheet_2.pdf Graphic file (type pdf)
 
 <use appendix/Lecturer_sheet_2.pdf, page 1> [166 <./appendix/Lecturer_sheet_2.p
 df, page is rotated 90 degrees>]
-<appendix/Student_sheet_1.pdf, id=2803, page=1, 598.235pt x 845.1575pt>
+<appendix/Student_sheet_1.pdf, id=2855, page=1, 598.235pt x 845.1575pt>
 File: appendix/Student_sheet_1.pdf Graphic file (type pdf)
 
 <use appendix/Student_sheet_1.pdf, page 1>
@@ -2620,7 +2626,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: appendix/Student_sheet_1.pdf Graphic file (type pdf)
 <use appendix/Student_sheet_1.pdf, page 1> [167 <./appendix/Student_sheet_1.pdf
 , page is rotated 90 degrees>]
-<appendix/Student_sheet_2.pdf, id=2812, page=1, 598.235pt x 845.1575pt>
+<appendix/Student_sheet_2.pdf, id=2864, page=1, 598.235pt x 845.1575pt>
 File: appendix/Student_sheet_2.pdf Graphic file (type pdf)
 
 <use appendix/Student_sheet_2.pdf, page 1>
@@ -2637,7 +2643,7 @@ File: appendix/Student_sheet_2.pdf Graphic file (type pdf)
 
 <use appendix/Student_sheet_2.pdf, page 1> [168 <./appendix/Student_sheet_2.pdf
 , page is rotated 90 degrees>]
-<appendix/Consent_form.pdf, id=2821, page=1, 598.235pt x 845.1575pt>
+<appendix/Consent_form.pdf, id=2873, page=1, 598.235pt x 845.1575pt>
 File: appendix/Consent_form.pdf Graphic file (type pdf)
 
 <use appendix/Consent_form.pdf, page 1>
@@ -2691,58 +2697,200 @@ Appendix C.
 
 
 ]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[174
-
-]
+[174]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[175
-
-]
+[175])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[176
-
-])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[177
-
-]
+[176]
 \openout2 = `A4.aux'.
 
  (./A4.tex
+Appendix D.
+<./images/AD-F1-V1.png, id=2911, 725.71124pt x 415.5525pt>
+File: ./images/AD-F1-V1.png Graphic file (type png)
+
+<use ./images/AD-F1-V1.png>
+<./images/AD-F1-V3.png, id=2912, 500.87125pt x 106.3975pt>
+File: ./images/AD-F1-V3.png Graphic file (type png)
+
+<use ./images/AD-F1-V3.png>
+<./images/AD-F1-V2.png, id=2913, 570.13pt x 209.78375pt>
+File: ./images/AD-F1-V2.png Graphic file (type png)
+
+<use ./images/AD-F1-V2.png>
+<./images/AD-F2-Cmap1.png, id=2914, 719.68875pt x 666.49pt>
+File: ./images/AD-F2-Cmap1.png Graphic file (type png)
+
+<use ./images/AD-F2-Cmap1.png> [177
+
+
+
+ <./images/AD-F1-V1.png> <./images/AD-F1-V3.png>] <./images/AD-F2-Cmap2.png, id
+=2921, 712.6625pt x 763.85374pt>
+File: ./images/AD-F2-Cmap2.png Graphic file (type png)
+
+<use ./images/AD-F2-Cmap2.png>
+<./images/AD-F2-Cmap3.png, id=2922, 715.67375pt x 761.84625pt>
+File: ./images/AD-F2-Cmap3.png Graphic file (type png)
+
+<use ./images/AD-F2-Cmap3.png>
+<./images/AD-F2-Cmap4.png, id=2923, 717.68124pt x 761.84625pt>
+File: ./images/AD-F2-Cmap4.png Graphic file (type png)
+
+<use ./images/AD-F2-Cmap4.png>
+<./images/AD-F2-Cmap5.png, id=2924, 722.7pt x 641.39626pt>
+File: ./images/AD-F2-Cmap5.png Graphic file (type png)
+
+<use ./images/AD-F2-Cmap5.png>
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[178
+[178 <./images/AD-F1-V2.png> <./images/AD-F2-Cmap1.png>]
 
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
+[179 <./images/AD-F2-Cmap2.png>]
 
-]
-Appendix D.
-) [179]
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[180 <./images/AD-F2-Cmap3.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[181 <./images/AD-F2-Cmap4.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[182 <./images/AD-F2-Cmap5.png>]
+<./images/AD-F3-Fragment.png, id=2952, 880.28876pt x 1148.29pt>
+File: ./images/AD-F3-Fragment.png Graphic file (type png)
+
+<use ./images/AD-F3-Fragment.png>
+<./images/AD-F3-Image.png, id=2953, 588.1975pt x 388.45125pt>
+File: ./images/AD-F3-Image.png Graphic file (type png)
+
+<use ./images/AD-F3-Image.png>
+<./images/AD-F3-Video.png, id=2954, 417.56pt x 347.2975pt>
+File: ./images/AD-F3-Video.png Graphic file (type png)
+
+<use ./images/AD-F3-Video.png>
+<./images/AD-F3-Text.png, id=2955, 668.4975pt x 340.27126pt>
+File: ./images/AD-F3-Text.png Graphic file (type png)
+
+<use ./images/AD-F3-Text.png>
+<./images/AD-F3-Bookmark.png, id=2956, 848.16875pt x 644.4075pt>
+File: ./images/AD-F3-Bookmark.png Graphic file (type png)
+
+<use ./images/AD-F3-Bookmark.png>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[183
+
+ <./images/AD-F3-Fragment.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[184 <./images/AD-F3-Image.png> <./images/AD-F3-Video.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[185 <./images/AD-F3-Text.png> <./images/AD-F3-Bookmark.png>]
+<./images/AD-F4-Timeline1.png, id=2974, 784.9325pt x 594.22pt>
+File: ./images/AD-F4-Timeline1.png Graphic file (type png)
+
+<use ./images/AD-F4-Timeline1.png>
+<./images/AD-F4-Timeline2.png, id=2975, 778.91pt x 593.21625pt>
+File: ./images/AD-F4-Timeline2.png Graphic file (type png)
+
+<use ./images/AD-F4-Timeline2.png>
+<./images/AD-F4-Timeline3.png, id=2976, 713.66624pt x 577.15625pt>
+File: ./images/AD-F4-Timeline3.png Graphic file (type png)
+
+<use ./images/AD-F4-Timeline3.png>
+<./images/AD-F4-Timeline4.png, id=2977, 757.83125pt x 413.545pt>
+File: ./images/AD-F4-Timeline4.png Graphic file (type png)
+
+<use ./images/AD-F4-Timeline4.png>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[186
+
+ <./images/AD-F4-Timeline1.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[187 <./images/AD-F4-Timeline2.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[188 <./images/AD-F4-Timeline3.png> <./images/AD-F4-Timeline4.png>]
+<./images/AD-F5-History.png, id=2995, 716.6775pt x 312.16624pt>
+File: ./images/AD-F5-History.png Graphic file (type png)
+
+<use ./images/AD-F5-History.png>)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[189
+
+ <./images/AD-F5-History.png>]
 \openout2 = `A5.aux'.
 
  (./A5.tex
@@ -2752,14 +2900,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[180
+[190
 
 
 
 ]
 Appendix E.
-[181]
-<appendix/Low-Risk-Notification-2011.pdf, id=2881, page=1, 598.235pt x 845.1575
+[191]
+<appendix/Low-Risk-Notification-2011.pdf, id=3012, page=1, 598.235pt x 845.1575
 pt>
 File: appendix/Low-Risk-Notification-2011.pdf Graphic file (type pdf)
  <use appendix/Low-Risk-Notification-2011.pdf, page 1>
@@ -2779,29 +2927,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 File: appendix/Low-Risk-Notification-2011.pdf Graphic file (type pdf)
-<use appendix/Low-Risk-Notification-2011.pdf, page 1> [182 <./appendix/Low-Risk
+<use appendix/Low-Risk-Notification-2011.pdf, page 1> [192 <./appendix/Low-Risk
 -Notification-2011.pdf, page is rotated 90 degrees>]
-File: appendix/Lecturer_sheet_1.pdf Graphic file (type pdf)
-
-<use appendix/Lecturer_sheet_1.pdf, page 1>
-File: appendix/Lecturer_sheet_1.pdf Graphic file (type pdf)
-
-<use appendix/Lecturer_sheet_1.pdf, page 1>
-File: appendix/Lecturer_sheet_1.pdf Graphic file (type pdf)
-
-<use appendix/Lecturer_sheet_1.pdf, page 1>
-File: appendix/Lecturer_sheet_1.pdf Graphic file (type pdf)
-
-<use appendix/Lecturer_sheet_1.pdf, page 1>
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: appendix/Lecturer_sheet_1.pdf Graphic file (type pdf)
-<use appendix/Lecturer_sheet_1.pdf, page 1> [183]
-<appendix/Information_sheet_p_2011.pdf, id=2899, page=1, 597.23125pt x 845.1575
+<appendix/Information_sheet_p_2011.pdf, id=3023, page=1, 597.23125pt x 845.1575
 pt>
 File: appendix/Information_sheet_p_2011.pdf Graphic file (type pdf)
  <use appendix/Information_sheet_p_2011.pdf, page 1>
@@ -2821,9 +2949,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 File: appendix/Information_sheet_p_2011.pdf Graphic file (type pdf)
-<use appendix/Information_sheet_p_2011.pdf, page 1> [184 <./appendix/Informatio
+<use appendix/Information_sheet_p_2011.pdf, page 1> [193 <./appendix/Informatio
 n_sheet_p_2011.pdf>]
-<appendix/Information_sheet_p_2011.pdf, id=2929, page=2, 597.23125pt x 845.1575
+<appendix/Information_sheet_p_2011.pdf, id=3053, page=2, 597.23125pt x 845.1575
 pt>
 File: appendix/Information_sheet_p_2011.pdf Graphic file (type pdf)
  <use appendix/Information_sheet_p_2011.pdf, page 2>
@@ -2838,9 +2966,9 @@ File: appendix/Information_sheet_p_2011.pdf Graphic file (type pdf)
 <use appendix/Information_sheet_p_2011.pdf, page 2>
 File: appendix/Information_sheet_p_2011.pdf Graphic file (type pdf)
 
-<use appendix/Information_sheet_p_2011.pdf, page 2> [185 <./appendix/Informatio
+<use appendix/Information_sheet_p_2011.pdf, page 2> [194 <./appendix/Informatio
 n_sheet_p_2011.pdf>]
-<appendix/Information_sheet_u_2011.pdf, id=2939, page=1, 597.23125pt x 845.1575
+<appendix/Information_sheet_u_2011.pdf, id=3064, page=1, 597.23125pt x 845.1575
 pt>
 File: appendix/Information_sheet_u_2011.pdf Graphic file (type pdf)
  <use appendix/Information_sheet_u_2011.pdf, page 1>
@@ -2853,7 +2981,7 @@ File: appendix/Information_sheet_u_2011.pdf Graphic file (type pdf)
 File: appendix/Information_sheet_u_2011.pdf Graphic file (type pdf)
 
 <use appendix/Information_sheet_u_2011.pdf, page 1>
-Overfull \hbox (1.64958pt too wide) in paragraph at lines 25--25
+Overfull \hbox (1.64958pt too wide) in paragraph at lines 21--21
 []\OT1/cmr/bx/n/14.4 Information Sheet for Group Ex-per-i-ment Par-tic-i-pants 
 
  []
@@ -2865,9 +2993,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 File: appendix/Information_sheet_u_2011.pdf Graphic file (type pdf)
-<use appendix/Information_sheet_u_2011.pdf, page 1> [186 <./appendix/Informatio
+<use appendix/Information_sheet_u_2011.pdf, page 1> [195 <./appendix/Informatio
 n_sheet_u_2011.pdf>]
-<appendix/Information_sheet_u_2011.pdf, id=2973, page=2, 597.23125pt x 845.1575
+<appendix/Information_sheet_u_2011.pdf, id=3098, page=2, 597.23125pt x 845.1575
 pt>
 File: appendix/Information_sheet_u_2011.pdf Graphic file (type pdf)
  <use appendix/Information_sheet_u_2011.pdf, page 2>
@@ -2882,9 +3010,9 @@ File: appendix/Information_sheet_u_2011.pdf Graphic file (type pdf)
 <use appendix/Information_sheet_u_2011.pdf, page 2>
 File: appendix/Information_sheet_u_2011.pdf Graphic file (type pdf)
 
-<use appendix/Information_sheet_u_2011.pdf, page 2> [187 <./appendix/Informatio
+<use appendix/Information_sheet_u_2011.pdf, page 2> [196 <./appendix/Informatio
 n_sheet_u_2011.pdf>]
-<appendix/Consent_form_2011.pdf, id=2983, page=1, 614.295pt x 794.97pt>
+<appendix/Consent_form_2011.pdf, id=3108, page=1, 614.295pt x 794.97pt>
 File: appendix/Consent_form_2011.pdf Graphic file (type pdf)
 
 <use appendix/Consent_form_2011.pdf, page 1>
@@ -2904,110 +3032,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 File: appendix/Consent_form_2011.pdf Graphic file (type pdf)
-<use appendix/Consent_form_2011.pdf, page 1> [188 <./appendix/Consent_form_2011
+<use appendix/Consent_form_2011.pdf, page 1> [197 <./appendix/Consent_form_2011
 .pdf>])
 \openout2 = `A6.aux'.
 
  (./A6.tex
-Appendix F.
-[189
-
-
-
-] <appendix/Poster.pdf, id=3018, page=1, 597.23125pt x 845.1575pt>
-File: appendix/Poster.pdf Graphic file (type pdf)
-
-<use appendix/Poster.pdf, page 1>
-File: appendix/Poster.pdf Graphic file (type pdf)
- <use appendix/Poster.pdf, page 1>
-File: appendix/Poster.pdf Graphic file (type pdf)
-
-<use appendix/Poster.pdf, page 1>
-File: appendix/Poster.pdf Graphic file (type pdf)
- <use appendix/Poster.pdf, page 1>
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: appendix/Poster.pdf Graphic file (type pdf)
-<use appendix/Poster.pdf, page 1> [190 <./appendix/Poster.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[191] <appendix/Exit_u_Q.pdf, id=3066, page=1, 597.23125pt x 845.1575pt>
-File: appendix/Exit_u_Q.pdf Graphic file (type pdf)
-
-<use appendix/Exit_u_Q.pdf, page 1>
-File: appendix/Exit_u_Q.pdf Graphic file (type pdf)
- <use appendix/Exit_u_Q.pdf, page 1>
-File: appendix/Exit_u_Q.pdf Graphic file (type pdf)
-
-<use appendix/Exit_u_Q.pdf, page 1>
-File: appendix/Exit_u_Q.pdf Graphic file (type pdf)
- <use appendix/Exit_u_Q.pdf, page 1>
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: appendix/Exit_u_Q.pdf Graphic file (type pdf)
-<use appendix/Exit_u_Q.pdf, page 1> [192 <./appendix/Exit_u_Q.pdf>]
-<appendix/Exit_u_Q.pdf, id=3102, page=2, 597.23125pt x 845.1575pt>
-File: appendix/Exit_u_Q.pdf Graphic file (type pdf)
-
-<use appendix/Exit_u_Q.pdf, page 2>
-File: appendix/Exit_u_Q.pdf Graphic file (type pdf)
- <use appendix/Exit_u_Q.pdf, page 2>
-File: appendix/Exit_u_Q.pdf Graphic file (type pdf)
-
-<use appendix/Exit_u_Q.pdf, page 2>
-File: appendix/Exit_u_Q.pdf Graphic file (type pdf)
- <use appendix/Exit_u_Q.pdf, page 2>
-File: appendix/Exit_u_Q.pdf Graphic file (type pdf)
-
-<use appendix/Exit_u_Q.pdf, page 2> [193 <./appendix/Exit_u_Q.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[194]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[195]
-Overfull \hbox (5.6855pt too wide) in paragraph at lines 134--135
-[][]\OT1/cmr/m/it/10.95 The way you can show how ex-tracur-ric-u-lar ac-tiv-i-t
-ies count to-wards your learn-ing achieve-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[196])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[197]
-\openout2 = `A7.aux'.
-
- (./A7.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -3019,9 +3048,213 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ]
+Appendix F.
+[199] <appendix/Poster.pdf, id=3146, page=1, 597.23125pt x 845.1575pt>
+File: appendix/Poster.pdf Graphic file (type pdf)
+
+<use appendix/Poster.pdf, page 1>
+File: appendix/Poster.pdf Graphic file (type pdf)
+ <use appendix/Poster.pdf, page 1>
+File: appendix/Poster.pdf Graphic file (type pdf)
+
+<use appendix/Poster.pdf, page 1>
+File: appendix/Poster.pdf Graphic file (type pdf)
+ <use appendix/Poster.pdf, page 1>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: appendix/Poster.pdf Graphic file (type pdf)
+<use appendix/Poster.pdf, page 1> [200 <./appendix/Poster.pdf>]
+<appendix/Group_Study_Protocol.pdf, id=3191, page=1, 614.295pt x 794.97pt>
+File: appendix/Group_Study_Protocol.pdf Graphic file (type pdf)
+
+<use appendix/Group_Study_Protocol.pdf, page 1>
+File: appendix/Group_Study_Protocol.pdf Graphic file (type pdf)
+
+<use appendix/Group_Study_Protocol.pdf, page 1>
+File: appendix/Group_Study_Protocol.pdf Graphic file (type pdf)
+
+<use appendix/Group_Study_Protocol.pdf, page 1>
+File: appendix/Group_Study_Protocol.pdf Graphic file (type pdf)
+
+<use appendix/Group_Study_Protocol.pdf, page 1>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: appendix/Group_Study_Protocol.pdf Graphic file (type pdf)
+<use appendix/Group_Study_Protocol.pdf, page 1> [201 <./appendix/Group_Study_Pr
+otocol.pdf>]
+<appendix/Group_Study_Protocol.pdf, id=3222, page=2, 614.295pt x 794.97pt>
+File: appendix/Group_Study_Protocol.pdf Graphic file (type pdf)
+
+<use appendix/Group_Study_Protocol.pdf, page 2>
+File: appendix/Group_Study_Protocol.pdf Graphic file (type pdf)
+
+<use appendix/Group_Study_Protocol.pdf, page 2>
+File: appendix/Group_Study_Protocol.pdf Graphic file (type pdf)
+
+<use appendix/Group_Study_Protocol.pdf, page 2>
+File: appendix/Group_Study_Protocol.pdf Graphic file (type pdf)
+
+<use appendix/Group_Study_Protocol.pdf, page 2>
+File: appendix/Group_Study_Protocol.pdf Graphic file (type pdf)
+
+<use appendix/Group_Study_Protocol.pdf, page 2> [202 <./appendix/Group_Study_Pr
+otocol.pdf>]
+<appendix/Exit_u_Q.pdf, id=3232, page=1, 597.23125pt x 845.1575pt>
+File: appendix/Exit_u_Q.pdf Graphic file (type pdf)
+
+<use appendix/Exit_u_Q.pdf, page 1>
+File: appendix/Exit_u_Q.pdf Graphic file (type pdf)
+ <use appendix/Exit_u_Q.pdf, page 1>
+File: appendix/Exit_u_Q.pdf Graphic file (type pdf)
+
+<use appendix/Exit_u_Q.pdf, page 1>
+File: appendix/Exit_u_Q.pdf Graphic file (type pdf)
+ <use appendix/Exit_u_Q.pdf, page 1>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: appendix/Exit_u_Q.pdf Graphic file (type pdf)
+<use appendix/Exit_u_Q.pdf, page 1> [203 <./appendix/Exit_u_Q.pdf>]
+<appendix/Exit_u_Q.pdf, id=3268, page=2, 597.23125pt x 845.1575pt>
+File: appendix/Exit_u_Q.pdf Graphic file (type pdf)
+
+<use appendix/Exit_u_Q.pdf, page 2>
+File: appendix/Exit_u_Q.pdf Graphic file (type pdf)
+ <use appendix/Exit_u_Q.pdf, page 2>
+File: appendix/Exit_u_Q.pdf Graphic file (type pdf)
+
+<use appendix/Exit_u_Q.pdf, page 2>
+File: appendix/Exit_u_Q.pdf Graphic file (type pdf)
+ <use appendix/Exit_u_Q.pdf, page 2>
+File: appendix/Exit_u_Q.pdf Graphic file (type pdf)
+
+<use appendix/Exit_u_Q.pdf, page 2> [204 <./appendix/Exit_u_Q.pdf>]
+<./images/AF-F1-ExByStudent1.png, id=3274, 357.335pt x 772.8875pt>
+File: ./images/AF-F1-ExByStudent1.png Graphic file (type png)
+
+<use ./images/AF-F1-ExByStudent1.png>
+<./images/AF-F1-ExByStudent2.png, id=3275, 556.0775pt x 274.02374pt>
+File: ./images/AF-F1-ExByStudent2.png Graphic file (type png)
+
+<use ./images/AF-F1-ExByStudent2.png>
+<./images/AF-F1-ExByStudent3.png, id=3276, 500.87125pt x 292.09125pt>
+File: ./images/AF-F1-ExByStudent3.png Graphic file (type png)
+
+<use ./images/AF-F1-ExByStudent3.png>
+<./images/AF-F1-ExByStudent4.png, id=3277, 370.38374pt x 1049.9225pt>
+File: ./images/AF-F1-ExByStudent4.png Graphic file (type png)
+
+<use ./images/AF-F1-ExByStudent4.png>
+<./images/AF-F1-ExByStudent5.png, id=3278, 342.27875pt x 777.90625pt>
+File: ./images/AF-F1-ExByStudent5.png Graphic file (type png)
+
+<use ./images/AF-F1-ExByStudent5.png>
+<./images/AF-F1-ExByStudent6.png, id=3279, 354.32375pt x 729.72626pt>
+File: ./images/AF-F1-ExByStudent6.png Graphic file (type png)
+
+<use ./images/AF-F1-ExByStudent6.png>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[205 <./images/AF-F1-ExByStudent1.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[206 <./images/AF-F1-ExByStudent2.png> <./images/AF-F1-ExByStudent3.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[207 <./images/AF-F1-ExByStudent4.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[208 <./images/AF-F1-ExByStudent5.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[209 <./images/AF-F1-ExByStudent6.png>]
+<./images/AF-F1-ExByStudent7.png, id=3307, 340.27126pt x 328.22626pt>
+File: ./images/AF-F1-ExByStudent7.png Graphic file (type png)
+
+<use ./images/AF-F1-ExByStudent7.png>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[210
+
+ <./images/AF-F1-ExByStudent7.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[211]
+Overfull \hbox (5.6855pt too wide) in paragraph at lines 195--196
+[][]\OT1/cmr/m/it/10.95 The way you can show how ex-tracur-ric-u-lar ac-tiv-i-t
+ies count to-wards your learn-ing achieve-
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[212])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[213]
+\openout2 = `A7.aux'.
+
+ (./A7.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[214
+
+
+
+]
 Appendix G.
-[199]
-<appendix/Background-2011.pdf, id=3137, page=1, 597.23125pt x 845.1575pt>
+[215]
+<appendix/Background-2011.pdf, id=3338, page=1, 597.23125pt x 845.1575pt>
 File: appendix/Background-2011.pdf Graphic file (type pdf)
 
 <use appendix/Background-2011.pdf, page 1>
@@ -3041,7 +3274,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 File: appendix/Background-2011.pdf Graphic file (type pdf)
-<use appendix/Background-2011.pdf, page 1> [200 <./appendix/Background-2011.pdf
+<use appendix/Background-2011.pdf, page 1> [216 <./appendix/Background-2011.pdf
 >])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3049,19 +3282,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[201] (./thesis.aux (./command-definitions.aux) (./CH1-Introduction.aux)
+[217] (./thesis.aux (./command-definitions.aux) (./CH1-Introduction.aux)
 (./CH2-Methodology.aux) (./CH3-LitRev.aux) (./CH4-SystemStudy.aux)
 (./CH5-ConceptualModel.aux) (./CH6-Development.aux) (./CH7-Evaluation.aux)
 (./CH8-Discussion.aux) (./CH9-Conclusion.aux) (./A1.aux) (./A2.aux) (./A3.aux)
 (./A4.aux) (./A5.aux) (./A6.aux) (./A7.aux)) ) 
 Here is how much of TeX's memory you used:
- 18146 strings out of 495061
- 314302 string characters out of 1182620
- 397110 words of memory out of 3000000
- 20080 multiletter control sequences out of 15000+50000
+ 18479 strings out of 495061
+ 321290 string characters out of 1182620
+ 400175 words of memory out of 3000000
+ 20340 multiletter control sequences out of 15000+50000
  21682 words of font info for 81 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 63i,18n,75p,446b,727s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,18n,76p,446b,727s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/t
 ype1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public
 /amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
@@ -3079,9 +3312,9 @@ e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/a
 msfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
 cmti8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb><
 /usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on thesis.pdf (223 pages, 16766468 bytes).
+Output written on thesis.pdf (240 pages, 18338392 bytes).
 PDF statistics:
- 3376 PDF objects out of 3580 (max. 8388607)
- 674 named destinations out of 1000 (max. 500000)
- 1624 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3584 PDF objects out of 4296 (max. 8388607)
+ 716 named destinations out of 1000 (max. 500000)
+ 1769 words of extra memory for PDF output out of 10000 (max. 10000000)
 
