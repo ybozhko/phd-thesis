@@ -1,4 +1,4 @@
-\begin{thebibliography}{167}
+\begin{thebibliography}{172}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -436,6 +436,26 @@ linnovation/workforcedev/eppsmefinalreport.pdf}.
 \newblock In M.~London, Ed., \enquote{The Oxford handbook of lifelong
   learning,} Chapter~2, pp. 12--25. Oxford University Press, New York.
 
+\bibitem[{Hallam et~al.(2008)Hallam, Harper, McCowan, Hauville, McAllister, and
+  Creagh}]{Hallam2008}
+\textbf{Hallam, G., Harper, W., McCowan, C., Hauville, K., McAllister, L., and
+  Creagh, T.} (\textbf{2008}).
+\newblock \emph{{Australian ePortfolio Project: ePortfolio use by university
+  students in Australia: informing excellence in policy and practice, final
+  project report}}.
+\newblock QUT Department of Teaching and Learning Support Services, Brisbane,
+  Australia.
+
+\bibitem[{Hallam et~al.(2009)Hallam, Hauville, Harper, McAllister, and
+  Creagh}]{Hallam2009}
+\textbf{Hallam, G., Hauville, K., Harper, W., McAllister, L., and Creagh, T.}
+  (\textbf{2009}).
+\newblock \emph{{Australian ePortfolio Project Stage 2 – ePortfolio use by
+  university students in Australia: Developing a sustainable community of
+  practice}}.
+\newblock QUT Department of Teaching and Learning Support Services, Brisbane,
+  Australia.
+
 \bibitem[{Hargreaves(2004)}]{Hargreaves2004}
 \textbf{Hargreaves, D.~H.} (\textbf{2004}).
 \newblock \emph{{Learning for life: the foundations of lifelong learning}}.
@@ -619,6 +639,12 @@ f}.
 \textbf{Kumar, R.} (\textbf{2005}).
 \newblock \emph{{Research methodology : a step-by-step guide for beginners}}.
 \newblock SAGE, London, 2nd ed.
+
+\bibitem[{Lea et~al.(2010)Lea, Stephenson, and Troy}]{Lea2010}
+\textbf{Lea, S.~J., Stephenson, D., and Troy, J.} (\textbf{2010}).
+\newblock \enquote{{Higher Education Students' Attitudes to Student-centred
+  Learning : Beyond' educational 'bulimia'?}}
+\newblock \emph{Studies in Higher Education}, 28(3): 321--334.
 
 \bibitem[{Leffingwell(2011)}]{Leffingwell2011}
 \textbf{Leffingwell, D.} (\textbf{2011}).
@@ -913,6 +939,13 @@ on2002w.pdf}.
 \newblock \emph{{Web 2.0: Concepts and Applications}}.
 \newblock Course Technology Cengage Learning, Boston, Mass.
 
+\bibitem[{Sherwood et~al.(1987)Sherwood, Kinzer, Hasselbring, and
+  Bransford}]{Sherwood1987}
+\textbf{Sherwood, R.~D., Kinzer, C.~K., Hasselbring, S., and Bransford, J.~D.}
+  (\textbf{1987}).
+\newblock \enquote{{Macro-contexts for Learning: Initial Findings and Issues}.}
+\newblock \emph{Applied Cognitive Psychology}, 1(2): 93--108.
+
 \bibitem[{Shuy(2001)}]{Shuy2001}
 \textbf{Shuy, R.~W.} (\textbf{2001}).
 \newblock \enquote{{In-Person Versus Telephone Interviewing}.}
@@ -940,6 +973,12 @@ on2002w.pdf}.
 \newblock Technical report, European University Association, Brussels, Belgium.
 \newblock
   \urlprefix\url{http://www.eua.be/pubs/Engaging\_in\_Lifelong\_Learning.pdf}.
+
+\bibitem[{Smith et~al.(2010)Smith, Krass, Sainsbury, and Rose}]{Smith2010}
+\textbf{Smith, L., Krass, I., Sainsbury, E., and Rose, G.} (\textbf{2010}).
+\newblock \enquote{{Pharmacy Students' Approaches to Learning in Undergraduate
+  and Graduate Entry Programs}.}
+\newblock \emph{American Journal of Pharmaceutical Education}, 74(6): 1--6.
 
 \bibitem[{Sommerville(2007)}]{Sommerville2007}
 \textbf{Sommerville, I.} (\textbf{2007}).
