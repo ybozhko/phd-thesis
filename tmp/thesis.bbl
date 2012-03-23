@@ -1,4 +1,4 @@
-\begin{thebibliography}{172}
+\begin{thebibliography}{179}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -100,6 +100,12 @@ s/Archive.aspx?releaseid=881188}.
 \textbf{Bourner, T.} (\textbf{2002}).
 \newblock \enquote{{The reserach journey: four steps to success}.}
 \newblock Chapter~2, pp. 7--12. Arnold, London, 2nd ed.
+
+\bibitem[{Boyatzis(2008)}]{Boyatzis2008}
+\textbf{Boyatzis, R.~E.} (\textbf{2008}).
+\newblock \enquote{{Competencies in the 21st century}.}
+\newblock \emph{Journal of Management Development}, 27(1): 5--12.
+\newblock doi:10.1108/02621710810840730.
 
 \bibitem[{Brakke and Brown(2002)}]{Brakke2002}
 \textbf{Brakke, D.~F. and Brown, D.~T.} (\textbf{2002}).
@@ -538,6 +544,13 @@ linnovation/workforcedev/eppsmefinalreport.pdf}.
 \newblock \emph{IEEE Transactions on Visualization and Computer Graphics},
   12(5): 741--748.
 
+\bibitem[{Hosein et~al.(2010)Hosein, Ramanau, and Jones}]{Hosein2010}
+\textbf{Hosein, A., Ramanau, R., and Jones, C.} (\textbf{2010}).
+\newblock \enquote{{Learning and living technologies: a longitudinal study of
+  first‐year students’ frequency and competence in the use of ICT}.}
+\newblock \emph{Learning, Media and Technology}, 35(4): 403--418.
+\newblock doi:10.1080/17439884.2010.529913.
+
 \bibitem[{Hughes and Barrie(2010)}]{Hughes2010}
 \textbf{Hughes, C. and Barrie, S.} (\textbf{2010}).
 \newblock \enquote{{Influences on the assessment of graduate attributes in
@@ -572,6 +585,11 @@ linnovation/workforcedev/eppsmefinalreport.pdf}.
 \newblock \emph{Journal of clinical epidemiology}, 60(4): 324--9.
 \newblock doi:10.1016/j.jclinepi.2006.09.011.
 
+\bibitem[{IPENZ(2007)}]{IPENZ2007}
+\textbf{IPENZ} (\textbf{2007}).
+\newblock \enquote{{IPENZ Competence Standard for Professional Engineers}.}
+\newblock \urlprefix\url{http://www.ipenz.org.nz}.
+
 \bibitem[{Jarvis(2004)}]{Jarvis2004}
 \textbf{Jarvis, P.} (\textbf{2004}).
 \newblock \enquote{{From adult education to lifelong learning: a conceptual
@@ -589,6 +607,12 @@ linnovation/workforcedev/eppsmefinalreport.pdf}.
 \textbf{Johnson, J.~M.} (\textbf{2001}).
 \newblock \enquote{{In-depth Interviewing}.}
 \newblock Chapter~5, pp. 103--120. SAGE, London.
+
+\bibitem[{Jones(2010)}]{Jones2010}
+\textbf{Jones, C.} (\textbf{2010}).
+\newblock \enquote{{A new generation of learners ? The Net Generation and
+  Digital Natives}.}
+\newblock \emph{Learning, Media and Technology}, 35(4): 37--41.
 
 \bibitem[{Katz(2005)}]{Katz2005}
 \textbf{Katz, R.~N.} (\textbf{2005}).
@@ -639,6 +663,12 @@ f}.
 \textbf{Kumar, R.} (\textbf{2005}).
 \newblock \emph{{Research methodology : a step-by-step guide for beginners}}.
 \newblock SAGE, London, 2nd ed.
+
+\bibitem[{{Le Grand} and Soto(2006)}]{LeGrand2006}
+\textbf{{Le Grand}, B. and Soto, M.} (\textbf{2006}).
+\newblock \enquote{{Topic maps visualization}.}
+\newblock In V.~Geroimenko and C.~Chen, Eds., \enquote{Visualizing the Semantic
+  Web,} pp. 59--79. Springer, 2 ed.
 
 \bibitem[{Lea et~al.(2010)Lea, Stephenson, and Troy}]{Lea2010}
 \textbf{Lea, S.~J., Stephenson, D., and Troy, J.} (\textbf{2010}).
@@ -901,6 +931,12 @@ ios-in-engineering-advantages.html}.
   61--72. Jossey-Bass and American Evalution Association, Vancouver, B.C.
 \newblock doi:10.1002/ev.261.
 
+\bibitem[{Robertson and Robertson(2006)}]{Robertson2006}
+\textbf{Robertson, S. and Robertson, J.} (\textbf{2006}).
+\newblock \enquote{{Nonfunctional requirements}.}
+\newblock In \enquote{Mastering the requirements process,} Chapter~8, pp.
+  171--202. Addison-Wesley, Upper Saddle River, NJ, 2 ed.
+
 \bibitem[{Rubenson(2002)}]{Rubenson2002}
 \textbf{Rubenson, K.} (\textbf{2002}).
 \newblock \enquote{{Lifelong Learning for All: Challenges and Limitations of
@@ -995,6 +1031,14 @@ on2002w.pdf}.
 \newblock \emph{{Basics of qualitative research: techniques and procedures for
   developing grounded theory}}.
 \newblock SAGE, London, 3 ed.
+
+\bibitem[{Sullivan et~al.(2004)Sullivan, Reckase, Clain, Savidge, and
+  Clardy}]{Sullivan2004}
+\textbf{Sullivan, P. S.~O., Reckase, M.~D., Clain, T. M.~C., Savidge, M.~A.,
+  and Clardy, J.~A.} (\textbf{2004}).
+\newblock \enquote{{Demonstration of Portfolios to Assess Competency of
+  Residents}.}
+\newblock \emph{Advances in Health Sciences Education}, 9: 309--323.
 
 \bibitem[{Sutherland and Crowther(2006)}]{Sutherland2006}
 \textbf{Sutherland, P. and Crowther, J.} (\textbf{2006}).

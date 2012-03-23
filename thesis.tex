@@ -17,10 +17,10 @@
 \renewcommand{\floatpagefraction}{0.7}
 \renewcommand{\dblfloatpagefraction}{0.7}
 
-\usepackage{verbatim}
+\usepackage{verbatim} 
 \usepackage{graphicx}
 \usepackage{url}
-\usepackage[linkbordercolor={0 .7 .7}, urlbordercolor={0 1 1}]{hyperref}
+\usepackage{hyperref}
 \usepackage[round]{natbib}
 \usepackage{amsmath}
 \usepackage{amssymb}
@@ -47,13 +47,18 @@
 \setlength{\epigraphwidth}{7cm}
 \setlength{\epigraphrule}{0pt}
 
+\hypersetup{
+    colorlinks=false,
+    pdfborder={0 0 0}
+}
+
 % Other things to set:
-\subject{Computer Science/Information Technology}
+\subject{Information Technology}
 \campus{Palmerston North} 
 
 \hypersetup{  
-  pdftitle = {Lifelong Learning in Universities Supported By ePortfolio
-  Processes}, 
+  pdftitle = {Improving Lifelong Learning Support in Universities Through The
+  Enhanced ePortfolio System}, 
   pdfauthor = {Yuliya Bozhko},
   pdfsubject = {PhD Thesis},
   pdfkeywords = {lifelong learning, ePortfolio},
@@ -73,8 +78,8 @@
 %%If you wish to change it, modify and uncomment this line
 %\year=2010
 
-\title{Lifelong Learning in Universities Supported\\ 
-  By ePortfolio Processes}
+\title{Improving Lifelong Learning Support in Universities Through The
+  Enhanced ePortfolio System}
 \author{Yuliya Bozhko}
 
 \beforeabstract
@@ -118,6 +123,7 @@
 	\addvspace{10pt}
     \listoffigures
     \newpage
+    \cleardoublepage
 \fi
 
 \afterpreface

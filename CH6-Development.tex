@@ -1,7 +1,11 @@
 \chapter{Prototype -- Development and Implementation\label{cha:prototype}}
-%4855
+%5020
 This chapter presents design and implementation decisions for the \ep~aided
-environment that provides support for \LLLs in universities.
+environment that provides support for \LLLs in universities. By the term
+\textit{environment} this chapter describes a generic set-up of two
+interconnected systems such as an \ep~system and LMS. For the development and
+evaluation purposes, in this research, Mahara \ep~system was used as an
+\ep~system and Moodle\footnote{\url{http://moodle.org}} was used as a LMS.
 
 Previous chapters (Chapters \ref{cha:litrev} and \ref{cha:systudy}) identified
 recommendations and needs for successful \LLLs support. With the help of the
@@ -33,8 +37,8 @@ private space for personal development and informal learning.
 \end{figure}
 
 In this project, the main implementations were carried out in the \ep~system
-environment. Due to cost vs benefit issues, features that involved LMS
-environment were not considered for development. 
+environment, Mahara. Due to cost vs benefit issues, features that involved LMS
+environment, Moodle, were not considered for development. 
 
 Benefit was analysed based on how high the interview participants had ranked
 their requirements for \LLLs support. According to this, LMS aspects of system
@@ -44,7 +48,7 @@ The cost was measured by referring to the LMS developing communities that had
 \ep~and LMS integration on their road-maps. For example, based on the issue
 MDL-14591\footnote{\url{http://tracker.moodle.org/browse/MDL-14591}} on the
 Moodle LMS issue tracking system, it took one developer from the development
-team, who potentially had already been familiar with the environment and its
+team, who probably had already been familiar with the environment and its
 APIs, more than two years to develop an \ep~API that would support single
 sign-on and enable simple data export/import functionality. To date, this
 functionality still has a large number of unresolved issues and bugs that
@@ -62,12 +66,14 @@ development of the features that would allow integration between the systems
 would exceed the benefit that would be gained from them by the users.
 
 For these reasons, guidelines (G1 and G6) and features, that would have involved
-LMS modifications, were not supported by implementations and are not to be
-discussed further in this chapter. LMS is still included in overall architecture
-as a system for formal learning support in university.
+modifications of Moodle LMS, were not realized by implementations and are not to
+be discussed further in this chapter. However, for completeness, LMS is still
+included in overall architecture as a system that supports formal learning in
+universities.
  
 Features identified through the interviews with the stakeholders were grouped
-and developed in the following components and modules: 
+(based on groups described in Table \ref{tab:req}) and developed in the
+following components and modules:
 
 \begin{itemize}
   \item Version control -- for addressing the issues of guidance, facilitation
@@ -87,15 +93,17 @@ and developed in the following components and modules:
 These component are discussed in detail further in this chapter.
 
 Each component provided working functionality sufficient to demonstrate the
-general concept. Non-functional requirements, as described in Chapter
-\ref{cha:model}, were not taken into account as non-essential in functional
-prototype.
+general concept. Some non-functional requirements, described in Chapter
+\ref{cha:model}, were not taken into account during implementation as they did
+not alter the prototype's essential functionality \citep{Robertson2006}. For
+example, making fully visually appealing user interface was out of scope of these
+implementations.
 
 \section{Development Toolkit}
 
-Using Mahara \ep~system as an initial system defined technologies that were
-employed in development phase. Development and prototype systems were installed
-on LAMP\footnote{\url{http://en.wikipedia.org/wiki/LAMP_(software_bundle)}}
+Using Mahara \ep~system as a base system defined technologies that were employed
+in development phase. Development and prototype systems were installed on
+LAMP\footnote{\url{http://en.wikipedia.org/wiki/LAMP_(software_bundle)}}
 software bundle for Linux which included Apache HTTP Server, MySQL database
 server and PHP. These were the basic components for building a general purpose
 web server.
@@ -108,9 +116,10 @@ Following standards and external packages were used during implementation:
 
 \begin{itemize}
 
-\item HTML5 + CSS -- standards combined with JavaScript used for drawing
-diagrams that represent concept maps, developing a dynamic timeline and
-accessing fragments of media (audio/video);
+\item HTML5\footnote{\url{http://www.w3.org/TR/html5/}} +
+CSS\footnote{\url{http://www.w3.org/TR/CSS/}} -- standards combined with
+JavaScript used for drawing diagrams that represent concept maps, developing a
+dynamic timeline and accessing fragments of media (audio/video);
 
 \item jQuery\footnote{\url{http://jquery.com}} -- a JavaScript library that
 simplifies HTML document traversing, event handling, animating, and Ajax
@@ -154,6 +163,8 @@ this table were described in Sections \ref{sec:needs} and \ref{sec:elicit},
 respectively.
 
 \begin{table}[htb]
+  \setlength{\abovecaptionskip}{0pt}
+  \caption{Matrix of implemented \ep~system components}
   \begin{center} \small
     \begin{tabular}{| c || p{2cm} | p{2cm} | p{2cm} | p{2cm} | p{2cm} |}
     \hline
@@ -167,50 +178,52 @@ respectively.
      \textit{Managing \newline sharing \newline Section \ref{sec:sharing}} \\
      \hline \hline
      \rowcolor[gray]{.8} G1 & & & & & \\ \hline
-     G2 & I3 & & & C1 & B3\\ \hline
-     G3 & I3 & & & & B3 \\ \hline
-     G4 & & K1, K2 & K2 & & \\ \hline
-     G5 & C2, C3, C4 & & C4 & & C5, C6 \\ \hline
+     G2 & F7.3 & & & F3.1 & F6.3\\ \hline
+     G3 & F7.3 & & & & F6.3 \\ \hline
+     G4 & & F1.1, F1.2 & F1.2 & & \\ \hline
+     G5 & F3.2, F3.3, \newline F3.4 & & F3.4 & & F3.5, F3.6 \\ \hline
      \rowcolor[gray]{.8} G6 & & & & & \\ \hline
-     G7 & & P1 & & P1, P2, P3 & \\ \hline
-     G8 & & A1, A2, A3, \newline A4, A5, A6 & & & \\ \hline
-     G9 & & B1 & K3 & P4, P5 & \\ \hline
+     G7 & & F2.1 & & F2.1, F2.2, \newline F2.3 & \\ \hline
+     G8 & & F5.1, F5.2, \newline F5.3, F5.4, \newline F5.5, F5.6 & & & \\ \hline
+     G9 & & F6.1 & F1.3 & F2.4, F2.5 & \\ \hline
     \end{tabular}
   \end{center}
-  \caption{Matrix of implemented \ep~system components}  
   \label{tab:implement}
 \end{table}
 
 \FloatBarrier
 
-Table \ref{tab:implement} also shows that, as it has been initially planned,
-implementations are covering at least partially each of the guidelines. Complete
-lists of the requirements for each component in the form of user stories are
-described in the relevant sections of Appendix \ref{app:specification}. Detailed
-screenshots of the interface can be found in Appendix \ref{cha:appscreen}.
+Table \ref{tab:implement} also shows that implementations are covering at least
+partially each of the guidelines. Complete lists of the requirements for each
+component in the form of user stories are described in the relevant sections of
+Appendix \ref{app:specification}. Detailed screenshots of the interface can be
+found in Appendix \ref{cha:appscreen}.
 
 \subsection{Version Control Elements}
 \label{sec:version}
 
-Version control adopted in this prototype resembles functionality of a standard
-revision control system that allows management of changes in the documents,
-source code, and other types information stored in files.
+Version control adopted in this prototype resembles functionality of standard
+revision control systems (such as Git\footnote{\url{http://git-scm.com}},
+Subversion\footnote{\url{http://subversion.apache.org}}, or Concurrent Versions
+System\footnote{\url{http://savannah.nongnu.org/projects/cvs}}) that allow
+management of changes in the documents, source code, and other types information
+stored in files.
 
 Creating and keeping versions of the shareable resources was suggested by the
 stakeholders as a way of communicating changes made to the \ep~items and
 responding to the comments and feedback. According to the systems review in
-Chapter \ref{cha:systudy}, conventinal functionality of the \ep~systems does not
+Chapter \ref{cha:systudy}, conventional functionality of the \ep~systems does not
 support multiple versions of repository items or web pages making it difficult
 to track changes being made. Normally, when learners get feedback on the shared
 part of their \ep, they would just apply changes according to this feedback
 making it nearly impossible for others to compare what was actually altered.
-This results in a mismatch because feedback still referres to the old version of
+This results in a mismatch because feedback still refers to the old version of
 shared \ep~while content is already renewed. Being able to take snapshots of
 various \ep~parts is a simple solution requested by the stakeholders to address
 this problem.
 
 This feature was easy to fit into the system and straightforward to implement.
-As every record in \ep~has its own timestamp, all that was required was to
+As every record in \ep~has its own time-stamp, all that was required was to
 create a new copy of the current record, allow users to make changes and,
 after changes are saved, present the new record to users in a way that would
 allow tracing back to the previous versions.
@@ -251,29 +264,30 @@ well as between students and audience outside of institutional environment.
 Addressing the challenges of \ep~knowledge management\footnote{In this thesis,
 the \ep~knowledge management is referred to in terms of creating knowledge,
 sharing it, managing and organizing it in \ep~space.} and development of
-graduate attributes, that represent the core learning outcomes, skills and
-qualities that students should develop during their university education, as
-have for example been outlined in \citet{Hughes2010}, was a complex problem
-which required a creative approach and no clearly suggested solution from the
-stakeholders. While looking at the other areas for potential solution, it was
-discovered that qualitative data analysis and knowledge visualization using
-concept mapping tool have properties suitable for \ep~domain. Like \ep~work,
-qualitative data analysis is characterised by rich data sets, opening the
-possibility of borrowing well established techniques. Concept maps had potential
-as a supporting tool for organizing these data sets into concepts and
-visualising them in a way that could be understood by relevant audiences.
+graduate attributes was a complex problem which required a creative approach and
+no clearly suggested solution from the stakeholders. While looking at the other
+areas for potential solution, it was discovered that qualitative data analysis
+and knowledge visualization using concept mapping tool have properties suitable
+for \ep~domain. Like \ep~work, qualitative data analysis is characterised by
+rich data sets, opening the possibility of borrowing well established
+techniques. Concept maps had potential as a supporting tool for organizing these
+data sets into concepts and visualising them in a way that could be understood
+by relevant audiences.
 
 This section describes how bringing these two techniques together helped to
 develop a solution for the problems outlined earlier.
 
 \subsubsection{Parallels to qualitative research}
 
-An \ep~can be called a container that needs to be organized, with students not
-always knowing which items to select and where the items they put in their
-\ep~should go. Students start their \ep~work by collecting \textit{raw} data
-available from formal learning and outside activities and transforming it into
-information that they decide to put into their \ep. After working with and
-reflecting on this information students arrive at knowledge. 
+An \ep~can be called a container whose content needs to be organized, with
+students not always knowing which items to select and where the items they put
+in their \ep~should go. Students start their \ep~work by collecting \textit{raw}
+data available from formal learning and outside activities and transforming it
+into information that they decide to put into their \ep. After working with and
+reflecting on this information students arrive at knowledge. However, sometimes
+there is just too much data for students to cope with efficiently as they might
+be initially lacking organizing skills. In this case, an \ep~system could
+provide supporting solutions to help students manage their data.
 
 A parallel with qualitative data analysis can be drawn here where researchers
 either develop new theories from data, moving from specific observations to
@@ -282,16 +296,18 @@ their data map against the theories that are already known and understood
 (deductive approach) \citep{Strauss2008,Patton2002}. An assumption here is that
 analyzing one's own learning process takes similar steps as qualitative data
 analysis: small bits, specific data that learners are collecting, contribute to
-the bigger picture of knowledge development. The difference is that the learner
-developing their \ep~is not aware of the existing theories yet. These theories
-are the concept structures that exist in the understanding of society,
-institution and employers. However, these must be eventually understood and
-\textit{made their own} by the learner. Like the qualitative researcher, the
-learner needs to immerse themselves in their data and to come to an
-understanding of the kind of material they should be collecting in their \ep~and
-the concepts that express their learning goals. They need to find (and to a
-certain degree construct by exposing themselves to learning opportunities)
-evidence in their data to show that they conform to these concepts.
+the bigger picture of knowledge development. 
+
+The difference is that the learner developing their \ep~is not aware of the
+existing theories yet. These theories are the concept structures that exist in
+the understanding of society, institution and employers. However, these must be
+eventually understood and \textit{made their own} by the learner. Like the
+qualitative researcher, the learner needs to immerse themselves in their data
+and to come to an understanding of the kind of material they should be
+collecting in their \ep~and the concepts that express their learning goals. They
+need to find (and to a certain degree construct by exposing themselves to
+learning opportunities) evidence in their data to show that they conform to
+these concepts.
 
 In qualitative research, a number of techniques are available to the researcher
 in managing, analyzing and interpreting their data, such as coding, grouping,
@@ -306,23 +322,24 @@ substitute the role of an \ep~system in the learning process. Reasons for
 that are outlined in Table \ref{tab:qdas}.
 
 \begin{table}[htb]
+  \setlength{\abovecaptionskip}{0pt}
+  \caption{Conceptual difference between QDAS and \ep~system}
   \begin{center}
-    \begin{tabular}{| p{6cm} | p{6cm} |}
+    \begin{tabular}{| p{6.5cm} | p{6.5cm} |}
     \hline
      \multicolumn{1}{|c|}{\textbf{QDAS}} &
      \multicolumn{1}{c|}{\textbf{\ep~system}} \\
      \hline
-     Help researchers to understand data & Help students to understand data and
-     theories \\ \hline 
-     Develop codes, concepts and theories; visualize relations between concepts
-     & Showcase students' growing understanding of theories and their data \\
-     \hline 
+     Do not share the analysis data & Showcase parts of the \ep~content to
+     others \\ \hline 
+     Only intermediate steps/data are contained, the research findings are
+     written and communicated outside the system & Reflections, pages and data
+     are apart of the \ep \\ \hline 
      Produce a report as an end point of the research  & Does not have an end
      point; data is constantly evolving; old concepts are changing and new are
-     emerging with changing understanding of these concepts \\ \hline 
+     emerging with changing understanding of these concepts \\ \hline
     \end{tabular}
   \end{center}
-  \caption{Conceptual difference between QDAS and \ep~system}
   \label{tab:qdas}
 \end{table}
 
@@ -360,10 +377,13 @@ interpret their personal knowledge and map this knowledge and individual
 examples against the existing theories. The hierarchical nature of the concept
 map allows for organizing concepts from the high level abstract concept to the
 more specific concepts. This property can be used by students for managing and
-structuring data in their \ep s. In addition, while describing future directions
-for \ep~technology, Cambridge \citeyearpar{Cambridge2010} suggested that
-visualization in the form of concept maps could be a potential way of generating
-reflections.
+structuring data in their \ep s. 
+
+In addition to the conclusions drawing from comparison with qualitative data
+analysis, support for utilizing concept maps also comes from the literature.
+While describing future directions for \ep~technology, Cambridge
+\citeyearpar{Cambridge2010} suggested that visualization in the form of concept
+maps could be a potential way of generating reflections.
 
 QDAS already offers tools similar to concept maps in form of textual hierarchies
 of nodes/terms/labels/concepts or as diagrams that show relations between
@@ -398,31 +418,30 @@ valuable examples of their work in the learning process.
 \end{figure}
 
 Using a \textit{tree} is considered to be the natural and commonly used way of
-visualizing hierarchical data \citep{Gorg2007,Holten2006}. Therefore, instead of
-implementing a complete directed acyclic graph structure, as described in the
-previous section, concept mapping in this component was simplified to a
-tree-like structure and did not provide cross-linking between the concepts.
+visualizing hierarchical data \citep{Gorg2007,Holten2006}. Trees are more
+visually appealing, easier to master, and since trees are hierarchical, they are
+better understood by many people. According to \citet{LeGrand2006}, they are
+also easier to interpret than graphs. Therefore, instead of implementing a
+complete directed acyclic graph structure, as described in the previous section,
+concept mapping in this component was simplified to a tree-like structure and
+did not provide cross-linking between the concepts.
 
 Each map starts with an abstract core or key concept followed by optional
 supporting sub-concepts. Hierarchy of the concepts can go as far as required by
 learners starting from highly abstract concepts and going to very specific ones.
 As shown on Figure \ref{fig:mapping}, students can provide definitions for the
 concepts, which gives them descriptions from learners' point of view. As it was
-noticed from the interviews with the stakeholders, very often students do not
+noticed from the interviews with the stakeholders, often students do not
 understand the meaning of the concepts offered by the university in the graduate
 profiles or attributes. In this case, being able to provide own definitions to
 the concepts, might help learners to express their own understanding and
 communicate it to others.
 
-Examples chosen by students for these concepts and definitions are parts of the
-items, or entire items, from the \ep~repository which represent their personal
-experience and achievements. Detailed description of this feature can be found
-in Section \ref{sec:frag}.
+Examples chosen by students for the concepts and definitions represent their
+personal experiences and achievements. These examples are the fragments of
+items, or entire items, from the \ep~repository. A detailed description of this
+feature can be found in Section \ref{sec:frag}.
 
-An \ep~concepts structure can be represented as shown in Figure \ref{fig:mapex}.
-Data for the example was taken from the examples offered by \citet{Marzano1993}
-on how to assess \LLLs standards.
- 
 \begin{figure}[htb]
 \centering
 \includegraphics[height=0.5\textheight]{CH6-F4-Map-Example}
@@ -430,13 +449,22 @@ on how to assess \LLLs standards.
 \label{fig:mapex} 
 \end{figure}
 
-Due to the dynamic nature of learning process this kind of structure might never
-be complete. It is constantly changing as students deepen their understanding
-and potentially find more suitable evidence to underpin their development.
+An \ep~concepts structure can be represented as shown in Figure \ref{fig:mapex}.
+Data for the example was taken from the examples offered by \citet{Marzano1993}
+on how to assess \LLLs standards.
+
+Due to the dynamic nature of learning process, this kind of structure might
+never be complete. It is constantly changing as students deepen their
+understanding and potentially find more suitable evidence to underpin their
+development.
+
+\FloatBarrier
 
 The expectations are that this approach would allow students to:
-
 \begin{itemize}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+  \setlength{\itemsep}{2pt}
   \item Manage and structure large amounts of information in their \ep:
   students will be able to organize and navigate through the information, find
   relations between the content and the concepts and see the data in their
@@ -468,6 +496,7 @@ might encourage students to think of what skills are important to them, how they
 understand these skills and how it links to their learning outcomes.
 \end{itemize}
 
+
 \subsection{Artifacts' Fragments Extraction}
 \label{sec:frag}
 
@@ -491,16 +520,6 @@ directly to the concepts that already exist in their \ep. In case learners do
 not know where this example belongs to in the hierarchy of concepts, they can
 leave it as a free fragment and use later.
 
-Figure \ref{fig:frag} shows the way of extracting fragments for various
-\ep~artifacts.
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.99\textwidth]{CH6-F5-Fragments}
-\caption{Artifact's fragment extraction}
-\label{fig:frag}
-\end{figure}
-
 To demonstrate this feature, the following artifact fragments were implemented:
 
 \begin{itemize}
@@ -512,6 +531,16 @@ To demonstrate this feature, the following artifact fragments were implemented:
   \item Bookmark: URL of the resources on the Internet -- no selection is
   required.
 \end{itemize} 
+
+Figure \ref{fig:frag} shows the way of extracting fragments for various
+\ep~artifacts.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.99\textwidth]{CH6-F5-Fragments}
+\caption{Artifact's fragment extraction}
+\label{fig:frag}
+\end{figure}
 
 \FloatBarrier
 
@@ -534,9 +563,9 @@ Using fragments of artifacts can be useful for a number of reasons:
   \item it helps to avoid files duplication;
   \item it saves user's time that otherwise would be spent on cropping images,
   videos, or textual files;
-  \item it can help to solve some ethics issues (for example, teaching students
-  are not allowed to show the faces of children they teach at schools, but they
-  still have to demonstrate their competencies of teaching).
+  \item it can help to solve some ethics issues (for example, students studying
+  to become teachers are not allowed to show the faces of children they teach at
+  schools, but they still have to demonstrate their competencies of teaching).
 \end{itemize}
 
 From the perspective of this component evolving Media Fragments 1.0
@@ -637,9 +666,9 @@ feedback, and facilitate its provision in a timely manner.
 \section{Prototype Iterations and User Tests}
  
 Before formal evaluation was undertaken, implemented functionality had been
-reviewed by users. Overall, time and resources constraints of the project
-allowed for two planned prototype iterations. Each iteration produced a workable
-version of the implemented features. At the end of each iteration, the
+reviewed by users. Overall, despite time and resources constraints of the
+project two prototype iterations were possible. Each iteration produced a
+workable version of the implemented features. At the end of each iteration, the
 functional prototype was presented to a student and a lecturer selected from the
 participants of the requirements elicitation phase who had agreed to continue
 their participation in this research.
@@ -676,4 +705,4 @@ lecturers, and better control over access to the \ep~resources.
 From this stage, to understand whether new implementations meet the needs of
 the stakeholders, a formal evaluation has to be undertaken. The next chapter
 looks at the improved \ep~system prototype from the perspective of lecturers
-and students, experienced and mature as well as young.
+and students with various levels of experience.
