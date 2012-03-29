@@ -1,4 +1,4 @@
-\begin{thebibliography}{179}
+\begin{thebibliography}{186}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -238,17 +238,32 @@ iew/IHMC Literature Review on Concept Mapping.pdf}.
   Press, New York, New York, USA.
 \newblock doi:10.1145/1555619.1555645.
 
+\bibitem[{Cohn(2004)}]{Cohn2004}
+\textbf{Cohn, M.} (\textbf{2004}).
+\newblock \emph{{User stories applied: for agile software development}}.
+\newblock Addison-Wesley, Boston, MA.
+
 \bibitem[{Collis and {De Boer}(2004)}]{Collis2004}
 \textbf{Collis, B. and {De Boer}, W.} (\textbf{2004}).
 \newblock \enquote{{E-learning by design}.}
 \newblock \emph{Teachers as learners: Embedded tools for implementing a CMS},
   48(6): 7--12.
 
+\bibitem[{Coplien and Bj\"{o}rnvig(2010)}]{Coplien2010}
+\textbf{Coplien, J. and Bj\"{o}rnvig, G.} (\textbf{2010}).
+\newblock \emph{{Lean architecture for agile software development}}.
+\newblock Wiley, Chichester; Hoboken, N.J.
+
 \bibitem[{Creswell(2009)}]{Creswell2009}
 \textbf{Creswell, J.~W.} (\textbf{2009}).
 \newblock \emph{{Research design: qualitative, quantitative, and mixed methods
   approaches}}.
 \newblock Sage Publications, Thousand Oaks, California, 3 ed.
+
+\bibitem[{Crispin(2003)}]{Crispin2003}
+\textbf{Crispin, L.} (\textbf{2003}).
+\newblock \emph{{Testing Extreme Programming}}.
+\newblock Addison-Wesley, Boston, MA.
 
 \bibitem[{Cross(1993)}]{Cross1993}
 \textbf{Cross, N.} (\textbf{1993}).
@@ -435,6 +450,18 @@ linnovation/workforcedev/eppsmefinalreport.pdf}.
 \newblock \enquote{{Erfolgsfaktor Pers\"{o}nlichkeit: Anforderungen an eine
   Ganzheitliche Ingenieurausbildung}.}
 \newblock \emph{Global Journal of Engineering Education}, 8: 269--274.
+
+\bibitem[{Griffin(2002)}]{Griffin2002}
+\textbf{Griffin, C.} (\textbf{2002}).
+\newblock \enquote{{Lifelong Learning: policy, strategy and culture}.}
+\newblock In \enquote{Working Papers of the Global Colloquium on Supporting
+  Lifelong Learning,} Open University, Milton Keynes, UK.
+\newblock \urlprefix\url{www.open.ac.uk/lifelong-learning}.
+
+\bibitem[{Guest(2006)}]{Guest2006}
+\textbf{Guest, G.} (\textbf{2006}).
+\newblock \enquote{{Lifelong learning for engineers: a global perspective}.}
+\newblock \emph{European Journal of Engineering Education}, 31(3): 273--281.
 
 \bibitem[{Hager(2011)}]{Hager2011}
 \textbf{Hager, P.~J.} (\textbf{2011}).
@@ -817,6 +844,11 @@ spec}.
 \newblock \emph{Journal of health communication}, 16(Sup1): 45--58.
 \newblock doi:10.1080/10810730.2011.589881.
 
+\bibitem[{Molebash(1999)}]{Molebash1999}
+\textbf{Molebash, P.} (\textbf{1999}).
+\newblock \enquote{{Technology and Education: Current and Future Trends}.}
+\newblock \emph{IT Journal}, 6(1).
+
 \bibitem[{Morgan-Klein and Osborne(2007)}]{Morgan-Klein2007}
 \textbf{Morgan-Klein, B. and Osborne, M.} (\textbf{2007}).
 \newblock \emph{{The concepts and practices of lifelong learning}}.
@@ -845,6 +877,14 @@ spec}.
 \textbf{{New Zealand Ministry of Education}} (\textbf{2008}).
 \newblock \enquote{{Tertiary Education Strategy 2007-2012. Incorporating
   Statement of Tertiary Education Priorities 2008-2010}.}
+
+\bibitem[{{New Zealand Ministry of
+  Education}(2012)}]{NewZealandMinistryofEducation2012}
+\textbf{{New Zealand Ministry of Education}} (\textbf{2012}).
+\newblock \enquote{{ePortfolios and MyPortfolio}.}
+\newblock
+  \urlprefix\url{http://www.minedu.govt.nz/NZEducation/EducationPolicies/Schoo%
+ls/Initiatives/ManagedLearningEnvironments/ePortfolios.aspx}.
 
 \bibitem[{Novak(2010)}]{Novak2010}
 \textbf{Novak, J.~D.} (\textbf{2010}).

@@ -125,6 +125,10 @@ You can't pop an empty literal stack for entry NewZealandMinistryofEducation2008
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry NewZealandMinistryofEducation2008
 while executing---line 1597 of file bevbib4.bst
+You can't pop an empty literal stack for entry NewZealandMinistryofEducation2012
+while executing---line 1597 of file bevbib4.bst
+You can't pop an empty literal stack for entry NewZealandMinistryofEducation2012
+while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry PebbleLearningLtd2010
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry PebbleLearningLtd2010
@@ -152,45 +156,45 @@ You can't pop an empty literal stack for entry UniversityofTorontoScarborough201
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry UniversityofTorontoScarborough2010
 while executing---line 1597 of file bevbib4.bst
-You've used 179 entries,
+You've used 186 entries,
             3124 wiz_defined-function locations,
-            1834 strings with 38350 characters,
-and the built_in function-call counts, 137066 in all, are:
-= -- 15142
-> -- 3363
-< -- 204
-+ -- 1663
-- -- 1049
-* -- 8157
-:= -- 16811
-add.period$ -- 784
-call.type$ -- 179
-change.case$ -- 1141
-chr.to.int$ -- 177
-cite$ -- 195
-duplicate$ -- 13143
-empty$ -- 8893
-format.name$ -- 1472
-if$ -- 27660
+            1871 strings with 39326 characters,
+and the built_in function-call counts, 140730 in all, are:
+= -- 15491
+> -- 3443
+< -- 211
++ -- 1700
+- -- 1073
+* -- 8377
+:= -- 17342
+add.period$ -- 811
+call.type$ -- 186
+change.case$ -- 1179
+chr.to.int$ -- 184
+cite$ -- 202
+duplicate$ -- 13475
+empty$ -- 9193
+format.name$ -- 1507
+if$ -- 28398
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 1456
-newline$ -- 930
-num.names$ -- 764
-pop$ -- 4685
+missing$ -- 1505
+newline$ -- 966
+num.names$ -- 792
+pop$ -- 4810
 preamble$ -- 1
-purify$ -- 1046
+purify$ -- 1082
 quote$ -- 0
-skip$ -- 7160
+skip$ -- 7315
 stack$ -- 0
-substring$ -- 5950
-swap$ -- 10202
+substring$ -- 6077
+swap$ -- 10403
 text.length$ -- 58
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1509
+type$ -- 1563
 warning$ -- 16
-while$ -- 854
+while$ -- 878
 width$ -- 0
-write$ -- 2398
-(There were 58 error messages)
+write$ -- 2488
+(There were 60 error messages)
