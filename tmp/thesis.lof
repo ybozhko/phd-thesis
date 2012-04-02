@@ -32,6 +32,8 @@
 \contentsline {figure}{\numberline {7.2}{\ignorespaces Participant demographics (n = 35)\relax }}{111}{figure.caption.39}
 \contentsline {figure}{\numberline {7.3}{\ignorespaces Experiment procedure\relax }}{112}{figure.caption.40}
 \contentsline {figure}{\numberline {7.4}{\ignorespaces Concept map drawing examples by the students\relax }}{113}{figure.caption.41}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Example 1}}}{113}{figure.caption.41}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Example 2}}}{113}{figure.caption.41}
 \contentsline {figure}{\numberline {7.5}{\ignorespaces Overall views on usefulness of the used tools and methods\relax }}{116}{figure.caption.43}
 \contentsline {figure}{\numberline {7.6}{\ignorespaces Experiment groups based on student profiles\relax }}{116}{figure.caption.44}
 \contentsline {figure}{\numberline {7.7}{\ignorespaces Group A views on usefulness of the used tools and methods\relax }}{117}{figure.caption.45}
@@ -49,31 +51,31 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {D.1}{\ignorespaces Views list}}{191}{figure.caption.56}
-\contentsline {figure}{\numberline {D.2}{\ignorespaces Navigation between versions\relax }}{191}{figure.caption.57}
-\contentsline {figure}{\numberline {D.3}{\ignorespaces View versions management\relax }}{192}{figure.caption.58}
-\contentsline {figure}{\numberline {D.4}{\ignorespaces Concept maps list\relax }}{192}{figure.caption.59}
-\contentsline {figure}{\numberline {D.5}{\ignorespaces Concepts layout in the form of map\relax }}{193}{figure.caption.60}
-\contentsline {figure}{\numberline {D.6}{\ignorespaces Adding new items through the context menu\relax }}{194}{figure.caption.61}
-\contentsline {figure}{\numberline {D.7}{\ignorespaces Adding new definition to the map\relax }}{195}{figure.caption.62}
-\contentsline {figure}{\numberline {D.8}{\ignorespaces A list of examples attached to the map\relax }}{196}{figure.caption.63}
-\contentsline {figure}{\numberline {D.9}{\ignorespaces Artifact fragment layout\relax }}{197}{figure.caption.64}
-\contentsline {figure}{\numberline {D.10}{\ignorespaces Taking image file fragment\relax }}{198}{figure.caption.65}
-\contentsline {figure}{\numberline {D.11}{\ignorespaces Taking video file fragment\relax }}{198}{figure.caption.66}
-\contentsline {figure}{\numberline {D.12}{\ignorespaces Taking text file fragment\relax }}{199}{figure.caption.67}
-\contentsline {figure}{\numberline {D.13}{\ignorespaces Working with bookmarks\relax }}{199}{figure.caption.68}
-\contentsline {figure}{\numberline {D.14}{\ignorespaces Timeline layout of a map\relax }}{200}{figure.caption.69}
-\contentsline {figure}{\numberline {D.15}{\ignorespaces An example window from a timeline page\relax }}{201}{figure.caption.70}
-\contentsline {figure}{\numberline {D.16}{\ignorespaces Custom timeframes set-up page\relax }}{202}{figure.caption.71}
-\contentsline {figure}{\numberline {D.17}{\ignorespaces Timeline filtered according to the custom timeframes\relax }}{202}{figure.caption.72}
-\contentsline {figure}{\numberline {D.18}{\ignorespaces History access log for a view\relax }}{203}{figure.caption.73}
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Views list}}{193}{figure.caption.56}
+\contentsline {figure}{\numberline {D.2}{\ignorespaces Navigation between versions\relax }}{193}{figure.caption.57}
+\contentsline {figure}{\numberline {D.3}{\ignorespaces View versions management\relax }}{194}{figure.caption.58}
+\contentsline {figure}{\numberline {D.4}{\ignorespaces Concept maps list\relax }}{194}{figure.caption.59}
+\contentsline {figure}{\numberline {D.5}{\ignorespaces Concepts layout in the form of map\relax }}{195}{figure.caption.60}
+\contentsline {figure}{\numberline {D.6}{\ignorespaces Adding new items through the context menu\relax }}{196}{figure.caption.61}
+\contentsline {figure}{\numberline {D.7}{\ignorespaces Adding new definition to the map\relax }}{197}{figure.caption.62}
+\contentsline {figure}{\numberline {D.8}{\ignorespaces A list of examples attached to the map\relax }}{198}{figure.caption.63}
+\contentsline {figure}{\numberline {D.9}{\ignorespaces Artifact fragment layout\relax }}{199}{figure.caption.64}
+\contentsline {figure}{\numberline {D.10}{\ignorespaces Taking image file fragment\relax }}{200}{figure.caption.65}
+\contentsline {figure}{\numberline {D.11}{\ignorespaces Taking video file fragment\relax }}{200}{figure.caption.66}
+\contentsline {figure}{\numberline {D.12}{\ignorespaces Taking text file fragment\relax }}{201}{figure.caption.67}
+\contentsline {figure}{\numberline {D.13}{\ignorespaces Working with bookmarks\relax }}{201}{figure.caption.68}
+\contentsline {figure}{\numberline {D.14}{\ignorespaces Timeline layout of a map\relax }}{202}{figure.caption.69}
+\contentsline {figure}{\numberline {D.15}{\ignorespaces An example window from a timeline page\relax }}{203}{figure.caption.70}
+\contentsline {figure}{\numberline {D.16}{\ignorespaces Custom timeframes set-up page\relax }}{204}{figure.caption.71}
+\contentsline {figure}{\numberline {D.17}{\ignorespaces Timeline filtered according to the custom timeframes\relax }}{204}{figure.caption.72}
+\contentsline {figure}{\numberline {D.18}{\ignorespaces History access log for a view\relax }}{205}{figure.caption.73}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {F.1}{\ignorespaces Example 1\relax }}{219}{figure.caption.74}
-\contentsline {figure}{\numberline {F.2}{\ignorespaces Example 2\relax }}{220}{figure.caption.75}
-\contentsline {figure}{\numberline {F.3}{\ignorespaces Example 3\relax }}{220}{figure.caption.76}
-\contentsline {figure}{\numberline {F.4}{\ignorespaces Example 4\relax }}{221}{figure.caption.77}
-\contentsline {figure}{\numberline {F.5}{\ignorespaces Example 5\relax }}{222}{figure.caption.78}
-\contentsline {figure}{\numberline {F.6}{\ignorespaces Example 6\relax }}{223}{figure.caption.79}
-\contentsline {figure}{\numberline {F.7}{\ignorespaces Example 7\relax }}{224}{figure.caption.80}
+\contentsline {figure}{\numberline {F.1}{\ignorespaces Example 1\relax }}{221}{figure.caption.74}
+\contentsline {figure}{\numberline {F.2}{\ignorespaces Example 2\relax }}{222}{figure.caption.75}
+\contentsline {figure}{\numberline {F.3}{\ignorespaces Example 3\relax }}{222}{figure.caption.76}
+\contentsline {figure}{\numberline {F.4}{\ignorespaces Example 4\relax }}{223}{figure.caption.77}
+\contentsline {figure}{\numberline {F.5}{\ignorespaces Example 5\relax }}{224}{figure.caption.78}
+\contentsline {figure}{\numberline {F.6}{\ignorespaces Example 6\relax }}{225}{figure.caption.79}
+\contentsline {figure}{\numberline {F.7}{\ignorespaces Example 7\relax }}{226}{figure.caption.80}
 \addvspace {10\p@ }

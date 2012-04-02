@@ -1,4 +1,4 @@
-\begin{thebibliography}{186}
+\begin{thebibliography}{193}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -42,9 +42,18 @@
   Standing Conference on University Teaching and Research in the Education of
   Adults,} July, pp. 38--41. London, UK.
 
-\bibitem[{Attwell(2007)}]{Attwell2007}
-\textbf{Attwell, G.} (\textbf{2007}).
+\bibitem[{Attwell(2007{\natexlab{a}})}]{Attwell2007a}
+\textbf{Attwell, G.} (\textbf{2007}{\natexlab{a}}).
+\newblock \enquote{{E-Portfolios – the DNA of the Personal Learning
+  Environment?}}
+\newblock \emph{Journal of e-Learning and Knowledge Society}, 3(2): 39--61.
+\newblock
+  \urlprefix\url{http://www.je-lks.it/en/07\_02/05Art\_attwell\_inglese.pdf}.
+
+\bibitem[{Attwell(2007{\natexlab{b}})}]{Attwell2007}
+\textbf{Attwell, G.} (\textbf{2007}{\natexlab{b}}).
 \newblock \enquote{{Personal Learning Environments - the future of eLearning?}}
+\newblock \emph{eLearning Papers}, 2(1).
 \newblock
   \urlprefix\url{http://www.elearningeuropa.info/files/media/media11561.pdf}.
 
@@ -154,6 +163,14 @@ n-poster.pdf}.
 \newblock
   \urlprefix\url{http://www.ihmc.us/users/acanas/Publications/ConceptMapLitRev%
 iew/IHMC Literature Review on Concept Mapping.pdf}.
+
+\bibitem[{Calvani et~al.(2007)Calvani, Fini, Bonaiuti, and
+  Ranieri}]{Calvani2007}
+\textbf{Calvani, A., Fini, A., Bonaiuti, G., and Ranieri, M.} (\textbf{2007}).
+\newblock \enquote{{Towards e-Llearning 2 . 0 : New Paths For Informal Learning
+  and Lifelong Learning. An Application with Personal Learning Environments}.}
+\newblock In \enquote{Proceedings of EDEN Annual Conference 2007 New Learning
+  2.0,} Napoli, Italy.
 
 \bibitem[{Cambridge(2010)}]{Cambridge2010}
 \textbf{Cambridge, D.} (\textbf{2010}).
@@ -369,6 +386,19 @@ nts/ELLI\_EU\_eng\_final.pdf}.
 \newblock \enquote{{A Memorandum on Lifelong Learning}.}
 \newblock
   \urlprefix\url{http://www.bologna-berlin2003.de/pdf/MemorandumEng.pdf}.
+
+\bibitem[{{European Commission}(2010)}]{EuropeanCommission2010}
+\textbf{{European Commission}} (\textbf{2010}).
+\newblock \emph{{Europe 2020. A strategy for smart, sustainable and inclusive
+  growth}}.
+\newblock Brussels, Belgium.
+
+\bibitem[{{European Union}(2009)}]{EuropeanUnion2009}
+\textbf{{European Union}} (\textbf{2009}).
+\newblock \enquote{{The Bologna Process 2020 - The European Higher Education
+  Area in the new decade}.}
+\newblock In \enquote{Communiqu\'{e} of the Conference of European Ministers
+  Responsible for Higher Education,} April. Leuven and Louvain-la-Neuve.
 
 \bibitem[{Fallows(2003)}]{Fallows2003}
 \textbf{Fallows, S.} (\textbf{2003}).
@@ -811,6 +841,10 @@ f}.
 \newblock
   \urlprefix\url{http://science.massey.ac.nz/eportfolios/lllPolicy.asp}.
 
+\bibitem[{{Massey University}(2012)}]{MasseyUniversity2012}
+\textbf{{Massey University}} (\textbf{2012}).
+\newblock \enquote{{The Road To 2020}.}
+
 \bibitem[{Mcaleese(1998)}]{Mcaleese1998}
 \textbf{Mcaleese, R.} (\textbf{1998}).
 \newblock \enquote{{Coming to Know: the role of the concept map - mirror,
@@ -907,6 +941,14 @@ ls/Initiatives/ManagedLearningEnvironments/ePortfolios.aspx}.
 \newblock In OECD, Ed., \enquote{E-learning in Tertiary Education: Where do We
   Stand?}, Chapter~4, pp. 138--178. OECD Publishing, Paris.
 \newblock \urlprefix\url{http://www.oecd.org/dataoecd/54/57/34899494.pdf}.
+
+\bibitem[{Oliver et~al.(2007)Oliver, Jones, Ferns, and Tucker}]{Oliver2007}
+\textbf{Oliver, B., Jones, S., Ferns, S., and Tucker, B.} (\textbf{2007}).
+\newblock \enquote{{Mapping curricula: ensuring work-ready graduates by mapping
+  course learning outcomes and higher order thinking skills}.}
+\newblock In \enquote{Proceedings of The Evaluations and Assessment
+  Conference,} Brisbane, Australia.
+\newblock \urlprefix\url{http://c2010.curtin.edu.au/local/docs/paper3.pdf}.
 
 \bibitem[{Otala(1997)}]{Otala1997}
 \textbf{Otala, L.} (\textbf{1997}).
@@ -1117,6 +1159,14 @@ on2002w.pdf}.
 \newblock \enquote{{Changing Notions of Lifelong Education and Lifelong
   Learning}.}
 \newblock \emph{International Review of Education}, 48(1/2): 93--110.
+
+\bibitem[{{University of Ottawa}(2005)}]{UniversityofOttawa2005}
+\textbf{{University of Ottawa}} (\textbf{2005}).
+\newblock \enquote{{Destination 2020 -- The University of Ottawa's Strategic
+  Plan}.}
+\newblock
+  \urlprefix\url{http://destination2020.uottawa.ca/documents/destination-2020-%
+strategic-plan.pdf}.
 
 \bibitem[{{University of Toronto}(2010)}]{UniversityofTorontoScarborough2010}
 \textbf{{University of Toronto}} (\textbf{2010}).

@@ -18,12 +18,9 @@ A level-1 auxiliary file: A4.aux
 A level-1 auxiliary file: A5.aux
 A level-1 auxiliary file: A6.aux
 A level-1 auxiliary file: A7.aux
+Reallocated field_info (elt_size=4) to 10018 items from 5000.
 Database file #1: references.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You can't pop an empty literal stack for entry Attwell2007
-while executing---line 1597 of file bevbib4.bst
-You can't pop an empty literal stack for entry Attwell2007
-while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry Barrett2008
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry Barrett2008
@@ -73,6 +70,8 @@ You can't pop an empty literal stack for entry EuropeanCommission2000
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry EuropeanCommission2000
 while executing---line 1597 of file bevbib4.bst
+Warning--missing publisher in EuropeanCommission2010
+Warning--missing publisher in EuropeanUnion2009
 Warning--empty booktitle in Fallows2003
 You can't pop an empty literal stack for entry Fay2009
 while executing---line 1597 of file bevbib4.bst
@@ -119,6 +118,10 @@ You can't pop an empty literal stack for entry MasseyUniversity2008
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry MasseyUniversity2008
 while executing---line 1597 of file bevbib4.bst
+You can't pop an empty literal stack for entry MasseyUniversity2012
+while executing---line 1597 of file bevbib4.bst
+You can't pop an empty literal stack for entry MasseyUniversity2012
+while executing---line 1597 of file bevbib4.bst
 Warning--empty booktitle in McAlister2003
 Warning--empty booktitle in Muffo2001
 You can't pop an empty literal stack for entry NewZealandMinistryofEducation2008
@@ -152,49 +155,53 @@ You can't pop an empty literal stack for entry Siemens2004
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry Siemens2004
 while executing---line 1597 of file bevbib4.bst
-You can't pop an empty literal stack for entry UniversityofTorontoScarborough2010
+You can't pop an empty literal stack for entry UniversityofOttawa2005
+while executing---line 1597 of file bevbib4.bst
+You can't pop an empty literal stack for entry UniversityofOttawa2005
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry UniversityofTorontoScarborough2010
 while executing---line 1597 of file bevbib4.bst
-You've used 186 entries,
+You can't pop an empty literal stack for entry UniversityofTorontoScarborough2010
+while executing---line 1597 of file bevbib4.bst
+You've used 193 entries,
             3124 wiz_defined-function locations,
-            1871 strings with 39326 characters,
-and the built_in function-call counts, 140730 in all, are:
-= -- 15491
-> -- 3443
-< -- 211
-+ -- 1700
-- -- 1073
-* -- 8377
-:= -- 17342
-add.period$ -- 811
-call.type$ -- 186
-change.case$ -- 1179
-chr.to.int$ -- 184
-cite$ -- 202
-duplicate$ -- 13475
-empty$ -- 9193
-format.name$ -- 1507
-if$ -- 28398
-int.to.chr$ -- 3
+            1907 strings with 40791 characters,
+and the built_in function-call counts, 144691 in all, are:
+= -- 15850
+> -- 3565
+< -- 216
++ -- 1751
+- -- 1112
+* -- 8648
+:= -- 17929
+add.period$ -- 844
+call.type$ -- 193
+change.case$ -- 1226
+chr.to.int$ -- 190
+cite$ -- 211
+duplicate$ -- 13816
+empty$ -- 9505
+format.name$ -- 1557
+if$ -- 29188
+int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 1505
-newline$ -- 966
-num.names$ -- 792
-pop$ -- 4810
+missing$ -- 1559
+newline$ -- 1003
+num.names$ -- 820
+pop$ -- 4941
 preamble$ -- 1
-purify$ -- 1082
+purify$ -- 1123
 quote$ -- 0
-skip$ -- 7315
+skip$ -- 7454
 stack$ -- 0
-substring$ -- 6077
-swap$ -- 10403
+substring$ -- 6194
+swap$ -- 10606
 text.length$ -- 58
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1563
-warning$ -- 16
-while$ -- 878
+type$ -- 1623
+warning$ -- 18
+while$ -- 902
 width$ -- 0
-write$ -- 2488
-(There were 60 error messages)
+write$ -- 2583
+(There were 62 error messages)
