@@ -36,6 +36,7 @@
 \usepackage{multirow}
 \usepackage{rotating}
 \usepackage{enumitem}
+\usepackage{setspace}
 
 \graphicspath{{./images/}}
 \DeclareGraphicsExtensions{.jpeg,.png}
@@ -58,12 +59,14 @@
 
 \hypersetup{  
   pdftitle = {Improving Support for Lifelong Learning in Universities Through
-  Enhanced ePortfolio System}, 
+  Enhanced ePortfolio Systems}, 
   pdfauthor = {Yuliya Bozhko},
   pdfsubject = {PhD Thesis},
   pdfkeywords = {lifelong learning, ePortfolio},
   pdfdisplaydoctitle = true  
 } 
+
+\setlength{\bibhang}{0pt} 
 
 \begin{document}
 
@@ -79,17 +82,12 @@
 %\year=2010
 
 \title{Improving Support for Lifelong Learning in Universities Through Enhanced
-ePortfolio System}
+ePortfolio Systems}
 \author{Yuliya Bozhko}
 
 \beforeabstract
 
-\prefacesection{Abstract}
-\input{B1-Abstract} 
-
-%\newpage
-%\thispagestyle{empty} 
-%\mbox{}
+\input{B1-Abstract}
 
 \newpage
 \cleardoublepage
@@ -112,19 +110,14 @@ ePortfolio System}
 \newpage
 \cleardoublepage
  
+\begin{spacing}{0.9}
 \tableofcontents
+\listoffigures
+\listoftables
+\end{spacing}
+
 \newpage
-\iftablespage
-	\addvspace{10pt}
-    \listoftables 
-    \newpage
-\fi
-\iffigurespage
-	\addvspace{10pt}
-    \listoffigures
-    \newpage
-    \cleardoublepage
-\fi
+\cleardoublepage
 
 \afterpreface
 

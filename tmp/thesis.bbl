@@ -1,4 +1,4 @@
-\begin{thebibliography}{193}
+\begin{thebibliography}{201}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -271,6 +271,12 @@ iew/IHMC Literature Review on Concept Mapping.pdf}.
 \newblock \emph{{Lean architecture for agile software development}}.
 \newblock Wiley, Chichester; Hoboken, N.J.
 
+\bibitem[{Cousin(2005)}]{Cousin2005}
+\textbf{Cousin, G.} (\textbf{2005}).
+\newblock \enquote{{Learning from cyberspace}.}
+\newblock In R.~Land and S.~Bayne, Eds., \enquote{Education in Cyberspace,} pp.
+  117--129. RoutledgeFalmer, London.
+
 \bibitem[{Creswell(2009)}]{Creswell2009}
 \textbf{Creswell, J.~W.} (\textbf{2009}).
 \newblock \emph{{Research design: qualitative, quantitative, and mixed methods
@@ -332,6 +338,13 @@ the\_w.html}.
 \newblock \emph{{Democracy and education}}.
 \newblock Dover Publications. Originally published: New York: Macmillan, 1916,
   Mineola, N.Y., dover ed.
+
+\bibitem[{{Di Benedetto}(2005)}]{DiBenedetto2005}
+\textbf{{Di Benedetto}, A.~O.} (\textbf{2005}).
+\newblock \enquote{{Does Technology Influence Teaching Practices in the
+  Classroom?}}
+\newblock In \enquote{Proceedings of the National Educational Computing
+  Conference 2005,} Philadelphia, PA.
 
 \bibitem[{Divjak et~al.(2004)Divjak, Dowling, Fisser, Grabowska, Hezemans,
   Kendall, Mihnev, Ritzen, Syslo, Vicari, and van Weert}]{Divjak2004}
@@ -569,6 +582,13 @@ linnovation/workforcedev/eppsmefinalreport.pdf}.
   Virtual Learning Spaces in Higher Education: Concepts for the Modern Learning
   Environment,} Chapter VIII. IGI Global.
 
+\bibitem[{HERDSA(2012)}]{HERDSA2012}
+\textbf{HERDSA} (\textbf{2012}).
+\newblock \enquote{{HERDSA Graduate Attributes Symposium 2012}.}
+\newblock
+  \urlprefix\url{http://www.herdsa.org.nz/file.php/1/Graduate\_Attributes\_Sym%
+posium\_flyer.pdf}.
+
 \bibitem[{Hernon(2006)}]{Hernon2006}
 \textbf{Hernon, P.} (\textbf{2006}).
 \newblock \enquote{{Methods of data collection}.}
@@ -754,6 +774,12 @@ f}.
 \newblock In R.~Law, F.~Ricci, and M.~Fuchs, Eds., \enquote{Proceedings of
   Information and Communication Technologies in Tourism 2011 International
   Conference,} pp. 229--240. Springer, Innsbruck, Austria.
+
+\bibitem[{Levin and Wadmany(2008)}]{Levin2008}
+\textbf{Levin, T. and Wadmany, R.} (\textbf{2008}).
+\newblock \enquote{{Teachers' Views on Factors Affecting Effective Integration
+  of Information Technology in the Classroom: Developmental Scenery}.}
+\newblock \emph{Journal of Technology and Teacher Education}, 16(2): 233--263.
 
 \bibitem[{{Library Technology Reports}(2007)}]{LibraryTechnologyReports2007}
 \textbf{{Library Technology Reports}} (\textbf{2007}).
@@ -942,13 +968,10 @@ ls/Initiatives/ManagedLearningEnvironments/ePortfolios.aspx}.
   Stand?}, Chapter~4, pp. 138--178. OECD Publishing, Paris.
 \newblock \urlprefix\url{http://www.oecd.org/dataoecd/54/57/34899494.pdf}.
 
-\bibitem[{Oliver et~al.(2007)Oliver, Jones, Ferns, and Tucker}]{Oliver2007}
-\textbf{Oliver, B., Jones, S., Ferns, S., and Tucker, B.} (\textbf{2007}).
-\newblock \enquote{{Mapping curricula: ensuring work-ready graduates by mapping
-  course learning outcomes and higher order thinking skills}.}
-\newblock In \enquote{Proceedings of The Evaluations and Assessment
-  Conference,} Brisbane, Australia.
-\newblock \urlprefix\url{http://c2010.curtin.edu.au/local/docs/paper3.pdf}.
+\bibitem[{Oliver et~al.(2010)Oliver, Jones, and Ferns}]{Oliver2010}
+\textbf{Oliver, B., Jones, S., and Ferns, S.} (\textbf{2010}).
+\newblock \enquote{{C2010 Final Report}.}
+\newblock \urlprefix\url{http://c2010.curtin.edu.au}.
 
 \bibitem[{Otala(1997)}]{Otala1997}
 \textbf{Otala, L.} (\textbf{1997}).
@@ -971,8 +994,13 @@ ios-in-engineering-advantages.html}.
 \newblock \emph{{Qualitative research \& evaluation methods}}.
 \newblock Sage Publications, Thousand Oaks, California, 3 ed.
 
-\bibitem[{{Pebble Learning Ltd}(2010)}]{PebbleLearningLtd2010}
-\textbf{{Pebble Learning Ltd}} (\textbf{2010}).
+\bibitem[{{Pebble Learning Ltd}(2010{\natexlab{a}})}]{PebbleLearningLtd2010a}
+\textbf{{Pebble Learning Ltd}} (\textbf{2010}{\natexlab{a}}).
+\newblock \enquote{{PebbleBash 2010 - Publications}.}
+\newblock \urlprefix\url{http://www.pebblepad.co.uk/conference.papers.asp}.
+
+\bibitem[{{Pebble Learning Ltd}(2010{\natexlab{b}})}]{PebbleLearningLtd2010}
+\textbf{{Pebble Learning Ltd}} (\textbf{2010}{\natexlab{b}}).
 \newblock \enquote{{PebblePad Functional Overview}.}
 \newblock \urlprefix\url{http://www.pebblepad.co.uk}.
 
@@ -1026,6 +1054,22 @@ ios-in-engineering-advantages.html}.
 \newblock
   \urlprefix\url{http://www.oise.utoronto.ca/CASAE/cnf2002/2002\_Papers/rubens%
 on2002w.pdf}.
+
+\bibitem[{Rutledge et~al.(2012)Rutledge, Asing-Cashman, Abdelmalak, Gurung,
+  Arouri, and Pawielski}]{Rutledge2012}
+\textbf{Rutledge, D., Asing-Cashman, J., Abdelmalak, M., Gurung, B., Arouri,
+  Y., and Pawielski, Y.} (\textbf{2012}).
+\newblock \enquote{{Introduction to Integrating Technology into Teaching:
+  Developing a course for pre-service teachers}.}
+\newblock In P.~Resta, Ed., \enquote{Proceedings of Society for Information
+  Technology and Teacher Education International Conference 2012,} pp.
+  3048--3050. AACE, Chesapeake, VA.
+\newblock \urlprefix\url{http://www.editlib.org/p/40055}.
+
+\bibitem[{Savin-Baden and Wilkie(2006)}]{Savin-Baden2006}
+\textbf{Savin-Baden, M. and Wilkie, K.} (\textbf{2006}).
+\newblock \emph{{Problem-Based Learning Online}}.
+\newblock Open University Press, Maidenhead, Berkshire, England.
 
 \bibitem[{Scanlon(2006)}]{Scanlon2006}
 \textbf{Scanlon, L.} (\textbf{2006}).
@@ -1160,8 +1204,8 @@ on2002w.pdf}.
   Learning}.}
 \newblock \emph{International Review of Education}, 48(1/2): 93--110.
 
-\bibitem[{{University of Ottawa}(2005)}]{UniversityofOttawa2005}
-\textbf{{University of Ottawa}} (\textbf{2005}).
+\bibitem[{{University of Ottawa}(2011)}]{UniversityofOttawa2011}
+\textbf{{University of Ottawa}} (\textbf{2011}).
 \newblock \enquote{{Destination 2020 -- The University of Ottawa's Strategic
   Plan}.}
 \newblock
@@ -1199,6 +1243,16 @@ portfolio\_scenarios/portfolios\_types.htm}.
 \textbf{Venable, M.} \textbf{(2011, April~28)}.
 \newblock \enquote{{The LMS Debate}.}
 \newblock \urlprefix\url{http://www.onlinecollege.org}.
+
+\bibitem[{Wang(2002)}]{Wang2002}
+\textbf{Wang, L.} (\textbf{2002}).
+\newblock \enquote{{Investigating How Participation In a Techonology-Based
+  Project Has Influenced Education Faculty Members' Beliefs and Practices with
+  Technology Integration: Factors That Influence Faculty Technology Integration
+  and Implications for Faculty's Integration of Technology (Doctoral
+  dissertation)}.}
+\newblock \emph{University of New Orleans Theses and Dissertations}.
+\newblock \urlprefix\url{http://scholarworks.uno.edu/td/5}.
 
 \bibitem[{Warren(2001)}]{Warren2001}
 \textbf{Warren, C. A.~B.} (\textbf{2001}).

@@ -18,7 +18,7 @@ A level-1 auxiliary file: A4.aux
 A level-1 auxiliary file: A5.aux
 A level-1 auxiliary file: A6.aux
 A level-1 auxiliary file: A7.aux
-Reallocated field_info (elt_size=4) to 10018 items from 5000.
+Reallocated field_info (elt_size=4) to 10226 items from 5000.
 Database file #1: references.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 You can't pop an empty literal stack for entry Barrett2008
@@ -78,6 +78,10 @@ while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry Fay2009
 while executing---line 1597 of file bevbib4.bst
 Warning--there's a number but no volume in Freire2008
+You can't pop an empty literal stack for entry HERDSA2012
+while executing---line 1597 of file bevbib4.bst
+You can't pop an empty literal stack for entry HERDSA2012
+while executing---line 1597 of file bevbib4.bst
 Warning--empty booktitle in Hernon2006
 You can't pop an empty literal stack for entry IMSGlobalLearningConsortium2005
 while executing---line 1597 of file bevbib4.bst
@@ -132,6 +136,14 @@ You can't pop an empty literal stack for entry NewZealandMinistryofEducation2012
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry NewZealandMinistryofEducation2012
 while executing---line 1597 of file bevbib4.bst
+You can't pop an empty literal stack for entry Oliver2010
+while executing---line 1597 of file bevbib4.bst
+You can't pop an empty literal stack for entry Oliver2010
+while executing---line 1597 of file bevbib4.bst
+You can't pop an empty literal stack for entry PebbleLearningLtd2010a
+while executing---line 1597 of file bevbib4.bst
+You can't pop an empty literal stack for entry PebbleLearningLtd2010a
+while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry PebbleLearningLtd2010
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry PebbleLearningLtd2010
@@ -155,53 +167,53 @@ You can't pop an empty literal stack for entry Siemens2004
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry Siemens2004
 while executing---line 1597 of file bevbib4.bst
-You can't pop an empty literal stack for entry UniversityofOttawa2005
+You can't pop an empty literal stack for entry UniversityofOttawa2011
 while executing---line 1597 of file bevbib4.bst
-You can't pop an empty literal stack for entry UniversityofOttawa2005
-while executing---line 1597 of file bevbib4.bst
-You can't pop an empty literal stack for entry UniversityofTorontoScarborough2010
+You can't pop an empty literal stack for entry UniversityofOttawa2011
 while executing---line 1597 of file bevbib4.bst
 You can't pop an empty literal stack for entry UniversityofTorontoScarborough2010
 while executing---line 1597 of file bevbib4.bst
-You've used 193 entries,
+You can't pop an empty literal stack for entry UniversityofTorontoScarborough2010
+while executing---line 1597 of file bevbib4.bst
+You've used 201 entries,
             3124 wiz_defined-function locations,
-            1907 strings with 40791 characters,
-and the built_in function-call counts, 144691 in all, are:
-= -- 15850
-> -- 3565
-< -- 216
-+ -- 1751
-- -- 1112
-* -- 8648
-:= -- 17929
-add.period$ -- 844
-call.type$ -- 193
-change.case$ -- 1226
-chr.to.int$ -- 190
-cite$ -- 211
-duplicate$ -- 13816
-empty$ -- 9505
-format.name$ -- 1557
-if$ -- 29188
-int.to.chr$ -- 4
+            1956 strings with 42342 characters,
+and the built_in function-call counts, 150701 in all, are:
+= -- 16520
+> -- 3711
+< -- 225
++ -- 1825
+- -- 1157
+* -- 9002
+:= -- 18677
+add.period$ -- 880
+call.type$ -- 201
+change.case$ -- 1276
+chr.to.int$ -- 197
+cite$ -- 219
+duplicate$ -- 14386
+empty$ -- 9890
+format.name$ -- 1621
+if$ -- 30404
+int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 1559
-newline$ -- 1003
-num.names$ -- 820
-pop$ -- 4941
+missing$ -- 1618
+newline$ -- 1044
+num.names$ -- 856
+pop$ -- 5132
 preamble$ -- 1
-purify$ -- 1123
+purify$ -- 1169
 quote$ -- 0
-skip$ -- 7454
+skip$ -- 7782
 stack$ -- 0
-substring$ -- 6194
-swap$ -- 10606
-text.length$ -- 58
+substring$ -- 6459
+swap$ -- 11045
+text.length$ -- 60
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1623
+type$ -- 1692
 warning$ -- 18
-while$ -- 902
+while$ -- 939
 width$ -- 0
-write$ -- 2583
-(There were 62 error messages)
+write$ -- 2689
+(There were 68 error messages)

@@ -109,5 +109,12 @@
 \def\afterpreface{
         \pagenumbering{arabic}}
 
-
+\renewenvironment{abstract}%
+{\clearemptydoublepage
+ \begin{center}
+  \section*{Abstract}
+     \addcontentsline{toc}{chapter}{Abstract}
+ \end{center}
+ \begingroup
+}{\newpage\endgroup}
 
