@@ -1,5 +1,5 @@
 \chapter{Discussion\label{cha:discussion}}
-%2220
+%2160
 This chapter aims to bring together the knowledge developed during this research
 project. It looks back at the topics discussed earlier in the thesis in order to
 understand various aspects: whether the research questions were answered; what
@@ -146,49 +146,104 @@ evaluations have to be accepted with understanding the conditions and
 assumptions of the studies.
 
 \section{Technical Considerations}
-Something about implementations
-You have hardly talked about the technologies you have used to implement the
-prototype. what was the value of having html5? Was it a good choice? Was it
-easy/challenging to use? Are there any weaknesses you found? Are there any
-outstanding html5 features you would have liked to use? What do you see as the
-potential of using html5 for Mahara (ePortfolios in general)? What could be
-gained?
+A number of technologies were used in this project to implement the prototype.
+The main focus was on utilizing the new features offered by HTML5 standard and
+reusing of existing JavaScript libraries (described in Chapter
+\ref{cha:prototype}). In the course of this project, these technologies showed
+to be a good choice as they allowed for rapid prototype interactions and easy
+code maintenance and execution.
 
-You could discuss how what you have implemented would fit into the other ep
-systems. This would make your contribution wider than 'just' for Mahara. You
-probably imply that, but it would be good to enphasize this, how your
-implementation for one system conceptually would fit for the others.
+The benefit of using HTML5 for extracting video/audio fragments and drawing
+concept maps was that it did not require any additional plugins to be installed
+on the user side. This can be considered an advantage over Flash-based
+implementations which depend on plugin and sometimes may require a specific
+version of this proprietary plugin to perform correctly. Using HTML5 helped to
+ensure that the prototype features would work on most web browsers as expected.
 
-\section{Applications}
-The results of this research can be applied in many areas and domains. Among
-these can be education, employment and workplace, knowledge and information
-management, media sharing, etc. The principles and implementations of this
-research can be used for providing support for various learning processes in the
-universities, such as developing understanding of skills and learning concepts,
-demonstrating achievements, assessment of knowledge, and others. This was shown
-by a number of evaluation studies described in Chapter \ref{cha:evaluation}.
+Along with the benefits, these technologies also created a number of challenges
+for the development. Among these was a relative novelty of the HTML5 standard
+compared to the established and widely-used HTML4. The Web Hypertext Application
+Technology Working Group\footnote{\url{http://www.whatwg.org} (Accessed April
+16, 2012)} (WHATWG) and World Wide Web Consortium\footnote{\url{http://www.w3.org}  (Accessed April 16,
+2012)} (W3C) started working together on HTML5 standard in 2007
+\citep{WorldWideWebConsortium2012}. However, at the time of the prototype
+development in 2011 this standard was still a working draft. As a result, some
+browsers did not provide full support for the new features offered by HTML5 such
+as embedded video/audio and canvas elements.
 
-Formal requirements specification for \LLLs support developed in the course of
-this project (Chapters \ref{cha:model} and \ref{cha:prototype}) can be used by
-the \ep~systems' developers to add new features and functionality to the
-existing systems with the aim of improving learners' experience. This
-specification can also be used as a guiding specification in requirements
-management of the new system development.
+To provide dynamic user-website interactions and enhanced user interfaces, the
+implementations also used scripts, libraries, and modules based on
+JavaScript. This can be a potential problem for users who have JavaScript
+disabled on their browsers as they would not be able to use features that rely
+on JavaScript functionality. Especially, it can be a case for institutional
+environments where computers are usually set up by the IT support groups.
+According to the researcher's experience, these tend to disable JavaScript
+executions for security reasons (for example, to prevent cross site scripting
+attacks).
 
-To support the applicability of this research, with additional improvements
-and necessary corrections its implementations could be added to the official
-release of Mahara \ep~system -- the system used as a basic \ep~system for
-prototyping. This \ep~system is getting more popularity in New Zealand with an
-expectation of providing \LLLs support for every New Zealand citizen. 
+Despite these challenges, it can be concluded that technologies employed in the
+prototype development offered a wide range of libraries, modules, and APIs
+that made implementations less complicated and time consuming. At the same time,
+these technologies helped to develop high quality features and functionalities,
+as well as acceptable user interfaces.
 
-As an example of \ep s gaining popularity in New Zealand is MyPortfolio service
-(based on the Mahara \ep~system) which is currently available nationally for
-schools\footnote{\url{http://myportfolio.school.nz}}. New Zealand Ministry of
-Education made it free for all schools in New Zealand and offered assistance
+\section{Practical Applications}
+The results of this research can be applied to many domains. Among these can be
+education, employment and workplace, knowledge and information management, media
+sharing, etc. The principles and implementations of this research can be used
+for providing support for various learning processes in the universities, such
+as development and understanding skills and learning concepts, demonstrating
+achievements, assessment of knowledge, and others. Following sections provide
+some specific examples of how the outcomes of this research can be applied in
+practice.
+
+\subsection[General applicability]{General applicability of the prototype
+features to the \ep~systems}
+
+Although the prototype implementations were developed in one specific
+\ep~system, Mahara (described in Chapter \ref{cha:prototype}), the ultimate goal
+was to suggest improvements that could be applied to any existing \ep~system.
+Due to the differences in the system architectures and programming languages,
+the implementations cannot be directly reused without adaptation. However,
+conceptually they can be adjusted to be used in other \ep~systems.
+
+Adjusting the implementations for another \ep~system means that the system
+should be analysed against the guidelines for supporting \LLLsn, as had been
+attempted in the review of the existing \ep~systems (Chapter \ref{cha:systudy}).
+Considering that in the course of this research these guidelines were translated
+into system requirements (Chapter \ref{cha:model}), the gaps in the features
+offered by the majority of the existing \ep~systems can be identified. This can
+help the \ep~systems' developers to add new features and functionality to the
+existing systems with the aim of improving support for \LLLs and learner
+experience. In addition to the improvements that can be done in the existing
+systems, the identified features can also be used as a guiding specification for
+the requirements management when a new \ep~system is developed.
+
+It is possible that the features for supporting \LLLs can be implemented in many
+different ways, other than described in this thesis. The prototype just
+demonstrated one of the ways of implementing these features. It does not claim
+to be the only or the best way of development. However, it is important to
+remember that the studies conducted to evaluate the implementations showed that
+these were positively accepted by stakeholders.
+
+\subsection{Applicability in the New Zealand context}
+
+Findings from this research project have the potential for applications in the
+New Zealand context, in higher education as well as secondary. With additional
+improvements and necessary corrections based on evaluation outcomes, the
+prototype implementations can be added to the official release of Mahara
+\ep~system -- the system used as a basic \ep~system for prototyping. This
+\ep~system is gaining popularity in New Zealand with an expectation of
+providing \LLLs support for every New Zealand citizen.
+
+As an example of \ep s gaining popularity in New Zealand, MyPortfolio service
+(based on the Mahara \ep~system) is currently available nationally for
+schools\footnote{\url{http://myportfolio.school.nz} (Accessed April 16, 2012)}.
+New Zealand Ministry of Education made it free for all schools in New Zealand and offered assistance
 with training school staff until the end of 2012
 \citep{NewZealandMinistryofEducation2012}. At the time of writing this thesis,
 other discussions were underway on the role which Ako
-Aotearoa\footnote{\url{http://akoaotearoa.ac.nz}} -- New Zealand's National
-Centre for Tertiary Teaching Excellence -- might be able to play in supporting
+Aotearoa\footnote{\url{http://akoaotearoa.ac.nz} (Accessed April 16, 2012)} --
+New Zealand's National Centre for Tertiary Teaching Excellence -- might be able to play in supporting
 similar \ep~service for the entire tertiary
-sector\footnote{\url{http://myportfolio.ac.nz}}.
+sector\footnote{\url{http://myportfolio.ac.nz} (Accessed April 16, 2012)}.

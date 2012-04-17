@@ -46,18 +46,19 @@ support had not been identified as highly important in \LLLs context.
 
 The cost was measured by referring to the LMS developing communities that had
 \ep~and LMS integration on their road-maps. For example, based on the issue
-MDL-14591\footnote{\url{http://tracker.moodle.org/browse/MDL-14591}} on the
-Moodle LMS issue tracking system, it took one developer from the development
-team, who probably had already been familiar with the environment and its
-APIs, more than two years to develop an \ep~API that would support single
-sign-on and enable simple data export/import functionality. To date, this
-functionality still has a large number of unresolved issues and bugs that
-require fixing (as can be seen from searching ``portfolio'' in Moodle Issue
-Navigator\footnote{\url{http://tracker.moodle.org/secure/IssueNavigator.jspa}}).
+MDL-14591\footnote{\url{http://tracker.moodle.org/browse/MDL-14591} (Accessed
+April 16, 2012)} on the Moodle LMS issue tracking system, it took one developer
+from the development team, who probably had already been familiar with the
+environment and its APIs, more than two years to develop an \ep~API that would
+support single sign-on and enable simple data export/import functionality. To
+date, this functionality still has a large number of unresolved issues and bugs
+that require fixing (as can be seen from searching ``portfolio'' in Moodle Issue
+Navigator\footnote{\url{http://tracker.moodle.org/secure/IssueNavigator.jspa}
+(Accessed April 16, 2012)}).
 
 As another example, based on discussions from ``Moodle and Elgg in Education''
-group\footnote{\url{http://community.elgg.org/pg/groups/1057/moodle-and-elgg-in-education/}}
-of Elgg community, more than 100 days were spent on development of a proprietary
+group\footnote{\url{http://community.elgg.org/pg/groups/1057}
+(Accessed April 16, 2012)} of Elgg community, more than 100 days were spent on development of a proprietary
 plugin that would allow single sign-on and getting user statistics from Moodle
 to Elgg.
 
@@ -90,7 +91,7 @@ following components and modules:
   better control over shared resources.
 \end{itemize}
 
-These component are discussed in detail further in this chapter.
+These components are discussed in detail further in this chapter.
 
 Each component provided working functionality sufficient to demonstrate the
 general concept. Some non-functional requirements, described in Chapter
@@ -103,47 +104,51 @@ implementations.
 
 Using Mahara \ep~system as a base system defined technologies that were employed
 in development phase. Development and prototype systems were installed on
-LAMP\footnote{\url{http://en.wikipedia.org/wiki/LAMP_(software_bundle)}}
-software bundle for Linux which included Apache HTTP Server, MySQL database
+LAMP\footnote{\url{http://en.wikipedia.org/wiki/LAMP_(software_bundle)}
+(Accessed April 16, 2012)} software bundle for Linux which included Apache HTTP Server, MySQL database
 server and PHP. These were the basic components for building a general purpose
 web server.
 
 Development environment consisted of the
-Eclipse\footnote{\url{http://www.eclipse.org}} Platform with PHP Development
-Tools\footnote{\url{http://eclipse.org/pdt}}.
+Eclipse Platform with PHP Development
+Tools\footnote{\url{http://eclipse.org/pdt} (Accessed April 16, 2012)}. A public
+GitHub repository\footnote{\url{https://github.com/ybozhko/phd-mahara} (Accessed
+April 16, 2012)} was used for code version control during development and
+between the prototype iterations.
 
-Following standards and external packages were used during implementation:
+Following standards, libraries, and external packages were used during
+implementation:
 
 \begin{itemize}
 
-\item HTML5\footnote{\url{http://www.w3.org/TR/html5/}} +
-CSS\footnote{\url{http://www.w3.org/TR/CSS/}} -- standards combined with
-JavaScript used for drawing diagrams that represent concept maps, developing a
+\item HTML5\footnote{\url{http://www.w3.org/TR/html5/} (Accessed April 16,
+2012)} + CSS\footnote{\url{http://www.w3.org/TR/CSS/} (Accessed April 16, 2012)}
+-- standards combined with JavaScript used for drawing diagrams that represent concept maps, developing a
 dynamic timeline and accessing fragments of media (audio/video);
 
-\item jQuery\footnote{\url{http://jquery.com}} -- a JavaScript library that
-simplifies HTML document traversing, event handling, animating, and Ajax
+\item jQuery\footnote{\url{http://jquery.com} (Accessed April 16, 2012)} -- a
+JavaScript library that simplifies HTML document traversing, event handling, animating, and Ajax
 interactions for rapid web development;
 
-\item jQuery UI\footnote{\url{http://jqueryui.com}} -- a JavaScript library
-built on top of the jQuery for development of highly interactive web applications;
+\item jQuery UI\footnote{\url{http://jqueryui.com} (Accessed April 16, 2012)} --
+a JavaScript library built on top of the jQuery for development of highly interactive web applications;
 
-\item jCrop v0.9.9\footnote{\url{http://deepliquid.com/content/Jcrop.html}}
--- jQuery Image Cropping Plugin used in artifacts fragments (Section
+\item jCrop v0.9.9\footnote{\url{http://deepliquid.com/content/Jcrop.html}
+(Accessed April 16, 2012)} -- jQuery Image Cropping Plugin used in artifacts fragments (Section
 \ref{sec:frag});
 
 \item Graphic JavaScript Tree with
-Layout\footnote{\url{http://www.codeproject.com/KB/scripting/graphic_javascript_tree.aspx}}
--- a library that allows drawing dynamic concept maps. This library was
+Layout\footnote{\url{http://www.codeproject.com/Articles/16192/Graphic-JavaScript-Tree-with-Layout}
+(Accessed April 16, 2012)} -- a library that allows drawing dynamic concept maps. This library was
 significantly modified to meet the needs of the project.
 \end{itemize}
 
 Prototype functionality was tested mainly in Google
-Chrome\footnote{\url{http://www.google.com/chrome}} v14.0 and Mozilla
-Firefox\footnote{\url{http://www.firefox.com}} v4.0 web browsers. Other web
-browsers (e.g. Microsoft Internet
-Explorer\footnote{\url{http://www.microsoft.com}}) that did not provide native
-support for HTML5 elements such as Canvas, required for concept map layout, and
+Chrome\footnote{\url{http://www.google.com/chrome} (Accessed April 16, 2012)}
+v14.0 and Mozilla Firefox\footnote{\url{http://www.firefox.com} (Accessed April
+16, 2012)} v4.0 web browsers. Other web browsers (e.g. Microsoft Internet
+Explorer\footnote{\url{http://www.microsoft.com} (Accessed April 16, 2012)})
+that did not provide native support for HTML5 elements such as Canvas, required for concept map layout, and
 embedded video/audio, used in artifact's fragments, were not used in testing.
 
 \section{Implementations}
@@ -203,11 +208,13 @@ found in Appendix \ref{cha:appscreen}.
 \label{sec:version}
 
 Version control adopted in this prototype resembles functionality of standard
-revision control systems (such as Git\footnote{\url{http://git-scm.com}},
-Subversion\footnote{\url{http://subversion.apache.org}}, or Concurrent Versions
-System\footnote{\url{http://savannah.nongnu.org/projects/cvs}}) that allow
-management of changes in the documents, source code, and other types information
-stored in files.
+revision control systems (such as Git\footnote{\url{http://git-scm.com}
+(Accessed April 16, 2012)},
+Subversion\footnote{\url{http://subversion.apache.org} (Accessed April 16,
+2012)}, or Concurrent Versions
+System\footnote{\url{http://savannah.nongnu.org/projects/cvs} (Accessed April
+16, 2012)}) that allow management of changes in the documents, source code, and
+other types information stored in files.
 
 Creating and keeping versions of the shareable resources was suggested by the
 stakeholders as a way of communicating changes made to the \ep~items and
@@ -314,12 +321,13 @@ in managing, analyzing and interpreting their data, such as coding, grouping,
 generating categories and themes, rearranging and sorting \citep{Marshall2010}.
 To support these techniques, specialized qualitative data analysis software
 (QDAS), like
-NVivo\footnote{\url{http://www.qsrinternational.com/products_nvivo.aspx }} and
-MAXQDA\footnote{\url{http://www.maxqda.com}}, has been developed which largely
-allows coding, linking and mapping unstructured information. Although, QDAS
-could provide students with necessary functionality for data analysis, it cannot
-substitute the role of an \ep~system in the learning process. Reasons for
-that are outlined in Table \ref{tab:qdas}.
+NVivo\footnote{\url{http://www.qsrinternational.com/products_nvivo.aspx}
+(Accessed April 16, 2012)} and MAXQDA\footnote{\url{http://www.maxqda.com}
+(Accessed April 16, 2012)}, has been developed which largely allows coding,
+linking and mapping unstructured information. Although, QDAS could provide
+students with necessary functionality for data analysis, it cannot substitute
+the role of an \ep~system in the learning process. Reasons for that are outlined
+in Table \ref{tab:qdas}.
 
 \begin{table}[htb]
   \setlength{\abovecaptionskip}{0pt}

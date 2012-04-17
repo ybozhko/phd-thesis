@@ -1,29 +1,6 @@
 %%
 %% This is file `bevbib4.bst',
-%% generated with the docstrip utility.
-%%
-%% The original source files were:
-%%
-%% merlin.mbs  (with options: `ay,nat,nm-rev,jnrlst,nmft,nmft-bf,keyxyr,dt-beg,yr-par,yrp-per,dtbf,note-yr,tit-qq,bt-qq,atit-u,volp-sp,pgsep-s,num-xser,xedn,url,url-blk,nfss,')
-%% ----------------------------------------
-%% *** PhD Thesis for Bevan Weir ***
-%% 
-%% Copyright 1994-2004 Patrick W Daly
  % ===============================================================
- % IMPORTANT NOTICE:
- % This bibliographic style (bst) file has been generated from one or
- % more master bibliographic style (mbs) files, listed above.
- %
- % This generated file can be redistributed and/or modified under the terms
- % of the LaTeX Project Public License Distributed from CTAN
- % archives in directory macros/latex/base/lppl.txt; either
- % version 1 of the License, or any later version.
- % ===============================================================
- % Name and version information of the main mbs file:
- % \ProvidesFile{merlin.mbs}[2004/02/09 4.13 (PWD, AO, DPC)]
- %   For use with BibTeX version 0.99a or later
- %-------------------------------------------------------------------
- % This bibliography style file is intended for texts in ENGLISH
  % This is an author-year citation style bibliography. As such, it is
  % non-standard LaTeX, and requires a special package file to function properly.
  % Such a package is    natbib.sty   by Patrick W. Daly
@@ -77,6 +54,7 @@ ENTRY
     url
     volume
     year
+    lastchecked
   }
   {}
   { label extra.label sort.label short.list }
@@ -370,12 +348,23 @@ FUNCTION {bibinfo.warn}
     }
   if$
 }
+
 FUNCTION {format.url}
 { url empty$
-    { "" }
     { 
       doi empty$
-      { "\urlprefix\url{" url * "}" * }
+      { "" }
+      {  "doi:" doi * "" * }
+      if$
+    }
+    { 
+      doi empty$
+      	{
+      	  lastchecked empty$
+           { "\urlprefix\url{" url * "}" * } 
+           { "\urlprefix{" * lastchecked * "," * "}\url{" * url * "}" * }    	  
+      	  if$
+      	}
       {  "doi:" doi * "" * }
       if$
     }
@@ -533,8 +522,7 @@ FUNCTION {format.title}
   "title" bibinfo.check
   duplicate$ empty$ 'skip$
     {
-      "\enquote{" swap$ *
-      add.period$ "}" *
+      "\enquote{" swap$ * "}" *
     }
   if$
 }
@@ -910,7 +898,7 @@ FUNCTION {format.chapter.pages}
 
 FUNCTION {bt.enquote}
 { duplicate$ empty$ 'skip$
-  { "\enquote{" swap$ *
+  { "\myemph{" swap$ *
     non.stop
       { ",} " * }
       { "}, " * }
@@ -1583,13 +1571,15 @@ FUNCTION {begin.bib}
   if$
   "\begin{thebibliography}{" number.label int.to.str$ * "}" *
   write$ newline$
-  "\newcommand{\enquote}[1]{``#1''}"
+  "\newcommand{\enquote}[1]{#1}"
+  write$ newline$
+  "\newcommand{\myemph}[1]{\textit{#1}}"
   write$ newline$
   "\providecommand{\natexlab}[1]{#1}"
   write$ newline$
   "\providecommand{\url}[1]{\texttt{#1}}"
   write$ newline$
-  "\providecommand{\urlprefix}{Retrieved from }"
+  "\providecommand{\urlprefix}[1]{. Retrieved #1 from }"
   write$ newline$
 }
 EXECUTE {begin.bib}

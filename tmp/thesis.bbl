@@ -1,85 +1,92 @@
-\begin{thebibliography}{201}
-\newcommand{\enquote}[1]{``#1''}
+\begin{thebibliography}{202}
+\newcommand{\enquote}[1]{#1}
+\newcommand{\myemph}[1]{\textit{#1}}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
-\providecommand{\urlprefix}{Retrieved from }
+\providecommand{\urlprefix}[1]{. Retrieved #1 from }
 
 \bibitem[{AAEEBL(2011{\natexlab{a}})}]{AAEEBL2011a}
-\textbf{AAEEBL} \textbf{(2011, October~10)}.
+\textbf{AAEEBL} (\textbf{2011}{\natexlab{a}}).
+\newblock
 \newblock \enquote{{Desire2Learn Resources for Exploring Eportfolio
-  Technologies Webinar}.}
-\newblock \urlprefix\url{http://www.aaeebl.org/desire2learn-resource}.
+  Technologies Webinar}}\urlprefix{October 10,
+  2011,}\url{http://www.aaeebl.org/desire2learn-resource}.
 
 \bibitem[{AAEEBL(2011{\natexlab{b}})}]{AAEEBL2011}
-\textbf{AAEEBL} \textbf{(2011, September~27)}.
+\textbf{AAEEBL} (\textbf{2011}{\natexlab{b}}).
+\newblock
 \newblock \enquote{{eFolioWorld Resource for Exploring Eportfolio Technologies
-  Webinar}.}
-\newblock \urlprefix\url{http://www.aaeebl.org/efolioworld-resource}.
+  Webinar}}\urlprefix{September 27,
+  2011,}\url{http://www.aaeebl.org/efolioworld-resource}.
 
 \bibitem[{Aller et~al.(2005)Aller, Kline, Tsang, Aravamuthan, Rasmusson, and
   Phillips}]{Aller2005}
 \textbf{Aller, B.~M., Kline, A.~A., Tsang, E., Aravamuthan, R., Rasmusson,
   A.~C., and Phillips, C.} (\textbf{2005}).
 \newblock \enquote{{WeBAL: A Web-Based Assessment Library to Enhance Teaching
-  and Learning in Engineering}.}
+  and Learning in Engineering}}.
 \newblock \emph{IEEE Transactions on Education}, 48(4): 764--771.
 
 \bibitem[{Archer(1984)}]{Archer1984}
 \textbf{Archer, L.} (\textbf{1984}).
-\newblock \enquote{{Systematic dethod for designers}.}
-\newblock In N.~Cross, Ed., \enquote{Developments in design methodology,} pp.
+\newblock \enquote{{Systematic method for designers}}.
+\newblock In N.~Cross, Ed., \myemph{Developments in design methodology,} pp.
   57--82. Wiley, Chichester; New York.
 
 \bibitem[{Ashling(2007)}]{Ashling2007}
 \textbf{Ashling, J.} (\textbf{2007}).
-\newblock \enquote{{Transforming Research Communication}.}
+\newblock \enquote{{Transforming Research Communication}}.
 \newblock \emph{Information Today}, 24(5): 29--30.
 
 \bibitem[{Aspin and Chapman(2001)}]{Aspin2001}
 \textbf{Aspin, D. and Chapman, J.} (\textbf{2001}).
-\newblock \enquote{{Lifelong learning: concepts, theories and values}.}
-\newblock In \enquote{Proceedings of the 31st Annual conference of SCUTREA: The
-  Standing Conference on University Teaching and Research in the Education of
-  Adults,} July, pp. 38--41. London, UK.
+\newblock \enquote{{Lifelong learning: concepts, theories and values}}.
+\newblock In \myemph{Proceedings of the 31st Annual conference of the Standing
+  Conference on University Teaching and Research in the Education of Adults
+  (SCUTREA),} pp. 38--41. London, UK.
 
 \bibitem[{Attwell(2007{\natexlab{a}})}]{Attwell2007a}
 \textbf{Attwell, G.} (\textbf{2007}{\natexlab{a}}).
 \newblock \enquote{{E-Portfolios – the DNA of the Personal Learning
   Environment?}}
-\newblock \emph{Journal of e-Learning and Knowledge Society}, 3(2): 39--61.
-\newblock
-  \urlprefix\url{http://www.je-lks.it/en/07\_02/05Art\_attwell\_inglese.pdf}.
+\newblock \emph{Journal of e-Learning and Knowledge Society},
+\newblock 3(2): 39--61\urlprefix{April 17,
+  2012,}\url{http://www.je-lks.it/en/07\_02/05Art\_attwell\_inglese.pdf}.
 
 \bibitem[{Attwell(2007{\natexlab{b}})}]{Attwell2007}
 \textbf{Attwell, G.} (\textbf{2007}{\natexlab{b}}).
-\newblock \enquote{{Personal Learning Environments - the future of eLearning?}}
-\newblock \emph{eLearning Papers}, 2(1).
-\newblock
-  \urlprefix\url{http://www.elearningeuropa.info/files/media/media11561.pdf}.
+\newblock \enquote{{Personal Learning Environments -- the future of
+  eLearning?}}
+\newblock \emph{eLearning Papers},
+\newblock 2(1)\urlprefix{April 17,
+  2012,}\url{http://www.elearningeuropa.info/files/media/media11561.pdf}.
 
 \bibitem[{Bagnall(2009)}]{Bagnall2009}
 \textbf{Bagnall, R.~G.} (\textbf{2009}).
 \newblock \enquote{{Lifelong learning as an idea for our times: An extended
-  review}.}
+  review}}.
 \newblock \emph{International Journal of Lifelong Education}, 28(2): 277--285.
 
 \bibitem[{Barrett(2008)}]{Barrett2008}
 \textbf{Barrett, H.} (\textbf{2008}).
-\newblock \enquote{{Categories of ePortfolio Tools}.}
-\newblock \urlprefix\url{http://electronicportfolios.com/categories.html}.
+\newblock
+\newblock \enquote{{Categories of ePortfolio Tools}}\urlprefix{April 28,
+  2011,}\url{http://electronicportfolios.com/categories.html}.
 
 \bibitem[{Batson and Peet(2010)}]{Batson2010}
 \textbf{Batson, T. and Peet, M.~R.} \textbf{(2010, May~4)}.
+\newblock
 \newblock \enquote{{CollabTech 2010: ePortfolio and the Emergent Learning
-  Ecology [Online Video]}.}
-\newblock \urlprefix\url{http://www.youtube.com/watch?v=Z1PGOgDtVJw}.
+  Ecology [Online Video]}}\urlprefix{April 10,
+  2012,}\url{http://www.youtube.com/watch?v=Z1PGOgDtVJw}.
 
 \bibitem[{Benseman(2006)}]{Benseman2006}
 \textbf{Benseman, J.} (\textbf{2006}).
 \newblock \enquote{{Moving Towards Lifelong Learning in Rural New Zealand: A
-  Study of Two Towns}.}
-\newblock \emph{Journal of Research in Rural Education}, 21(4).
-\newblock \urlprefix\url{http://www.jrre.psu.edu/articles/21-4.pdf}.
+  Study of Two Towns}}.
+\newblock \emph{Journal of Research in Rural Education},
+\newblock 21(4)\urlprefix{April 17,
+  2012,}\url{http://www.jrre.psu.edu/articles/21-4.pdf}.
 
 \bibitem[{Biggs and Tang(2007)}]{Biggs2007}
 \textbf{Biggs, J. and Tang, C.} (\textbf{2007}).
@@ -88,88 +95,88 @@
 
 \bibitem[{{Blackboard Inc.}(2009)}]{BlackboardInc.2009}
 \textbf{{Blackboard Inc.}} (\textbf{2009}).
-\newblock \enquote{{Blackboard Release 9}.}
 \newblock
-  \urlprefix\url{http://www.blackboard.com/About-Bb/Media-Center/Press-Release%
-s/Archive.aspx?releaseid=881188}.
+\newblock \enquote{{Blackboard Release 9}}\urlprefix{September 6,
+  2009,}\url{http://www.blackboard.com/About-Bb/Media-Center/Press-Releases/Ar%
+chive.aspx?releaseid=881188}.
 
 \bibitem[{Boshier(2000)}]{Boshier2000}
 \textbf{Boshier, R.} (\textbf{2000}).
 \newblock \enquote{{Running to win: the contest between lifelong learning and
-  education in Canada}.}
+  education in Canada}}.
 \newblock \emph{New Zealand journal of adult learning}, 28(2): 6--28.
 
 \bibitem[{Boulos and Wheeler(2007)}]{Boulos2007}
 \textbf{Boulos, M. N.~K. and Wheeler, S.} (\textbf{2007}).
 \newblock \enquote{{The emerging Web 2.0 social software: an enabling suite of
-  sociable technologies in health and health care education}.}
+  sociable technologies in health and health care education}}.
 \newblock \emph{Health Information and Libraries Journal}, 24(1): 2--23.
 
 \bibitem[{Bourner(2002)}]{Bourner2002}
 \textbf{Bourner, T.} (\textbf{2002}).
-\newblock \enquote{{The reserach journey: four steps to success}.}
+\newblock \enquote{{The research journey: four steps to success}}.
 \newblock Chapter~2, pp. 7--12. Arnold, London, 2nd ed.
 
 \bibitem[{Boyatzis(2008)}]{Boyatzis2008}
 \textbf{Boyatzis, R.~E.} (\textbf{2008}).
-\newblock \enquote{{Competencies in the 21st century}.}
+\newblock \enquote{{Competencies in the 21st century}}.
 \newblock \emph{Journal of Management Development}, 27(1): 5--12.
 \newblock doi:10.1108/02621710810840730.
 
 \bibitem[{Brakke and Brown(2002)}]{Brakke2002}
 \textbf{Brakke, D.~F. and Brown, D.~T.} (\textbf{2002}).
-\newblock \enquote{{Assessment to improve student learning}.}
+\newblock \enquote{{Assessment to improve student learning}}.
 \newblock pp. 119--122. Jossey-Bass, San Francisco.
 
 \bibitem[{Brooks and Everett(2008)}]{Brooks2008}
 \textbf{Brooks, R. and Everett, G.} (\textbf{2008}).
-\newblock \enquote{{The impact of higher education on lifelong learning}.}
+\newblock \enquote{{The impact of higher education on lifelong learning}}.
 \newblock \emph{International Journal of Lifelong Education}, 27(3): 239--254.
 
 \bibitem[{Brown et~al.(2007)Brown, Anderson, Simpson, and Suddaby}]{Brown2007}
 \textbf{Brown, M., Anderson, B., Simpson, M., and Suddaby, G.} (\textbf{2007}).
-\newblock \enquote{{Showcasing Mahara: A new open source eportfolio}.}
-\newblock In \enquote{ICT: Providing choices for learners and learning.
-  Proceedings of ASCILITE Singapore 2007,} pp. 82--84. Singapore.
-\newblock
-  \urlprefix\url{http://www.ascilite.org.au/conferences/singapore07/procs/brow%
-n-poster.pdf}.
+\newblock \enquote{{Showcasing Mahara: A new open source eportfolio}}.
+\newblock In \myemph{ICT: Providing choices for learners and learning.
+  Proceedings of ASCILITE Singapore 2007,} pp. 82--84.
+\newblock Singapore\urlprefix{April 17,
+  2012,}\url{http://www.ascilite.org.au/conferences/singapore07/procs/brown-po%
+ster.pdf}.
 
 \bibitem[{Browne et~al.(2006)Browne, Jenkins, and Walker}]{Browne2006}
 \textbf{Browne, T., Jenkins, M., and Walker, R.} (\textbf{2006}).
 \newblock \enquote{{A Longitudinal Perspective Regarding the Use of VLEs by
-  Higher Education Institutions in the United Kingdom}.}
+  Higher Education Institutions in the United Kingdom}}.
 \newblock \emph{Interactive Learning Environments}, 14(2): 177--192.
 
 \bibitem[{Butler(2010)}]{Butler2010}
 \textbf{Butler, P.} (\textbf{2010}).
 \newblock \enquote{{E-Portfolios, Pedagogy and Implementation in Higher
-  Education: Considerations from the Literature}.}
-\newblock In N.~A. Buzzetto-More, Ed., \enquote{The E-Portfolio Paradigm:
+  Education: Considerations from the Literature}}.
+\newblock In N.~A. Buzzetto-More, Ed., \myemph{The E-Portfolio Paradigm:
   Informing, Educating, Assessing, and Managing With E-Portfolios,} Chapter~6,
   pp. 109--139. Informing Science Press, Santa Rosa, California, USA.
 
 \bibitem[{Byrne(2001)}]{Byrne2001}
 \textbf{Byrne, M.} (\textbf{2001}).
-\newblock \enquote{{Sampling for qualitative research}.}
-\newblock \emph{AORN Journal}, 73(2): 494--498.
+\newblock \enquote{{Sampling for qualitative research}}.
+\newblock \emph{Association of periOperative Registered Nurses (AORN) Journal},
+  73(2): 494--498.
 
 \bibitem[{Ca\~{n}as(2003)}]{Canas2003}
 \textbf{Ca\~{n}as, A.~J.} (\textbf{2003}).
 \newblock \enquote{{A Summary of Literature Pertaining to the Use of Concept
-  Mapping Techniques and Technologies for Education and Performance Support}.}
+  Mapping Techniques and Technologies for Education and Performance Support}}.
 \newblock Technical report, The Institute for Human and Machine Cognition,
-  Pensacola, FL.
-\newblock
-  \urlprefix\url{http://www.ihmc.us/users/acanas/Publications/ConceptMapLitRev%
-iew/IHMC Literature Review on Concept Mapping.pdf}.
+\newblock Pensacola, FL\urlprefix{April 17,
+  2012,}\url{http://www.ihmc.us/users/acanas/Publications/ConceptMapLitReview/%
+IHMC Literature Review on Concept Mapping.pdf}.
 
 \bibitem[{Calvani et~al.(2007)Calvani, Fini, Bonaiuti, and
   Ranieri}]{Calvani2007}
 \textbf{Calvani, A., Fini, A., Bonaiuti, G., and Ranieri, M.} (\textbf{2007}).
-\newblock \enquote{{Towards e-Llearning 2 . 0 : New Paths For Informal Learning
-  and Lifelong Learning. An Application with Personal Learning Environments}.}
-\newblock In \enquote{Proceedings of EDEN Annual Conference 2007 New Learning
+\newblock \enquote{{Towards e-Learning 2.0: New Paths For Informal Learning and
+  Lifelong Learning. An Application with Personal Learning Environments}}.
+\newblock In \myemph{Proceedings of EDEN Annual Conference 2007 New Learning
   2.0,} Napoli, Italy.
 
 \bibitem[{Cambridge(2010)}]{Cambridge2010}
@@ -179,80 +186,85 @@ iew/IHMC Literature Review on Concept Mapping.pdf}.
 
 \bibitem[{{Canadian Council on Learning}(2011)}]{CanadianCouncilonLearning2011}
 \textbf{{Canadian Council on Learning}} (\textbf{2011}).
-\newblock \enquote{{Composite Learning Index}.}
-\newblock \urlprefix\url{http://www.cli-ica.ca}.
+\newblock
+\newblock \enquote{{Composite Learning Index}}\urlprefix{March 6,
+  2012,}\url{http://www.cli-ica.ca}.
 
 \bibitem[{Capell(2006)}]{Capell2006}
 \textbf{Capell, K.} \textbf{(2006, October~24)}.
-\newblock \enquote{{Europe's Politicians Embrace Web 2.0}.}
-\newblock \urlprefix\url{http://www.businessweek.com}.
+\newblock
+\newblock \enquote{{Europe's Politicians Embrace Web 2.0}}\urlprefix{April 17,
+  2012,}\url{http://www.businessweek.com}.
 
 \bibitem[{Carter(2008)}]{Carter2008}
 \textbf{Carter, B.} (\textbf{2008}).
 \newblock \enquote{{Dewey, the OECD and differing discourses of 'lifelong
-  learning'}.}
+  learning'}}.
 \newblock \emph{New Zealand journal of adult learning}, 36(2): 110--117.
 
 \bibitem[{Challis(2005)}]{Challis2005}
 \textbf{Challis, D.} (\textbf{2005}).
 \newblock \enquote{{Towards the mature ePortfolio: Some implications for higher
-  education}.}
-\newblock \emph{Canadian Journal of Learning and Technology}, 31(3).
-\newblock \urlprefix\url{http://www.cjlt.ca/index.php/cjlt/article/view/93/87}.
+  education}}.
+\newblock \emph{Canadian Journal of Learning and Technology},
+\newblock 31(3)\urlprefix{April 17,
+  2012,}\url{http://www.cjlt.ca/index.php/cjlt/article/view/93/87}.
 
 \bibitem[{Chapman(2009)}]{Chapman2009}
 \textbf{Chapman, D.~D.} (\textbf{2009}).
-\newblock \enquote{{Introduction to Learning Management Systems}.}
+\newblock \enquote{{Introduction to Learning Management Systems}}.
 \newblock In P.~L. Rogers, G.~A. Berg, J.~V. Boettcher, C.~Howard, L.~Justice,
-  and K.~D. Schenk, Eds., \enquote{Encyclopedia of Distance Learning,} pp.
+  and K.~D. Schenk, Eds., \myemph{Encyclopedia of Distance Learning,} pp.
   1280--1286. IGI Global, 2 ed.
+\newblock doi:10.4018/978-1-60566-198-8.ch183.
 
 \bibitem[{Chen(2009)}]{Chen2009}
 \textbf{Chen, H.} (\textbf{2009}).
 \newblock \enquote{{Using ePortfolios to Support Lifelong and Lifewide
-  Learning}.}
+  Learning}}.
 \newblock In D.~Cambridge, B.~Cambridge, and K.~B. Yancey, Eds.,
-  \enquote{Electronic Portfolios 2.0: Emergent Research on Implementation and
+  \myemph{Electronic Portfolios 2.0: Emergent Research on Implementation and
   Impact,} Chapter~3, pp. 29--35. Stylus Publishing, Sterling, Virginia, USA.
 
 \bibitem[{Chou and Chen(2009)}]{Chou2009}
 \textbf{Chou, P. and Chen, W.} (\textbf{2009}).
 \newblock \enquote{{E-portfolio Use at Higher Education Institutions: Potential
-  Problems for Pedagogy}.}
+  Problems for Pedagogy}}.
 \newblock In A.~M\'{e}ndez-Vilas, A.~{Solano Mart\'{\i}n}, J.~{Mesa
-  Gonz\'{a}lez}, and J.~{Mesa Gonz\'{a}lez}, Eds., \enquote{Research,
+  Gonz\'{a}lez}, and J.~{Mesa Gonz\'{a}lez}, Eds., \myemph{Research,
   Reflections and Innovations in Integrating ICT in Education,} Volume~3, pp.
   1312--1315. FORMATEX, Badajoz, Spain.
 
 \bibitem[{Churchill(2009)}]{Churchill2009}
 \textbf{Churchill, D.} (\textbf{2009}).
 \newblock \enquote{{Educational applications of Web 2.0: Using blogs to support
-  teaching and learning}.}
+  teaching and learning}}.
 \newblock \emph{British Journal of Educational Technology}, 40(1): 179--183.
 
 \bibitem[{Clark(2011)}]{Clark2011}
-\textbf{Clark, D.} \textbf{(2011, March~30)}.
+\textbf{Clark, D.} \textbf{(2011, March~31)}.
+\newblock
 \newblock \enquote{{E-portfolios -- 7 reasons why I don't want my life in a
-  shoebox}.}
-\newblock \urlprefix\url{http://donaldclarkplanb.blogspot.com}.
+  shoebox}}\urlprefix{April 17,
+  2012,}\url{http://donaldclarkplanb.blogspot.com}.
 
 \bibitem[{Clark and Neumann(2009)}]{Clark2009}
 \textbf{Clark, W. and Neumann, T.} (\textbf{2009}).
-\newblock \enquote{{ePortfolios: Models and Implementation}.}
+\newblock \enquote{{ePortfolios: Models and Implementation}}.
 
 \bibitem[{Clarke(2003)}]{Clarke2003}
 \textbf{Clarke, M.} (\textbf{2003}).
 \newblock \enquote{{The Reflective Journal: Implications for Professional
-  Learning}.}
+  Learning}}.
 \newblock Auckland, New Zealand.
 
 \bibitem[{Cleven et~al.(2009)Cleven, Gubler, and H\"{u}ner}]{Cleven2009}
 \textbf{Cleven, A., Gubler, P., and H\"{u}ner, K.~M.} (\textbf{2009}).
 \newblock \enquote{{Design Alternatives for the Evaluation of Design Science
-  Research Artifacts}.}
-\newblock In \enquote{Proceedings of the 4th International Conference on Design
+  Research Artifacts}}.
+\newblock In \myemph{Proceedings of the 4th International Conference on Design
   Science Research in Information Systems and Technology (DESRIST '09),} ACM
-  Press, New York, New York, USA.
+  Press, New York, USA.
 \newblock doi:10.1145/1555619.1555645.
 
 \bibitem[{Cohn(2004)}]{Cohn2004}
@@ -262,7 +274,7 @@ iew/IHMC Literature Review on Concept Mapping.pdf}.
 
 \bibitem[{Collis and {De Boer}(2004)}]{Collis2004}
 \textbf{Collis, B. and {De Boer}, W.} (\textbf{2004}).
-\newblock \enquote{{E-learning by design}.}
+\newblock \enquote{{E-learning by design}}.
 \newblock \emph{Teachers as learners: Embedded tools for implementing a CMS},
   48(6): 7--12.
 
@@ -273,8 +285,8 @@ iew/IHMC Literature Review on Concept Mapping.pdf}.
 
 \bibitem[{Cousin(2005)}]{Cousin2005}
 \textbf{Cousin, G.} (\textbf{2005}).
-\newblock \enquote{{Learning from cyberspace}.}
-\newblock In R.~Land and S.~Bayne, Eds., \enquote{Education in Cyberspace,} pp.
+\newblock \enquote{{Learning from cyberspace}}.
+\newblock In R.~Land and S.~Bayne, Eds., \myemph{Education in Cyberspace,} pp.
   117--129. RoutledgeFalmer, London.
 
 \bibitem[{Creswell(2009)}]{Creswell2009}
@@ -290,48 +302,49 @@ iew/IHMC Literature Review on Concept Mapping.pdf}.
 
 \bibitem[{Cross(1993)}]{Cross1993}
 \textbf{Cross, N.} (\textbf{1993}).
-\newblock \enquote{{A history of design methodology}.}
-\newblock In M.~J. de~Vries, N.~Cross, and D.~P. Grant, Eds., \enquote{Design
+\newblock \enquote{{A history of design methodology}}.
+\newblock In M.~J. de~Vries, N.~Cross, and D.~P. Grant, Eds., \myemph{Design
   methodology and relationships with science,} Chapter~1, pp. 15--28. Springer,
   Eindhoven, The Netherlands.
 
 \bibitem[{{Curtin University}(2006)}]{CurtinUniversity2006}
 \textbf{{Curtin University}} (\textbf{2006}).
-\newblock \enquote{{Graduate Attributes Policy}.}
-\newblock \urlprefix\url{http://policies.curtin.edu.au}.
+\newblock
+\newblock \enquote{{Graduate Attributes Policy}}\urlprefix{September 7,
+  2009,}\url{http://policies.curtin.edu.au}.
 
 \bibitem[{Davies and LeMahieu(2003)}]{Davies2003}
 \textbf{Davies, A. and LeMahieu, P.} (\textbf{2003}).
-\newblock \enquote{{Reconsidering portfolios and research evidence}.}
+\newblock \enquote{{Reconsidering portfolios and research evidence}}.
 \newblock pp. 141--170. Kluwer Academic Publishers, Dordrecht, Boston, London.
 
 \bibitem[{Dawson(2007)}]{Dawson2007}
 \textbf{Dawson, R.} \textbf{(2007, September~30)}.
-\newblock \enquote{{Launching the Web 2.0 Framework}.}
 \newblock
-  \urlprefix\url{http://rossdawsonblog.com/weblog/archives/2007/05/launching\_%
-the\_w.html}.
+\newblock \enquote{{Launching the Web 2.0 Framework}}\urlprefix{December 12,
+  2011,}\url{http://rossdawsonblog.com}.
 
 \bibitem[{de~Freitas et~al.(2006)de~Freitas, Harrison, Magoulas, Mee, Mohamad,
   Oliver, Papamarkos, and Poulovassilis}]{Freitas2006}
 \textbf{de~Freitas, S., Harrison, I., Magoulas, G., Mee, A., Mohamad, F.,
   Oliver, M., Papamarkos, G., and Poulovassilis, A.} (\textbf{2006}).
 \newblock \enquote{{The development of a system for supporting the lifelong
-  learner}.}
+  learner}}.
 \newblock \emph{British Journal of Educational Technology}, 37(6): 867--880.
+\newblock doi:10.1111/j.1467-8535.2006.00666.
 
 \bibitem[{Dench(2010)}]{Dench2010}
 \textbf{Dench, O.} (\textbf{2010}).
-\newblock \enquote{{Education Statistics of New Zealand: 2009}.}
-\newblock Technical report, Indicators and Reporting, Ministry of Education.
-\newblock
-  \urlprefix\url{http://www.educationcounts.govt.nz/\_\_data/assets/pdf\_file/%
-0017/80225/CO7078\_Education-Stats\_27082010.pdf}.
+\newblock \enquote{{Education Statistics of New Zealand: 2009}}.
+\newblock Technical report,
+\newblock Indicators and Reporting, Ministry of Education\urlprefix{February
+  23, 2012,}\url{http://www.educationcounts.govt.nz/publications/ece/2507}.
 
 \bibitem[{{Desire2Learn Incorporated}(2011)}]{Desire2LearnIncorporated2011}
 \textbf{{Desire2Learn Incorporated}} (\textbf{2011}).
-\newblock \enquote{{Desire2Learn ePortfolio}.}
-\newblock \urlprefix\url{http://www.desire2learn.com/eportfolio/highered/}.
+\newblock
+\newblock \enquote{{Desire2Learn ePortfolio}}\urlprefix{April 17,
+  2012,}\url{http://www.desire2learn.com/eportfolio/highered/}.
 
 \bibitem[{Dewey(2004)}]{Dewey2004}
 \textbf{Dewey, J.} (\textbf{2004}).
@@ -343,7 +356,7 @@ the\_w.html}.
 \textbf{{Di Benedetto}, A.~O.} (\textbf{2005}).
 \newblock \enquote{{Does Technology Influence Teaching Practices in the
   Classroom?}}
-\newblock In \enquote{Proceedings of the National Educational Computing
+\newblock In \myemph{Proceedings of the National Educational Computing
   Conference 2005,} Philadelphia, PA.
 
 \bibitem[{Divjak et~al.(2004)Divjak, Dowling, Fisser, Grabowska, Hezemans,
@@ -351,54 +364,56 @@ the\_w.html}.
 \textbf{Divjak, S., Dowling, C., Fisser, P., Grabowska, A., Hezemans, M.,
   Kendall, M., Mihnev, P., Ritzen, M., Syslo, M., Vicari, R., and van Weert,
   T.} (\textbf{2004}).
-\newblock \enquote{{Lifelong Learning in the Digital Age}.}
-\newblock In T.~J. van Weert and M.~Kendall, Eds., \enquote{Lifelong learning
-  in the digital age: sustainable for all in a changing world,} Chapter~1, pp.
+\newblock \enquote{{Lifelong Learning in the Digital Age}}.
+\newblock In T.~J. van Weert and M.~Kendall, Eds., \myemph{Lifelong learning in
+  the digital age: sustainable for all in a changing world,} Chapter~1, pp.
   1--49. Kluwer Academic, Boston.
 
 \bibitem[{Dowling(2006)}]{Dowling2006}
 \textbf{Dowling, D.} (\textbf{2006}).
 \newblock \enquote{{Designing a competency based program to facilitate the
   progression of experienced engineering technologists to professional engineer
-  status}.}
+  status}}.
 \newblock \emph{European Journal of Engineering Education}, 31(1): 95--107.
 
 \bibitem[{Duke(2001)}]{Duke2001}
 \textbf{Duke, C.} (\textbf{2001}).
 \newblock \enquote{{Lifelong learning and tertiary education: The learning
-  university revisited}.}
+  university revisited}}.
 \newblock In D.~Aspin, J.~Chapman, M.~Hatton, and Y.~Sawano, Eds.,
-  \enquote{International handbook of lifelong learning,} pp. 501--528. Kluwer
+  \myemph{International handbook of lifelong learning,} pp. 501--528. Kluwer
   Academic, Boston.
 
 \bibitem[{EACEA(2009)}]{TheEducation2009}
 \textbf{EACEA} (\textbf{2009}).
-\newblock \enquote{{About Lifelong Learning programme}.}
-\newblock \urlprefix\url{http://eacea.ec.europa.eu}.
+\newblock
+\newblock \enquote{{About Lifelong Learning programme}}\urlprefix{October 10,
+  2010,}\url{http://eacea.ec.europa.eu}.
 
 \bibitem[{EFolioMinnesota(2011)}]{EFolioMinnesota2011}
 \textbf{EFolioMinnesota} (\textbf{2011}).
-\newblock \enquote{{Showcase of Excellent eFolio Sites}.}
-\newblock \urlprefix\url{https://efolio.custhelp.com/}.
+\newblock
+\newblock \enquote{{Showcase of Excellent eFolio Sites}}\urlprefix{April 17,
+  2012,}\url{https://efolio.custhelp.com}.
 
 \bibitem[{{ELLI Development Team}(2010)}]{ELLIDevelopmentTeam2010}
 \textbf{{ELLI Development Team}} (\textbf{2010}).
-\newblock \enquote{{Making Lifelong Learning Tangible! The ELLI Index –
-  Europe 2010}.}
 \newblock
-  \urlprefix\url{http://www.elli.org/fileadmin/user\_upload/About\_ELLI/Docume%
-nts/ELLI\_EU\_eng\_final.pdf}.
+\newblock \enquote{{Making Lifelong Learning Tangible! The ELLI Index -- Europe
+  2010}}\urlprefix{January 5,
+  2012,}\url{http://www.ccl-cca.ca/pdfs/CLI/ELLI\_EU\_20102608_EN.pdf}.
 
 \bibitem[{Ellis(2009)}]{Ellis2009}
-\textbf{Ellis, R.~K.} (\textbf{2009}).
-\newblock \enquote{{Learning Management Systems 2009}.}
-\newblock \urlprefix\url{http://www.astd.org/LC/2009/0509\_LMS2009.htm}.
+\textbf{Ellis, R.~K.} \textbf{(2009, September~2)}.
+\newblock
+\newblock \enquote{{Learning Management Systems 2009}}\urlprefix{October 5,
+  2011,}\url{http://www.astd.org/Publications}.
 
 \bibitem[{{European Commission}(2000)}]{EuropeanCommission2000}
 \textbf{{European Commission}} (\textbf{2000}).
-\newblock \enquote{{A Memorandum on Lifelong Learning}.}
 \newblock
-  \urlprefix\url{http://www.bologna-berlin2003.de/pdf/MemorandumEng.pdf}.
+\newblock \enquote{{A Memorandum on Lifelong Learning}}\urlprefix{April 10,
+  2012,}\url{http://www.bologna-berlin2003.de/pdf/MemorandumEng.pdf}.
 
 \bibitem[{{European Commission}(2010)}]{EuropeanCommission2010}
 \textbf{{European Commission}} (\textbf{2010}).
@@ -408,14 +423,14 @@ nts/ELLI\_EU\_eng\_final.pdf}.
 
 \bibitem[{{European Union}(2009)}]{EuropeanUnion2009}
 \textbf{{European Union}} (\textbf{2009}).
-\newblock \enquote{{The Bologna Process 2020 - The European Higher Education
-  Area in the new decade}.}
-\newblock In \enquote{Communiqu\'{e} of the Conference of European Ministers
+\newblock \enquote{{The Bologna Process 2020 -- The European Higher Education
+  Area in the new decade}}.
+\newblock In \myemph{Communiqu\'{e} of the Conference of European Ministers
   Responsible for Higher Education,} April. Leuven and Louvain-la-Neuve.
 
 \bibitem[{Fallows(2003)}]{Fallows2003}
 \textbf{Fallows, S.} (\textbf{2003}).
-\newblock \enquote{{Teaching and learning for student skill development}.}
+\newblock \enquote{{Teaching and learning for student skill development}}.
 \newblock pp. 121--133. Kogan Page, London and Sterling, VA, 2 ed.
 
 \bibitem[{Faure et~al.(1972)Faure, Herrera, Kaddoura, Lopes, Pertovsky,
@@ -427,18 +442,17 @@ nts/ELLI\_EU\_eng\_final.pdf}.
 
 \bibitem[{Fay(2009)}]{Fay2009}
 \textbf{Fay, R.} (\textbf{2009}).
-\newblock \enquote{{Closed systems, open systems}.}
 \newblock
-  \urlprefix\url{http://www.robinfay.net/site/content/open-systems-closed-syst%
-ems}.
+\newblock \enquote{{Closed systems, open systems}}\urlprefix{January 6,
+  2012,}\url{http://www.robinfay.net/site/content/open-systems-closed-systems}.
 
 \bibitem[{Felce(2011)}]{Felce2011}
 \textbf{Felce, A.} (\textbf{2011}).
-\newblock \enquote{{JISC Final Report ePPSME}.}
-\newblock Technical report, The University of Wolverhampton, Wolverhampton.
-\newblock
-  \urlprefix\url{http://www.jisc.ac.uk/media/documents/programmes/institutiona%
-linnovation/workforcedev/eppsmefinalreport.pdf}.
+\newblock \enquote{{JISC Final Report ePPSME}}.
+\newblock Technical report, The University of Wolverhampton,
+\newblock Wolverhampton\urlprefix{April 17,
+  2012,}\url{http://www.jisc.ac.uk/media/documents/programmes/institutionalinn%
+ovation/workforcedev/eppsmefinalreport.pdf}.
 
 \bibitem[{Field and Leicester(2003)}]{Field2003}
 \textbf{Field, J. and Leicester, M.} (\textbf{2003}).
@@ -447,21 +461,22 @@ linnovation/workforcedev/eppsmefinalreport.pdf}.
 
 \bibitem[{Flyvbjerg(2006)}]{Flyvbjerg2006}
 \textbf{Flyvbjerg, B.} (\textbf{2006}).
-\newblock \enquote{{Five Misunderstandings About Case-Study Research}.}
+\newblock \enquote{{Five Misunderstandings About Case-Study Research}}.
 \newblock \emph{Qualitative Inquiry}, 12(2): 219--245.
+\newblock doi:10.1177/1077800405284363.
 
 \bibitem[{Freire(2008)}]{Freire2008}
 \textbf{Freire, J.} (\textbf{2008}).
-\newblock \enquote{{Universities and Web 2.0: Institutional Challenges}.}
-\newblock \emph{eLearning Papers}, (8): 1--8.
-\newblock
-  \urlprefix\url{http://www.elearningeuropa.info/files/media/media15530.pdf}.
+\newblock \enquote{{Universities and Web 2.0: Institutional Challenges}}.
+\newblock \emph{eLearning Papers},
+\newblock (8): 1--8\urlprefix{April 10,
+  2012,}\url{http://www.elearningeuropa.info/files/media/media15530.pdf}.
 
 \bibitem[{Gero(1999)}]{Gero1999}
 \textbf{Gero, J.~S.} (\textbf{1999}).
 \newblock \enquote{{Research Methods for Design Science Research: Computational
-  and Cognitive Approaches}.}
-\newblock In \enquote{Proceedings of the 33rd Annual Conference of the
+  and Cognitive Approaches}}.
+\newblock In \myemph{Proceedings of the 33rd Annual Conference of the
   Australian and NZ Architectural Science Association (ANZAScA) Conference,}
   Sydney, Australia.
 
@@ -472,8 +487,8 @@ linnovation/workforcedev/eppsmefinalreport.pdf}.
 
 \bibitem[{G\"{o}rg et~al.(2007)G\"{o}rg, Pohl, Qeli, and Xu}]{Gorg2007}
 \textbf{G\"{o}rg, C., Pohl, M., Qeli, E., and Xu, K.} (\textbf{2007}).
-\newblock \enquote{{Visual Representations}.}
-\newblock In A.~Kerren, A.~Ebert, and J.~Meyer, Eds., \enquote{Human-Centered
+\newblock \enquote{{Visual Representations}}.
+\newblock In A.~Kerren, A.~Ebert, and J.~Meyer, Eds., \myemph{Human-Centered
   Visualization Environments,} Chapter~4, pp. 163--230. Springer, Berlin
   Heidelberg.
 
@@ -481,36 +496,37 @@ linnovation/workforcedev/eppsmefinalreport.pdf}.
   Zacharias}]{Gorlitz2010}
 \textbf{G\"{o}rlitz, R., Seip, B., and Zacharias, V.} (\textbf{2010}).
 \newblock \enquote{{Health 2.0 in practice: a review of German health care web
-  portals}.}
-\newblock In B.~White, P.~Isa\'{\i}as, and D.~Andone, Eds.,
-  \enquote{Proceedings of the IADIS International Conference on WWW/Internet,}
-  Volume 2000, pp. 49--56. IADIS, Timisoara, Romania.
-\newblock
-  \urlprefix\url{http://www.iadisportal.org/wwwinternet-2010-proceedings}.
+  portals}}.
+\newblock In B.~White, P.~Isa\'{\i}as, and D.~Andone, Eds., \myemph{Proceedings
+  of the IADIS International Conference on WWW/Internet,} Volume 2000, pp.
+  49--56.
+\newblock IADIS, Timisoara, Romania\urlprefix{April 17,
+  2012,}\url{http://www.iadisportal.org/wwwinternet-2010-proceedings}.
 
 \bibitem[{Grabowski(2004)}]{Grabowski2004}
 \textbf{Grabowski, U.} (\textbf{2004}).
 \newblock \enquote{{Erfolgsfaktor Pers\"{o}nlichkeit: Anforderungen an eine
-  Ganzheitliche Ingenieurausbildung}.}
+  Ganzheitliche Ingenieurausbildung}}.
 \newblock \emph{Global Journal of Engineering Education}, 8: 269--274.
 
 \bibitem[{Griffin(2002)}]{Griffin2002}
 \textbf{Griffin, C.} (\textbf{2002}).
-\newblock \enquote{{Lifelong Learning: policy, strategy and culture}.}
-\newblock In \enquote{Working Papers of the Global Colloquium on Supporting
-  Lifelong Learning,} Open University, Milton Keynes, UK.
-\newblock \urlprefix\url{www.open.ac.uk/lifelong-learning}.
+\newblock \enquote{{Lifelong Learning: policy, strategy and culture}}.
+\newblock In \myemph{Working Papers of the Global Colloquium on Supporting
+  Lifelong Learning,}
+\newblock Open University, Milton Keynes, UK\urlprefix{April 17,
+  2012,}\url{www.open.ac.uk/lifelong-learning}.
 
 \bibitem[{Guest(2006)}]{Guest2006}
 \textbf{Guest, G.} (\textbf{2006}).
-\newblock \enquote{{Lifelong learning for engineers: a global perspective}.}
+\newblock \enquote{{Lifelong learning for engineers: a global perspective}}.
 \newblock \emph{European Journal of Engineering Education}, 31(3): 273--281.
 
 \bibitem[{Hager(2011)}]{Hager2011}
 \textbf{Hager, P.~J.} (\textbf{2011}).
-\newblock \enquote{{Concepts and definitions of lifelong learning}.}
-\newblock In M.~London, Ed., \enquote{The Oxford handbook of lifelong
-  learning,} Chapter~2, pp. 12--25. Oxford University Press, New York.
+\newblock \enquote{{Concepts and definitions of lifelong learning}}.
+\newblock In M.~London, Ed., \myemph{The Oxford handbook of lifelong learning,}
+  Chapter~2, pp. 12--25. Oxford University Press, New York.
 
 \bibitem[{Hallam et~al.(2008)Hallam, Harper, McCowan, Hauville, McAllister, and
   Creagh}]{Hallam2008}
@@ -540,58 +556,55 @@ linnovation/workforcedev/eppsmefinalreport.pdf}.
 \bibitem[{Hart et~al.(1999)Hart, Bowden, and Watters}]{Hart1999}
 \textbf{Hart, G., Bowden, J., and Watters, J.} (\textbf{1999}).
 \newblock \enquote{{Graduate Capabilities: a Framework for Assessing Course
-  Quality}.}
+  Quality}}.
 \newblock \emph{Higher Education in Europe}, 24(2): 301--308.
+\newblock doi:10.1080/0379772990240219.
 
 \bibitem[{Hartnell-Young et~al.(2006)Hartnell-Young, Smallwood, Kingston, and
   Harley}]{Hartnell-Young2006}
 \textbf{Hartnell-Young, E., Smallwood, A., Kingston, S., and Harley, P.}
   (\textbf{2006}).
 \newblock \enquote{{Joining up the episodes of lifelong learning: A regional
-  transition project}.}
+  transition project}}.
 \newblock \emph{British Journal of Educational Technology}, 37(6): 853--866.
 
 \bibitem[{Havenstein(2007{\natexlab{a}})}]{Havenstein2007}
-\textbf{Havenstein, H.} (\textbf{2007}{\natexlab{a}}).
-\newblock \enquote{{Customers Courted With Web 2.0.}}
-\newblock \emph{Computerworld}.
+\textbf{Havenstein, H.} \textbf{(2007, February~19)}.
 \newblock
-  \urlprefix\url{http://www.computerworld.com/s/article/print/283355/Customers%
-\_Courted\_With\_Web\_2.0}.
+\newblock \enquote{{Customers Courted With Web 2.0.}}\urlprefix{November 15,
+  2011,}\url{http://www.computerworld.com}.
 
 \bibitem[{Havenstein(2007{\natexlab{b}})}]{Havenstein2007a}
-\textbf{Havenstein, H.} (\textbf{2007}{\natexlab{b}}).
-\newblock \enquote{{IT is a key barrier to corporate Web 2.0 adoption, users
-  say}.}
-\newblock \emph{Computerworld}.
+\textbf{Havenstein, H.} \textbf{(2007, September~7)}.
 \newblock
-  \urlprefix\url{http://www.computerworld.com/s/article/9034898/IT\_is\_a\_key%
-\_barrier\_to\_corporate\_Web\_2.0\_adoption\_users\_say}.
+\newblock \enquote{{IT is a key barrier to corporate Web 2.0 adoption, users
+  say}}\urlprefix{November 15, 2011,}\url{http://www.computerworld.com}.
 
 \bibitem[{Heinrich et~al.(2007)Heinrich, Bhattacharya, and
   Rayudu}]{Heinrich2007}
 \textbf{Heinrich, E., Bhattacharya, M., and Rayudu, R.} (\textbf{2007}).
-\newblock \enquote{{Preparation for lifelong learning using ePortfolios}.}
+\newblock \enquote{{Preparation for lifelong learning using ePortfolios}}.
 \newblock \emph{European Journal of Engineering Education}, 32(6): 653--663.
 
 \bibitem[{Heinrich and Bozhko(2012)}]{Heinrich2012}
 \textbf{Heinrich, E. and Bozhko, Y.} (\textbf{2012}).
 \newblock \enquote{{The Role of Institutions in Creating Student-Focused
-  Virtual Learning Spaces with ePortfolio Systems}.}
-\newblock In M.~Keppell, K.~Souter, and M.~Riddle, Eds., \enquote{Physical and
+  Virtual Learning Spaces with ePortfolio Systems}}.
+\newblock In M.~Keppell, K.~Souter, and M.~Riddle, Eds., \myemph{Physical and
   Virtual Learning Spaces in Higher Education: Concepts for the Modern Learning
   Environment,} Chapter VIII. IGI Global.
 
 \bibitem[{HERDSA(2012)}]{HERDSA2012}
 \textbf{HERDSA} (\textbf{2012}).
-\newblock \enquote{{HERDSA Graduate Attributes Symposium 2012}.}
 \newblock
-  \urlprefix\url{http://www.herdsa.org.nz/file.php/1/Graduate\_Attributes\_Sym%
-posium\_flyer.pdf}.
+\newblock \enquote{{HERDSA Graduate Attributes Symposium 2012}}\urlprefix{April
+  10,
+  2012,}\url{http://www.herdsa.org.nz/file.php/1/Graduate\_Attributes\_Symposi%
+um\_flyer.pdf}.
 
 \bibitem[{Hernon(2006)}]{Hernon2006}
 \textbf{Hernon, P.} (\textbf{2006}).
-\newblock \enquote{{Methods of data collection}.}
+\newblock \enquote{{Methods of data collection}}.
 \newblock pp. 135--150. Libraries Unlimited, Westport, Connecticut, London.
 
 \bibitem[{Hevner and Chatterjee(2010)}]{Hevner2010}
@@ -601,59 +614,62 @@ posium\_flyer.pdf}.
 
 \bibitem[{Hevner et~al.(2004)Hevner, March, Park, and Ram}]{Hevner2004}
 \textbf{Hevner, A., March, S., Park, J., and Ram, S.} (\textbf{2004}).
-\newblock \enquote{{Design Science in Information Systems Research}.}
+\newblock \enquote{{Design Science in Information Systems Research}}.
 \newblock \emph{MIS Quarterly}, 28(1): 75--105.
 
 \bibitem[{Holahan(2006)}]{Holahan2006}
-\textbf{Holahan, C.} \textbf{(2006, September 1)}.
-\newblock \enquote{{Fantasy Football 2.0}.}
-\newblock \urlprefix\url{http://www.businessweek.com}.
+\textbf{Holahan, C.} \textbf{(2006, September~1)}.
+\newblock
+\newblock \enquote{{Fantasy Football 2.0}}\urlprefix{November 15,
+  2011,}\url{http://www.businessweek.com}.
 
 \bibitem[{Holahan(2007)}]{Holahan2007}
 \textbf{Holahan, C.} \textbf{(2007, March~27)}.
-\newblock \enquote{Close Harmony: Bands and Web 2.0.}
-\newblock \urlprefix\url{http://www.businessweek.com}.
+\newblock
+\newblock \enquote{Close Harmony: Bands and Web 2.0}\urlprefix{November 15,
+  2011,}\url{http://www.businessweek.com}.
 
 \bibitem[{Holten(2006)}]{Holten2006}
 \textbf{Holten, D.} (\textbf{2006}).
 \newblock \enquote{{Hierarchical Edge Bundles: Visualization of Adjacency
-  Relations in Hierarchical Data}.}
+  Relations in Hierarchical Data}}.
 \newblock \emph{IEEE Transactions on Visualization and Computer Graphics},
   12(5): 741--748.
+\newblock doi:10.1109/TVCG.2006.147.
 
 \bibitem[{Hosein et~al.(2010)Hosein, Ramanau, and Jones}]{Hosein2010}
 \textbf{Hosein, A., Ramanau, R., and Jones, C.} (\textbf{2010}).
 \newblock \enquote{{Learning and living technologies: a longitudinal study of
-  first‐year students’ frequency and competence in the use of ICT}.}
+  first-year students' frequency and competence in the use of ICT}}.
 \newblock \emph{Learning, Media and Technology}, 35(4): 403--418.
 \newblock doi:10.1080/17439884.2010.529913.
 
 \bibitem[{Hughes and Barrie(2010)}]{Hughes2010}
 \textbf{Hughes, C. and Barrie, S.} (\textbf{2010}).
 \newblock \enquote{{Influences on the assessment of graduate attributes in
-  higher education}.}
+  higher education}}.
 \newblock \emph{Assessment \& Evaluation in Higher Education}, 35(3): 325--334.
 \newblock doi:10.1080/02602930903221485.
 
 \bibitem[{Iivari and Venable(2009)}]{Iivari2009}
 \textbf{Iivari, J. and Venable, J.} (\textbf{2009}).
 \newblock \enquote{{Action Research and Design Science Research – Seemingly
-  Similar but Decisively Dissimilar}.}
-\newblock In \enquote{17th European Conference on Information System (ECIS),}
+  Similar but Decisively Dissimilar}}.
+\newblock In \myemph{17th European Conference on Information System (ECIS),}
   Verona, Italy.
 
 \bibitem[{{IMS Global Learning
   Consortium}(2005)}]{IMSGlobalLearningConsortium2005}
 \textbf{{IMS Global Learning Consortium}} (\textbf{2005}).
-\newblock \enquote{{IMS ePortfolio Information Model. Version 1.0 Final
-  Specification.}}
 \newblock
-  \urlprefix\url{http://www.imsglobal.org/ep/epv1p0/imsep\_infov1p0.html}.
+\newblock \enquote{{IMS ePortfolio Information Model. Version 1.0 Final
+  Specification.}}\urlprefix{November 18,
+  2009,}\url{http://www.imsglobal.org/ep/epv1p0/imsep\_infov1p0.html}.
 
 \bibitem[{{International Labour Office}(2008)}]{InternationalLabourOffice2008}
 \textbf{{International Labour Office}} (\textbf{2008}).
 \newblock \enquote{{Conclusions on skills for improved productivity, employment
-  growth and development. International Labour Conference, 2008}.}
+  growth and development. International Labour Conference, 2008}}.
 
 \bibitem[{Ioannidis(2007)}]{Ioannidis2007}
 \textbf{Ioannidis, J. P.~a.} (\textbf{2007}).
@@ -664,14 +680,15 @@ posium\_flyer.pdf}.
 
 \bibitem[{IPENZ(2007)}]{IPENZ2007}
 \textbf{IPENZ} (\textbf{2007}).
-\newblock \enquote{{IPENZ Competence Standard for Professional Engineers}.}
-\newblock \urlprefix\url{http://www.ipenz.org.nz}.
+\newblock
+\newblock \enquote{{IPENZ Competence Standard for Professional
+  Engineers}}\urlprefix{Ocotber 2, 2011,}\url{http://www.ipenz.org.nz}.
 
 \bibitem[{Jarvis(2004)}]{Jarvis2004}
 \textbf{Jarvis, P.} (\textbf{2004}).
 \newblock \enquote{{From adult education to lifelong learning: a conceptual
-  framework}.}
-\newblock In P.~Jarvis, Ed., \enquote{Adult education and lifelong learning:
+  framework}}.
+\newblock In P.~Jarvis, Ed., \myemph{Adult education and lifelong learning:
   theory and practice,} Chapter~2, pp. 39--65. Routledge, London; New York, NY.
 
 \bibitem[{Jarvis(2008)}]{Jarvis2008}
@@ -682,36 +699,36 @@ posium\_flyer.pdf}.
 
 \bibitem[{Johnson(2001)}]{Johnson2001}
 \textbf{Johnson, J.~M.} (\textbf{2001}).
-\newblock \enquote{{In-depth Interviewing}.}
+\newblock \enquote{{In-depth Interviewing}}.
 \newblock Chapter~5, pp. 103--120. SAGE, London.
 
 \bibitem[{Jones(2010)}]{Jones2010}
 \textbf{Jones, C.} (\textbf{2010}).
-\newblock \enquote{{A new generation of learners ? The Net Generation and
-  Digital Natives}.}
+\newblock \enquote{{A new generation of learners? The Net Generation and
+  Digital Natives}}.
 \newblock \emph{Learning, Media and Technology}, 35(4): 37--41.
+\newblock doi:10.1080/17439884.2010.531278.
 
 \bibitem[{Katz(2005)}]{Katz2005}
 \textbf{Katz, R.~N.} (\textbf{2005}).
-\newblock \enquote{{Foreword: Growing up digital}.}
-\newblock In R.~B. Kvavik and J.~B. Caruso, Eds., \enquote{ECAR Study of
+\newblock \enquote{{Foreword: Growing up digital}}.
+\newblock In R.~B. Kvavik and J.~B. Caruso, Eds., \myemph{ECAR Study of
   Students and Information Technology, 2005: Convenience, connection, control,
-  and learning,} Volume~6, pp. 5--8. EDUCAUSE.
-\newblock
-  \urlprefix\url{http://net.educause.edu/ir/library/pdf/ers0506/rs/ERS0506w.pd%
-f}.
+  and learning,} Volume~6, pp. 5--8.
+\newblock EDUCAUSE\urlprefix{April 17,
+  2012,}\url{http://net.educause.edu/ir/library/pdf/ers0506/rs/ERS0506w.pdf}.
 
 \bibitem[{Kay(2008)}]{Kay2008}
 \textbf{Kay, J.} (\textbf{2008}).
 \newblock \enquote{{Life-Long Learning, Learner Models and Augmented
-  Cognition}.}
+  Cognition}}.
 \newblock pp. 3--5. Springer, Montreal, Canada.
 
 \bibitem[{Kendall et~al.(2004)Kendall, Samways, van Weert, and
   Wibe}]{Kendall2004}
 \textbf{Kendall, M., Samways, B., van Weert, T., and Wibe, J.} (\textbf{2004}).
-\newblock \enquote{{IFIP TC3 Lifelong Learning Position Paper}.}
-\newblock In T.~van Weert and M.~Kendall, Eds., \enquote{Lifelong learning in
+\newblock \enquote{{IFIP TC3 Lifelong Learning Position Paper}}.
+\newblock In T.~van Weert and M.~Kendall, Eds., \myemph{Lifelong learning in
   the digital age: sustainable for all in a changing world,} pp. 191--216.
   Kluwer Academic, Boston.
 
@@ -728,7 +745,7 @@ f}.
   Law, Naeve, and Scott}]{Klamma2007}
 \textbf{Klamma, R., Chatti, M.~A., Duval, E., Hummel, H., Thora, E., Kravcik,
   M., Law, E., Naeve, A., and Scott, P.} (\textbf{2007}).
-\newblock \enquote{{Social Software for Life-long Learning}.}
+\newblock \enquote{{Social Software for Life-long Learning}}.
 \newblock \emph{Educational Technology \& Society}, 10(3): 72--83.
 
 \bibitem[{Knapper and Cropley(2000)}]{Knapper2000}
@@ -738,20 +755,21 @@ f}.
 
 \bibitem[{Kumar(2005)}]{Kumar2005}
 \textbf{Kumar, R.} (\textbf{2005}).
-\newblock \emph{{Research methodology : a step-by-step guide for beginners}}.
+\newblock \emph{{Research methodology: a step-by-step guide for beginners}}.
 \newblock SAGE, London, 2nd ed.
 
 \bibitem[{{Le Grand} and Soto(2006)}]{LeGrand2006}
 \textbf{{Le Grand}, B. and Soto, M.} (\textbf{2006}).
-\newblock \enquote{{Topic maps visualization}.}
-\newblock In V.~Geroimenko and C.~Chen, Eds., \enquote{Visualizing the Semantic
+\newblock \enquote{{Topic maps visualization}}.
+\newblock In V.~Geroimenko and C.~Chen, Eds., \myemph{Visualizing the Semantic
   Web,} pp. 59--79. Springer, 2 ed.
 
 \bibitem[{Lea et~al.(2010)Lea, Stephenson, and Troy}]{Lea2010}
 \textbf{Lea, S.~J., Stephenson, D., and Troy, J.} (\textbf{2010}).
 \newblock \enquote{{Higher Education Students' Attitudes to Student-centred
-  Learning : Beyond' educational 'bulimia'?}}
+  Learning: Beyond' educational 'bulimia'?}}
 \newblock \emph{Studies in Higher Education}, 28(3): 321--334.
+\newblock doi:10.1080/03075070310000113432.
 
 \bibitem[{Leffingwell(2011)}]{Leffingwell2011}
 \textbf{Leffingwell, D.} (\textbf{2011}).
@@ -762,43 +780,44 @@ f}.
 \bibitem[{Leone(2010)}]{Leone2019}
 \textbf{Leone, S.} (\textbf{2010}).
 \newblock \enquote{{PLE: A Brick in the Construction of a Lifelong Learning
-  Society}.}
-\newblock In J.~O'Donoghue, Ed., \enquote{Technology-supported environments for
+  Society}}.
+\newblock In J.~O'Donoghue, Ed., \myemph{Technology-supported environments for
   personalized learning: methods and case studies,} Chapter~3, pp. 30--49.
   Information Science Reference, Hershey, PA.
 
 \bibitem[{Leung et~al.(2011)Leung, Lee, and Law}]{Leung2011}
 \textbf{Leung, D., Lee, H.~A., and Law, R.} (\textbf{2011}).
 \newblock \enquote{{Adopting Web 2.0 technologies on chain and independent
-  hotel websites: A case study of hotels in Hong Kong}.}
-\newblock In R.~Law, F.~Ricci, and M.~Fuchs, Eds., \enquote{Proceedings of
+  hotel websites: A case study of hotels in Hong Kong}}.
+\newblock In R.~Law, F.~Ricci, and M.~Fuchs, Eds., \myemph{Proceedings of
   Information and Communication Technologies in Tourism 2011 International
   Conference,} pp. 229--240. Springer, Innsbruck, Austria.
 
 \bibitem[{Levin and Wadmany(2008)}]{Levin2008}
 \textbf{Levin, T. and Wadmany, R.} (\textbf{2008}).
 \newblock \enquote{{Teachers' Views on Factors Affecting Effective Integration
-  of Information Technology in the Classroom: Developmental Scenery}.}
+  of Information Technology in the Classroom: Developmental Scenery}}.
 \newblock \emph{Journal of Technology and Teacher Education}, 16(2): 233--263.
 
 \bibitem[{{Library Technology Reports}(2007)}]{LibraryTechnologyReports2007}
 \textbf{{Library Technology Reports}} (\textbf{2007}).
-\newblock \enquote{{Social video: videoblogging and YouTube}.}
+\newblock \enquote{{Social video: videoblogging and YouTube}}.
 \newblock 43(5): 52--57.
 
 \bibitem[{Linden and Patrinos(2003)}]{Linden2003}
 \textbf{Linden, T. and Patrinos, H.~A.} (\textbf{2003}).
-\newblock \enquote{{Lifelong Learning in the Global Knowledge Economy}.}
+\newblock \enquote{{Lifelong Learning in the Global Knowledge Economy}}.
 \newblock \emph{International Journal of Technologies for the Advancement of
-  Knowledge and Learning}, 5(1): 77--80.
-\newblock
-  \urlprefix\url{http://www.techknowlogia.org/TKL\_Articles/PDF/476.pdf}.
+  Knowledge and Learning},
+\newblock 5(1): 77--80\urlprefix{April 17,
+  2012,}\url{http://www.techknowlogia.org/TKL\_Articles/PDF/476.pdf}.
 
 \bibitem[{Lombardi(2008)}]{Lombardi2008}
 \textbf{Lombardi, M.~M.} (\textbf{2008}).
+\newblock
 \newblock \enquote{{Making the Grade: The Role of Assessment in Authentic
-  Learning}.}
-\newblock \urlprefix\url{http://net.educause.edu/ir/library/pdf/ELI3019.pdf}.
+  Learning}}\urlprefix{April 17,
+  2012,}\url{http://net.educause.edu/ir/library/pdf/ELI3019.pdf}.
 
 \bibitem[{Longworth(2003)}]{Longworth2003}
 \textbf{Longworth, N.} (\textbf{2003}).
@@ -808,45 +827,50 @@ f}.
 
 \bibitem[{Lorenzo and Ittelson(2005)}]{Lorenzo2005}
 \textbf{Lorenzo, G. and Ittelson, J.} (\textbf{2005}).
-\newblock \enquote{{An Overview of E-Portfolios}.}
-\newblock \urlprefix\url{http://net.educause.edu/ir/library/pdf/ELI3001.pdf}.
+\newblock
+\newblock \enquote{{An Overview of E-Portfolios}}\urlprefix{April 17,
+  2012,}\url{http://net.educause.edu/ir/library/pdf/ELI3001.pdf}.
 
 \bibitem[{Mack et~al.(2005)Mack, Woodsong, MacQueen, Guest, and
   Namey}]{Mack2005}
 \textbf{Mack, N., Woodsong, C., MacQueen, K.~M., Guest, G., and Namey, E.}
   (\textbf{2005}).
-\newblock \emph{{Qualitative Research Methods: A Data Collector's Field Guid}}.
-\newblock Family Health International, North Carolina, USA.
-\newblock \urlprefix\url{http://www.fhi.org}.
+\newblock \emph{{Qualitative Research Methods: A Data Collector's Field
+  Guide}}.
+\newblock
+\newblock Family Health International, North Carolina, USA\urlprefix{April 17,
+  2012,}\url{http://www.fhi360.org/en/RH/Pubs/booksReports}.
 
 \bibitem[{MacMillan(2007)}]{MacMillan2007}
-\textbf{MacMillan, D.} (\textbf{2007}).
-\newblock \enquote{{Family Trees 2.0}.}
+\textbf{MacMillan, D.} \textbf{(2007, June~18)}.
 \newblock
-  \urlprefix\url{http://www.businessweek.com/technology/content/jun2007/tc2007%
-0617\_133514.htm}.
+\newblock \enquote{{Family Trees 2.0}}\urlprefix{November 15,
+  2011,}\url{http://www.businessweek.com}.
 
 \bibitem[{{Mahara Governance Group}(2011)}]{MaharaGovernanceGroup2011}
 \textbf{{Mahara Governance Group}} (\textbf{2011}).
-\newblock \enquote{{About Mahara}.}
-\newblock \urlprefix\url{http://mahara.org}.
+\newblock
+\newblock \enquote{{About Mahara}}\urlprefix{April 17,
+  2012,}\url{http://mahara.org}.
 
 \bibitem[{Maimbo and Pervan(2005)}]{Maimbo2005}
 \textbf{Maimbo, H. and Pervan, G.} (\textbf{2005}).
 \newblock \enquote{{Designing a Case Study Protocol for Application in IS
-  Research}.}
-\newblock In \enquote{Proceedings of the 9th Pacific Asia Conference on
+  Research}}.
+\newblock In \myemph{Proceedings of the 9th Pacific Asia Conference on
   Information Systems,} pp. 1281--1292. Bangkok, Thailand.
 
 \bibitem[{Malloff(2010)}]{Malloff2010}
 \textbf{Malloff, T.} (\textbf{2010}).
-\newblock \enquote{{Tamara Malloff Photostream}.}
-\newblock \urlprefix\url{http://www.flickr.com/photos/kootenayleadership}.
+\newblock
+\newblock \enquote{{Tamara Malloff Photostream: EPortfolio
+  Learning}}\urlprefix{April 17,
+  2012,}\url{http://www.flickr.com/photos/kootenayleadership}.
 
 \bibitem[{March and Storey(2008)}]{March2008}
 \textbf{March, S.~T. and Storey, V.~C.} (\textbf{2008}).
 \newblock \enquote{{Design Science in the Information Systems Discipline: An
-  Introducation to the Special Issue on Design Science Research}.}
+  Introduction to the Special Issue on Design Science Research}}.
 \newblock \emph{MIS Quarterly}, 32(4): 725--730.
 
 \bibitem[{Marshall and Rossman(2011)}]{Marshall2010}
@@ -863,24 +887,26 @@ f}.
 
 \bibitem[{{Massey University}(2008)}]{MasseyUniversity2008}
 \textbf{{Massey University}} (\textbf{2008}).
-\newblock \enquote{{Lifelong Learning Policy}.}
 \newblock
-  \urlprefix\url{http://science.massey.ac.nz/eportfolios/lllPolicy.asp}.
+\newblock \enquote{{Lifelong Learning Policy}}\urlprefix{November 13,
+  2009,}\url{http://science.massey.ac.nz/eportfolios/lllPolicy.asp}.
 
 \bibitem[{{Massey University}(2012)}]{MasseyUniversity2012}
 \textbf{{Massey University}} (\textbf{2012}).
-\newblock \enquote{{The Road To 2020}.}
+\newblock
+\newblock \enquote{{The Road To 2020}}\urlprefix{April 10,
+  2012,}\url{http://www.massey.ac.nz}.
 
 \bibitem[{Mcaleese(1998)}]{Mcaleese1998}
 \textbf{Mcaleese, R.} (\textbf{1998}).
 \newblock \enquote{{Coming to Know: the role of the concept map - mirror,
   assistant, master?}}
-\newblock In \enquote{EuroConference,} University of Aveiro, Portugal.
+\newblock In \myemph{EuroConference,} University of Aveiro, Portugal.
 
 \bibitem[{McAlister and Alexander(2003)}]{McAlister2003}
 \textbf{McAlister, G. and Alexander, S.} (\textbf{2003}).
 \newblock \enquote{{Key aspects of teaching and learning in information and
-  computer sciences}.}
+  computer sciences}}.
 \newblock pp. 278--300. Kogan Page, London and Sterling, VA, 2 ed.
 
 \bibitem[{Medel-A\~{n}onuevo et~al.(2001)Medel-A\~{n}onuevo, Ohsako, and
@@ -891,11 +917,11 @@ f}.
 
 \bibitem[{{Media Fragments Working Group}(2011)}]{MediaGroup2011}
 \textbf{{Media Fragments Working Group}} (\textbf{2011}).
-\newblock \enquote{{Media Fragments URI 1.0}.}
 \newblock
-  \urlprefix\url{http://www.w3.org/2008/WebVideo/Fragments/WD-media-fragments-%
-spec}.
-\newblock W3C Working Draft 29 November 2011. World Wide Web Consortium.
+\newblock \enquote{{Media Fragments URI 1.0. W3C Working Draft 29 November
+  2011}}\urlprefix{December 6,
+  2011,}\url{http://www.w3.org/2008/WebVideo/Fragments/WD-media-fragments-spec%
+}.
 
 \bibitem[{Metzger and Flanagin(2011)}]{Metzger2011}
 \textbf{Metzger, M.~J. and Flanagin, A.~J.} (\textbf{2011}).
@@ -906,7 +932,7 @@ spec}.
 
 \bibitem[{Molebash(1999)}]{Molebash1999}
 \textbf{Molebash, P.} (\textbf{1999}).
-\newblock \enquote{{Technology and Education: Current and Future Trends}.}
+\newblock \enquote{{Technology and Education: Current and Future Trends}}.
 \newblock \emph{IT Journal}, 6(1).
 
 \bibitem[{Morgan-Klein and Osborne(2007)}]{Morgan-Klein2007}
@@ -916,35 +942,35 @@ spec}.
 
 \bibitem[{Mott(2010)}]{Mott2010}
 \textbf{Mott, J.} (\textbf{2010}).
-\newblock \enquote{{Envisioning the Post-LMS Era: The Open Learning Network}.}
-\newblock \emph{EDUCAUSE Quarterly}, 33(1).
-\newblock \urlprefix\url{http://www.educause.edu/eq}.
+\newblock \enquote{{Envisioning the Post-LMS Era: The Open Learning Network}}.
+\newblock \emph{EDUCAUSE Quarterly},
+\newblock 33(1)\urlprefix{April 10, 2012,}\url{http://www.educause.edu/eq}.
 
 \bibitem[{Mourtos(2003)}]{Mourtos2003}
 \textbf{Mourtos, N.~J.} (\textbf{2003}).
-\newblock \enquote{{Defining , Teaching and Assessing Lifelong Learning
-  Skills}.}
-\newblock In \enquote{Proceedings of the 33rd Annual Frontiers in Education
+\newblock \enquote{{Defining, Teaching and Assessing Lifelong Learning
+  Skills}}.
+\newblock In \myemph{Proceedings of the 33rd Annual Frontiers in Education
   (FIE'03),} pp. 14--19. Westminster, CO, USA.
 
 \bibitem[{Muffo(2001)}]{Muffo2001}
 \textbf{Muffo, J.~A.} (\textbf{2001}).
-\newblock \enquote{{Assessing student competence in engineering}.}
+\newblock \enquote{{Assessing student competence in engineering}}.
 \newblock pp. 159--175. Stylus, Sterling, Virginia.
 
 \bibitem[{{New Zealand Ministry of
   Education}(2008)}]{NewZealandMinistryofEducation2008}
 \textbf{{New Zealand Ministry of Education}} (\textbf{2008}).
 \newblock \enquote{{Tertiary Education Strategy 2007-2012. Incorporating
-  Statement of Tertiary Education Priorities 2008-2010}.}
+  Statement of Tertiary Education Priorities 2008-2010}}.
 
 \bibitem[{{New Zealand Ministry of
   Education}(2012)}]{NewZealandMinistryofEducation2012}
 \textbf{{New Zealand Ministry of Education}} (\textbf{2012}).
-\newblock \enquote{{ePortfolios and MyPortfolio}.}
 \newblock
-  \urlprefix\url{http://www.minedu.govt.nz/NZEducation/EducationPolicies/Schoo%
-ls/Initiatives/ManagedLearningEnvironments/ePortfolios.aspx}.
+\newblock \enquote{{ePortfolios and MyPortfolio}}\urlprefix{March 15,
+  2012,}\url{http://www.minedu.govt.nz/NZEducation/EducationPolicies/Schools/I%
+nitiatives/ManagedLearningEnvironments/ePortfolios.aspx}.
 
 \bibitem[{Novak(2010)}]{Novak2010}
 \textbf{Novak, J.~D.} (\textbf{2010}).
@@ -955,39 +981,40 @@ ls/Initiatives/ManagedLearningEnvironments/ePortfolios.aspx}.
 \bibitem[{Novak and Ca\~{n}as(2008)}]{Novak2008}
 \textbf{Novak, J.~D. and Ca\~{n}as, A.~J.} (\textbf{2008}).
 \newblock \enquote{{The Theory Underlying Concept Maps and How to Construct and
-  Use Them, Technical Report IHMC CmapTools 2006-01 Rev 01- 2008}.}
-\newblock Technical report, Florida Institute for Human and Machine Cognition.
-\newblock \urlprefix\url{http://cmap.ihmc.us/Publications/ResearchPapers/
-  TheoryUnderlyingConceptMaps.pdf}.
+  Use Them, Technical Report IHMC CmapTools 2006-01 Rev 01- 2008}}.
+\newblock Technical report,
+\newblock Florida Institute for Human and Machine Cognition\urlprefix{April 17,
+  2012,}\url{http://cmap.ihmc.us/Publications}.
 
 \bibitem[{OECD(2005)}]{OECD2005}
 \textbf{OECD} (\textbf{2005}).
 \newblock \enquote{{IT infrastructure: use of learning management system (LMS)
   and other applications.}}
-\newblock In OECD, Ed., \enquote{E-learning in Tertiary Education: Where do We
-  Stand?}, Chapter~4, pp. 138--178. OECD Publishing, Paris.
-\newblock \urlprefix\url{http://www.oecd.org/dataoecd/54/57/34899494.pdf}.
+\newblock In OECD, Ed., \myemph{E-learning in Tertiary Education: Where do We
+  Stand?}, Chapter~4, pp. 138--178.
+\newblock OECD Publishing, Paris\urlprefix{April 17,
+  2012,}\url{http://www.oecd.org/dataoecd/54/57/34899494.pdf}.
 
 \bibitem[{Oliver et~al.(2010)Oliver, Jones, and Ferns}]{Oliver2010}
 \textbf{Oliver, B., Jones, S., and Ferns, S.} (\textbf{2010}).
-\newblock \enquote{{C2010 Final Report}.}
-\newblock \urlprefix\url{http://c2010.curtin.edu.au}.
+\newblock
+\newblock \enquote{{C2010 Final Report}}\urlprefix{April 10,
+  2012,}\url{http://c2010.curtin.edu.au}.
 
 \bibitem[{Otala(1997)}]{Otala1997}
 \textbf{Otala, L.} (\textbf{1997}).
 \newblock \enquote{{Implementing Lifelong Learning in Partnership with the
-  Educational Sector and the Work Place}.}
+  Educational Sector and the Work Place}}.
 \newblock \emph{The International Information and Library Review}, 29(3-4):
   455--460.
 \newblock doi:10.1006/iilr.1997.0063.
 
 \bibitem[{Overton(2009)}]{Overton2009}
 \textbf{Overton, L.} \textbf{(2009, August~12)}.
-\newblock \enquote{{Eportfolios in Engineering – Advantages and
-  Disadvantages}.}
 \newblock
-  \urlprefix\url{http://engaging-online-learning.blogspot.com/2009/08/eportfol%
-ios-in-engineering-advantages.html}.
+\newblock \enquote{{Eportfolios in Engineering – Advantages and
+  Disadvantages}}\urlprefix{January 6,
+  2012,}\url{http://engaging-online-learning.blogspot.com}.
 
 \bibitem[{Patton(2002)}]{Patton2002}
 \textbf{Patton, M.~Q.} (\textbf{2002}).
@@ -996,75 +1023,80 @@ ios-in-engineering-advantages.html}.
 
 \bibitem[{{Pebble Learning Ltd}(2010{\natexlab{a}})}]{PebbleLearningLtd2010a}
 \textbf{{Pebble Learning Ltd}} (\textbf{2010}{\natexlab{a}}).
-\newblock \enquote{{PebbleBash 2010 - Publications}.}
-\newblock \urlprefix\url{http://www.pebblepad.co.uk/conference.papers.asp}.
+\newblock
+\newblock \enquote{{PebbleBash 2010 - Publications}}\urlprefix{April 10,
+  2012,}\url{http://www.pebblepad.co.uk/conference.papers.asp}.
 
 \bibitem[{{Pebble Learning Ltd}(2010{\natexlab{b}})}]{PebbleLearningLtd2010}
 \textbf{{Pebble Learning Ltd}} (\textbf{2010}{\natexlab{b}}).
-\newblock \enquote{{PebblePad Functional Overview}.}
-\newblock \urlprefix\url{http://www.pebblepad.co.uk}.
+\newblock
+\newblock \enquote{{PebblePad Functional Overview}}\urlprefix{April 10,
+  2012,}\url{http://www.pebblepad.co.uk}.
 
 \bibitem[{{Pebble Learning Ltd}(2011)}]{PebbleLearningLtd}
 \textbf{{Pebble Learning Ltd}} (\textbf{2011}).
-\newblock \enquote{{PebblePad Examples}.}
-\newblock \urlprefix\url{http://www.pebblepad.co.uk/pebblepad.examples.asp}.
+\newblock
+\newblock \enquote{{PebblePad Examples}}\urlprefix{April 10,
+  2012,}\url{http://www.pebblepad.co.uk/pebblepad.examples.asp}.
 
 \bibitem[{Peffers et~al.(2008)Peffers, Tuunanen, Rothenberger, and
   Chatterjee}]{Peffers2008}
 \textbf{Peffers, K., Tuunanen, T., Rothenberger, M.~A., and Chatterjee, S.}
   (\textbf{2008}).
 \newblock \enquote{{A Design Science Research Methodology for Information
-  Systems Research}.}
+  Systems Research}}.
 \newblock \emph{Journal of Management Information Systems}, 24(3): 45--78.
 
 \bibitem[{Pitman and Broomhall(2009)}]{Pitman2009}
 \textbf{Pitman, T. and Broomhall, S.} (\textbf{2009}).
 \newblock \enquote{{Australian universities, generic skills and lifelong
-  learning}.}
+  learning}}.
 \newblock \emph{International Journal of Lifelong Education}, 28(4): 439--458.
 
 \bibitem[{Pries-Heje et~al.(2008)Pries-Heje, Baskerville, and
   Venable}]{Pries-Heje2008}
 \textbf{Pries-Heje, J., Baskerville, R., and Venable, J.} (\textbf{2008}).
-\newblock \enquote{{Strategies for Design Science Research Evaluation}.}
+\newblock \enquote{{Strategies for Design Science Research Evaluation}}.
 \newblock In W.~Golden, T.~Acton, K.~Conboy, and V.~K. Tuunainen, Eds.,
-  \enquote{Conference Proceedings, 16th European Conference on Information
-  Systems,} 2008. National University of Ireland.
-\newblock \urlprefix\url{http://is2.lse.ac.uk/asp/aspecis/20080023.pdf}.
+  \myemph{Conference Proceedings, 16th European Conference on Information
+  Systems,}
+\newblock National University of Ireland\urlprefix{April 17,
+  2012,}\url{http://is2.lse.ac.uk/asp/aspecis/20080023.pdf}.
 
 \bibitem[{Quinlan et~al.(2008)Quinlan, Kane, and Trochim}]{Quinlan2008}
 \textbf{Quinlan, K.~M., Kane, M., and Trochim, W. M.~K.} (\textbf{2008}).
 \newblock \enquote{{Evaluation of large research initiatives: Outcomes,
-  challenges, and methodological considerations}.}
-\newblock In C.~L. Coryn and M.~Scriven, Eds., \enquote{Reforming the
-  evaluation of research. New Directions for Evaluation,} Volume 118, pp.
-  61--72. Jossey-Bass and American Evalution Association, Vancouver, B.C.
+  challenges, and methodological considerations}}.
+\newblock In C.~L. Coryn and M.~Scriven, Eds., \myemph{Reforming the evaluation
+  of research. New Directions for Evaluation,} Volume 118, pp. 61--72.
+  Jossey-Bass and American Evalution Association, Vancouver, B.C.
 \newblock doi:10.1002/ev.261.
 
 \bibitem[{Robertson and Robertson(2006)}]{Robertson2006}
 \textbf{Robertson, S. and Robertson, J.} (\textbf{2006}).
-\newblock \enquote{{Nonfunctional requirements}.}
-\newblock In \enquote{Mastering the requirements process,} Chapter~8, pp.
+\newblock \enquote{{Nonfunctional requirements}}.
+\newblock In \myemph{Mastering the requirements process,} Chapter~8, pp.
   171--202. Addison-Wesley, Upper Saddle River, NJ, 2 ed.
 
 \bibitem[{Rubenson(2002)}]{Rubenson2002}
 \textbf{Rubenson, K.} (\textbf{2002}).
-\newblock \enquote{{Lifelong Learning for All: Challenges and Limitations of
-  Public Policy}.}
 \newblock
-  \urlprefix\url{http://www.oise.utoronto.ca/CASAE/cnf2002/2002\_Papers/rubens%
-on2002w.pdf}.
+\newblock \enquote{{Lifelong Learning for All: Challenges and Limitations of
+  Public Policy}}\urlprefix{August 7,
+  2009,}\url{http://www.oise.utoronto.ca/CASAE/cnf2002/2002\_Papers/rubenson20%
+02w.pdf}.
 
 \bibitem[{Rutledge et~al.(2012)Rutledge, Asing-Cashman, Abdelmalak, Gurung,
   Arouri, and Pawielski}]{Rutledge2012}
 \textbf{Rutledge, D., Asing-Cashman, J., Abdelmalak, M., Gurung, B., Arouri,
   Y., and Pawielski, Y.} (\textbf{2012}).
 \newblock \enquote{{Introduction to Integrating Technology into Teaching:
-  Developing a course for pre-service teachers}.}
-\newblock In P.~Resta, Ed., \enquote{Proceedings of Society for Information
+  Developing a course for pre-service teachers}}.
+\newblock In P.~Resta, Ed., \myemph{Proceedings of Society for Information
   Technology and Teacher Education International Conference 2012,} pp.
-  3048--3050. AACE, Chesapeake, VA.
-\newblock \urlprefix\url{http://www.editlib.org/p/40055}.
+  3048--3050.
+\newblock AACE, Chesapeake, VA\urlprefix{April 10,
+  2012,}\url{http://www.editlib.org/p/40055}.
 
 \bibitem[{Savin-Baden and Wilkie(2006)}]{Savin-Baden2006}
 \textbf{Savin-Baden, M. and Wilkie, K.} (\textbf{2006}).
@@ -1074,15 +1106,15 @@ on2002w.pdf}.
 \bibitem[{Scanlon(2006)}]{Scanlon2006}
 \textbf{Scanlon, L.} (\textbf{2006}).
 \newblock \enquote{{Graduate Attributes and the Transition to Higher
-  Education}.}
+  Education}}.
 \newblock Volume~6, pp. 125--148. Springer Netherlands.
 
 \bibitem[{Schaffert and Hilzensauer(2008)}]{Schaffert2008}
 \textbf{Schaffert, S. and Hilzensauer, W.} (\textbf{2008}).
-\newblock \enquote{{On the way towards Personal Learning Environments: Seven
-  crucial aspects}.}
 \newblock
-  \urlprefix\url{http://www.elearningeuropa.info/files/media/media15971.pdf}.
+\newblock \enquote{{On the way towards Personal Learning Environments: Seven
+  crucial aspects}}\urlprefix{April 10,
+  2012,}\url{http://www.elearningeuropa.info/files/media/media15971.pdf}.
 
 \bibitem[{Schostak(2006)}]{Schostak2006}
 \textbf{Schostak, J.} (\textbf{2006}).
@@ -1092,7 +1124,7 @@ on2002w.pdf}.
 \bibitem[{Schuetze and Casey(2006)}]{Schuetze2006}
 \textbf{Schuetze, H.~G. and Casey, C.} (\textbf{2006}).
 \newblock \enquote{{Models and meanings of Lifelong Learning: progress and
-  barriers on the road to a Learning Society}.}
+  barriers on the road to a Learning Society}}.
 \newblock \emph{Compare: A Journal of Comparative and International Education},
   36(3): 279--287.
 
@@ -1105,41 +1137,43 @@ on2002w.pdf}.
   Bransford}]{Sherwood1987}
 \textbf{Sherwood, R.~D., Kinzer, C.~K., Hasselbring, S., and Bransford, J.~D.}
   (\textbf{1987}).
-\newblock \enquote{{Macro-contexts for Learning: Initial Findings and Issues}.}
+\newblock \enquote{{Macro-contexts for Learning: Initial Findings and Issues}}.
 \newblock \emph{Applied Cognitive Psychology}, 1(2): 93--108.
+\newblock doi:10.1002/acp.2350010203.
 
 \bibitem[{Shuy(2001)}]{Shuy2001}
 \textbf{Shuy, R.~W.} (\textbf{2001}).
-\newblock \enquote{{In-Person Versus Telephone Interviewing}.}
-\newblock In J.~F. Gubrium and J.~A. Holstein, Eds., \enquote{Handbook of
+\newblock \enquote{{In-Person Versus Telephone Interviewing}}.
+\newblock In J.~F. Gubrium and J.~A. Holstein, Eds., \myemph{Handbook of
   interview research: context \& method,} Chapter~26, pp. 537--555. SAGE,
   London.
 
 \bibitem[{Siemens(2004)}]{Siemens2004}
-\textbf{Siemens, G.} (\textbf{2004}).
+\textbf{Siemens, G.} \textbf{(2004, November~22)}.
+\newblock
 \newblock \enquote{{Learning Management Systems: The wrong place to start
-  learning}.}
-\newblock \urlprefix\url{http://www.elearnspace.org/Articles/lms.htm}.
+  learning}}\urlprefix{April 17,
+  2012,}\url{http://www.elearnspace.org/Articles/lms.htm}.
 
 \bibitem[{Simmons-McDonald(2009)}]{Simmons-McDonald2009}
 \textbf{Simmons-McDonald, H.} (\textbf{2009}).
-\newblock \enquote{{Employability and lifelong learning}.}
+\newblock \enquote{{Employability and lifelong learning}}.
 \newblock \emph{The Electronic Journal of The International Council for Open
-  and Distance Education}, 4(2).
-\newblock \urlprefix\url{http://www.openpraxis.com/}.
+  and Distance Education},
+\newblock 4(2)\urlprefix{December 13, 2011,}\url{http://www.openpraxis.com}.
 
 \bibitem[{Smidt and Sursock(2011)}]{Smidt2011}
 \textbf{Smidt, H. and Sursock, A.} (\textbf{2011}).
 \newblock \enquote{{Engaging in Lifelong Learning: Shaping Inclusive and
-  Responsive University Strategies}.}
-\newblock Technical report, European University Association, Brussels, Belgium.
-\newblock
-  \urlprefix\url{http://www.eua.be/pubs/Engaging\_in\_Lifelong\_Learning.pdf}.
+  Responsive University Strategies}}.
+\newblock Technical report, European University Association,
+\newblock Brussels, Belgium\urlprefix{April 17,
+  2012,}\url{http://www.eua.be/pubs/Engaging\_in\_Lifelong\_Learning.pdf}.
 
 \bibitem[{Smith et~al.(2010)Smith, Krass, Sainsbury, and Rose}]{Smith2010}
 \textbf{Smith, L., Krass, I., Sainsbury, E., and Rose, G.} (\textbf{2010}).
 \newblock \enquote{{Pharmacy Students' Approaches to Learning in Undergraduate
-  and Graduate Entry Programs}.}
+  and Graduate Entry Programs}}.
 \newblock \emph{American Journal of Pharmaceutical Education}, 74(6): 1--6.
 
 \bibitem[{Sommerville(2007)}]{Sommerville2007}
@@ -1163,35 +1197,36 @@ on2002w.pdf}.
 \textbf{Sullivan, P. S.~O., Reckase, M.~D., Clain, T. M.~C., Savidge, M.~A.,
   and Clardy, J.~A.} (\textbf{2004}).
 \newblock \enquote{{Demonstration of Portfolios to Assess Competency of
-  Residents}.}
+  Residents}}.
 \newblock \emph{Advances in Health Sciences Education}, 9: 309--323.
 
 \bibitem[{Sutherland and Crowther(2006)}]{Sutherland2006}
 \textbf{Sutherland, P. and Crowther, J.} (\textbf{2006}).
 \newblock \emph{{Lifelong learning: concepts and contexts}}.
-\newblock Routledge, London : New York.
+\newblock Routledge, London: New York.
 
 \bibitem[{Sweat-Guy and Buzzetto-More(2007)}]{Sweat-Guy2007}
 \textbf{Sweat-Guy, R. and Buzzetto-More, N.~A.} (\textbf{2007}).
 \newblock \enquote{{A Comparative Analysis of Common E-Portfolio Features and
-  Available Platforms}.}
-\newblock In \enquote{Proceedings of the 2007 Informing Science and IT
-  Education Joint Conference,} pp. 327--342. Informing Science Institute,
-  Ljubljana, Slovenia.
+  Available Platforms}}.
+\newblock In \myemph{Proceedings of the 2007 Informing Science and IT Education
+  Joint Conference,} pp. 327--342. Informing Science Institute, Ljubljana,
+  Slovenia.
 
 \bibitem[{Tian et~al.(2011)Tian, Yu, Vogel, and Kwok}]{Tian2011}
 \textbf{Tian, S.~W., Yu, A.~Y., Vogel, D., and Kwok, R. C.-W.} (\textbf{2011}).
 \newblock \enquote{{The Impact of Online Social Networking on Learning: A
-  Social Integration Perspective}.}
+  Social Integration Perspective}}.
 \newblock \emph{International Journal of Networking and Virtual Organisations},
   8(3/4): 264 -- 280.
+\newblock doi:10.1504/IJNVO.2011.039999.
 
 \bibitem[{Tosun and Baris(2011)}]{Tosun2011}
 \textbf{Tosun, N. and Baris, F.} (\textbf{2011}).
-\newblock \enquote{{E-Portfolio Applications in Education}.}
-\newblock \emph{TOJNED: The Online Journal Of New Horizons In Education}, 1(4):
-  42--52.
-\newblock \urlprefix\url{http://www.tojned.net/pdf/tojnedv01i04-05.pdf}.
+\newblock \enquote{{E-Portfolio Applications in Education}}.
+\newblock \emph{TOJNED: The Online Journal Of New Horizons In Education},
+\newblock 1(4): 42--52\urlprefix{April 17,
+  2012,}\url{http://www.tojned.net/pdf/tojnedv01i04-05.pdf}.
 
 \bibitem[{Trochim(2001)}]{Trochim2001}
 \textbf{Trochim, W. M.~K.} (\textbf{2001}).
@@ -1201,22 +1236,22 @@ on2002w.pdf}.
 \bibitem[{Tuijnman and Bostr\"{o}m(2002)}]{Tuijnman2002}
 \textbf{Tuijnman, A. and Bostr\"{o}m, A.-K.} (\textbf{2002}).
 \newblock \enquote{{Changing Notions of Lifelong Education and Lifelong
-  Learning}.}
+  Learning}}.
 \newblock \emph{International Review of Education}, 48(1/2): 93--110.
 
 \bibitem[{{University of Ottawa}(2011)}]{UniversityofOttawa2011}
 \textbf{{University of Ottawa}} (\textbf{2011}).
-\newblock \enquote{{Destination 2020 -- The University of Ottawa's Strategic
-  Plan}.}
 \newblock
-  \urlprefix\url{http://destination2020.uottawa.ca/documents/destination-2020-%
-strategic-plan.pdf}.
+\newblock \enquote{{Destination 2020 -- The University of Ottawa's Strategic
+  Plan}}\urlprefix{April 10,
+  2012,}\url{http://destination2020.uottawa.ca/documents/destination-2020-stra%
+tegic-plan.pdf}.
 
 \bibitem[{{University of Toronto}(2010)}]{UniversityofTorontoScarborough2010}
-\textbf{{University of Toronto}} (\textbf{2010}).
-\newblock \enquote{{ePortfolios in Blackboard}.}
+\textbf{{University of Toronto}} \textbf{(2010, September~23)}.
 \newblock
-  \urlprefix\url{http://ctl.utsc.utoronto.ca/technology/bb-eportfolios}.
+\newblock \enquote{{ePortfolios in Blackboard}}\urlprefix{November 22,
+  2011,}\url{http://ctl.utsc.utoronto.ca/technology/bb-eportfolios}.
 
 \bibitem[{Vaishnavi and Kuechler(2008)}]{Vaishnavi2007}
 \textbf{Vaishnavi, V.~K. and Kuechler, W.} (\textbf{2008}).
@@ -1226,44 +1261,49 @@ strategic-plan.pdf}.
 
 \bibitem[{{van Tartwijk J.} and Driessen(2004)}]{VanTartwijkJ.2004}
 \textbf{{van Tartwijk J.} and Driessen, E.} \textbf{(2004, April~26)}.
-\newblock \enquote{{Types of e-portfolios}.}
 \newblock
-  \urlprefix\url{http://insight.eun.org/ww/en/pub/insight/school\_innovation/e%
-portfolio\_scenarios/portfolios\_types.htm}.
+\newblock \enquote{{Types of e-portfolios}}\urlprefix{April 17,
+  2012,}\url{http://insight.eun.org/ww/en/pub/insight/school\_innovation/eport%
+folio\_scenarios/portfolios\_types.htm}.
 
 \bibitem[{Venable(2010)}]{Venable2010}
 \textbf{Venable, J.~R.} (\textbf{2010}).
 \newblock \enquote{{Design Science Research Post Hevner et al.: Criteria,
-  Standards, Guidelines, and Expectations}.}
-\newblock In R.~Winter, J.~Zhao, and S.~Aier, Eds., \enquote{Proceedings of 5th
+  Standards, Guidelines, and Expectations}}.
+\newblock In R.~Winter, J.~Zhao, and S.~Aier, Eds., \myemph{Proceedings of 5th
   International Conference, DESRIST 2010,} pp. 109--123. Springer, St. Gallen,
   Switzerland.
+\newblock doi:10.1007/978-3-642-13335-0.
 
 \bibitem[{Venable(2011)}]{Venable2011}
 \textbf{Venable, M.} \textbf{(2011, April~28)}.
-\newblock \enquote{{The LMS Debate}.}
-\newblock \urlprefix\url{http://www.onlinecollege.org}.
+\newblock
+\newblock \enquote{{The LMS Debate}}\urlprefix{January 6,
+  2012,}\url{http://www.onlinecollege.org}.
 
 \bibitem[{Wang(2002)}]{Wang2002}
 \textbf{Wang, L.} (\textbf{2002}).
-\newblock \enquote{{Investigating How Participation In a Techonology-Based
+\newblock \enquote{{Investigating How Participation In a Technology-Based
   Project Has Influenced Education Faculty Members' Beliefs and Practices with
   Technology Integration: Factors That Influence Faculty Technology Integration
   and Implications for Faculty's Integration of Technology (Doctoral
-  dissertation)}.}
-\newblock \emph{University of New Orleans Theses and Dissertations}.
-\newblock \urlprefix\url{http://scholarworks.uno.edu/td/5}.
+  dissertation)}}.
+\newblock
+\newblock \emph{University of New Orleans Theses and
+  Dissertations}\urlprefix{April 10,
+  2012,}\url{http://scholarworks.uno.edu/td/5}.
 
 \bibitem[{Warren(2001)}]{Warren2001}
 \textbf{Warren, C. A.~B.} (\textbf{2001}).
-\newblock \enquote{{Qualitative Interviewing}.}
-\newblock In J.~F. Gubrium and J.~A. Holstein, Eds., \enquote{Handbook of
+\newblock \enquote{{Qualitative Interviewing}}.
+\newblock In J.~F. Gubrium and J.~A. Holstein, Eds., \myemph{Handbook of
   interview research: context \& method,} Chapter~4, pp. 83--101. SAGE, London.
 
 \bibitem[{Waters(2009)}]{Waters2009}
 \textbf{Waters, J.~K.} \textbf{(2009, November~9)}.
-\newblock \enquote{{E-Portfolios Come of Age}.}
-\newblock \urlprefix\url{http://thejournal.com}.
+\newblock
+\newblock \enquote{{E-Portfolios Come of Age}}\urlprefix{March 16,
+  2010,}\url{http://thejournal.com}.
 
 \bibitem[{Watson and Watson(2007)}]{Watson2007}
 \textbf{Watson, B. W.~R. and Watson, S.~L.} (\textbf{2007}).
@@ -1275,7 +1315,7 @@ portfolio\_scenarios/portfolios\_types.htm}.
 \bibitem[{Wheeler et~al.(2008)Wheeler, Yeomans, and Wheeler}]{Wheeler2008}
 \textbf{Wheeler, S., Yeomans, P., and Wheeler, D.} (\textbf{2008}).
 \newblock \enquote{{The good, the bad and the wiki: Evaluating
-  student-generated content for collaborative learning}.}
+  student-generated content for collaborative learning}}.
 \newblock \emph{British Journal of Educational Technology}, 39(6): 987--995.
 
 \bibitem[{Wiegers(2003)}]{Wiegers2003}
@@ -1287,9 +1327,16 @@ portfolio\_scenarios/portfolios\_types.htm}.
 \bibitem[{Wirtz et~al.(2010)Wirtz, Schilke, and Ullrich}]{Wirtz2010}
 \textbf{Wirtz, B.~W., Schilke, O., and Ullrich, S.} (\textbf{2010}).
 \newblock \enquote{{Strategic Development of Business Models: Implications of
-  the Web 2.0 for Creating Value on the Internet}.}
+  the Web 2.0 for Creating Value on the Internet}}.
 \newblock \emph{Long Range Planning}, 43(2-3): 272--290.
 \newblock doi:10.1016/j.lrp.2010.01.005.
+
+\bibitem[{{World Wide Web Consortium}(2012)}]{WorldWideWebConsortium2012}
+\textbf{{World Wide Web Consortium}} (\textbf{2012}).
+\newblock \enquote{{Section 1.4: History}}.
+\newblock In I.~Hickson, Ed., \myemph{HTML5. A vocabulary and associated APIs
+  for HTML and XHTML. W3C Working Draft 29 March 2012,} \urlprefix{April 17,
+  2012,}\url{http://dev.w3.org/html5/spec/introduction.html\#history-1}.
 
 \bibitem[{Yin(2009)}]{Yin2009}
 \textbf{Yin, R.~K.} (\textbf{2009}).
@@ -1304,7 +1351,8 @@ portfolio\_scenarios/portfolios\_types.htm}.
 \bibitem[{Zhan(2010)}]{Zhan2010}
 \textbf{Zhan, Z.} (\textbf{2010}).
 \newblock \enquote{{Feeling the Sense of Community in Social Networking
-  Usage}.}
+  Usage}}.
 \newblock \emph{IEEE Transactions On Engineering Management}, 57(2): 225--239.
+\newblock doi:10.1109/TEM.2009.202345.
 
 \end{thebibliography}
