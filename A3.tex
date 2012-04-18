@@ -51,37 +51,56 @@ requirements of the implemented components in the form of user stories.
      \hline}
     \tablelasttail{\hline}
 	\topcaption{Implemented requirements for version control elements}
-    \begin{supertabular}{|l p{10cm}|}
-     1 & Be able to create new version of the page \\ 
+    \begin{supertabular}{|l p{12cm}|}
+     1.01 & \textit{User can create a new version of a page} \\ 
 	   & Acceptance Criteria:  
 	     \begin{itemize}[noitemsep,nolistsep]
-	        \item Text
-	        \item Text
-	     	\item Text
+	        \item Page is not a system type or group type
+	        \item Page is not submitted for review
+	     	\item Name for the new version of the page satisfies the requirements for
+	     	page names 
+	     	\item Content of the latest version is copied to the new version
 	     \end{itemize} \\ \hline
-     2.1 & Be able to delete any version of the page  \\ 
+     1.02 & \textit{User can remove a version of a page}  \\ 
      	 & Acceptance Criteria:  
 	       \begin{itemize}[noitemsep,nolistsep]
 	         \item Text
 	         \item Text
 	         \item Text
 	       \end{itemize} \\ \hline
-     2.2 & Delete all versions if the page is deleted completely \\ 
+     1.03 & \textit{User can remove a page} \\ 
          & Acceptance Criteria:  
 	       \begin{itemize}[noitemsep,nolistsep]
-	         \item Text
-	         \item Text
-	         \item Text
+	         \item All versions are removed if the page is removed completely
 	       \end{itemize} \\ \hline
-     3.1 & Be able to edit page names of any version of the page \\ \hline 
-     3.2 & Be able to edit page content of any version of the page \\
+     1.04 & \textit{User can edit page names of any version of the page} \\ 
+         & Acceptance Criteria:  
+	       \begin{itemize}[noitemsep,nolistsep]
+	         \item User can edit page names of any version of the page
+	         \item User can edit page content of any version of the page
+	       \end{itemize} \\   
      \hline 
-     4.1 & Be able to share a specific version of the page with other users \\
+     1.05 & \textit{User can share a page with other users} \\
+          & Acceptance Criteria:  
+	       \begin{itemize}[noitemsep,nolistsep]
+	         \item User can share a specific version of the page
+	         \item User can share all version of the page
+	       \end{itemize} \\    
      \hline 
-     4.2 & Be able to share all version of the page with other users \\
+     1.06 & \textit{User can navigate between page versions}  \\ 
+          & Acceptance Criteria:  
+	       \begin{itemize}[noitemsep,nolistsep]
+	         \item User can select a specific version
+	         \item User can share all version of the page
+	       \end{itemize} \\    
      \hline 
-     5 & Be able to navigate between page versions  \\ \hline
-     6 & Be able to leave feedback for any version of the page  \\ \hline
+     1.07 & \textit{User can leave feedback on the page}  \\ \hline  
+          & Acceptance Criteria:  
+	       \begin{itemize}[noitemsep,nolistsep]
+	         \item User can leave feedback on any version of the page
+	         \item 
+	       \end{itemize} \\    
+     \hline 
     \end{supertabular}
     \label{tab:req1}
 \end{center} 
@@ -105,16 +124,36 @@ requirements of the implemented components in the form of user stories.
      \hline}
     \tablelasttail{\hline}
 	\topcaption{Implemented requirements for concept mapping module}
-    \begin{supertabular}{|l p{10cm}|}
-     1 & Be able to create a concept map \\ \hline
-     2.1 & Be able to add concepts to concept map  \\ \hline
-     2.2 & Be able to add definitions to the concepts  \\ \hline
-     3 & Be able to edit concepts and definitions  \\ \hline
-     4 & Be able to delete concepts and definitions  \\ \hline
-     5 & Be able to change type of a concept map element  \\ \hline
-     6 & Be able to add examples to the map from the \ep~repository \\ \hline
-     G8 & Be able to view added examples  \\ \hline
-     G9 & Be able to share a concept map  \\ \hline
+    \begin{supertabular}{|l p{12cm}|}
+     2.01 & User can create a concept map \\ 
+	   & Acceptance Criteria:  
+	     \begin{itemize}[noitemsep,nolistsep]
+	        \item A user cannot create a map without completing all the mandatory
+	        fields of the form
+	        \item Text
+	     	\item Text
+	     \end{itemize} \\ \hline
+     2.02 & Be able to add concepts to concept map  \\ 
+     	 & Acceptance Criteria:  
+	       \begin{itemize}[noitemsep,nolistsep]
+	         \item Text
+	         \item Text
+	         \item Text
+	       \end{itemize} \\ \hline
+     2.03 & Be able to add definitions to the concepts \\ 
+         & Acceptance Criteria:  
+	       \begin{itemize}[noitemsep,nolistsep]
+	         \item Text
+	         \item Text
+	         \item Text
+	       \end{itemize} \\ \hline
+     2.04 & Be able to edit concepts and definitions \\ \hline 
+     2.05 & Be able to delete concepts and definitions \\  \hline 
+     2.06 & Be able to change type of a concept map element \\  \hline 
+     2.07 & Be able to add examples to the map from the \ep~repository \\
+     \hline 
+     2.08 & Be able to view added examples  \\ \hline
+     2.09 & Be able to share a concept map  \\ \hline
     \end{supertabular}
     \label{tab:req2}
 \end{center}
@@ -138,16 +177,56 @@ requirements of the implemented components in the form of user stories.
      \hline}
     \tablelasttail{\hline}
 	\topcaption{Implemented requirements for artifact fragments extraction}
-    \begin{supertabular}{|l p{10cm}|}
-     G1 & Text \\ \hline
-     G2 & Text  \\ \hline
-     G3 & Text  \\ \hline
-     G4 & Text  \\ \hline
-     G5 & Text  \\ \hline
-     G6 & Text  \\ \hline
-     G7 & Text  \\ \hline
-     G8 & Text  \\ \hline
-     G9 & Text  \\ \hline
+    \begin{supertabular}{|l p{12cm}|}
+     3.01 & \textit{User can create a new version of a page} \\ 
+	   & Acceptance Criteria:  
+	     \begin{itemize}[noitemsep,nolistsep]
+	        \item Page is not a system type or group type
+	        \item Page is not submitted for review
+	     	\item Name for the new version of the page satisfies the requirements for
+	     	page names 
+	     	\item Content of the latest version is copied to the new version
+	     \end{itemize} \\ \hline
+     3.02 & \textit{User can remove a version of a page}  \\ 
+     	 & Acceptance Criteria:  
+	       \begin{itemize}[noitemsep,nolistsep]
+	         \item Text
+	         \item Text
+	         \item Text
+	       \end{itemize} \\ \hline
+     3.03 & \textit{User can remove a page} \\ 
+         & Acceptance Criteria:  
+	       \begin{itemize}[noitemsep,nolistsep]
+	         \item All versions are removed if the page is removed completely
+	       \end{itemize} \\ \hline
+     3.04 & \textit{User can edit page names of any version of the page} \\ 
+         & Acceptance Criteria:  
+	       \begin{itemize}[noitemsep,nolistsep]
+	         \item User can edit page names of any version of the page
+	         \item User can edit page content of any version of the page
+	       \end{itemize} \\   
+     \hline 
+     3.05 & \textit{User can share a page with other users} \\
+          & Acceptance Criteria:  
+	       \begin{itemize}[noitemsep,nolistsep]
+	         \item User can share a specific version of the page
+	         \item User can share all version of the page
+	       \end{itemize} \\    
+     \hline 
+     3.06 & \textit{User can navigate between page versions}  \\ 
+          & Acceptance Criteria:  
+	       \begin{itemize}[noitemsep,nolistsep]
+	         \item User can select a specific version
+	         \item User can share all version of the page
+	       \end{itemize} \\    
+     \hline 
+     3.07 & \textit{User can leave feedback on the page}  \\ \hline  
+          & Acceptance Criteria:  
+	       \begin{itemize}[noitemsep,nolistsep]
+	         \item User can leave feedback on any version of the page
+	         \item 
+	       \end{itemize} \\    
+     \hline 
     \end{supertabular}
     \label{tab:req3}
 \end{center}
@@ -171,49 +250,128 @@ requirements of the implemented components in the form of user stories.
      \hline}
     \tablelasttail{\hline}
 	\topcaption{Implemented requirements for progress tracking}
-    \begin{supertabular}{|l p{10cm}|}
-     G1 & Text \\ \hline
-     G2 & Text  \\ \hline
-     G3 & Text  \\ \hline
-     G4 & Text  \\ \hline
-     G5 & Text  \\ \hline
-     G6 & Text  \\ \hline
-     G7 & Text  \\ \hline
-     G8 & Text  \\ \hline
-     G9 & Text  \\ \hline
+    \begin{supertabular}{|l p{12cm}|}
+     4.01 & \textit{User can create a new version of a page} \\ 
+	   & Acceptance Criteria:  
+	     \begin{itemize}[noitemsep,nolistsep]
+	        \item Page is not a system type or group type
+	        \item Page is not submitted for review
+	     	\item Name for the new version of the page satisfies the requirements for
+	     	page names 
+	     	\item Content of the latest version is copied to the new version
+	     \end{itemize} \\ \hline
+     4.02 & \textit{User can remove a version of a page}  \\ 
+     	 & Acceptance Criteria:  
+	       \begin{itemize}[noitemsep,nolistsep]
+	         \item Text
+	         \item Text
+	         \item Text
+	       \end{itemize} \\ \hline
+     4.03 & \textit{User can remove a page} \\ 
+         & Acceptance Criteria:  
+	       \begin{itemize}[noitemsep,nolistsep]
+	         \item All versions are removed if the page is removed completely
+	       \end{itemize} \\ \hline
+     4.04 & \textit{User can edit page names of any version of the page} \\ 
+         & Acceptance Criteria:  
+	       \begin{itemize}[noitemsep,nolistsep]
+	         \item User can edit page names of any version of the page
+	         \item User can edit page content of any version of the page
+	       \end{itemize} \\   
+     \hline 
+     4.05 & \textit{User can share a page with other users} \\
+          & Acceptance Criteria:  
+	       \begin{itemize}[noitemsep,nolistsep]
+	         \item User can share a specific version of the page
+	         \item User can share all version of the page
+	       \end{itemize} \\    
+     \hline 
+     4.06 & \textit{User can navigate between page versions}  \\ 
+          & Acceptance Criteria:  
+	       \begin{itemize}[noitemsep,nolistsep]
+	         \item User can select a specific version
+	         \item User can share all version of the page
+	       \end{itemize} \\    
+     \hline 
+     4.07 & \textit{User can leave feedback on the page}  \\ \hline  
+          & Acceptance Criteria:  
+	       \begin{itemize}[noitemsep,nolistsep]
+	         \item User can leave feedback on any version of the page
+	         \item 
+	       \end{itemize} \\    
+     \hline 
     \end{supertabular}
     \label{tab:req4}
 \end{center}
 
 \section{Shared Resources Management}
-
+\newpage
 \begin{center} \small
     \tablefirsthead{
      \hline
-     \multicolumn{2}{|l|}{\textbf{Component:} Advanced Sharing Options} \\
+     \multicolumn{2}{|l|}{\textbf{Component:} Shared Resources Management} \\
      \hline}
     \tablehead{
      \hline
      \multicolumn{2}{|l|}{\small\sl continued from previous page}\\
      \hline
-     \multicolumn{2}{|l|}{\textbf{Component:} Advanced Sharing Options} \\
+     \multicolumn{2}{|l|}{\textbf{Component:} Shared Resources Management} \\
      \hline}
     \tabletail{
      \hline
      \multicolumn{2}{|r|}{\small\sl continued on next page}\\
      \hline}
     \tablelasttail{\hline}
-	\topcaption{Implemented requirements for advanced sharing options}
-    \begin{supertabular}{|l p{10cm}|}
-     G1 & Text \\ \hline
-     G2 & Text  \\ \hline
-     G3 & Text  \\ \hline
-     G4 & Text  \\ \hline
-     G5 & Text  \\ \hline
-     G6 & Text  \\ \hline
-     G7 & Text  \\ \hline
-     G8 & Text  \\ \hline
-     G9 & Text  \\ \hline
+	\topcaption{Implemented requirements for shared resources management}
+    \begin{supertabular}{|l p{12cm}|}
+     5.01 & \textit{User can } \\ 
+	   & Acceptance Criteria:  
+	     \begin{itemize}[noitemsep,nolistsep]
+	        \item 
+	        \item 
+	     	\item   
+	     \end{itemize} \\ \hline
+     5.02 & \textit{User can }  \\ 
+     	 & Acceptance Criteria:  
+	       \begin{itemize}[noitemsep,nolistsep]
+	         \item 
+	         \item 
+	         \item 
+	       \end{itemize} \\ \hline
+     5.03 & \textit{User can } \\ 
+         & Acceptance Criteria:  
+	       \begin{itemize}[noitemsep,nolistsep]
+	         \item 
+	         \item 
+	       \end{itemize} \\ \hline
+     5.04 & \textit{User can } \\ 
+         & Acceptance Criteria:  
+	       \begin{itemize}[noitemsep,nolistsep]
+	         \item 
+	         \item 
+	       \end{itemize} \\   
+     \hline 
+     5.05 & \textit{User can } \\
+          & Acceptance Criteria:  
+	       \begin{itemize}[noitemsep,nolistsep]
+	         \item 
+	         \item 
+	       \end{itemize} \\    
+     \hline 
+     5.06 & \textit{User can }  \\ 
+          & Acceptance Criteria:  
+	       \begin{itemize}[noitemsep,nolistsep]
+	         \item 
+	         \item 
+	       \end{itemize} \\    
+     \hline 
+     5.07 & \textit{User can }  \\ \hline  
+          & Acceptance Criteria:  
+	       \begin{itemize}[noitemsep,nolistsep]
+	         \item 
+	         \item 
+	       \end{itemize} \\    
+     \hline 
     \end{supertabular}
     \label{tab:req5}
 \end{center}

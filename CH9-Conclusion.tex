@@ -2,13 +2,14 @@
 \epigraph{We now accept the fact that learning is a lifelong process of keeping
 abreast of change. And the most pressing task is to teach people how to
 learn.}{\textit{Peter F. Drucker}}
-%3070
+%3175
 The main focus of this thesis has been on improving \LLLs support for students
 in the universities by providing them with a better learning environment -- an
 enhanced \ep~system. For this purpose, the requirements, design, development and
 evaluation of the prototype environment has been discussed in detail. This final
 chapter summarizes the outcomes of this research and its contributions to the
-related fields, along with the opportunities for the future research projects.
+related fields. It discusses the implications for theory and practice, along
+with the opportunities for the future research projects.
 
 \section{Contributions and Outlook}
 
@@ -19,14 +20,16 @@ should not be underestimated. Among these were:
   \item \textit{Identifying the requirements for the \LLLs in universities based
   on academic literature}: the initial contribution of this research was the set
   of identified requirements to provide students with comprehensive support for
-  their \LLLs in universities. 
+  their \LLLs in universities. These requirements are aimed at better supporting
+  reflection, communication and collaboration, development and showcasing of
+  skills and achievements, and tracking of learning progress.
   
   \item \textit{Development of the requirements specification}: Following the
-  needs of the major stakeholders (students and lecturers), formal requirements for \LLLs
-  support in universities were developed. This formal specification that is
-  based on the identified requirements can be used or adopted by the developing
-  teams of the \ep~systems to improve existing systems in the context of
-  providing support for \LLLsn.
+  needs of the major stakeholders (students and lecturers), formal requirements
+  for \LLLs support in universities were developed. This formal specification
+  that is based on the identified requirements can be used or adopted by the
+  developing teams of the \ep~systems to improve existing systems in the context
+  of providing support for \LLLsn.
   
   \item \textit{Development of the functional prototype}: The Mahara \ep~system
   was modified to illustrate that these requirements can be successfully
@@ -48,18 +51,18 @@ to provide a technical solution capable of supporting \LLLs in universities.
 Based on the outcomes of the evaluation, the overall approach to the problem can
 be considered successful.
 
-However, the value and impact of this research project goes beyond the
-technical solutions. When this project started a bit over three years ago,
-there were few active projects in the area of providing students with technical
-support for \LLLsn. At that time, a lot of studies from the first wave of an
-\ep~system implementation as a tool for supporting \LLLs have already been
-finished \citep{Batson2010}. Consequently, many universities around the world
-that had been trying to adopt \ep~systems for \LLLs support discovered that
-incorporating these systems into institutional environment was not an easy task.
-To successfully introduce a new technology, it needs to be aligned with the
-views and policies of an institution. It also requires a significant investment
-of time and effort as well as adjusting curriculum, teaching and learning
-practice in accordance with the new standards of \LLLsn.
+The value and impact of this research project goes beyond the technical
+solutions. When this project started a bit over three years ago, there were few
+active projects in the area of providing students with technical support for
+\LLLsn. At that time, a lot of studies from the first wave of an \ep~system
+implementation as a tool for supporting \LLLs have already been finished
+\citep{Batson2010}. As a result, many universities around the world that had
+been trying to adopt \ep~systems for \LLLs support discovered that incorporating
+these systems into institutional environment was not an easy task. To
+successfully introduce a new technology, it needs to be aligned with the views
+and policies of an institution. It also requires a significant investment of
+time and effort as well as adjusting curriculum, teaching and learning practice
+in accordance with the new standards of \LLLsn.
 
 Due to the fact that the changes in academic environment occur slowly,
 especially if it involves incorporating new technologies \citep{Molebash1999},
@@ -124,23 +127,6 @@ This section discusses the lessons learnt and conclusions that can be drawn
 based on results of this research. It suggests the changes that could be made in
 various areas in order to improve the quality of \LLLs support in universities.
 
-\subsection[Cooperation and Communication]{Importance of cooperation in 
-introducing new technologies or new teaching principles}
-
-A surprising for the researcher discovery made during the course of this
-research was that communication between various departments was in quite poor
-state. If the lecturers were more engaged with teaching and learning projects
-carried out in their departments or schools, they were less likely to know about
-similar research projects in other areas of the university. 
-
-Work with the lecturers at various stages of this project showed the importance
-of communication and cooperation between the university departments. The
-lecturers who were research participants were usually highly surprised when they
-discovered that some other departments were using or had past experience of
-employing exactly the same technologies with their students. A lot of issues and
-troubles for new institutional developments could have been avoided if proper
-communication or presenting departments' research was done across the university.
-
 \subsection[Finding Balance]{Finding balance between what is good for teaching
 and good for learning}
 
@@ -166,6 +152,23 @@ get quality outcomes. Therefore, while introducing new systems to the learning
 environment, university management should also perform a holistic review of
 approaches to teaching that balances new requirements or added workload with
 reduced effort in other areas.
+
+\subsection[Cooperation and Communication]{Importance of cooperation in 
+introducing new technologies or new teaching principles}
+
+A surprising for the researcher discovery made during the course of this
+research was that communication between various departments was in quite poor
+state. If the lecturers were more engaged with teaching and learning projects
+carried out in their departments or schools, they were less likely to know about
+similar research projects in other areas of the university. 
+
+Work with the lecturers at various stages of this project showed the importance
+of communication and cooperation between the university departments. The
+lecturers who were research participants were usually highly surprised when they
+discovered that some other departments were using or had past experience of
+employing exactly the same technologies with their students. A lot of issues and
+troubles for new institutional developments could have been avoided if proper
+communication or presenting departments' research was done across the university.
 
 \subsection[Learning to Use New Technology]{Learning to use new technology}
 
@@ -239,18 +242,39 @@ Depending on which \ep~platform is used as a base system, this step would also
 require to follow the specific for the platform developer guidelines. Each
 developing community has their established methods and rules which need to be
 followed by any contributor. For example, to contribute code developed in this
-project to the official Mahara \ep~system release would require such steps as
-using Mahara code guidelines in all implementations, adapting the
-implementations to the latest system version and submitting contribution to the
-Gerrit\footnote{\url{http://code.google.com/p/gerrit/} (Accessed April 16,
-2012)} review system. After code submission, it has to be independently reviewed
-by two developers from the core team, fixed according to their feedback and
-properly tested. Only after all these steps, the code can be included in the
-official system release.
+project to the official Mahara \ep~system
+release\footnote{\url{https://launchpad.net/mahara} (Accessed April 18, 2012)}
+would require such steps as using Mahara code guidelines in all implementations,
+adapting the implementations to the latest system version and submitting
+contribution to the Gerrit\footnote{\url{http://code.google.com/p/gerrit/}
+(Accessed April 16, 2012)} review system. After code submission, it has to be
+independently reviewed by two developers from the core team, fixed according to
+their feedback, properly tested, and documented for future maintenance purposes.
+Only after all these steps, the code can be included in the official system
+release.
 
 The above example shows a complexity of contributing to the open-source project.
 Adding code to the proprietary system is most likely to be even more complicated
 process. A future project should look into these issues.
+
+\subsection[Optimal interface design]{Optimal interface for the implementations
+supporting \LLLs requirements} 
+
+As this project was focusing on the development of a functional prototype for
+theory testing, user interface development was outside of the research scope.
+However, interface design plays an important role in acceptance of any system by
+users as well as it might influence users' productivity and users' satisfaction
+from using this system. Potential research project in the area of HCI would look
+into the problem of designing an optimal user interface for the features
+implemented in \ep~system supporting \LLLsn.
+
+A challenge of developing an optimal user interface will remain an outstanding
+issue over time. The field of designing good and efficient Web interfaces will
+always be a \textit{hot topic} due to the rapidly changing technologies aimed on
+improving user experience. From this perspective, it would be interesting to
+analyse whether the current interface implementations could have been done using
+other visual representations and how it would influence learners' perception of
+the system.
 
 \subsection{Further evaluations of the prototype}
 As was discussed earlier, evaluation of the prototype implementations in the
@@ -271,25 +295,6 @@ possible would be required. This research used largely qualitative methods which
 are knows for their poor generalizability \citep{Trochim2001}. Therefore, one of
 the potential future research projects would look into the issues of testing the
 findings of the current project from the perspective of generalizing them.
-
-\subsection[Optimal interface design]{Optimal interface for the implementations
-supporting \LLLs requirements} 
-
-As this project was focusing on the development of a functional prototype for
-theory testing, user interface development was outside of the research scope.
-However, interface design plays an important role in acceptance of any system by
-users as well as it might influence users' productivity and users' satisfaction
-from using this system. Potential research project in the area of HCI would look
-into the problem of designing an optimal user interface for the features
-implemented in \ep~system supporting \LLLsn.
-
-A challenge of developing an optimal user interface will remain an outstanding
-issue over time. The field of designing good and efficient Web interfaces will
-always be a \textit{hot topic} due to the rapidly changing technologies aimed on
-improving user experience. From this perspective, it would be interesting to
-analyse whether the current interface implementations could have been done using
-other visual representations and how it would influence learners' perception of
-the system.
 
 \subsection[``Seamless'' environment for \LLLs support]{``Seamless'' virtual
 learning environment for \LLLs support} 
