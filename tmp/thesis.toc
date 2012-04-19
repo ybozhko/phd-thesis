@@ -138,9 +138,9 @@
 \contentsline {section}{\numberline {C.1}User Stories}{193}{section.C.1}
 \contentsline {section}{\numberline {C.2}Version Control Elements}{194}{section.C.2}
 \contentsline {section}{\numberline {C.3}Concept Mapping Module}{195}{section.C.3}
-\contentsline {section}{\numberline {C.4}Artifacts' Fragments Extraction}{196}{section.C.4}
-\contentsline {section}{\numberline {C.5}Learning Progress Tracking}{197}{section.C.5}
-\contentsline {section}{\numberline {C.6}Shared Resources Management}{198}{section.C.6}
+\contentsline {section}{\numberline {C.4}Artifact Fragments Extraction}{197}{section.C.4}
+\contentsline {section}{\numberline {C.5}Learning Progress Tracking}{199}{section.C.5}
+\contentsline {section}{\numberline {C.6}Shared Resources Management}{200}{section.C.6}
 \contentsline {chapter}{\numberline {D}Interface Screenshots }{201}{appendix.D}
 \contentsline {section}{\numberline {D.1}Version Control Elements}{201}{section.D.1}
 \contentsline {section}{\numberline {D.2}Concept Mapping Module}{202}{section.D.2}

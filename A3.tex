@@ -53,8 +53,9 @@ requirements of the implemented components in the form of user stories.
 	\topcaption{Implemented requirements for version control elements}
     \begin{supertabular}{|l p{12cm}|}
      1.01 & \textit{User can create a new version of a page} \\ 
-	   & Acceptance Criteria:  
-	     \begin{itemize}[noitemsep,nolistsep]
+	   & Acceptance Criteria:
+	     \begin{itemize}[nosep,label=--]
+	        \item A page has one (first) version by default
 	        \item Page is not a system type or group type
 	        \item Page is not submitted for review
 	     	\item Name for the new version of the page satisfies the requirements for
@@ -63,44 +64,45 @@ requirements of the implemented components in the form of user stories.
 	     \end{itemize} \\ \hline
      1.02 & \textit{User can remove a version of a page}  \\ 
      	 & Acceptance Criteria:  
-	       \begin{itemize}[noitemsep,nolistsep]
-	         \item Text
-	         \item Text
-	         \item Text
+	       \begin{itemize}[nosep,label=--]
+	         \item Only one version at a time can be removed
+	         \item If all versions are removed, the page is removed as well
+	         \item Verify that links between versions are properly established when
+	         a version that has next version is removed
 	       \end{itemize} \\ \hline
      1.03 & \textit{User can remove a page} \\ 
          & Acceptance Criteria:  
-	       \begin{itemize}[noitemsep,nolistsep]
-	         \item All versions are removed if the page is removed completely
-	       \end{itemize} \\ \hline
-     1.04 & \textit{User can edit page names of any version of the page} \\ 
+	       \begin{itemize}[nosep,label=--]
+	         \item Verify that all versions are removed if the page is removed
+	         completely \end{itemize} \\ \hline
+     1.04 & \textit{User can edit any version of the page} \\ 
          & Acceptance Criteria:  
-	       \begin{itemize}[noitemsep,nolistsep]
+	       \begin{itemize}[nosep,label=--]
 	         \item User can edit page names of any version of the page
 	         \item User can edit page content of any version of the page
 	       \end{itemize} \\   
      \hline 
      1.05 & \textit{User can share a page with other users} \\
           & Acceptance Criteria:  
-	       \begin{itemize}[noitemsep,nolistsep]
+	       \begin{itemize}[nosep,label=--]
 	         \item User can share a specific version of the page
-	         \item User can share all version of the page
+	         \item User can share all versions of the page
+	         \item Verify that other users have proper permissions to view the page
 	       \end{itemize} \\    
-     \hline 
+     \hline    
      1.06 & \textit{User can navigate between page versions}  \\ 
           & Acceptance Criteria:  
-	       \begin{itemize}[noitemsep,nolistsep]
-	         \item User can select a specific version
-	         \item User can share all version of the page
+	       \begin{itemize}[nosep,label=--]
+	         \item User can navigate to a specific version 
+	         \item User can navigate through the versions using a navigation menu
 	       \end{itemize} \\    
      \hline 
-     1.07 & \textit{User can leave feedback on the page}  \\ \hline  
+     1.07 & \textit{User can leave feedback on the page}  \\  
           & Acceptance Criteria:  
-	       \begin{itemize}[noitemsep,nolistsep]
+	       \begin{itemize}[nosep,label=--]
 	         \item User can leave feedback on any version of the page
-	         \item 
 	       \end{itemize} \\    
-     \hline 
+     \hline   
     \end{supertabular}
     \label{tab:req1}
 \end{center} 
@@ -125,51 +127,125 @@ requirements of the implemented components in the form of user stories.
     \tablelasttail{\hline}
 	\topcaption{Implemented requirements for concept mapping module}
     \begin{supertabular}{|l p{12cm}|}
-     2.01 & User can create a concept map \\ 
+     2.01 & \textit{User can create a concept map} \\ 
 	   & Acceptance Criteria:  
-	     \begin{itemize}[noitemsep,nolistsep]
-	        \item A user cannot create a map without completing all the mandatory
+	     \begin{itemize}[nosep,label=--]
+	        \item User cannot create a map without completing all the mandatory
 	        fields of the form
-	        \item Text
-	     	\item Text
+	        \item An additional custom timeframe can be selected from the list
 	     \end{itemize} \\ \hline
-     2.02 & Be able to add concepts to concept map  \\ 
+     2.02 & \textit{User can load a concept map in a diagram perspective}  \\ 
      	 & Acceptance Criteria:  
-	       \begin{itemize}[noitemsep,nolistsep]
-	         \item Text
-	         \item Text
-	         \item Text
+	       \begin{itemize}[nosep,label=--]
+	         \item Nodes of different type have different colours
+	         \item Verify that the hierarchy is displayed properly
+	         \item Number of examples attached to each definition node is displayed
+	         \item User can switch to another perspective at any time 
+	         \item User expand or collapse any node
+	         \item User expand or collapse an entire diagram
+	       \end{itemize} \\ \hline	     
+     2.03 & \textit{User can add nodes to concept map}  \\ 
+     	 & Acceptance Criteria:  
+	       \begin{itemize}[nosep,label=--]
+	         \item User can add concept nodes
+	         \item User can add definition nodes
+	         \item Verify that concept-type node cannot be added to the
+	         definition-type node
+	         \item Node is created if the mandatory field of the form is completed
+	         \item Verify that the page is dynamically reloading to display changes
 	       \end{itemize} \\ \hline
-     2.03 & Be able to add definitions to the concepts \\ 
-         & Acceptance Criteria:  
-	       \begin{itemize}[noitemsep,nolistsep]
-	         \item Text
-	         \item Text
-	         \item Text
+     2.04 & \textit{User can edit nodes} \\ 
+     	 & Acceptance Criteria:  
+	       \begin{itemize}[nosep,label=--]
+	         \item User can rename a concept node 
+	         \item User can rename a definition node
+	         \item Verify that the page is dynamically reloading to display changes
 	       \end{itemize} \\ \hline
-     2.04 & Be able to edit concepts and definitions \\ \hline 
-     2.05 & Be able to delete concepts and definitions \\  \hline 
-     2.06 & Be able to change type of a concept map element \\  \hline 
-     2.07 & Be able to add examples to the map from the \ep~repository \\
-     \hline 
-     2.08 & Be able to view added examples  \\ \hline
-     2.09 & Be able to share a concept map  \\ \hline
+     2.05 & \textit{User can delete nodes} \\   
+     	 & Acceptance Criteria:  
+	       \begin{itemize}[nosep,label=--]
+	         \item User can delete a concept node 
+	         \item User can delete a definition node
+			 \item Verify that the key concept node cannot be removed
+	         \item Verify that all sub-nodes are removed together with the parent
+	         node
+	         \item Verify that all examples are detached
+	         \item Verify that the page is dynamically reloading to display changes 
+	       \end{itemize} \\ \hline
+     2.06 & \textit{User can change type of a concept map element} \\   
+     	 & Acceptance Criteria:  
+	       \begin{itemize}[nosep,label=--]
+	         \item A definition-type node can be changed to a concept-type node
+	         \item A concept-type node can be changed to a definition-type node
+	         \item Verify that all examples are detached from definition-type node
+	         if its type is changed
+	         \item Verify that the page is dynamically reloading to display changes
+	       \end{itemize} \\ \hline
+     2.07 & \textit{User can create examples from artifacts from in an
+     \ep~repository}   \\
+     	 & Acceptance Criteria:  
+	       \begin{itemize}[nosep,label=--]
+	         \item User cannot create an example without completing all the
+	         mandatory fields of the form
+	         \item By default, a new example is listed as a free fragment
+	         \item By default, a date of an example is a date of an artifact 
+	       \end{itemize} \\ \hline
+     2.08 & \textit{User can add examples to the map from a diagram perspective} \\
+     	 & Acceptance Criteria:  
+	       \begin{itemize}[nosep,label=--]
+	         \item User can load a list of free fragments when adding example
+	         \item User can select one or more free fragments as examples for the
+	         concept map
+	         \item Verify that examples can be added to a definition-type node only
+	         \item Verify that the page is dynamically reloading to display changes
+	       \end{itemize} \\ \hline 
+     2.09 & \textit{User can view examples}  \\ 
+     	 & Acceptance Criteria:  
+	       \begin{itemize}[nosep,label=--]
+	         \item Examples have to be listed in descending date order
+	         \item Verify that correct examples are displayed across a hierarchy 
+	         \item Examples list can be collapsed/expanded
+	       \end{itemize} \\ \hline
+     2.10 & \textit{User can manage examples}  \\ 
+     	 & Acceptance Criteria:  
+	       \begin{itemize}[nosep,label=--]
+	         \item User can edit examples
+	         \item User can delete examples
+	         \item User can copy examples
+	         \item Verify that all content is copied to a new example
+	         \item Verify that an example is copied as a free fragment
+	       \end{itemize} \\ \hline	 
+     2.11 & \textit{User can share a concept map}  \\ 
+     	 & Acceptance Criteria:  
+	       \begin{itemize}[nosep,label=--]
+	         \item Map can be shared through e-mail, user-name, group-name, and
+	         secret URL
+	         \item User can allow/restrict comments on map and/or examples
+	       \end{itemize} \\ \hline
+     2.12 & \textit{User can perform a search on a concept map}  \\ 
+     	 & Acceptance Criteria:  
+	       \begin{itemize}[nosep,label=--]
+	         \item User can find a node through search field
+	         \item Search result is highlighted on the map
+	         \item If there are more than one result, they are displayed in turns
+	         when user selects search again
+	       \end{itemize} \\ \hline
     \end{supertabular}
     \label{tab:req2}
 \end{center}
 
-\section{Artifacts' Fragments Extraction}
+\section{Artifact Fragments Extraction}
 
 \begin{center} \small
     \tablefirsthead{
      \hline
-     \multicolumn{2}{|l|}{\textbf{Component:} Artifacts' Fragments Extraction} \\
+     \multicolumn{2}{|l|}{\textbf{Component:} Artifact Fragments Extraction} \\
      \hline}
     \tablehead{
      \hline
      \multicolumn{2}{|l|}{\small\sl continued from previous page}\\
      \hline
-     \multicolumn{2}{|l|}{\textbf{Component:} Artifacts' Fragments Extraction} \\
+     \multicolumn{2}{|l|}{\textbf{Component:} Artifact Fragments Extraction} \\
      \hline}
     \tabletail{
      \hline
@@ -178,59 +254,62 @@ requirements of the implemented components in the form of user stories.
     \tablelasttail{\hline}
 	\topcaption{Implemented requirements for artifact fragments extraction}
     \begin{supertabular}{|l p{12cm}|}
-     3.01 & \textit{User can create a new version of a page} \\ 
+     3.01 & \textit{User can see fragments of a file} \\ 
 	   & Acceptance Criteria:  
-	     \begin{itemize}[noitemsep,nolistsep]
-	        \item Page is not a system type or group type
-	        \item Page is not submitted for review
-	     	\item Name for the new version of the page satisfies the requirements for
-	     	page names 
-	     	\item Content of the latest version is copied to the new version
+	     \begin{itemize}[nosep,label=--]
+	        \item Number of fragments for each file is displayed in repository
+	        manager
+	        \item User can see a list of all fragments with their details for each
+	        file
 	     \end{itemize} \\ \hline
-     3.02 & \textit{User can remove a version of a page}  \\ 
+     3.02 & \textit{User can extract a fragment from image file} \\ 
+	   & Acceptance Criteria:  
+	     \begin{itemize}[nosep,label=--]
+	        \item Image file has to have JPEG, PNG, or GIF extension
+	        \item An appropriate part of an image is selected
+	        \item Entire image is saved as a fragment if no part is selected 
+	     \end{itemize} \\ \hline
+     3.03 & \textit{User can extract a fragment from video file}  \\ 
      	 & Acceptance Criteria:  
-	       \begin{itemize}[noitemsep,nolistsep]
-	         \item Text
-	         \item Text
-	         \item Text
+	       \begin{itemize}[nosep,label=--]
+	         \item Video file has to have OGV, MP4, 3GP, WEBM extension
+	         \item Start time of the fragment has to be specified
+	         \item End time of the fragment has to be specified
+	         \item End time cannot be longer than the entire video file
 	       \end{itemize} \\ \hline
-     3.03 & \textit{User can remove a page} \\ 
+     3.04 & \textit{User can extract a fragment from text file} \\ 
          & Acceptance Criteria:  
-	       \begin{itemize}[noitemsep,nolistsep]
-	         \item All versions are removed if the page is removed completely
+	       \begin{itemize}[nosep,label=--]
+	         \item Text file has to have TXT extension
+	         \item An appropriate text fragment is selected
 	       \end{itemize} \\ \hline
-     3.04 & \textit{User can edit page names of any version of the page} \\ 
+     3.05 & \textit{User can extract a fragment from blog} \\ 
          & Acceptance Criteria:  
-	       \begin{itemize}[noitemsep,nolistsep]
-	         \item User can edit page names of any version of the page
-	         \item User can edit page content of any version of the page
+	       \begin{itemize}[nosep,label=--]
+	         \item Verify that blogposts are not drafts
+	         \item More than one blogpost from the list can be selected
+	         \item At least one blogpost from the list has to be selected
 	       \end{itemize} \\   
      \hline 
-     3.05 & \textit{User can share a page with other users} \\
+     3.06 & \textit{User can extract a fragment from non-supported files} \\
           & Acceptance Criteria:  
-	       \begin{itemize}[noitemsep,nolistsep]
-	         \item User can share a specific version of the page
-	         \item User can share all version of the page
+	       \begin{itemize}[nosep,label=--]
+	         \item User gets the warning that this file type is not supported for
+	         fragment extraction
+	         \item An entire file is added to the fragment for download 
 	       \end{itemize} \\    
      \hline 
-     3.06 & \textit{User can navigate between page versions}  \\ 
+     3.07 & \textit{User can extract a fragment from a bookmark}  \\ 
           & Acceptance Criteria:  
-	       \begin{itemize}[noitemsep,nolistsep]
-	         \item User can select a specific version
-	         \item User can share all version of the page
-	       \end{itemize} \\    
-     \hline 
-     3.07 & \textit{User can leave feedback on the page}  \\ \hline  
-          & Acceptance Criteria:  
-	       \begin{itemize}[noitemsep,nolistsep]
-	         \item User can leave feedback on any version of the page
-	         \item 
+	       \begin{itemize}[nosep,label=--]
+	         \item An entire URL is selected as a fragment
+	         \item User has to specify last access date to a URL
 	       \end{itemize} \\    
      \hline 
     \end{supertabular}
     \label{tab:req3}
 \end{center}
-
+\newpage
 \section{Learning Progress Tracking}
 
 \begin{center} \small
@@ -251,53 +330,58 @@ requirements of the implemented components in the form of user stories.
     \tablelasttail{\hline}
 	\topcaption{Implemented requirements for progress tracking}
     \begin{supertabular}{|l p{12cm}|}
-     4.01 & \textit{User can create a new version of a page} \\ 
+     4.01 & \textit{User can load a concept map in a timeline perspective} \\ 
 	   & Acceptance Criteria:  
-	     \begin{itemize}[noitemsep,nolistsep]
-	        \item Page is not a system type or group type
-	        \item Page is not submitted for review
-	     	\item Name for the new version of the page satisfies the requirements for
-	     	page names 
-	     	\item Content of the latest version is copied to the new version
+	     \begin{itemize}[nosep,label=--]
+	        \item Default timeframe view is year-month
+	        \item Default available timeframes are year and year-month
+	        \item Verify that items are loaded in correct order
+	     	\item User can scroll the timeline if it over-floats the web page
 	     \end{itemize} \\ \hline
-     4.02 & \textit{User can remove a version of a page}  \\ 
+     4.02 & \textit{User can apply custom filter to the timeline}  \\ 
      	 & Acceptance Criteria:  
-	       \begin{itemize}[noitemsep,nolistsep]
-	         \item Text
-	         \item Text
-	         \item Text
+	       \begin{itemize}[nosep,label=--]
+	         \item Default concept level is key concept
+	         \item User can select any concept from the concept hierarchy
+	         \item When a concept is selected, a timeline is dynamically reloaded
+	         to display examples related to the selected concept and its
+	         sub-concepts 
+	         \item Verify that filter is applied to the concepts only and is not
+	         changing selected timefame 
 	       \end{itemize} \\ \hline
-     4.03 & \textit{User can remove a page} \\ 
+     4.03 & \textit{User can see examples on the timeline} \\ 
          & Acceptance Criteria:  
-	       \begin{itemize}[noitemsep,nolistsep]
-	         \item All versions are removed if the page is removed completely
+	       \begin{itemize}[nosep,label=--]
+	         \item User can select an example for displaying
+	         \item User can display only one example at a time
 	       \end{itemize} \\ \hline
-     4.04 & \textit{User can edit page names of any version of the page} \\ 
+     4.04 & \textit{User can create a custom timeframe} \\ 
          & Acceptance Criteria:  
-	       \begin{itemize}[noitemsep,nolistsep]
-	         \item User can edit page names of any version of the page
-	         \item User can edit page content of any version of the page
+	       \begin{itemize}[nosep,label=--]
+	         \item User cannot create a custom timeframe without completing all the
+	         mandatory fields of the form
+	         \item Verify that timeframes are properly formatted and parsed
 	       \end{itemize} \\   
      \hline 
-     4.05 & \textit{User can share a page with other users} \\
-          & Acceptance Criteria:  
-	       \begin{itemize}[noitemsep,nolistsep]
-	         \item User can share a specific version of the page
-	         \item User can share all version of the page
-	       \end{itemize} \\    
+     4.05 & \textit{User can manage custom timeframes} \\ 
+         & Acceptance Criteria:  
+	       \begin{itemize}[nosep,label=--]
+	         \item User can see the list of concept maps to which timeframes
+	         belongs
+	         \item User can edit a custom timeframe
+	         \item User can delete a custom timeframe
+	         \item If timeframe is removed, it is detached from the concept map
+	       \end{itemize} \\   
      \hline 
-     4.06 & \textit{User can navigate between page versions}  \\ 
+     4.06 & \textit{User can apply a timeframe to the timeline} \\
           & Acceptance Criteria:  
-	       \begin{itemize}[noitemsep,nolistsep]
-	         \item User can select a specific version
-	         \item User can share all version of the page
-	       \end{itemize} \\    
-     \hline 
-     4.07 & \textit{User can leave feedback on the page}  \\ \hline  
-          & Acceptance Criteria:  
-	       \begin{itemize}[noitemsep,nolistsep]
-	         \item User can leave feedback on any version of the page
-	         \item 
+	       \begin{itemize}[nosep,label=--]
+	         \item Custom timeframes are added to the list of available timeframes
+	         \item User can select a custom timeframe
+	         \item When a custom timeframe is selected, a timeline is dynamically
+	         reloaded to display examples grouped according to the custom timeframe
+	         \item Verify that filter is applied to the timeframes only and is not
+	         changing selected concept 
 	       \end{itemize} \\    
      \hline 
     \end{supertabular}
@@ -305,73 +389,49 @@ requirements of the implemented components in the form of user stories.
 \end{center}
 
 \section{Shared Resources Management}
-\newpage
+
+\begin{table}[htb]
+\setlength{\abovecaptionskip}{0pt}
+\caption{Implemented requirements for shared resources management}
 \begin{center} \small
-    \tablefirsthead{
+	\begin{tabular}{|l p{12cm}|}
      \hline
      \multicolumn{2}{|l|}{\textbf{Component:} Shared Resources Management} \\
-     \hline}
-    \tablehead{
      \hline
-     \multicolumn{2}{|l|}{\small\sl continued from previous page}\\
-     \hline
-     \multicolumn{2}{|l|}{\textbf{Component:} Shared Resources Management} \\
-     \hline}
-    \tabletail{
-     \hline
-     \multicolumn{2}{|r|}{\small\sl continued on next page}\\
-     \hline}
-    \tablelasttail{\hline}
-	\topcaption{Implemented requirements for shared resources management}
-    \begin{supertabular}{|l p{12cm}|}
-     5.01 & \textit{User can } \\ 
+     5.01 & \textit{User can see a page access/sharing history} \\ 
 	   & Acceptance Criteria:  
-	     \begin{itemize}[noitemsep,nolistsep]
-	        \item 
-	        \item 
-	     	\item   
+	     \begin{itemize}[nosep,label=--]
+	        \item User can access sharing history through a page settings
+	        \item User actions are recorded every time a page access settings are
+	        changed
+	     	\item User cannot remove records from the sharing history  
 	     \end{itemize} \\ \hline
-     5.02 & \textit{User can }  \\ 
+     5.02 & \textit{User can re-share pages through the sharing history}  \\ 
      	 & Acceptance Criteria:  
-	       \begin{itemize}[noitemsep,nolistsep]
-	         \item 
-	         \item 
-	         \item 
+	       \begin{itemize}[nosep,label=--]
+	         \item User can select re-share option from the sharing history
+	         \item By default re-sharing starts from the current date 
+	         \item By default re-sharing end field is empty
+	         \item User can specify other access dates
 	       \end{itemize} \\ \hline
-     5.03 & \textit{User can } \\ 
+     5.03 & \textit{User can control a level of feedback provided for concept
+     maps}   \\
          & Acceptance Criteria:  
-	       \begin{itemize}[noitemsep,nolistsep]
-	         \item 
-	         \item 
+	       \begin{itemize}[nosep,label=--]
+	         \item User can allow/restrict comments on a concept map
+	         \item User can allow/restrict comments on examples
 	       \end{itemize} \\ \hline
-     5.04 & \textit{User can } \\ 
+     5.04 & \textit{Users are notified about access expiry} \\ 
          & Acceptance Criteria:  
-	       \begin{itemize}[noitemsep,nolistsep]
-	         \item 
-	         \item 
-	       \end{itemize} \\   
-     \hline 
-     5.05 & \textit{User can } \\
-          & Acceptance Criteria:  
-	       \begin{itemize}[noitemsep,nolistsep]
-	         \item 
-	         \item 
-	       \end{itemize} \\    
-     \hline 
-     5.06 & \textit{User can }  \\ 
-          & Acceptance Criteria:  
-	       \begin{itemize}[noitemsep,nolistsep]
-	         \item 
-	         \item 
-	       \end{itemize} \\    
-     \hline 
-     5.07 & \textit{User can }  \\ \hline  
-          & Acceptance Criteria:  
-	       \begin{itemize}[noitemsep,nolistsep]
-	         \item 
-	         \item 
-	       \end{itemize} \\    
-     \hline 
-    \end{supertabular}
+	       \begin{itemize}[nosep,label=--]
+	         \item User can set up notification date
+	         \item User can select automatic notification
+	         \item Verify that system sends a system message to the users
+	         registered in the system
+		     \item Verify that system sends an email to the users not registered in
+		     the system 
+		   \end{itemize} \\ \hline
+    \end{tabular}
     \label{tab:req5}
 \end{center}
+\end{table}
