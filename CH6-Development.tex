@@ -17,7 +17,8 @@ basic platform for implementation is described.
 This chapter starts with briefly discussing the overall architecture of the
 environment and development toolkit. Then, each implemented component is
 presented with its relation to the requested features and \LLLs recommendations
-from the literature.
+from the literature. This chapter concludes with a brief discussion of technical
+considerations.
 
 \section{Architecture}
 
@@ -698,6 +699,48 @@ additional help to the beginners who are not familiar with the system.
 
 All discovered issues were addressed in the later versions of the prototype
 in preparation for the formal evaluation stage.
+
+\section{Technical Considerations}
+As it was already mentioned in this chapter, a number of technologies were used
+in this project to implement the prototype. The main focus was on utilizing the
+new features offered by the HTML5 standard and reusing existing JavaScript
+libraries (described in Chapter \ref{cha:prototype}). In the course of this
+project, these technologies showed to be a good choice as they allowed for rapid
+prototype interactions and easy code maintenance and execution.
+
+The benefit of using HTML5 for extracting video/audio fragments and drawing
+concept maps was that it did not require any additional plugins to be installed
+on the user side. This can be considered an advantage over Flash-based
+implementations which depend on plugin and sometimes may require a specific
+version of this proprietary plugin to perform correctly. Using HTML5 helped to
+ensure that the prototype features would work on most web browsers as expected.
+
+Along with the benefits, these technologies also created a number of challenges
+in development. Among these was a relative novelty of the HTML5 standard
+compared to the established and widely-used HTML4. The Web Hypertext Application
+Technology Working Group\footnote{\url{http://www.whatwg.org} (Accessed April
+16, 2012)} (WHATWG) and World Wide Web Consortium\footnote{\url{http://www.w3.org}  (Accessed April 16,
+2012)} (W3C) started working together on HTML5 standard in 2007
+\citep{WorldWideWebConsortium2012}. However, at the time of the prototype
+development in 2011 this standard was still a working draft. As a result, some
+browsers did not provide full support for the new features offered by HTML5 such
+as embedded video/audio and canvas elements.
+
+To provide dynamic user-website interactions and enhanced user interfaces, the
+implementations also used scripts, libraries, and modules based on
+JavaScript. This can be a potential problem for users who have JavaScript
+disabled on their browsers as they would not be able to use features that rely
+on JavaScript functionality. Especially, it can be a case for institutional
+environments where computers are usually set up by the IT support groups.
+According to the researcher's experience, these tend to disable JavaScript
+executions for security reasons (for example, to prevent cross site scripting
+attacks).
+
+Despite these challenges, it can be concluded that the technologies employed in
+the prototype development offered a wide range of libraries, modules, and APIs
+that made implementations less complicated and time consuming. At the same time,
+these technologies helped to develop high quality features and functionalities,
+as well as acceptable user interfaces.
 
 \section{Summary}
 

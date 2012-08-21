@@ -1,20 +1,20 @@
 \chapter{Discussion\label{cha:discussion}}
-%2160
+% 2160
 This chapter aims to bring together the knowledge developed during this research
 project. It looks back at the topics discussed earlier in the thesis in order to
 understand various aspects: whether the research questions were answered; what
 issues were faced in the course of this project and how they could be avoided in
-future research; whether there are any technical issues that should be
-considered; and how the outcomes of this research can be practically applied in
-the real world.
+future research; what the implications for theory and practice should be
+considered; and how the outcomes of this research can be practically applied
+in the real world.
 
 \section{Reflections on Research Questions}
 
 The overall research goal in this thesis was stated as follows:
 
-\shortquote{\textbf{To design and implement a learner-centred e-learning
-environment which will support and facilitate the \LLLs process in
-universities.}}
+\shortquote{\textbf{To suggest improvements to \ep~systems to offer university
+students a learner-centred e-learning environment that can provide them with
+support and facilitate their \LLLs process.}}
 
 To support achievement of this goal, four research questions were developed
 (Chapter \ref{cha:method}) and systematically addressed in the course of this
@@ -78,12 +78,8 @@ support for \LLLsn, this research showed that it is difficult to measure their
 success in doing so. The field of \ep~systems development is still rapidly
 changing. Therefore, further exploration of their potential was required.
 
-\vspace{2 mm}
-
 \shortquote{RQ3. How can LMS and/or \ep~systems be extended to support students
 in the university context for \LLLsn?}
-
-\vspace{2 mm}
 
 An investigation through a series of interviews with the stakeholders resulted
 in development of requirements for better support of \LLLs on a system level
@@ -93,8 +89,6 @@ important. High priority requirements were translated into features (Section
 \ref{sec:elicit}) and implemented in a system prototype as described in Chapter
 \ref{cha:prototype}. The Mahara \ep~system was used as a base system for the
 development stage.
-
-\vspace{2 mm}
 
 Looking back at the requirements development stage, it would be valid to ask
 whether the information gathered was enough to answer the posed question.
@@ -106,8 +100,6 @@ common sense by examining the results of the interviews to understand whether
 data saturation had been reached. Having finished interviews with the
 participants of the initial sample, the conclusion was that this sample had been
 sufficient for the requirements extraction.
-
-\vspace{2 mm}
 
 In addition, the elicitation of the requirements was conducted under the
 assumption that the stakeholders involved in this research were qualified enough
@@ -145,47 +137,111 @@ to increase validity of the overall evaluation. However, the results of the
 evaluations have to be accepted with an understanding of the conditions and
 assumptions of the studies.
 
-\section{Technical Considerations}
-A number of technologies were used in this project to implement the prototype.
-The main focus was on utilizing the new features offered by the HTML5 standard
-and reusing existing JavaScript libraries (described in Chapter
-\ref{cha:prototype}). In the course of this project, these technologies showed
-to be a good choice as they allowed for rapid prototype interactions and easy
-code maintenance and execution.
+\section{Reflections on Research Methodology}
 
-The benefit of using HTML5 for extracting video/audio fragments and drawing
-concept maps was that it did not require any additional plugins to be installed
-on the user side. This can be considered an advantage over Flash-based
-implementations which depend on plugin and sometimes may require a specific
-version of this proprietary plugin to perform correctly. Using HTML5 helped to
-ensure that the prototype features would work on most web browsers as expected.
+Include further reflective commentary on the research methodology used and
+discuss the implications of the researcher occupying the role of evaluator in
+the research process and how this informs the research result.
 
-Along with the benefits, these technologies also created a number of challenges
-in development. Among these was a relative novelty of the HTML5 standard
-compared to the established and widely-used HTML4. The Web Hypertext Application
-Technology Working Group\footnote{\url{http://www.whatwg.org} (Accessed April
-16, 2012)} (WHATWG) and World Wide Web Consortium\footnote{\url{http://www.w3.org}  (Accessed April 16,
-2012)} (W3C) started working together on HTML5 standard in 2007
-\citep{WorldWideWebConsortium2012}. However, at the time of the prototype
-development in 2011 this standard was still a working draft. As a result, some
-browsers did not provide full support for the new features offered by HTML5 such
-as embedded video/audio and canvas elements.
+\section{Implications For Theory and Practice}
 
-To provide dynamic user-website interactions and enhanced user interfaces, the
-implementations also used scripts, libraries, and modules based on
-JavaScript. This can be a potential problem for users who have JavaScript
-disabled on their browsers as they would not be able to use features that rely
-on JavaScript functionality. Especially, it can be a case for institutional
-environments where computers are usually set up by the IT support groups.
-According to the researcher's experience, these tend to disable JavaScript
-executions for security reasons (for example, to prevent cross site scripting
-attacks).
+This section discusses the lessons learnt and conclusions that can be drawn
+based on results of this research. It suggests the changes that could be made in
+various areas in order to improve the quality of \LLLs support in universities.
 
-Despite these challenges, it can be concluded that the technologies employed in
-the prototype development offered a wide range of libraries, modules, and APIs
-that made implementations less complicated and time consuming. At the same time,
-these technologies helped to develop high quality features and functionalities,
-as well as acceptable user interfaces.
+\subsection[Finding Balance]{Finding balance between what is good for teaching
+and good for learning}
+
+The conversations with lecturers over the course of this research has emphasized
+the challenges faced in doing justice to the varied demand of teaching, research
+and administrative responsibilities. It is not possible to infinitely add on the
+lecturers responsibilities every time a university administration decides to
+introduce a new solution for supporting learning. Even now, it is difficult for
+lecturers to find a balance in what should be used for teaching and learning.
+This research confirmed a common belief that different people usually have
+different perspectives. For lecturers it is especially important as they have to
+look at things not from only their own teaching perspective, but from the
+perspective of learners as well. It was easy to see that some of the
+participants had difficulties with understanding learners' needs due to not
+being able to put themselves into their students' place.
+
+On the other hand, it would not be a reasonable decision to ask lecturers to
+employ technologies that might significantly affect their established
+teaching process in terms of producing high workloads. For example, changing the
+way lecturers give material to students or the way they mark learners'
+assignments might increase the time that has to be spent on these activities to
+get quality outcomes. Therefore, while introducing new systems to the learning
+environment, university management should also perform a holistic review of
+approaches to teaching that balances new requirements or added workload with
+reduced effort in other areas.
+
+\subsection[Cooperation and Communication]{Importance of cooperation in 
+introducing new technologies or new teaching principles}
+
+A surprising to the researcher discovery made during the course of this project
+was that communication between various departments was in quite a poor state. If
+the lecturers were more engaged with teaching and learning projects carried out
+in their departments or schools, they were less likely to know about similar
+research projects in other areas of the university. However, it should be
+reminded here that these conclusions were made as the results of observations of
+practice at Massey University.
+
+Work with the lecturers at various stages of this project showed the importance
+of communication and cooperation between the university departments. The
+lecturers who were research participants were usually highly surprised when they
+discovered that some other departments were using or had past experience of
+employing exactly the same technologies with their students. A lot of issues and
+troubles for new institutional developments could have been avoided if proper
+communication or presenting departments' research was done across the university.
+
+\subsection[Learning to Use New Technology]{Learning to use new technology}
+
+A curious fact was noticed in the course of this research: the students who
+participated in various studies of this project had practically no complaints
+about LMS used in their university. In contrast, the \ep~system raised
+criticisms and expressions of dissatisfaction, although LMS and the \ep~systems
+were discussed equally. How is it that the system that has been built for
+learners displeases these very learners so much? A possible explanation for this
+phenomena might be a lack of student teaching of how to use \ep~systems.
+
+Looking at the current state of LMS use in universities, technology level help
+might be all that is required for students to master this type of system. Use of
+LMS is generally simple, and can be summarized in such activities as accessing
+and uploading files, and in some cases posting to forums or answering quizzes.
+
+Due to long history of LMS being employed in universities, lecturers already
+have their own established strategies of using these systems, especially in
+relation to delivery of distance education. Furthermore, help for aspiring
+lecturers can be acquired from the literature. For example, Packt e-Learning
+Library\footnote{\url{http://packtlib.packtpub.com/e-learning} (Accessed April
+16, 2012)} currently publishes books covering Moodle, Blackboard, Sakai, and
+other LMS. In addition to numerous online resources and literature on how to use
+LMS to their full potential, there are staff trainings that are usually
+organized by many universities for those lecturers who need extra assistance.
+
+With the support of university administration \citep{DiBenedetto2005}, 
+lecturers now need to learn how to guide students through \LLLsn, and need to
+master new technology that supports it \citep{Levin2008} -- \ep~systems in the
+context of this thesis. Compared to LMS, work with \ep~systems is more complex.
+It goes beyond simple file management and requires understanding of the
+importance of reflection, purposeful selection of artifacts, and demonstration
+of personal achievements. Students who have never been taught all these things
+might not see the value of an \ep~system as well.
+
+Understanding of these issues is currently developing in the universities
+around the world. For instance, based on the case studies presented at
+PebbleBash 2010 conference \citep{PebbleLearningLtd2010a}, many universities in
+the UK and Australia have moved towards teaching students how to use \ep s,
+showcase skills and achievements, write meaningful reflections, and provide
+useful peer feedback.
+
+In addition to the above issues, one of the lecturer-participants of this
+research noticed that students should start their learning journey with an
+\ep~system on early stages of their studying. Doing so, rather than trying to
+fit \ep s into the students' established way of learning, might result in more
+positive outcomes. This, in turn, might lead to higher acceptance of the
+\ep~concepts and systems among students. Although, this assumption needs to
+be carefully tested in the future.
 
 \section{Practical Applications}
 
